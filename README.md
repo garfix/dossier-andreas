@@ -13,7 +13,7 @@ Steps to build:
 * Create a directory 'andreas' next to this project's directory.
 * Copy or symlink the contents of 'site' into your new 'andreas' directory
 
-Your directory structure should look like this:
+Your directory structure should look like this (it may be located in any directory on your file system):
 ```
  /dossier-andreas (this project)
  /andreas
