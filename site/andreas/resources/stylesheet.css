@@ -1,0 +1,211 @@
+body {
+    background-color: #E9DECC;
+    margin: 0px;
+    padding: 5px;
+}
+a {
+    color: #004080;
+       text-decoration: underline
+}
+h4 {
+	margin-bottom: 5px;
+}
+p {
+	margin-top: 5px;
+}
+a:hover {
+    color: #A1333C;
+       text-decoration: underline
+}
+.sectionCaption {
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #004080;
+    text-align: left;
+}
+.subSectionCaption {
+    padding: 4px 2px 0px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+	 color: #F0F0F0;
+	border: 1px solid #F0F0F0;
+    text-align: left;
+	background-color: #000000;
+	cursor: pointer;
+}
+
+.subSectionCaption a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+	color: #F0F0F0;
+	text-decoration: none;
+}
+
+.subSectionCaption img {
+	margin-right: 4px;
+	margin-left: 2px;
+	border: none;
+}
+.paragraphCaption {
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #004080;
+    text-align: left;
+}
+.sourceCaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #002040;
+    text-align: left;
+}
+.title {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18pt;
+    font-weight: bold;
+    color: #444;
+}
+.title span {
+	background-color: #EEEEE0;
+	margin-left: 10px;
+	padding: 0 10px 0 10px;
+	opacity: 0.8;
+}
+.subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #F0F0F0;
+}
+.simpleTitle {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18pt;
+    font-weight: bold;
+    color: #000000;
+}
+.source {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #002040;
+}
+.question {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.answer {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt; 
+}
+.commentTitle { 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14pt;
+    font-weight: bold;
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12pt;
+    padding: 3px;
+}
+.section {
+    margin-bottom: 15px;
+    padding: 2px;
+    width: 100%;
+    background-color: #F4EDDF;
+    border-width: 1px;
+    border-color: #808080;
+    border-style: solid;
+}
+.simple {
+    padding: 3px;
+    width: 100%;
+    border-width: 0px; 
+}
+.path {
+    width: 100%;
+    padding: 2px;
+    border-width: 1px;
+    border-color: #202020;
+    border-style: solid;
+    background-color: #F4EDDF;
+}
+.menu {
+    padding: 2px;
+    border-width: 1px;
+    border-color: #202020;
+    border-style: solid;
+    background-color: #F4EDDF;
+}
+.name {
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 10pt;
+    color: #002040;
+    vertical-align: top;
+}
+.value {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    vertical-align: top;
+}
+.link {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+.error, .success {
+	border: 1px solid black;
+	background-color: white;
+	padding: 3px;
+}
+.error {
+	color: red;
+}
+.success {
+	color: green;
+}
+.note {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	border-color: #e8e9e4;
+	border-style: outset;
+	border-width: 1px 1px 1px 0px;
+	background-color: #e9eae4;
+	background-image: url(ringpaper.png);
+	background-repeat: repeat-y;
+	padding: 15px 10px 15px 60px;
+	margin: 15px;
+}
+.photo {
+	background-color: #FAFAD2;
+	padding: 10px;
+	border: 1px solid #D0D0D0;
+	-moz-box-shadow: 2px 2px 5px #888;
+	-webkit-box-shadow: 2px 2px 5px #888;
+	box-shadow: 2px 2px 5px #888;
+}
+.photo_background {
+	background-image: url(photo_background.jpg);
+	background-repeat: no-repeat;
+	width: 760px;
+	height: 640px;
+	line-height: 640px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+a.nav {
+	font-family: Arial, Helvetica, sans-serif;
+    color: #004080;
+    text-decoration: underline
+}
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
