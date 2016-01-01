@@ -10,8 +10,8 @@ The project creates the many php pages of the website from just two source files
 
 Steps to build:
 
-# Create a directory 'andreas' next to this project's directory.
-# Copy or symlink the contents of 'site' into your new 'andreas' directory
+* Create a directory 'andreas' next to this project's directory.
+* Copy or symlink the contents of 'site' into your new 'andreas' directory
 
 Your directory structure should look like this:
 
@@ -26,7 +26,7 @@ Your directory structure should look like this:
          /shrunk_photos
          /thumbnails
 
-# Have Java installed an make sure the command 'java' is available from the commandline.
+* Have Java installed an make sure the command 'java' is available from the commandline.
 
 In order to build the php files in '/andreas/andreas', run
 
