@@ -14,7 +14,7 @@ Steps to build:
 * Copy or symlink the contents of 'site' into your new 'andreas' directory
 
 Your directory structure should look like this:
-
+```
  /dossier-andreas (this project)
  /andreas
      favicon.ico
@@ -25,6 +25,7 @@ Your directory structure should look like this:
          /photos
          /shrunk_photos
          /thumbnails
+```
 
 * Have Java installed an make sure the command 'java' is available from the commandline.
 
