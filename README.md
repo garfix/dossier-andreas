@@ -36,8 +36,8 @@ Your directory structure should look like this (it may be located in any directo
 
  createAndreas.bat
 
-This creates 'index.html' in /andreas and a series of PHP files in /andreas/andreas.
+This creates 'index.html' in /andreas and a series of PHP files in /andreas/andreas. 
 
 The file index.html is the base file of the site.
 
-(I did not test all of this, you may need to be creative :)
+I did not test all of this, you may need to be creative :) The website pages used to be static html pages. I turned them into PHP pages just to allow user comments. If you have are having trouble getting the PHP pages to work, consider generating HTML pages in stead. This will make it easier.
