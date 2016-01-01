@@ -29,8 +29,12 @@ Your directory structure should look like this:
 
 * Have Java installed an make sure the command 'java' is available from the commandline.
 
-In order to build the php files in '/andreas/andreas', run
+* Make the following script executable and run it:
 
  createAndreas.bat
 
-That should do it. (I did not test it)
+This creates 'index.html' in /andreas and a series of PHP files in /andreas/andreas.
+
+The file index.html is the base file of the site.
+
+(I did not test all of this)
