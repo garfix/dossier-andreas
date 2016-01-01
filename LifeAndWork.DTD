@@ -1,0 +1,235 @@
+
+<!-- @year always means: year finished / end year -->
+
+<!ELEMENT LifeAndWork (Year*, Language* PageType*, Context? , Comments? )>
+
+<!ELEMENT Context ANY>
+
+<!ELEMENT Year EMPTY>
+<!ATTLIST Year
+	id ID #REQUIRED>
+
+<!ELEMENT Tag EMPTY>
+<!ATTLIST Tag
+	id ID #REQUIRED
+	description CDATA #REQUIRED>
+
+<!ELEMENT Language EMPTY>
+<!ATTLIST Language
+	id ID #REQUIRED
+	name CDATA #REQUIRED>
+
+<!ELEMENT PageType EMPTY>
+<!ATTLIST PageType
+	id ID #REQUIRED
+	name CDATA #REQUIRED
+	tag CDATA #IMPLIED>
+
+<!ELEMENT Person EMPTY>
+<!ATTLIST Person
+	id ID #REQUIRED
+	name CDATA #REQUIRED
+	fullName CDATA #IMPLIED>
+
+<!ELEMENT Story EMPTY>
+<!ATTLIST Story
+	id ID #REQUIRED
+	title CDATA #IMPLIED
+	text IDREFS #IMPLIED
+	drawings IDREFS #IMPLIED
+	startDate CDATA #IMPLIED
+	year IDREF #IMPLIED
+	themes IDREFS #IMPLIED
+	pageCount CDATA #IMPLIED>
+
+<!ELEMENT Illustration EMPTY>
+<!ATTLIST Illustration
+	id ID #REQUIRED
+	description CDATA #IMPLIED
+	drawings IDREFS #IMPLIED
+	startDate CDATA #IMPLIED
+	year IDREF #IMPLIED
+	tags IDREFS #IMPLIED>
+
+<!ELEMENT Album EMPTY>
+<!ATTLIST Album
+	id ID #REQUIRED
+	title CDATA #IMPLIED
+	startDate CDATA #IMPLIED
+	year IDREF #IMPLIED
+	stories IDREFS #IMPLIED
+	illustrations IDREFS #IMPLIED
+	articles IDREFS #IMPLIED>
+
+<!ELEMENT Series EMPTY>
+<!ATTLIST Series
+	id ID #REQUIRED
+	title CDATA #REQUIRED
+    stories IDREFS #IMPLIED
+    illustrations IDREFS #IMPLIED>
+
+<!ELEMENT Preface EMPTY>
+<!ATTLIST Preface
+	id ID #REQUIRED
+	title CDATA #IMPLIED
+	text IDREFS #IMPLIED
+	startDate CDATA #IMPLIED
+	year IDREF #IMPLIED>
+
+<!ELEMENT Collection EMPTY>
+<!ATTLIST Collection
+	id ID #REQUIRED
+	title CDATA #IMPLIED>
+
+<!-- If an albumedition has no title, it takes the title of the album -->
+<!ELEMENT AlbumEdition EMPTY>
+<!ATTLIST AlbumEdition
+	id ID #REQUIRED
+	title CDATA #IMPLIED
+	language IDREFS #IMPLIED
+	year IDREF #IMPLIED
+	isbn CDATA #IMPLIED
+	issn CDATA #IMPLIED
+	d CDATA #IMPLIED
+	album IDREF #REQUIRED
+	collection IDREF #IMPLIED
+	preface IDREF #IMPLIED
+	extraPicture IDREFS #IMPLIED
+	cover ( sc | hc ) #IMPLIED
+	exCount CDATA #IMPLIED
+	signed ( true | false ) #IMPLIED
+	numbered ( true | false ) #IMPLIED
+	color ( true | false ) #IMPLIED >
+
+<!ELEMENT Magazine ( MagazineItem+ )>
+<!ATTLIST Magazine
+	id ID #REQUIRED
+	title CDATA #REQUIRED
+	language IDREFS #IMPLIED>
+
+<!ELEMENT MagazineItem (MI+ )>
+<!ATTLIST MagazineItem
+	idref IDREF #REQUIRED>
+
+<!ELEMENT MI EMPTY>
+<!ATTLIST MI
+	year IDREF #IMPLIED
+	nrs CDATA #IMPLIED> <!-- i.e., '1', '5-9', '3, 5, 10', '45-', '-4' -->
+
+<!ELEMENT Publisher EMPTY>
+<!ATTLIST Publisher
+	id ID #REQUIRED
+	name CDATA #REQUIRED
+	address CDATA #IMPLIED
+	magazines IDREFS #IMPLIED
+	albumEditions IDREFS #IMPLIED>
+
+<!ELEMENT Comments ( Comment* Article Image)>
+
+<!ELEMENT b ANY>
+
+<!-- showAt: refs. of item where you want this comment to be shown -->
+<!ELEMENT Comment ANY>
+<!ATTLIST Comment
+	showAt IDREFS #IMPLIED
+	authors IDREFS #IMPLIED
+	year IDREF #IMPLIED>
+
+<!ELEMENT Article ((Q?, A?) | TEXT?, Comment b) >
+
+<!-- persons: only used for Article overview -->
+<!ATTLIST Article
+	id ID #REQUIRED
+	persons IDREFS #IMPLIED
+	authors IDREFS #IMPLIED
+	title CDATA #REQUIRED
+	year IDREF #IMPLIED>
+	
+<!ELEMENT Image ( Thumbnail? )>
+<!ATTLIST Image
+	showAt IDREFS #IMPLIED
+	file CDATA #REQUIRED
+	width CDATA #REQUIRED
+	height CDATA #REQUIRED
+	title CDATA #IMPLIED>
+
+<!ELEMENT Thumbnail EMPTY>
+<!ATTLIST Thumbnail
+	file CDATA #REQUIRED
+	width CDATA #REQUIRED
+	height CDATA #REQUIRED>
+
+<!ELEMENT Photo ANY>
+<!ATTLIST Photo
+	id ID #REQUIRED
+	file CDATA #REQUIRED
+	width CDATA #REQUIRED
+	height CDATA #REQUIRED
+	shrunk-width CDATA #REQUIRED
+	shrunk-height CDATA #REQUIRED
+	title CDATA #IMPLIED
+	year IDREF #IMPLIED
+	tags IDREFS #IMPLIED>
+
+<!ELEMENT Q ANY>
+
+<!ELEMENT A ANY>
+<!ATTLIST A
+	text IDREF #IMPLIED>
+
+<!ELEMENT TITLE ANY>
+<!ELEMENT Google_Search ANY>
+<!ELEMENT ul ANY>
+<!ELEMENT li ANY>
+
+<!ELEMENT AH ANY>
+<!ATTLIST AH
+	id ID #IMPLIED
+		>
+<!ELEMENT em ANY>
+<!ELEMENT B ANY>
+<!ATTLIST AH
+		href CDATA #IMPLIED
+		target CDATA #IMPLIED>
+
+<!ELEMENT Twitter_Widget ANY>
+<!ELEMENT Recent_Comments ANY>
+
+<!ELEMENT TEXT (TITLE BR WWWlink REF EM IMG ul li AH B QUOTE NAME EDITOR em WWWsite Twitter_Widget Recent_Comments Google_Search)>
+<!ATTLIST TEXT
+	date CDATA #IMPLIED
+	title CDATA #IMPLIED>
+
+<!ELEMENT QUOTE ANY>
+
+<!ELEMENT EM ANY> <!-- emphasis -->
+
+<!-- explicit references in a comment;	these are shown next to the comment in the HTML page -->
+<!ELEMENT REF ANY> <!-- a name of an item from this database -->
+<!ATTLIST REF
+	ref IDREF #REQUIRED>
+
+<!ELEMENT NAME ANY> <!-- a name of an item not within this database -->
+
+<!ELEMENT EDITOR ANY> <!-- editorial comment -->
+
+<!ELEMENT BR EMPTY> <!-- line break -->
+
+<!ELEMENT WWWsite (WWWlink+ BR)>
+<!ATTLIST WWWsite
+	title CDATA #IMPLIED>
+
+<!ELEMENT WWWlink ANY>
+<!ATTLIST WWWlink
+	language IDREFS #IMPLIED
+	title CDATA #IMPLIED
+	href CDATA #REQUIRED>
+	
+<!ELEMENT IMG EMPTY>
+<!ATTLIST IMG
+	src CDATA #REQUIRED
+	border CDATA #IMPLIED
+	width CDATA #REQUIRED
+	height CDATA #REQUIRED
+	align CDATA #IMPLIED>
+
