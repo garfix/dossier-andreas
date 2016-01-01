@@ -10,4 +10,4 @@ The project creates the pages of the website from just two source files: LifeAnd
 
  createAndreas.bat
  
-You need some version of Java to run it.
+You need to have Java installed to run it.
