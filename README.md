@@ -6,23 +6,30 @@ I have placed it online mainly to make sure the data about Andreas' work is pres
 
 If you want to use any of it, check the license file.
 
-The project creates the pages of the website from just two source files: LifeAndWork.xml (data) and Style.xsl (structure and markup). 
+The project creates the many php pages of the website from just two source files: LifeAndWork.xml (data) and Style.xsl (structure and markup).
 
-The website will be built in the directory 'andreas' next to this project's directory on your filesystem. Make sure the 'andreas' directory exists.
+Steps to build:
 
-Copy the directories 'php' and 'resources' into 'andreas'. Your directory structure will look like this:
+# Create a directory 'andreas' next to this project's directory.
+# Copy or symlink the contents of 'site' into your new 'andreas' directory
+
+Your directory structure should look like this:
 
  /dossier-andreas (this project)
  /andreas
-     /php
-     /resources
-     /images
-     /photos
-     /shrunk_photos
-     /thumbnails
+     favicon.ico
+     /andreas
+         /php
+         /resources
+         /images
+         /photos
+         /shrunk_photos
+         /thumbnails
 
-In order to build it, just run
+# Have Java installed an make sure the command 'java' is available from the commandline.
+
+In order to build the php files in '/andreas/andreas', run
 
  createAndreas.bat
- 
-You need to have Java installed to run it.
+
+That should do it. (I did not test it)
