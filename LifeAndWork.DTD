@@ -1,7 +1,7 @@
 
 <!-- @year always means: year finished / end year -->
 
-<!ELEMENT LifeAndWork (Year*, Language* PageType*, Context? , Comments? )>
+<!ELEMENT LifeAndWork ANY>
 
 <!ELEMENT Context ANY>
 
@@ -124,7 +124,7 @@
 	magazines IDREFS #IMPLIED
 	albumEditions IDREFS #IMPLIED>
 
-<!ELEMENT Comments ( Comment* Article Image)>
+<!ELEMENT Comments ( Comment*, Article*, Image*)>
 
 <!ELEMENT b ANY>
 
@@ -135,7 +135,7 @@
 	authors IDREFS #IMPLIED
 	year IDREF #IMPLIED>
 
-<!ELEMENT Article ((Q?, A?) | TEXT?, Comment b) >
+<!ELEMENT Article ANY >
 
 <!-- persons: only used for Article overview -->
 <!ATTLIST Article
@@ -195,7 +195,7 @@
 <!ELEMENT Twitter_Widget ANY>
 <!ELEMENT Recent_Comments ANY>
 
-<!ELEMENT TEXT (TITLE BR WWWlink REF EM IMG ul li AH B QUOTE NAME EDITOR em WWWsite Twitter_Widget Recent_Comments Google_Search)>
+<!ELEMENT TEXT ANY>
 <!ATTLIST TEXT
 	date CDATA #IMPLIED
 	title CDATA #IMPLIED>
@@ -215,7 +215,7 @@
 
 <!ELEMENT BR EMPTY> <!-- line break -->
 
-<!ELEMENT WWWsite (WWWlink+ BR)>
+<!ELEMENT WWWsite ANY>
 <!ATTLIST WWWsite
 	title CDATA #IMPLIED>
 
