@@ -1092,6 +1092,7 @@
 		<AlbumEdition id="as54" album="a12" year="y2015" language="lang-nl" title="Cythraul / De grot der herinnering" />
 		<AlbumEdition id="as55" album="a19" year="y2015" language="lang-nl" />
 		<AlbumEdition id="as56" album="a112" year="y2015" language="lang-nl" title="Hier" isbn="978-90-8988-079-6" />
+		<AlbumEdition id="as57" album="a19" year="y2015" language="lang-nl" />
 		<AlbumEdition id="adc1" album="a13" year="y1991" language="lang-fr" color="false" />
 		<AlbumEdition id="adc2" album="a13" year="y1994" language="lang-fr" color="false" />
 		<AlbumEdition id="adc3" album="a19" year="y1993" language="lang-fr" />
@@ -1181,7 +1182,7 @@
 		<AlbumEdition id="anr4" album="a6" year="y1993" language="lang-sp" title="Descenso" collection="col8" />
 		<AlbumEdition id="anr5" album="a7" year="y1994" language="lang-sp" title="Regreso" collection="col8" />
 		<AlbumEdition id="anr6" album="a28" year="y1998" language="lang-sp" title="El objeto" collection="col9" />
-		<AlbumEdition id="anr7" album="a29" language="lang-sp" title="Electricidad" collection="col9" />
+		<AlbumEdition id="anr7" album="a29" year="y1999" language="lang-sp" title="Electricidad" collection="col9" />
 		<AlbumEdition id="anr8" album="a65" year="y2007" language="lang-sp" title="La mazmorra monstruos: La carta magna" />
 		<AlbumEdition id="aam1" album="a51" year="y1986" language="lang-fr" />
 		<AlbumEdition id="abo1" album="a52" year="y1989" language="lang-fr" />
@@ -1612,7 +1613,7 @@
 		<Publisher id="pub7" name="Bédérama" address="Paris (F)"
 			albumEditions="ab1" />
 		<Publisher id="pub8" name="Sherpa" address="Wederik 8, 1902 JH Castricum (NL)"
-			albumEditions="as1 as2 as3 as4 as5 as6 as7 as8 as9 as10 as11 as12 as13 as14 as15 as16 as17 as18 as20 as21 as22 as23 as24 as25 as26 as27 as28 as29 as30 as31 as32 as33 as34 as35 as36 as37 as38 as39 as40 as41 as42 as43 as44 as45 as46 as47 as48 as49 as50 as51 as52 as53 as54 as55 as56"/>
+			albumEditions="as1 as2 as3 as4 as5 as6 as7 as8 as9 as10 as11 as12 as13 as14 as15 as16 as17 as18 as20 as21 as22 as23 as24 as25 as26 as27 as28 as29 as30 as31 as32 as33 as34 as35 as36 as37 as38 as39 as40 as41 as42 as43 as44 as45 as46 as47 as48 as49 as50 as51 as52 as53 as54 as55 as56 as57"/>
 		<Publisher id="pub9" name="Delcourt" address="Paris (F)"
 			magazines="mag41"
 			albumEditions="adc1 adc2 adc3 adc4 adc5 adc6 adc7 adc8 adc9 adc10 adc11 adc12 adc13 adc14 adc15 adc16 adc17 adc18 adc19 adc20 adc21 adc22 adc23 adc24 adc25 adc26 adc27 adc28 adc29 adc30 adc31 adc32 adc33 adc34 adc35 adc36 adc37 adc38 adc39" />
@@ -7393,8 +7394,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="anr3" file="album_capricorne_norma.jpg" width="350" height="482" />
 		<Image showAt="anr4" file="album_descente_norma.jpg" width="350" height="489" />
 		<Image showAt="anr6" file="album_objet_norma.jpg" width="198" height="270" />
+		<Image showAt="anr7" file="album_electricite_norma.jpg" width="358" height="500" />
 		<Image showAt="anr8" file="album_donjon_norma.jpg" width="298" height="400" />
-		
+
 		<Image showAt="ap1" file="album_dream_panda.jpg" width="415" height="594" title="Sent in by Adriaan Bogaerts." />
 		<Image showAt="ao1" file="album_derives_oranje.jpg" width="350" height="511" />
 		<Image showAt="as1" file="album_revelations_sherpa.jpg" width="400" height="533" />
@@ -7451,6 +7453,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="as54" file="album_caverne_sherpa_2015.jpg" width="453" height="600" />
 		<Image showAt="as55" file="album_cyrrusmil_sherpa.jpg" width="446" height="600" />
 		<Image showAt="as56" file="album_ici_sherpa.jpg" width="371" height="600" />
+		<Image showAt="as57" file="album_cyrrusmil_sherpa2.jpg" width="623" height="842" title="Cover of limited edition, thanks to Peter Kuipers." />
 		<Image showAt="a59" file="album_vergetenen_sherpa2.gif" width="350" height="501" />
 		<Image showAt="a59" file="album_vergetenen_sherpa3.gif" width="350" height="500" />
 		<Image showAt="a59" file="album_vergetenen_sherpa4.gif" width="350" height="507" />
