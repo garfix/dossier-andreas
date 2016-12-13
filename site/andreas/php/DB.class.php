@@ -79,10 +79,13 @@ class DB
 		$column = array();
         $stmt = mysqli_prepare($this->link, $query);
         mysqli_stmt_execute($stmt);
-		while ($row = mysqli_stmt_fetch($stmt)) {
-			$cell = $GLOBALS['Connection_UTF8'] ? utf8_decode($row[0]) : $row[0];
+        mysqli_stmt_bind_result($stmt, $cellData);
+
+		while (mysqli_stmt_fetch($stmt)) {
+			$cell = $GLOBALS['Connection_UTF8'] ? utf8_decode($cellData) : $cellData;
 			$column[] = $cell;
 		}
+
 		return $column;
 	}
 

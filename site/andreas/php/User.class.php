@@ -63,6 +63,7 @@ class User
 		$userId = $GLOBALS['DB']->getCell("
 		    SELECT id FROM user WHERE email = '$email' AND password = '$password'
 		");
+
 		if ($userId) {
 			$this->id = $userId;
 			$this->loadUserData();
