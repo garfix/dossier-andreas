@@ -6,7 +6,7 @@ class CMS
 	{
 		// add page information to database, if not available
 		if ($GLOBALS['DB']->getCell("SELECT COUNT(*) FROM page WHERE id = '$pageId'") == 0) {
-			$dbTitle = DB::escape($title);
+			$dbTitle = $GLOBALS['DB']->escape($title);
 			$GLOBALS['DB']->query("INSERT INTO page VALUES ('$pageId', '$dbTitle')");
 		}
 		

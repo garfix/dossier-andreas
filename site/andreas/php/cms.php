@@ -14,7 +14,7 @@ switch ($action) {
 	    } else {
 			$now = time();
 			$query = sprintf("INSERT INTO note VALUES (0, %s, '%s', %s, %s, '%s')",
-					$User->getId(), DB::escape($pageId), $now, $now, DB::escape($content));
+					$User->getId(), $GLOBALS['DB']->escape($pageId), $now, $now, $GLOBALS['DB']->escape($content));
 			$DB->query($query);
 			$CMS->createLastChangedXMLFeed();
 	    }
@@ -26,7 +26,7 @@ switch ($action) {
 			$Output->error("You cannot edit a note, because you are not logged in.");
 	    } else {
 			if ($submit) {
-				$content = DB::escape($content);
+				$content = $GLOBALS['DB']->escape($content);
 				$userId = $User->getId();
 				$now = time();
 				// the "user_id" clause ensures that a person may only edit his own notes

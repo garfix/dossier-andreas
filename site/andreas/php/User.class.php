@@ -100,9 +100,9 @@ class User
 	{
 		$code = sha1(rand(0, PHP_INT_MAX));
 		$start = time();
-		$dbEmail = DB::escape($email);
-		$dbFullname = DB::escape($fullname);
-		$dbPassword = DB::escape($password);
+		$dbEmail = $GLOBALS['DB']->escape($email);
+		$dbFullname = $GLOBALS['DB']->escape($fullname);
+		$dbPassword = $GLOBALS['DB']->escape($password);
 		$GLOBALS['DB']->query("
 		    INSERT INTO registration VALUES (0, '$code', $start, '$dbEmail', '$dbPassword', '$dbFullname');
 		");
@@ -111,7 +111,7 @@ class User
 
 	public function getRegistrationId($code)
 	{
-		$dbCode = DB::escape($code);
+		$dbCode = $GLOBALS['DB']->escape($code);
 		return $GLOBALS['DB']->getCell("SELECT id FROM registration WHERE code = '$dbCode'");
 	}
 
