@@ -3,7 +3,10 @@
 
 <LifeAndWork>
 	<!-- M. Bezuijen = Martijn Bezuijen -->
-	<!-- polish unicode characters: http://biega.com/special-char.html -->
+	<!-- polish unicode characters:
+		http://biega.com/special-char.html
+		http://character-code.com/polish-html-codes.php
+	-->
 	
 	<!-- Turn all images in the directory into thumbnails:
 		mogrify -resize 100x100 *.jpg
@@ -50,7 +53,7 @@
 	<Year id="y2000"/><Year id="y2001"/><Year id="y2002"/><Year id="y2003"/><Year id="y2004"/>
 	<Year id="y2005"/><Year id="y2006"/><Year id="y2007"/><Year id="y2008"/><Year id="y2009"/>
 	<Year id="y2010"/><Year id="y2011"/><Year id="y2012"/><Year id="y2013"/><Year id="y2014"/>
-	<Year id="y2015"/>
+	<Year id="y2015"/><Year id="y2016"/><Year id="y2017"/>
 
 	<Language id="lang-fr" name="French" />
 	<Language id="lang-nl" name="Dutch" />
@@ -356,6 +359,7 @@
 		<Story id="s132" title="Zarkan" drawings="p1" text="p1" year="y2014" />
 		<Story id="s133" title="Ici" drawings="p1" text="p1" year="y2015" />
 		<Story id="s134" title="Terminus" drawings="p1" text="p1" year="y2015" />
+		<Story id="s135" title="Maître" drawings="p1" text="p1" year="y2016" />
 		
 		<Tag id='intro' description="Introductions" />
 		<Tag id='cover' description="Covers" />
@@ -595,6 +599,7 @@
 		<Illustration id="i216" drawings="p1" year="y2015" description="Inktober 29: Cromwell Stone" tags="inktober2015" />
 		<Illustration id="i217" drawings="p1" year="y2015" description="Inktober 30: Rork" tags="inktober2015" />
 		<Illustration id="i218" drawings="p1" year="y2015" description="Inktober 31: Capricorne" tags="inktober2015" />
+		<Illustration id="i219" drawings="p1" year="y2016" description="Pour Ralph" tags="dedication" />
 		
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -849,7 +854,7 @@
 		<Album id="a84" title="Tehos"
             year="y2007"
             stories="s113"/>
-		<Album id="a85" title="Cromwell Stone: all 3 albums"
+		<Album id="a85" title="Cromwell Stone: all 3 stories"
             year="y2007"
             stories="s40 s55 s105"/>
 		<Album id="a86" title="-- empty title --"
@@ -938,6 +943,18 @@
 		<Album id="a113" title="Terminus"
 			   year="y2015"
 			   stories="s134" />
+		<Album id="a114" title="Maître"
+			   year="y2016"
+			   stories="s135" />
+		<Album id="a115" title="Capricorn - Gesamtausgabe 1"
+			   year="y2016"
+			   stories="s60 s61 s62" />
+		<Album id="a116" title="Capricorn - Gesamtausgabe 2"
+			   year="y2016"
+			   stories="s63 s64 s87" />
+		<Album id="a117" title="ARQ (third cycle)"
+			   year="y2016"
+			   stories="s123 s125 s126 s130 s131 s133"/>
 
 		<Series id="series1" title="Rork" stories="s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s17 s18 s12 s19 s13 s14 s15 s16 s128" />
 		<Series id="series2" title="Capricorne" stories="s60 s61 s62 s63 s64 s87 s91 s94 s102 s104 s107 s111 s115 s120 s122 s124 s127 s129 s132 s134" />
@@ -1032,6 +1049,8 @@
 		<AlbumEdition id="al63" album="a109" year="y2014" language="lang-fr" />
 		<AlbumEdition id="al64" album="a12" year="y2015" language="lang-fr" />
 		<AlbumEdition id="al65" album="a113" year="y2015" language="lang-fr" />
+		<AlbumEdition id="al66" album="a25" year="y2016" language="lang-fr" isbn="9782803635290" cover="hc" />
+		<AlbumEdition id="al67" album="a114" year="y2016" language="lang-fr" />
 		<AlbumEdition id="aj1" album="a2" title="Rork" year="y1983" language="lang-fr" cover="sc" color="false" />
 		<AlbumEdition id="aj2" album="a10" year="y1980" language="lang-fr" cover="sc" color="false" />
 		<AlbumEdition id="aj3" album="a36" year="y1985" exCount="650" signed="true" numbered="true" />
@@ -1226,6 +1245,10 @@
 		<AlbumEdition id="eg1" album="a85" year="y2007" language="lang-pl" title="Cromwell Stone" isbn="978-83-237-2866-5" />
 		<AlbumEdition id="eg2" album="a92" year="y2009" language="lang-pl" title="ARQ #1" isbn="978-83-237-2508-4" />
 		<AlbumEdition id="eg3" album="a96" year="y2010" language="lang-pl" title="ARQ #2" />
+		<AlbumEdition id="eg4" album="a19" year="y2015" language="lang-pl" />
+		<AlbumEdition id="eg5" album="a26" year="y2015" language="lang-pl" />
+		<AlbumEdition id="eg6" album="a85" year="y2016" language="lang-pl" />
+		<AlbumEdition id="eg7" album="a117" year="y2016" language="lang-pl" title="ARQ Cz&#x119;&#x15b;&#x107;" />
 		<AlbumEdition id="man1" album="a28" year="y2007" language="lang-pl" title="Kozioro&#x017C;ec - 1 - Obiekt" isbn="978-83-922479-4-4" />
 		<AlbumEdition id="man2" album="a29" year="y2007" language="lang-pl" title="Kozioro&#x017C;ec - 2 - Elektryczno&#x015B;&#x0107;" isbn="978-83-922479-5-1" />
 		<AlbumEdition id="man3" album="a7" year="y2007" language="lang-pl" title="Powrót" isbn="978-83-922479-8-2" />
@@ -1244,7 +1267,6 @@
 		<AlbumEdition id="sid4" album="a110" year="y2013" language="lang-pl" title="Kozioro&#x017C;ec - 9 - Przej&#x015B;cie" isbn="978-83-937967-9-3" />
 		<AlbumEdition id="sid5" album="a103" year="y2013" language="lang-pl" title="Rork - Tom 1 (#0-3)" isbn=" 978-83-937967-4-8" />
 		<AlbumEdition id="sid6" album="a111" year="y2014" language="lang-pl" title="Kozioro&#x017C;ec - 10 - Fragment" />
-		
 		<AlbumEdition id="sid7" album="a78" year="y2014" language="lang-pl" title="Kozioro&#x017C;ec - 11 - Chi&#0144;czycy" />
 		<AlbumEdition id="sid8" album="a83" year="y2014" language="lang-pl" title="Kozioro&#x017C;ec - 12 - Patrick" />
 		<AlbumEdition id="sid9" album="a86" year="y2014" language="lang-pl" title="Kozioro&#x017C;ec - 13 - " />
@@ -1252,9 +1274,16 @@
 		<AlbumEdition id="sid11" album="a95" year="y2014" language="lang-pl" title="Kozioro&#x017C;ec - 15 - Operacja" />
 		<AlbumEdition id="sid12" album="a98" year="y2014" language="lang-pl" title="Kozioro&#x017C;ec - 16 - Nowy Jork" />
 		<AlbumEdition id="sid13" album="a105" year="y2014" language="lang-pl" title="Rork - Tom 2 (#4-7)" />
-		<AlbumEdition id="ls1" album="a16" year="y2015" language="lang-de" title="Cromwell Stone" />
+		<AlbumEdition id="sid14" album="a12" year="y2015" language="lang-pl" title="Jaskinia Wspomnie&#x144;" />
+		<AlbumEdition id="sid15" album="a102" year="y2015" language="lang-pl" title="Kozioro&#x017C;ec - 17 - Widziane z bliska" />
+		<AlbumEdition id="sid16" album="a106" year="y2015" language="lang-pl" title="Kozioro&#x017C;ec - 18 - Je&#x17a;d&#x17a;cy" />
+		<AlbumEdition id="sid17" album="a109" year="y2015" language="lang-pl" title="Kozioro&#x017C;ec - 19 - Zarkan" />
+		<AlbumEdition id="sid18" album="a113" year="y2016" language="lang-pl" title="Kozioro&#x017C;ec - 20 - Terminus" />
+		<AlbumEdition id="ls1" album="a85" year="y2015" language="lang-de" title="Cromwell Stone Gesamtausgabe" />
 		<AlbumEdition id="ls2" album="a103" year="y2015" language="lang-de" title="Rork Gesamtausgabe 1" />
 		<AlbumEdition id="ls3" album="a105" year="y2015" language="lang-de" title="Rork Gesamtausgabe 2" />
+		<AlbumEdition id="ls4" album="a115" year="y2016" language="lang-de" title="Capricorn Gesamtausgabe 1" />
+		<AlbumEdition id="ls5" album="a116" year="y2016" language="lang-de" title="Capricorn Gesamtausgabe 2" />
 
 		<Magazine id="mag1" title="Tintin/Hello BD (fr); Kuifje (nl)" language="lang-fr lang-nl">
 			<MagazineItem idref="s23"><MI year="y1977" nrs="32" /></MagazineItem>
@@ -1598,7 +1627,7 @@
 
 		<Publisher id="pub1" name="Le Lombard" address="I-II, Paul-Henri Spaaklaan-1070, Bruxelles (B)"
 			magazines="mag1 mag2 mag26"
-			albumEditions="al1 al2 al3 al4 al5 al6 al7 al8 al9 al10 al11 al12 al13 al14 al15 al16 al18 al19 al20 al21 al22 al23 al24 al25 al26 al27 al27a al28 al28a al29 al30 al31 al32 al33 al34 al35 al36 al37 al38 al39 al39a al40 al41 al42 al43 al44 al45 al46 al47 al48 al49 al50 al51 al52 al53 al54 al55 al56 al57 al58 al59 al60 al61 al62 al63 al64 al65" />
+			albumEditions="al1 al2 al3 al4 al5 al6 al7 al8 al9 al10 al11 al12 al13 al14 al15 al16 al18 al19 al20 al21 al22 al23 al24 al25 al26 al27 al27a al28 al28a al29 al30 al31 al32 al33 al34 al35 al36 al37 al38 al39 al39a al40 al41 al42 al43 al44 al45 al46 al47 al48 al49 al50 al51 al52 al53 al54 al55 al56 al57 al58 al59 al60 al61 al62 al63 al64 al65 al66 al67" />
 		<Publisher id="pub2" name="Jonas" address="Bruxelles (B)"
 			albumEditions="aj1 aj2 aj3" />
         <Publisher id="pub3" name="Deligne (Michel)" address="Bruxelles (B)"
@@ -1713,7 +1742,7 @@
         <Publisher id="pub53" name="Temps Futurs"
             albumEditions="atf1 atf2 atf3 atf4 atf5 atf6" />
         <Publisher id="pub54" name="Egmont"
-            albumEditions="eg1 eg2 eg3" />
+            albumEditions="eg1 eg2 eg3 eg4 eg5 eg6 eg7" />
         <Publisher id="pub55" name="Manzoku"
             albumEditions="man1 man2 man3 man4 man5 man6" />
         <Publisher id="pub56" name="Daniel Maghen"
@@ -1739,7 +1768,7 @@
 		<Publisher id="pub66" name="Finix Comics"
 			albumEditions="fin1" />
 		<Publisher id="pub67" name="Sideca"
-			albumEditions="sid1 sid2 sid3 sid4 sid5 sid6 sid7 sid8 sid9 sid10 sid11 sid12 sid13" />
+			albumEditions="sid1 sid2 sid3 sid4 sid5 sid6 sid7 sid8 sid9 sid10 sid11 sid12 sid13 sid14 sid15 sid16 sid17 sid18" />
 		<Publisher id="pub68" name="dBD"
             magazines="mag52" />
 		<Publisher id="pub69" name="Arcadia Media"
@@ -1751,7 +1780,7 @@
 		<Publisher id="pub72" name="Publisher of Slash(?)"
 				   magazines="mag50" />
 		<Publisher id="pub73" name="Schreiber und Leser"
-				   albumEditions="ls1 ls2 ls3" />
+				   albumEditions="ls1 ls2 ls3 ls4 ls5" />
 
 			
 	</Context>
@@ -1953,13 +1982,35 @@
                 See also <WWWlink href="http://www.danielmaghen.com/DM/books/dragon1/dragon.html"/>
             </TEXT>
         </Comment>
-		
-		
-		
+
+		<!-- ######### EXPECTED ####### -->
+
+
+
+
 		<!-- ######### CHANGES ####### -->
 		
 		
 		<Comment showAt="changes">
+			<TEXT date="2017-01-01">
+				<TITLE>1 January 2017</TITLE>
+				I (Patrick) found a new employer this year. I am now a Magento developer at <AH href='https://www.bigbridge.nl/' target='_blank'>BigBridge</AH>.<BR /><BR />
+
+				Lombard has published a new version of the wonderful <REF ref="a25" /> and will publish the album <REF ref="a114" /> in January 2017.<BR /><BR />
+
+				Here's a <AH href="https://www.youtube.com/watch?v=znXG_mj47WY" target="_blank">video interview with Andreas in German</AH><BR /><BR />
+
+				Ralph Ulbrich sent me a dedication Andreas made for him: <REF ref="i219" /> Thanks Ralph!<BR />
+
+				He also told me about the publication of <REF ref="a115" /> and <REF ref="a116" /> by Schreiber&amp;Leser. Great news for German readers who have been waiting since 1999 for the rest of the series since Das Object and Energie.<BR /><BR />
+
+				Checking the list of <AH href="http://alejakomiksu.com/autor/428/Andreas/" target="_blank">Aleja Komiksu</AH> I saw I missed some Polish editions of 2015. Egmont published <REF ref="a19" /> and <REF ref="a26" />, while Sideca published <REF ref="a12" />, <REF ref="a102" />, <REF ref="a106" />, and <REF ref="a109" /><BR /><BR />
+
+				In 2016, Egmont republished <REF ref="a85" /> and is the first to bundle <REF ref="a117" /> Sideca is the first non-french publisher of <REF ref="a113" /><BR /><BR />
+
+				Andreas is now followed by 1,577 people on <AH href="https://twitter.com/wattmanworm" target='_blank'>Twitter</AH>.<BR /><BR />
+
+			</TEXT>
 			<TEXT date="2016-01-03">
 				<TITLE>3 January 2016</TITLE>
 				Begin last year Andreas made <REF ref="i187" />
@@ -6217,25 +6268,41 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 							(Select author: Andreas)
 						</WWWlink>
 					</WWWsite>
-					<WWWsite title="Planeta-DeAgostini">
+					<WWWsite title="Schreiber und Leser">
+						Publisher of German albums<BR/>
+						<WWWlink language="lang-de" href="http://www.schreiberundleser.de/" >
+							(Search: Andreas)
+						</WWWlink>
+					</WWWsite>
+
+					<WWWsite title="Schreiber und Leser">
+						Publisher of German albums<BR/>
+						<WWWlink language="lang-de" href="http://www.schreiberundleser.de/" >
+							(Search: Andreas)
+						</WWWlink>
+					</WWWsite>
+!!!!!					http://alejakomiksu.com/autor/428/Andreas/
+
+
+					<!--<WWWsite title="Planeta-DeAgostini">
 						Find their Andreas albums by doing a search on 'andreas'.<BR/>
 						<WWWlink language="lang-sp" href="http://www.planetadeagostinicomics.com/" >
 							(Search: Andreas)
 						</WWWlink>
-					</WWWsite>
+					</WWWsite>-->
 					<!--<WWWsite title="Carlsen">
 						Carlsen publishes Capricorne (only albums 1 and 2, sofar).<BR/>
 						A short biography of Andreas:<BR/>
 						<WWWlink language="lang-de" href="http://www.carlsen.de/comic/kueaz/andreas/kue_bio.htm" />
 					</WWWsite>-->
-					<WWWsite title="Manzoku">
+					<!--<WWWsite title="Manzoku">
 						Publishing Capricorne series and Rork 7:<BR/>
 						<WWWlink language="lang-pl" href="http://manzoku.pl/"  />
-					</WWWsite>
-					<WWWsite title="Egmont">
+					</WWWsite>-->
+					<!--<WWWsite title="Egmont">
 						Publishing Cromwell Stone and ARQ (not listed on their site, 13-4-2009)<BR/>
 						<WWWlink language="lang-pl" href="http://www.egmont.pl/"  />
-					</WWWsite>
+					</WWWsite>-->
 					
 					
 					<!--<WWWsite title="Twój Komiks">
@@ -6254,18 +6321,18 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 						The Czech architectonic magazine <REF ref="mag39" /> publishing Le Triangle Rouge.<BR/>
 						<WWWlink language="lang-cz" href="http://www.erag.cz/press/era21.asp?page_id=90" />
 					</WWWsite>-->
-                    <WWWsite title="Zet.El / ZozoLala">
+                    <!--<WWWsite title="Zet.El / ZozoLala">
                         The Dutch magazine surprises us every once in a while with some amazing Andreas special.<BR/>
                         <WWWlink language="lang-nl" href="http://www.zozolala.com/" />
-                    </WWWsite>
+                    </WWWsite>-->
 				</TEXT>
 				<TEXT title="Private persons' websites">
-					<WWWsite title="Quentin's site dedicated to Andreas">
+					<!--<WWWsite title="Quentin's site dedicated to Andreas">
 						Quentin collects rare Andreas pictures, stories, and articles. We had some plans of joining our sites, but this
 						proved too difficult. Especially the language gap was hard to overcome. So we kept our sites separate. His site
 						immediately gives access to a wealth of resources!<BR/>
 						<WWWlink language="lang-fr" href="http://quentin.ebbs.net/andreas/" />
-					</WWWsite>
+					</WWWsite>-->
 					<WWWsite title="Wim Dewilde has kept an astonishing record of Dédicaces">
 						<WWWlink href='http://www.flickr.com/photos/41038929@N03/' />
 					</WWWsite>
@@ -6327,10 +6394,10 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 
 						<WWWlink language="lang-fr" href="http://www.multimania.com/notabene/bedefils/199805/andreas.htm" />
 					</WWWsite>
-					<WWWsite title="De Zilveren Dolfijn">
+					<!--<WWWsite title="De Zilveren Dolfijn">
 						On the site 'De Zilveren Dolfijn' you will find, amongst information on a great number of Comic-book authors and publishers and their collections, a large part of Andreas' work. If you need specifics on album editions, this is the place to be.<BR/>
 						<WWWlink language="lang-nl" href="http://www.zilverendolfijn.nl/" />
-					</WWWsite>
+					</WWWsite>-->
 					<!--<WWWsite title="Comic Radio Show">
 						German site that contains many reviews and articles on comic books.<BR/>
 						A review of Capricorne 1: Das Object<BR/>
@@ -6375,55 +6442,65 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		</Article>
 		<Article id="art_expected" title="Expected" authors="p23" persons="p1">
 			<Comment>
-				
+
 				<TEXT title='Sherpa'>
-					<IMG width="23" height="17" src="resources/lang-nl.gif"/> Sherpa plans to publish Capricornus 17 "De ruiters", Capricorne 18 "Zarkan", and a new edition of La Caverne du Souvenir ("De Grot der Herinnering")<BR /><BR />
-					
+
+					<IMG width="23" height="17" src="resources/lang-nl.gif"/> Sherpa plans to publish Capricornus 19 "Terminus" and Capricorne 20 "Meester" in January 2017.<BR /><BR />
+
 					See <AH href='http://sherpa.nu/' target='_blank'>Sherpa</AH><BR /><BR />
 				</TEXT>
-				
+
 				<TEXT title='Sideca'>
+
+					<IMG width="23" height="17" src="resources/lang-pl.gif"/> I have seen plans for the publication of Raffington Event. Some say it was published in 2016, but I have not seen  a Sideca cover of the album.<BR /><BR />
+
+					See <AH href='https://www.facebook.com/wydawnictwosideca/' target='_blank'>Sideca on Facebook</AH><BR /><BR />
+				</TEXT>
+
+
+
+				<!--<TEXT title='Sideca'>
 					<IMG width="23" height="17" src="resources/lang-pl.gif"/>Sideca plans to publish Kozioro&#x017C;ec #17 - #19, and Raffington Event.<BR/><BR/>
 					See <AH href='http://alejakomiksu.com/wydawnictwa/626/Sideca/' target='_blank'>Aleja Komiksu</AH> and <AH href='https://www.facebook.com/wydawnictwosideca' target='_blank'>Sideca on Facebook</AH><BR />
-					
-				</TEXT>
-				
-<!--				<TEXT title='Capricorne'>
-					<IMG src="resources/lang-nl.gif"/><BR />
-					
-					Sherpa plans to publish Capricornus 15 - New York, Capricornus 16 - Close up, ARQ 17 - Dromen 2, and also a 1000 piece jigsaw puzzle of L'univers des dragons <REF ref='i128' /> <AH href='http://www.stripspeciaalzaak.be/beelden/TeVerschijnen/_pdf/Sherpa_2014.pdf' target='_blank'>Read this PDF for more information</AH><BR />
-					
-					Thanks for noticing, Alex!<BR /><BR />
-					
-					Check <AH href='http://www.sherpa.nu/' target='_blank'>Sherpa's website</AH> for the latest Capricorne and ARQ albums.<BR /><BR />
 
-					In 2014, Sideca will publish more Capricorne, Rork integral #2 and Raffington Event. See <AH href='http://alejakomiksu.com/wydawnictwa/626/Sideca/' target='_blank'>Alejakomiksu</AH><BR /><BR />
-					<IMG src="resources/lang-pl.gif"/><BR />
-					
 				</TEXT>-->
 
-<!--
+				<!--				<TEXT title='Capricorne'>
+									<IMG src="resources/lang-nl.gif"/><BR />
 
-				<TEXT title='Le Lombard: Rork 0 - "Les Fantômes"'>
-					<IMG src="resources/lang-fr.gif"/><BR />
-					
-					Andreas (via Twitter): "Yes, it is a stand-alone story in the spirit of the first short Rork-episodes. It can be read without reading the other books."<BR/>
-				</TEXT>
+									Sherpa plans to publish Capricornus 15 - New York, Capricornus 16 - Close up, ARQ 17 - Dromen 2, and also a 1000 piece jigsaw puzzle of L'univers des dragons <REF ref='i128' /> <AH href='http://www.stripspeciaalzaak.be/beelden/TeVerschijnen/_pdf/Sherpa_2014.pdf' target='_blank'>Read this PDF for more information</AH><BR />
 
-					In August 2012, Sherpa will publish a bundled album that contains the albums Rork 0: "De Geesten" (in black and white), "Fragmenten", "Doorgangen" and "Het kathedralenkerhof". It also contains an extensive interview with Andreas. Total: 256 pages. The bundled album is called "Doorgangen".<BR /><BR />
-					
-					In October 2012, Sherpa will publish Rork 0: "De Geesten" (in color).<BR /><BR />
-					
-					See <WWWlink href='http://www.sherpa.nu/nieuwsbrief/SherpaNieuws_Andreas_20mei2012.jpg' /> and 
-					<WWWlink href='http://www.stripspeciaalzaak.be/StripFacts.php#Sherpa' /><BR /><BR />
+									Thanks for noticing, Alex!<BR /><BR />
 
--->				
+									Check <AH href='http://www.sherpa.nu/' target='_blank'>Sherpa's website</AH> for the latest Capricorne and ARQ albums.<BR /><BR />
+
+									In 2014, Sideca will publish more Capricorne, Rork integral #2 and Raffington Event. See <AH href='http://alejakomiksu.com/wydawnictwa/626/Sideca/' target='_blank'>Alejakomiksu</AH><BR /><BR />
+									<IMG src="resources/lang-pl.gif"/><BR />
+
+								</TEXT>-->
+
+				<!--
+
+								<TEXT title='Le Lombard: Rork 0 - "Les Fantômes"'>
+									<IMG src="resources/lang-fr.gif"/><BR />
+
+									Andreas (via Twitter): "Yes, it is a stand-alone story in the spirit of the first short Rork-episodes. It can be read without reading the other books."<BR/>
+								</TEXT>
+
+									In August 2012, Sherpa will publish a bundled album that contains the albums Rork 0: "De Geesten" (in black and white), "Fragmenten", "Doorgangen" and "Het kathedralenkerhof". It also contains an extensive interview with Andreas. Total: 256 pages. The bundled album is called "Doorgangen".<BR /><BR />
+
+									In October 2012, Sherpa will publish Rork 0: "De Geesten" (in color).<BR /><BR />
+
+									See <WWWlink href='http://www.sherpa.nu/nieuwsbrief/SherpaNieuws_Andreas_20mei2012.jpg' /> and
+									<WWWlink href='http://www.stripspeciaalzaak.be/StripFacts.php#Sherpa' /><BR /><BR />
+
+				-->
 
 				<!--
 					Alex (on our guestbook):<BR/><BR/>
 					Arq 15, titel: Maan, maart 2012<BR/>
 					Rork 1&amp;2, Fragmenten en doorgangen, 850 exemplaren april 2012, groot formaat luxe hardcover 120 pagina's!!!<BR/>
-					Rork 0, eind 2012 hardcover kleur, groot formaat luxe hardcover zwart wit<BR/> 
+					Rork 0, eind 2012 hardcover kleur, groot formaat luxe hardcover zwart wit<BR/>
 
 				<TEXT title="Augustus 2010: Donjon Monsters: Een kaart van groot belang">
 					<WWWlink href="http://andreas-martens.skynetblogs.be/archive/2010/05/16/donjon-een-kaart-van-groot-belang.html" />
@@ -6434,7 +6511,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 					<IMG src="resources/lang-fr.gif"/>
 					<EM>Pascal Batigne</EM><BR /><BR />
 				</TEXT>
-				
+
 				<TEXT title="Sherpa: Reprints of Arq">
 					<IMG src="resources/lang-nl.gif"/>
 					Sherpa hopes to republish ARQ 1-6.<BR/>
@@ -6448,12 +6525,12 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 					Vanwege een overlevering (teveel geleverd) van het derde deel van Cromwell Stone zal een speciale editie van dit boek binnenkort te verkrijgen zijn via www.sherpa.nu. Het betreft zo’n 75 exemplaren voorzien van een extra prent, in kleur, namelijk de tekening die Andreas maakte als cover voor de Franse editie. Boek en prent zijn genummerd, maar niet gesigneerd. De laatste kans voor Andreas-fans die het boek nog niet bemachtigd hadden. Het boek zal niet via de boekhandel verkrijgbaar zijn. De prijs wordt Euro 39,95, excl. verzendkosten.<BR/><BR/>
 					<EM>Mat Schifferstein / Sherpa</EM>
 				</TEXT>-->
-					<!--
-					<TEXT title="Beginning of 2008, Manzoku: Powrót (Rork 7: Retour)">
-						<IMG src="resources/lang-pl.gif"/>
-					Publisher Manzoku takes over from Twoj Komiks to publish the final Rork album; see <WWWlink href="http://www.komiks.gildia.pl/komiksy/europa/2" /><BR/><BR/>
-					Manzoku is plans to publish at least 4 Capricorne albums; see <WWWlink href="http://www.manzoku.pl/index.php?kat=1&amp;kid=34" /><BR />
-					<EM>Micha&#x0142; Famielec</EM>				</TEXT>
+				<!--
+				<TEXT title="Beginning of 2008, Manzoku: Powrót (Rork 7: Retour)">
+					<IMG src="resources/lang-pl.gif"/>
+				Publisher Manzoku takes over from Twoj Komiks to publish the final Rork album; see <WWWlink href="http://www.komiks.gildia.pl/komiksy/europa/2" /><BR/><BR/>
+				Manzoku is plans to publish at least 4 Capricorne albums; see <WWWlink href="http://www.manzoku.pl/index.php?kat=1&amp;kid=34" /><BR />
+				<EM>Micha&#x0142; Famielec</EM>				</TEXT>
 -->
 				<!--<TEXT title="Future: Capricorne - entire series (Motopol - Twój Komiks)">
 					<IMG src="resources/lang-pl.gif"/>
@@ -7269,6 +7346,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i218" file="inktober31.jpg" width="764" height="1024" title="Inktober 31" >
 			<Thumbnail file="inktober31.jpg" width="75" height="100"/>
 		</Image>
+		<Image showAt="i219" file="ami-ralph.jpg" width="800" height="1132" title="Thanks to Ralph Ulbrich" >
+			<Thumbnail file="ami-ralph.jpg" width="71" height="100"/>
+		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />
 		<Image showAt="mag1" file="tintin_1978_47.jpg" width="200" height="280" title="Tintin 1978, number 47" />
@@ -7384,6 +7464,8 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="al63" file="album_zarkan_lombard.jpg" width="400" height="539" />
 		<Image showAt="al64" file="album_caverne_lombard_2015.jpg" width="325" height="456" />
 		<Image showAt="al65" file="album_terminus_lombard.jpg" width="436" height="600" />
+		<Image showAt="al66" file="album_raffington_lombard_2016.jpg" width="550" height="727" />
+		<Image showAt="al67" file="album_maitre_lombard.jpg" width="325" height="456" />
 		<Image showAt="aj1" file="album_rork_jonas.jpg" width="350" height="459" />
 		<Image showAt="l1" file="album_carte_l.jpg" width="350" height="480" />
 
@@ -7580,6 +7662,11 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="eg1" file="album_cromwell_egmont.jpg" width="400" height="538" title="Thanks to Micha&#x0142; Famielec and Jacek Sleszynski" />
 		<Image showAt="eg2" file="album_arq_egmont.jpg" width="400" height="542" />
 		<Image showAt="eg3" file="album_arq2_egmont.jpg" width="400" height="541" />
+		<Image showAt="eg4" file="album_cyrrusmil_egmont.jpg" width="400" height="538" />
+		<Image showAt="eg5" file="album_coutoo_egmont.jpg" width="400" height="538" />
+		<Image showAt="eg6" file="album_cromwellstone_egmont_2016.jpg" width="400" height="541" />
+		<Image showAt="eg7" file="album_arq3_egmont.jpg" width="400" height="534" />
+
 		<Image showAt="citr1" file="album_nouveaux.jpg" width="400" height="538" title="Thanks to Pierre Loubere." />
 		<Image showAt="zinc1" file="album_cromwell_zinco.jpg" width="400" height="553" title="Thanks to Javier Vidiella." />
 		<Image showAt="fin1" file="album_quintos_finix.jpg" width="500" height="672" title="Thanks to Sebastian Otten." />
@@ -7649,9 +7736,17 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="sid11" file="album_operation_sideca.jpg" width="450" height="608" />
 		<Image showAt="sid12" file="album_newyork_sideca.jpg" width="450" height="610" />
 		<Image showAt="sid13" file="album_integrale2_sideca.jpg" width="450" height="593" />
+		<Image showAt="sid14" file="album_caverne_sideca.jpg" width="400" height="543" />
+		<Image showAt="sid15" file="album_vudepres_sideca.jpg" width="400" height="539" />
+		<Image showAt="sid16" file="album_cavaliers_sideca.jpg" width="400" height="539" />
+		<Image showAt="sid17" file="album_zarkan_sideca.jpg" width="400" height="538" />
+		<Image showAt="sid18" file="album_terminus_sideca.jpg" width="400" height="540" />
 		<Image showAt="ls1" file="album_cromwell_schreiber.jpg" width="431" height="600" />
 		<Image showAt="ls2" file="album_integrale1_schreiber.jpg" width="459" height="600" />
 		<Image showAt="ls3" file="album_integrale2_schreiber.jpg" width="459" height="600" />
+		<Image showAt="ls4" file="album_cap_gesamt1_sl.jpg" width="750" height="1009" />
+		<Image showAt="ls4" file="album_cap_gesamt1_sl_ex.jpg" width="400" height="716" title="Thanks to Ralph Ulbrich"/>
+		<Image showAt="ls5" file="album_cap_gesamt2_sl.jpg" width="750" height="1006" />
 
 	</Comments>
 
