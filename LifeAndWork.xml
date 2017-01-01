@@ -600,6 +600,7 @@
 		<Illustration id="i217" drawings="p1" year="y2015" description="Inktober 30: Rork" tags="inktober2015" />
 		<Illustration id="i218" drawings="p1" year="y2015" description="Inktober 31: Capricorne" tags="inktober2015" />
 		<Illustration id="i219" drawings="p1" year="y2016" description="Pour Ralph" tags="dedication" />
+		<Illustration id="i220" drawings="p1" year="y2017" description="Really?!" tags="wish card" />
 		
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -7348,6 +7349,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		</Image>
 		<Image showAt="i219" file="ami-ralph.jpg" width="800" height="1132" title="Thanks to Ralph Ulbrich" >
 			<Thumbnail file="ami-ralph.jpg" width="71" height="100"/>
+		</Image>
+		<Image showAt="i220" file="newyear2017.jpg" width="1280" height="640" title="Really" >
+			<Thumbnail file="newyear2017.jpg" width="100" height="50"/>
 		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />

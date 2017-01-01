@@ -49,8 +49,7 @@
 		<xsl:for-each select="//Comment[@showAt='changes']/TEXT">
 			<entry>
 				<id>tag:dossier-andreas.net,<xsl:value-of select="@date" /></id>
-				<created><xsl:value-of select="@date" />T12:00:00Z</created>
-				<modified><xsl:value-of select="@date" />T12:00:00Z</modified>
+				<updated><xsl:value-of select="@date" />T12:00:00Z</updated>
 				<title type="text"><xsl:value-of select="TITLE" /></title>
 				<content type="html" xml:space="preserve">
 					<div><xsl:apply-templates select="." /></div>
