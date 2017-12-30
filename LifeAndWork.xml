@@ -152,6 +152,10 @@
 		<Person id="p85" name="Axel Patisson" />
 		<Person id="p86" name="Damien Perez" />
 		<Person id="p87" name="Jan Baetens" />
+		<Person id="p88" name="Mazan" />
+		<Person id="p89" name="Dieter" />
+		<Person id="p90" name="Hyuna" />
+		<Person id="p91" name="Raven" />
 		
 		<Photo id="photo1" title="Andreas drawing Rork" year="y1979" file="002_DxO.jpg" width="1566" height="1038" shrunk-width="640" shrunk-height="424" tags="home" />
 		<Photo id="photo2" title="Andreas drawing ARQ 11" year="y2007" file="6 juin 2007 (4).JPG" width="640" height="480" shrunk-width="640" shrunk-height="480" tags="home" />
@@ -360,6 +364,13 @@
 		<Story id="s133" title="Ici" drawings="p1" text="p1" year="y2015" />
 		<Story id="s134" title="Terminus" drawings="p1" text="p1" year="y2015" />
 		<Story id="s135" title="Maître" drawings="p1" text="p1" year="y2016" />
+
+		<Story id="s136" title="Veuve noire" drawings="p1" text="p88" year="y2017" />
+		<Story id="s137" title="Maidstone" drawings="p1" text="p89" year="y2016" />
+		<Story id="s138" title="Laurance" drawings="p1" text="p90" year="y2016" />
+		<Story id="s139" title="Charmant" drawings="p1" text="p91" year="y2016" />
+		<Story id="s140" title="Milk" drawings="p1" text="p79" year="y2016" />
+		<Story id="s141" title="Error" drawings="p1" text="p1" year="y2016" />
 		
 		<Tag id='intro' description="Introductions" />
 		<Tag id='cover' description="Covers" />
@@ -378,9 +389,10 @@
 		<Tag id='poland' description="Andreas and Isa Cochet in &#x0141;ód&#x017a;, Poland 2014" />
 		<Tag id='puzzle' description="Puzzles" />
 		<Tag id='inktober2015' description="Inktober 2015" />
+		<Tag id='inktober2017' description="Inktober 2017" />
 		<Tag id='unavailable' description="- Unavailable -" />
 		<Tag id='misc' description="Miscellaneous items" />
-		
+
 		<Illustration id="i1" year="y1978" description="Cover of Tintin 1978-47" drawings="p1" tags="cover" />
 		<Illustration id="i2" year="y1980" description="Cover of Tintin 1980-15" drawings="p1" tags="cover" />
 		<Illustration id="i3" year="y1980" description="Qui est Rork?" drawings="p1" tags="intro" />
@@ -601,6 +613,38 @@
 		<Illustration id="i218" drawings="p1" year="y2015" description="Inktober 31: Capricorne" tags="inktober2015" />
 		<Illustration id="i219" drawings="p1" year="y2016" description="Pour Ralph" tags="dedication" />
 		<Illustration id="i220" drawings="p1" year="y2017" description="Really?!" tags="wish card" />
+		<Illustration id="i221" drawings="p1" year="y2017" description="Inktober 1" tags="inktober2017" />
+		<Illustration id="i222" drawings="p1" year="y2017" description="Inktober 2" tags="inktober2017" />
+		<Illustration id="i223" drawings="p1" year="y2017" description="Inktober 3" tags="inktober2017" />
+		<Illustration id="i224" drawings="p1" year="y2017" description="Inktober 4" tags="inktober2017" />
+		<Illustration id="i225" drawings="p1" year="y2017" description="Inktober 5" tags="inktober2017" />
+		<Illustration id="i226" drawings="p1" year="y2017" description="Inktober 6" tags="inktober2017" />
+		<Illustration id="i227" drawings="p1" year="y2017" description="Inktober 7" tags="inktober2017" />
+		<Illustration id="i228" drawings="p1" year="y2017" description="Inktober 8" tags="inktober2017" />
+		<Illustration id="i229" drawings="p1" year="y2017" description="Inktober 9" tags="inktober2017" />
+		<Illustration id="i230" drawings="p1" year="y2017" description="Inktober 10" tags="inktober2017" />
+		<Illustration id="i231" drawings="p1" year="y2017" description="Inktober 11" tags="inktober2017" />
+		<Illustration id="i232" drawings="p1" year="y2017" description="Inktober 12" tags="inktober2017" />
+		<Illustration id="i233" drawings="p1" year="y2017" description="Inktober 13" tags="inktober2017" />
+		<Illustration id="i234" drawings="p1" year="y2017" description="Inktober 14" tags="inktober2017" />
+		<Illustration id="i235" drawings="p1" year="y2017" description="Inktober 15" tags="inktober2017" />
+		<Illustration id="i236" drawings="p1" year="y2017" description="Inktober 16" tags="inktober2017" />
+		<Illustration id="i237" drawings="p1" year="y2017" description="Inktober 17" tags="inktober2017" />
+		<Illustration id="i238" drawings="p1" year="y2017" description="Inktober 18" tags="inktober2017" />
+		<Illustration id="i239" drawings="p1" year="y2017" description="Inktober 19" tags="inktober2017" />
+		<Illustration id="i240" drawings="p1" year="y2017" description="Inktober 20" tags="inktober2017" />
+		<Illustration id="i241" drawings="p1" year="y2017" description="Inktober 21" tags="inktober2017" />
+		<Illustration id="i242" drawings="p1" year="y2017" description="Inktober 22" tags="inktober2017" />
+		<Illustration id="i243" drawings="p1" year="y2017" description="Inktober 23" tags="inktober2017" />
+		<Illustration id="i244" drawings="p1" year="y2017" description="Inktober 24" tags="inktober2017" />
+		<Illustration id="i245" drawings="p1" year="y2017" description="Inktober 25" tags="inktober2017" />
+		<Illustration id="i246" drawings="p1" year="y2017" description="Inktober 26" tags="inktober2017" />
+		<Illustration id="i247" drawings="p1" year="y2017" description="Inktober 27" tags="inktober2017" />
+		<Illustration id="i248" drawings="p1" year="y2017" description="Inktober 28" tags="inktober2017" />
+		<Illustration id="i249" drawings="p1" year="y2017" description="Inktober 29" tags="inktober2017" />
+		<Illustration id="i250" drawings="p1" year="y2017" description="Inktober 30" tags="inktober2017" />
+		<Illustration id="i251" drawings="p1" year="y2017" description="Inktober 31" tags="inktober2017" />
+		<Illustration id="i252" drawings="p1" year="y2017" description="Inktober 31 Combination" tags="inktober2017" />
 		
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -956,9 +1000,12 @@
 		<Album id="a117" title="ARQ (third cycle)"
 			   year="y2016"
 			   stories="s123 s125 s126 s130 s131 s133"/>
+		<Album id="a118" title="Dérives 2"
+			   year="y2017"
+			   stories="s136 s137 s112 s138 s139 s140 s141"/>
 
 		<Series id="series1" title="Rork" stories="s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s17 s18 s12 s19 s13 s14 s15 s16 s128" />
-		<Series id="series2" title="Capricorne" stories="s60 s61 s62 s63 s64 s87 s91 s94 s102 s104 s107 s111 s115 s120 s122 s124 s127 s129 s132 s134" />
+		<Series id="series2" title="Capricorne" stories="s60 s61 s62 s63 s64 s87 s91 s94 s102 s104 s107 s111 s115 s120 s122 s124 s127 s129 s132 s134 s135" />
 		<Series id="series7" title="Arq" stories="s65 s66 s67 s84 s86 s90 s95 s106 s109 s113 s119 s121 s123 s125 s126 s130 s131 s133" />
 		<Series id="series5" title="Cyrrus" stories="s41 s42 s51" />
 		<Series id="series6" title="Cromwell Stone" stories="s40 s55 s105" />
@@ -1113,6 +1160,8 @@
 		<AlbumEdition id="as55" album="a19" year="y2015" language="lang-nl" />
 		<AlbumEdition id="as56" album="a112" year="y2015" language="lang-nl" title="Hier" isbn="978-90-8988-079-6" />
 		<AlbumEdition id="as57" album="a19" year="y2015" language="lang-nl" />
+		<AlbumEdition id="as58" album="a113" year="y2017" language="lang-nl" />
+		<AlbumEdition id="as59" album="a114" year="y2017" language="lang-nl" title="Meester" />
 		<AlbumEdition id="adc1" album="a13" year="y1991" language="lang-fr" color="false" />
 		<AlbumEdition id="adc2" album="a13" year="y1994" language="lang-fr" color="false" />
 		<AlbumEdition id="adc3" album="a19" year="y1993" language="lang-fr" />
@@ -1152,6 +1201,7 @@
 		<AlbumEdition id="adc37" album="a107" year="y2013" language="lang-fr" />
 		<AlbumEdition id="adc38" album="a108" year="y2014" language="lang-fr" />
 		<AlbumEdition id="adc39" album="a112" year="y2015" language="lang-fr" />
+		<AlbumEdition id="adc40" album="a118" year="y2017" language="lang-fr" isbn="9782840558859" />
 		<AlbumEdition id="ap1" album="a14" year="y1982" language="lang-nl" title="Dream is over" cover="hc" />
 		<AlbumEdition id="adu1" album="a15" year="y1985" language="lang-nl" title="Dreigende jaargetijden" isbn="90-314-1015-2" issn="0771-8977" d="1985.0089.123" cover="sc" />
 		<AlbumEdition id="adu2" album="a15" year="y1985" language="lang-fr" isbn="2-8001-1161-5" issn="0771-8926" d="1985/0089/122" cover="sc" />
@@ -1643,10 +1693,10 @@
 		<Publisher id="pub7" name="Bédérama" address="Paris (F)"
 			albumEditions="ab1" />
 		<Publisher id="pub8" name="Sherpa" address="Wederik 8, 1902 JH Castricum (NL)"
-			albumEditions="as1 as2 as3 as4 as5 as6 as7 as8 as9 as10 as11 as12 as13 as14 as15 as16 as17 as18 as20 as21 as22 as23 as24 as25 as26 as27 as28 as29 as30 as31 as32 as33 as34 as35 as36 as37 as38 as39 as40 as41 as42 as43 as44 as45 as46 as47 as48 as49 as50 as51 as52 as53 as54 as55 as56 as57"/>
+			albumEditions="as1 as2 as3 as4 as5 as6 as7 as8 as9 as10 as11 as12 as13 as14 as15 as16 as17 as18 as20 as21 as22 as23 as24 as25 as26 as27 as28 as29 as30 as31 as32 as33 as34 as35 as36 as37 as38 as39 as40 as41 as42 as43 as44 as45 as46 as47 as48 as49 as50 as51 as52 as53 as54 as55 as56 as57 as58 as59"/>
 		<Publisher id="pub9" name="Delcourt" address="Paris (F)"
 			magazines="mag41"
-			albumEditions="adc1 adc2 adc3 adc4 adc5 adc6 adc7 adc8 adc9 adc10 adc11 adc12 adc13 adc14 adc15 adc16 adc17 adc18 adc19 adc20 adc21 adc22 adc23 adc24 adc25 adc26 adc27 adc28 adc29 adc30 adc31 adc32 adc33 adc34 adc35 adc36 adc37 adc38 adc39" />
+			albumEditions="adc1 adc2 adc3 adc4 adc5 adc6 adc7 adc8 adc9 adc10 adc11 adc12 adc13 adc14 adc15 adc16 adc17 adc18 adc19 adc20 adc21 adc22 adc23 adc24 adc25 adc26 adc27 adc28 adc29 adc30 adc31 adc32 adc33 adc34 adc35 adc36 adc37 adc38 adc39 adc40" />
 		<Publisher id="pub10" name="Vonk" address="Zeist (NL)"
 			magazines="mag7"
 			albumEditions="av1" />
@@ -1993,6 +2043,33 @@
 		
 		
 		<Comment showAt="changes">
+
+			<TEXT date="2018-01-01">
+				<TITLE>1 January 2018</TITLE>
+
+				<REF ref="a118" /> was published, a sequence to Dérives, an album from '91 (26 years ago!)<BR /><BR />
+				On this album, in which he experiments with different drawing styles, Andreas works with many new artists: Mazan, Dieter, Hyuna and Raven.
+				It contains the story "l'Ours" (the bear), which he made with Cornette in 2001, and the story "Milk" for which Andreas'
+				coloring-partner Isa Cochet did not do the coloring, but the scenario. Surprising!<BR />
+				-- Information from <AH href="http://www.sceneario.com/bande-dessinee/derives/volume-2/26967.html">Sceneario</AH><BR /><BR />
+
+				A French interview with Andreas
+
+				<AH href="http://www.bfmtv.com/culture/la-bd-de-la-semaine-andreas-et-isabelle-cochet-commentent-capricorne-20-1127046.html" target="_blank">La BD de la semaine: Andreas et Isabelle Cochet commentent Capricorne 20</AH><BR /><BR />
+
+				A French video interview
+				<AH href="https://www.youtube.com/watch?v=FZjsaaL1hm8" target="_blank">KABOOM! #33 - Les mondes fantastiques d'Andreas</AH><BR /><BR />
+
+				Portfolio Andreas PDF from Le Lombard
+
+				<AH href="http://www.lelombard.com/Presse/portfolio_andreas.pdf" target="_blank">Redécouvrons les mondes d'Andreas</AH><BR /><BR />
+
+				Andreas participated for the second time in "Inktober". The collected pictures are shown in "Images / Inktober 2017".<BR /><BR />
+
+				Andreas is followed by 1857 people on Twitter, he follows 1652 people, he has posted 2517 tweets and liked 2167 tweets.<BR />
+
+			</TEXT>
+
 			<TEXT date="2017-02-06">
 				<TITLE>6 February 2017</TITLE>
 				Volker Hamann of the German magazine REDDITION informed me about the upcoming edition about Andreas.<BR />
@@ -6449,13 +6526,6 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Article id="art_expected" title="Expected" authors="p23" persons="p1">
 			<Comment>
 
-				<TEXT title='Sherpa'>
-
-					<IMG width="23" height="17" src="resources/lang-nl.gif"/> Sherpa plans to publish Capricornus 19 "Terminus" and Capricorne 20 "Meester" in January 2017.<BR /><BR />
-
-					See <AH href='http://sherpa.nu/' target='_blank'>Sherpa</AH><BR /><BR />
-				</TEXT>
-
 				<TEXT title='Sideca'>
 
 					<IMG width="23" height="17" src="resources/lang-pl.gif"/> I have seen plans for the publication of Raffington Event. Some say it was published in 2016, but I have not seen  a Sideca cover of the album.<BR /><BR />
@@ -6463,6 +6533,13 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 					See <AH href='https://www.facebook.com/wydawnictwosideca/' target='_blank'>Sideca on Facebook</AH><BR /><BR />
 				</TEXT>
 
+
+				<!--<TEXT title='Sherpa'>-->
+
+				<!--<IMG width="23" height="17" src="resources/lang-nl.gif"/> Sherpa plans to publish Capricornus 19 "Terminus" and Capricorne 20 "Meester" in January 2017.<BR /><BR />-->
+
+				<!--See <AH href='http://sherpa.nu/' target='_blank'>Sherpa</AH><BR /><BR />-->
+				<!--</TEXT>-->
 
 
 				<!--<TEXT title='Sideca'>
@@ -7358,6 +7435,102 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i220" file="newyear2017.jpg" width="1280" height="640" title="Really" >
 			<Thumbnail file="newyear2017.jpg" width="100" height="50"/>
 		</Image>
+		<Image showAt="i221" file="inktober-2017-1.jpg" width="764" height="1024" title="Inktober 1" >
+			<Thumbnail file="inktober-2017-1.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i222" file="inktober-2017-2.jpg" width="764" height="1024" title="Inktober 2" >
+			<Thumbnail file="inktober-2017-2.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i223" file="inktober-2017-3.jpg" width="764" height="1024" title="Inktober 3" >
+			<Thumbnail file="inktober-2017-3.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i224" file="inktober-2017-4.jpg" width="764" height="1024" title="Inktober 4" >
+			<Thumbnail file="inktober-2017-4.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i225" file="inktober-2017-5.jpg" width="764" height="1024" title="Inktober 5" >
+			<Thumbnail file="inktober-2017-5.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i226" file="inktober-2017-6.jpg" width="764" height="1024" title="Inktober 6" >
+			<Thumbnail file="inktober-2017-6.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i227" file="inktober-2017-7.jpg" width="764" height="1024" title="Inktober 7" >
+			<Thumbnail file="inktober-2017-7.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i228" file="inktober-2017-8.jpg" width="764" height="1024" title="Inktober 8" >
+			<Thumbnail file="inktober-2017-8.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i229" file="inktober-2017-9.jpg" width="764" height="1024" title="Inktober 9" >
+			<Thumbnail file="inktober-2017-9.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i230" file="inktober-2017-10.jpg" width="764" height="1024" title="Inktober 10" >
+			<Thumbnail file="inktober-2017-10.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i231" file="inktober-2017-11.jpg" width="764" height="1024" title="Inktober 11" >
+			<Thumbnail file="inktober-2017-11.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i232" file="inktober-2017-12.jpg" width="694" height="1024" title="Inktober 12" >
+			<Thumbnail file="inktober-2017-12.jpg" width="68" height="100"/>
+		</Image>
+		<Image showAt="i233" file="inktober-2017-13.jpg" width="764" height="1024" title="Inktober 13" >
+			<Thumbnail file="inktober-2017-13.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i234" file="inktober-2017-14.jpg" width="764" height="1024" title="Inktober 14" >
+			<Thumbnail file="inktober-2017-14.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i235" file="inktober-2017-15.jpg" width="764" height="1024" title="Inktober 15" >
+			<Thumbnail file="inktober-2017-15.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i236" file="inktober-2017-16.jpg" width="764" height="1024" title="Inktober 16" >
+			<Thumbnail file="inktober-2017-16.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i237" file="inktober-2017-17.jpg" width="764" height="1024" title="Inktober 17" >
+			<Thumbnail file="inktober-2017-17.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i238" file="inktober-2017-18.jpg" width="764" height="1024" title="Inktober 18" >
+			<Thumbnail file="inktober-2017-18.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i239" file="inktober-2017-19.jpg" width="764" height="1024" title="Inktober 19" >
+			<Thumbnail file="inktober-2017-19.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i240" file="inktober-2017-20.jpg" width="764" height="1024" title="Inktober 20" >
+			<Thumbnail file="inktober-2017-20.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i241" file="inktober-2017-21.jpg" width="180" height="1024" title="Inktober 21" >
+			<Thumbnail file="inktober-2017-21.jpg" width="18" height="100"/>
+		</Image>
+		<Image showAt="i242" file="inktober-2017-22.jpg" width="359" height="1024" title="Inktober 22" >
+			<Thumbnail file="inktober-2017-22.jpg" width="35" height="100"/>
+		</Image>
+		<Image showAt="i243" file="inktober-2017-23.jpg" width="532" height="1024" title="Inktober 23" >
+			<Thumbnail file="inktober-2017-23.jpg" width="52" height="100"/>
+		</Image>
+		<Image showAt="i244" file="inktober-2017-24.jpg" width="764" height="1024" title="Inktober 24" >
+			<Thumbnail file="inktober-2017-24.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i245" file="inktober-2017-25.jpg" width="764" height="1024" title="Inktober 25" >
+			<Thumbnail file="inktober-2017-25.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i246" file="inktober-2017-26.jpg" width="764" height="1024" title="Inktober 26" >
+			<Thumbnail file="inktober-2017-26.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i247" file="inktober-2017-27.jpg" width="764" height="1024" title="Inktober 27" >
+			<Thumbnail file="inktober-2017-27.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i248" file="inktober-2017-28.jpg" width="764" height="1024" title="Inktober 28" >
+			<Thumbnail file="inktober-2017-28.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i249" file="inktober-2017-29.jpg" width="764" height="1024" title="Inktober 29" >
+			<Thumbnail file="inktober-2017-29.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i250" file="inktober-2017-30.jpg" width="764" height="1024" title="Inktober 30" >
+			<Thumbnail file="inktober-2017-30.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i251" file="inktober-2017-31.jpg" width="764" height="1024" title="Inktober 31" >
+			<Thumbnail file="inktober-2017-31.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i252" file="inktober-2017.jpg" width="742" height="265" title="Inktober - Combination" >
+			<Thumbnail file="inktober-2017.jpg" width="75" height="26"/>
+		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />
 		<Image showAt="mag1" file="tintin_1978_47.jpg" width="200" height="280" title="Tintin 1978, number 47" />
@@ -7545,6 +7718,8 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="as55" file="album_cyrrusmil_sherpa.jpg" width="446" height="600" />
 		<Image showAt="as56" file="album_ici_sherpa.jpg" width="371" height="600" />
 		<Image showAt="as57" file="album_cyrrusmil_sherpa2.jpg" width="623" height="842" title="Cover of limited edition, thanks to Peter Kuipers." />
+		<Image showAt="as58" file="album_terminus_sherpa.jpg" width="550" height="739" />
+		<Image showAt="as59" file="album_maitre2_sherpa.jpg" width="550" height="738"/>
 		<Image showAt="a59" file="album_vergetenen_sherpa2.gif" width="350" height="501" />
 		<Image showAt="a59" file="album_vergetenen_sherpa3.gif" width="350" height="500" />
 		<Image showAt="a59" file="album_vergetenen_sherpa4.gif" width="350" height="507" />
@@ -7591,6 +7766,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="adc37" file="album_reves1_delcourt.jpg" width="400" height="648" />
 		<Image showAt="adc38" file="album_reves2_delcourt.jpg" width="400" height="648" />
 		<Image showAt="adc39" file="album_ici_delcourt.jpg" width="371" height="600" />
+		<Image showAt="adc40" file="album_derives2_delcourt.jpg" width="359" height="500" />
 		<Image showAt="adg1" file="album_cromwell_deligne.jpg" width="373" height="500" />
 		<Image showAt="adg2" file="album_cromwell_deligne_en.jpg" width="400" height="561" />
 		<Image showAt="adu1" file="album_mortes_dupuis.jpg" width="350" height="476" />
