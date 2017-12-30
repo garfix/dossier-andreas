@@ -1335,6 +1335,8 @@
 		<AlbumEdition id="ls3" album="a105" year="y2015" language="lang-de" title="Rork Gesamtausgabe 2" />
 		<AlbumEdition id="ls4" album="a115" year="y2016" language="lang-de" title="Capricorn Gesamtausgabe 1" />
 		<AlbumEdition id="ls5" album="a116" year="y2016" language="lang-de" title="Capricorn Gesamtausgabe 2" />
+		<AlbumEdition id="dh1" album="a16" year="y1992" language="lang-en" />
+		<AlbumEdition id="dh2" album="a26" year="y1994" language="lang-en" color="false" />
 
 		<Magazine id="mag1" title="Tintin/Hello BD (fr); Kuifje (nl)" language="lang-fr lang-nl">
 			<MagazineItem idref="s23"><MI year="y1977" nrs="32" /></MagazineItem>
@@ -1556,14 +1558,13 @@
 			<MagazineItem idref="i39"><MI year="y1981" nrs="37" /></MagazineItem>
 			<MagazineItem idref="art10"><MI year="y1981" nrs="37" /></MagazineItem>
 		</Magazine>
-		<Magazine id="mag28" title="Dark Horse (Cheval Noir)" language="lang-en">
+		<Magazine id="mag28" title="Cheval Noir" language="lang-en">
 			<MagazineItem idref="a1"><MI year="y1989" nrs="1,3"/><MI year="y1990" nrs="5-7"/><MI year="y1991" nrs="13"/></MagazineItem>
 			<MagazineItem idref="a2"><MI year="y1991" nrs="15-17"/></MagazineItem>
 			<MagazineItem idref="s12"><MI year="y1991" nrs="19-22"/></MagazineItem>
 			<MagazineItem idref="s13"><MI year="y1992" nrs="36-37"/><MI year="y1993" nrs="39-40"/></MagazineItem>
 			<MagazineItem idref="s14"><MI year="y1993" nrs="47-49"/><MI year="y1994" nrs="50"/></MagazineItem>
-			<MagazineItem idref="s58"><MI year="y1990" nrs="8-11"/><MI year="y1994" nrs="April"/></MagazineItem>
-			<MagazineItem idref="s40"><MI year="y1992" nrs="April"/></MagazineItem>
+			<MagazineItem idref="s58"><MI year="y1990" nrs="8-11"/></MagazineItem>
 		</Magazine>
 		<Magazine id="mag29" title="Heavy Metal" language="lang-en">
 			<MagazineItem idref="s70"><MI year="y1998" nrs="November"/></MagazineItem>
@@ -1761,7 +1762,7 @@
 			albumEditions="anb1 anb2 anb3" 
 			magazines="mag42" />
 		<Publisher id="pub38" name="Dark Horse Comics"
-			magazines="mag28" />
+			magazines="mag28" albumEditions="dh1 dh2"/>
 		<Publisher id="pub39" name="Norma"
 			albumEditions="anr1 anr2 anr3 anr4 anr5 anr6 anr7 anr8" />
 		<Publisher id="pub40" name="Albin Michel"
@@ -2065,6 +2066,8 @@
 				<AH href="http://www.lelombard.com/Presse/portfolio_andreas.pdf" target="_blank">Redécouvrons les mondes d'Andreas</AH><BR /><BR />
 
 				Andreas participated for the second time in "Inktober". The collected pictures are shown in "Images / Inktober 2017".<BR /><BR />
+
+				Karol Wisniewski pointed out that the Dark Horse albums Coutoo and Cromwell Stone were missing from the site. I had classified them as magazine editions from Cheval Noir, the magazine from Dark Horse. I corrected the mistake. Thanks Karol, this cleared up an important misconception.<BR /><BR />
 
 				Andreas is followed by 1857 people on Twitter, he follows 1652 people, he has posted 2517 tweets and liked 2167 tweets.<BR />
 
@@ -7794,8 +7797,6 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="anb2" file="album_passages_nbm.jpg" width="350" height="473" title="Scan by Serge Simon." />
 		<Image showAt="anb3" file="album_cimetiere_lumiere_nbm.jpg" width="350" height="371" title="Scan by Serge Simon." />
 		<Image showAt="amo1" file="album_monographie_mosquito.jpg" width="300" height="420" />
-		<Image showAt="mag28" file="mag_darkhorse_coutoo.jpg" width="350" height="538" />
-		<Image showAt="mag28" file="mag_darkhorse_cromwell.jpg" width="350" height="546" />
 		<Image showAt="mag28" file="mag_darkhorse_rork.jpg" width="350" height="538" />
 		<Image showAt="pub1" file="publisher_lombard.gif" width="90" height="109" />
 		<Image showAt="mag43" file="album_fragments_komiks.jpg" width="271" height="360" />
@@ -7851,6 +7852,8 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="eg5" file="album_coutoo_egmont.jpg" width="400" height="538" />
 		<Image showAt="eg6" file="album_cromwellstone_egmont_2016.jpg" width="400" height="541" />
 		<Image showAt="eg7" file="album_arq3_egmont.jpg" width="400" height="534" />
+		<Image showAt="dh1" file="mag_darkhorse_cromwell.jpg" width="350" height="546" />
+		<Image showAt="dh2" file="mag_darkhorse_coutoo.jpg" width="350" height="538" />
 
 		<Image showAt="citr1" file="album_nouveaux.jpg" width="400" height="538" title="Thanks to Pierre Loubere." />
 		<Image showAt="zinc1" file="album_cromwell_zinco.jpg" width="400" height="553" title="Thanks to Javier Vidiella." />
