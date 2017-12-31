@@ -680,7 +680,7 @@
 			stories="s23" />
 		<Album id="a10" title="La montre aux 7 rubis"
 			stories="s24" />
-		<Album id="a11" title="La montre aux 7 rubis"
+		<Album id="a11" title="La montre aux 7 rubis" multialbum="true"
 			stories="s24 s25" />
 		<Album id="a12" title="La caverne du souvenir"
 			year="y1981"
@@ -703,7 +703,7 @@
 			startDate="1985/00/00"
 			year="y1986"
 			stories="s42" />
-		<Album id="a19" title="Cyrrus-Mil"
+		<Album id="a19" title="Cyrrus-Mil" multialbum="true"
 			stories="s41 s51" />
 		<Album id="a20" title="Dérives"
 			stories="s43 s44 s45 s46 s47 s48" />
@@ -780,7 +780,7 @@
 			illustrations="i39" />
 		<!--<Album id="a47" title="Forceurs de blocus"
 			illustrations="i40" />-->
-		<Album id="a48" title="The Graveyard of Cathedrals and Starlight"
+		<Album id="a48" title="The Graveyard of Cathedrals and Starlight" multialbum="true"
 			year="y1996"
 			stories="s12 s13" />
 		<Album id="a49" title="Racken"
@@ -889,7 +889,7 @@
 		<Album id="a80" title="Feu Croisé"
             year="y2006"
             stories="s109"/>
-		<Album id="a81" title="Coffret tomes 1 à 3"
+		<Album id="a81" title="Coffret tomes 1 à 3" multialbum="true"
             year="y2004"
             stories="s40 s55 s105"/>
 		<Album id="a82" title="L'ecrin"
@@ -901,7 +901,7 @@
 		<Album id="a84" title="Tehos"
             year="y2007"
             stories="s113"/>
-		<Album id="a85" title="Cromwell Stone: all 3 stories"
+		<Album id="a85" title="Cromwell Stone: all 3 stories" multialbum="true"
             year="y2007"
             stories="s40 s55 s105"/>
 		<Album id="a86" title="-- empty title --"
@@ -922,7 +922,7 @@
 		<Album id="a91" title="Maître noir"
             year="y2008"
             stories="s119"/>
-		<Album id="a92" title="ARQ (first cycle)"
+		<Album id="a92" title="ARQ (first cycle)" multialbum="true"
             year="y2009"
             stories="s65 s66 s67 s84 s86 s90"/>
 		<Album id="a93" title="Rêve en cage"
@@ -934,7 +934,7 @@
 		<Album id="a95" title="L'Operation"
             year="y2009"
             stories="s122"/>
-		<Album id="a96" title="ARQ (second cycle)"
+		<Album id="a96" title="ARQ (second cycle)" multialbum="true"
             year="y2010"
             stories="s95 s106 s109 s113 s119 s121"/>
 		<Album id="a97" title="Détectives"
@@ -955,14 +955,14 @@
 		<Album id="a102" title="Vu de pres"
             year="y2012"
             stories="s127"/>
-		<Album id="a103" title="Rork - L'intégrale 1"
+		<Album id="a103" title="Rork - L'intégrale 1" multialbum="true"
             year="y2012"
             stories="s128 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s17 s12 s19"
             illustrations="i78 i75 i79 i17 i119 i111 i50" />
         <Album id="a104" title="Les fantômes"
         	year="y2012"
         	stories="s128" />
-		<Album id="a105" title="Rork - L'intégrale 2"
+		<Album id="a105" title="Rork - L'intégrale 2" multialbum="true"
             year="y2013"
             stories="s13 s14 s15 s16"
             illustrations="i47 i82 i83" />
@@ -978,10 +978,10 @@
         <Album id="a109" title="Zarkan"
         	year="y2014"
         	stories="s132" />
-        <Album id="a110" title="Przej&#x015B;cie"
+        <Album id="a110" title="Przej&#x015B;cie" multialbum="true"
         	year="y2014"
         	stories="s102" />
-        <Album id="a111" title="Fragment"
+        <Album id="a111" title="Fragment" multialbum="true"
         	year="y2014"
         	stories="s104" />
 		<Album id="a112" title="Ici"
@@ -993,22 +993,22 @@
 		<Album id="a114" title="Maître"
 			   year="y2016"
 			   stories="s135" />
-		<Album id="a115" title="Capricorn - Gesamtausgabe 1"
+		<Album id="a115" title="Capricorn - Gesamtausgabe 1" multialbum="true"
 			   year="y2016"
 			   stories="s60 s61 s62" />
-		<Album id="a116" title="Capricorn - Gesamtausgabe 2"
+		<Album id="a116" title="Capricorn - Gesamtausgabe 2" multialbum="true"
 			   year="y2016"
 			   stories="s63 s64 s87" />
-		<Album id="a117" title="ARQ (third cycle)"
+		<Album id="a117" title="ARQ (third cycle)" multialbum="true"
 			   year="y2016"
 			   stories="s123 s125 s126 s130 s131 s133"/>
 		<Album id="a118" title="Dérives 2"
 			   year="y2017"
 			   stories="s136 s137 s112 s138 s139 s140 s141"/>
-		<Album id="a119" title="Capricorn - Gesamtausgabe 3"
+		<Album id="a119" title="Capricorn - Gesamtausgabe 3" multialbum="true"
 			   year="y2017"
 			   stories="s91 s94 s102" />
-		<Album id="a120" title="Capricorn - Gesamtausgabe 4"
+		<Album id="a120" title="Capricorn - Gesamtausgabe 4" multialbum="true"
 			   year="y2017"
 			   stories="s104 s107 s111" />
 
@@ -2059,7 +2059,7 @@
 				<TITLE>1 January 2018</TITLE>
 
 				<REF ref="a118" /> was published, a sequence to Dérives, an album from '91 (26 years ago!)<BR /><BR />
-				On this album, in which he experiments with different drawing styles, Andreas works with many new artists: Mazan, Dieter, Hyuna and Raven.
+				On this album, in which Andreas experiments with different drawing styles, Andreas works with many new artists: Mazan, Dieter, Hyuna and Raven.
 				It contains the story "l'Ours" (the bear), which he made with Cornette in 2001, and the story "Milk" for which Andreas'
 				coloring-partner Isa Cochet did not do the coloring, but the scenario. Surprising!<BR />
 				-- Information from <AH href="http://www.sceneario.com/bande-dessinee/derives/volume-2/26967.html">Sceneario</AH><BR /><BR />

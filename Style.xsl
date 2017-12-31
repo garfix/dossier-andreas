@@ -578,14 +578,28 @@
                         </TR>
                         <xsl:for-each select="//Album[xt:intersection(id(@stories), id(current()/@stories))]">
                             <xsl:sort select="@year" />
-                            <TR>
-                                <xsl:call-template name="showLinkedValue">
-                                    <xsl:with-param name="person" select="($person)" />
-                                    <xsl:with-param name="link" select="." />
-                                    <xsl:with-param name="value" select="." />
-                                </xsl:call-template>
-                            </TR>
+							<xsl:if test="not(@multialbum)">
+								<TR>
+									<xsl:call-template name="showLinkedValue">
+										<xsl:with-param name="person" select="($person)" />
+										<xsl:with-param name="link" select="." />
+										<xsl:with-param name="value" select="." />
+									</xsl:call-template>
+								</TR>
+							</xsl:if>
                         </xsl:for-each>
+						<xsl:for-each select="//Album[xt:intersection(id(@stories), id(current()/@stories))]">
+							<xsl:sort select="@year" />
+							<xsl:if test="@multialbum">
+								<TR style="background-color: #EEE8AA">
+									<xsl:call-template name="showLinkedValue">
+										<xsl:with-param name="person" select="($person)" />
+										<xsl:with-param name="link" select="." />
+										<xsl:with-param name="value" select="." />
+									</xsl:call-template>
+								</TR>
+							</xsl:if>
+						</xsl:for-each>
                         <TR>
                             <TD height="25"><HR/></TD><TD><HR/></TD>
                         </TR>
@@ -1841,16 +1855,6 @@ border="0" alt="Google"></img></a>
 			$CMS->showLatestNotesPreview();
 		?</xsl:processing-instruction>
 	</xsl:template>
-	
-    
-    <xsl:template match="PayPal">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-<input type="hidden" name="cmd" value="_s-xclick" />
-<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" border="0" name="submit" alt="Send Patrick money via PayPal!" />
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-" />
-</form>			  			
-    </xsl:template>
 
     <xsl:template match="TITLE">
         <B><xsl:apply-templates/></B>

@@ -5,7 +5,7 @@
 <xsl:include href="file:Style.xsl" />
 
 <xsl:template match="/">
-    <xsl:for-each select="//*[@id = 'changes']">
+    <xsl:for-each select="//*[@id = 'albums']">
         <xsl:call-template name="onePage">
             <xsl:with-param name="person-id">p1</xsl:with-param>
             <xsl:with-param name="item-id" select="@id" />

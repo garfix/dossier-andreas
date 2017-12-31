@@ -54,6 +54,7 @@
 <!ELEMENT Album EMPTY>
 <!ATTLIST Album
 	id ID #REQUIRED
+	multialbum (true|false) #IMPLIED
 	title CDATA #IMPLIED
 	startDate CDATA #IMPLIED
 	year IDREF #IMPLIED
