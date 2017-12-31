@@ -26,15 +26,15 @@ class CMS
 			    </form>
 			";
 		} else {
-			$html .= "
-			    <table class='section'>
-			    <caption class='sectionCaption'>Your note</caption>
-			        <tr><td><div class='note'>
-						<a href='/andreas/php/andreas.php?module=login&amp;action=login&amp;returnPageId=$pageId'>Log in</a> to add a note.<br /><br />
-			        	You need to <a href='/andreas/php/andreas.php?module=registration&amp;action=start'>register</a> (only name, e-mail address, and password) to add notes to the pages of the site.
-					</div></td></tr>
-			    </table>
-			";
+//			$html .= "
+//			    <table class='section'>
+//			    <caption class='sectionCaption'>Your note</caption>
+//			        <tr><td><div class='note'>
+//						<a href='/andreas/php/andreas.php?module=login&amp;action=login&amp;returnPageId=$pageId'>Log in</a> to add a note.<br /><br />
+//			        	You need to <a href='/andreas/php/andreas.php?module=registration&amp;action=start'>register</a> (only name, e-mail address, and password) to add notes to the pages of the site.
+//					</div></td></tr>
+//			    </table>
+//			";
 		}
 
 		$rows = $GLOBALS['DB']->getRows(sprintf("
