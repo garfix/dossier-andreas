@@ -390,6 +390,7 @@
 		<Tag id='puzzle' description="Puzzles" />
 		<Tag id='inktober2015' description="Inktober 2015" />
 		<Tag id='inktober2017' description="Inktober 2017" />
+		<Tag id='homage' description="Homages" />
 		<Tag id='unavailable' description="- Unavailable -" />
 		<Tag id='misc' description="Miscellaneous items" />
 
@@ -645,6 +646,7 @@
 		<Illustration id="i250" drawings="p1" year="y2017" description="Inktober 30" tags="inktober2017" />
 		<Illustration id="i251" drawings="p1" year="y2017" description="Inktober 31" tags="inktober2017" />
 		<Illustration id="i252" drawings="p1" year="y2017" description="Inktober 31 Combination" tags="inktober2017" />
+		<Illustration id="i253" drawings="p1" year="y2017" description="Homage to Bernie Wrightson" tags="homage" />
 		
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -2054,6 +2056,8 @@
 				coloring-partner Isa Cochet did not do the coloring, but the scenario. Surprising!<BR />
 				-- Information from <AH href="http://www.sceneario.com/bande-dessinee/derives/volume-2/26967.html">Sceneario</AH><BR /><BR />
 
+				<AH href="https://www.huffingtonpost.com/entry/bernie-wrightson-dead_us_58cf5ee8e4b0be71dcf5b448" target="_blank">Bernie Wrightson</AH> died in March of this year. His influence of Andreas' work is unmistakable. Andreas drew an homage in his memory: <REF ref="i253" /><BR /><BR />
+
 				A French interview with Andreas
 
 				<AH href="http://www.bfmtv.com/culture/la-bd-de-la-semaine-andreas-et-isabelle-cochet-commentent-capricorne-20-1127046.html" target="_blank">La BD de la semaine: Andreas et Isabelle Cochet commentent Capricorne 20</AH><BR /><BR />
@@ -2065,11 +2069,11 @@
 
 				<AH href="http://www.lelombard.com/Presse/portfolio_andreas.pdf" target="_blank">Redécouvrons les mondes d'Andreas</AH><BR /><BR />
 
-				Andreas participated for the second time in "Inktober". The collected pictures are shown in "Images / Inktober 2017".<BR /><BR />
+				Andreas participated for the second time in "Inktober". I collected the pictures in the tab "Images / Inktober 2017".<BR /><BR />
 
 				Karol Wisniewski pointed out that the Dark Horse albums Coutoo and Cromwell Stone were missing from the site. I had classified them as magazine editions from Cheval Noir, the magazine from Dark Horse. I corrected the mistake. Thanks Karol, this cleared up an important misconception.<BR /><BR />
 
-				Andreas is followed by 1857 people on Twitter, he follows 1652 people, he has posted 2517 tweets and liked 2167 tweets.<BR />
+				Andreas is followed by 1857 people on <AH href="https://twitter.com/wattmanworm" target='_blank'>Twitter</AH>, he follows 1652 people, he has posted 2517 tweets and liked 2167 tweets.<BR />
 
 			</TEXT>
 
@@ -6531,9 +6535,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 
 				<TEXT title='Sideca'>
 
-					<IMG width="23" height="17" src="resources/lang-pl.gif"/> I have seen plans for the publication of Raffington Event. Some say it was published in 2016, but I have not seen  a Sideca cover of the album.<BR /><BR />
+					<IMG width="23" height="17" src="resources/lang-pl.gif"/>Sideca plans the publication of Kozioro&#x017C;ec #21: Mistrz in 2018, as well as Raffington Event and Styx.<BR /><BR />
 
-					See <AH href='https://www.facebook.com/wydawnictwosideca/' target='_blank'>Sideca on Facebook</AH><BR /><BR />
+					Check <AH href='http://alejakomiksu.com/autor/428/Andreas/' target='_blank'>Aleja Komiksu</AH><BR /><BR />
 				</TEXT>
 
 
@@ -7533,6 +7537,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		</Image>
 		<Image showAt="i252" file="inktober-2017.jpg" width="742" height="265" title="Inktober - Combination" >
 			<Thumbnail file="inktober-2017.jpg" width="75" height="26"/>
+		</Image>
+		<Image showAt="i253" file="homage_bernie_wrightson.jpg" width="700" height="933" title="Swamp Thing - Homage to Bernie Wrightson (1948-2017)" >
+			<Thumbnail file="homage_bernie_wrightson.jpg" width="75" height="100"/>
 		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />
