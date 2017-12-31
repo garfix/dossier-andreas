@@ -1005,6 +1005,12 @@
 		<Album id="a118" title="Dérives 2"
 			   year="y2017"
 			   stories="s136 s137 s112 s138 s139 s140 s141"/>
+		<Album id="a119" title="Capricorn - Gesamtausgabe 3"
+			   year="y2017"
+			   stories="s91 s94 s102" />
+		<Album id="a120" title="Capricorn - Gesamtausgabe 4"
+			   year="y2017"
+			   stories="s104 s107 s111" />
 
 		<Series id="series1" title="Rork" stories="s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s17 s18 s12 s19 s13 s14 s15 s16 s128" />
 		<Series id="series2" title="Capricorne" stories="s60 s61 s62 s63 s64 s87 s91 s94 s102 s104 s107 s111 s115 s120 s122 s124 s127 s129 s132 s134 s135" />
@@ -1337,6 +1343,8 @@
 		<AlbumEdition id="ls3" album="a105" year="y2015" language="lang-de" title="Rork Gesamtausgabe 2" />
 		<AlbumEdition id="ls4" album="a115" year="y2016" language="lang-de" title="Capricorn Gesamtausgabe 1" />
 		<AlbumEdition id="ls5" album="a116" year="y2016" language="lang-de" title="Capricorn Gesamtausgabe 2" />
+		<AlbumEdition id="ls6" album="a119" year="y2017" language="lang-de" title="Capricorn Gesamtausgabe 3" />
+		<AlbumEdition id="ls7" album="a120" year="y2017" language="lang-de" title="Capricorn Gesamtausgabe 4" />
 		<AlbumEdition id="dh1" album="a16" year="y1992" language="lang-en" />
 		<AlbumEdition id="dh2" album="a26" year="y1994" language="lang-en" color="false" />
 
@@ -1834,7 +1842,7 @@
 		<Publisher id="pub72" name="Publisher of Slash(?)"
 				   magazines="mag50" />
 		<Publisher id="pub73" name="Schreiber und Leser"
-				   albumEditions="ls1 ls2 ls3 ls4 ls5" />
+				   albumEditions="ls1 ls2 ls3 ls4 ls5 ls6 ls7" />
 
 			
 	</Context>
@@ -2056,7 +2064,9 @@
 				coloring-partner Isa Cochet did not do the coloring, but the scenario. Surprising!<BR />
 				-- Information from <AH href="http://www.sceneario.com/bande-dessinee/derives/volume-2/26967.html">Sceneario</AH><BR /><BR />
 
-				<AH href="https://www.huffingtonpost.com/entry/bernie-wrightson-dead_us_58cf5ee8e4b0be71dcf5b448" target="_blank">Bernie Wrightson</AH> died in March of this year. His influence of Andreas' work is unmistakable. Andreas drew an homage in his memory: <REF ref="i253" /><BR /><BR />
+				<AH href="https://www.huffingtonpost.com/entry/bernie-wrightson-dead_us_58cf5ee8e4b0be71dcf5b448" target="_blank">Bernie Wrightson</AH> died in March of this year. His influence on Andreas' early work is profound. Andreas drew an homage in his memory: <REF ref="i253" /><BR /><BR />
+
+				Leser &amp; Schreiber published <REF ref="a119" /> and <REF ref="a120" /><BR /><BR />
 
 				A French interview with Andreas
 
@@ -2073,7 +2083,7 @@
 
 				Karol Wisniewski pointed out that the Dark Horse albums Coutoo and Cromwell Stone were missing from the site. I had classified them as magazine editions from Cheval Noir, the magazine from Dark Horse. I corrected the mistake. Thanks Karol, this cleared up an important misconception.<BR /><BR />
 
-				Andreas is followed by 1857 people on <AH href="https://twitter.com/wattmanworm" target='_blank'>Twitter</AH>, he follows 1652 people, he has posted 2517 tweets and liked 2167 tweets.<BR />
+				Andreas is followed by 1857 people on <AH href="https://twitter.com/wattmanworm" target='_blank'>Twitter</AH>, he follows 1652 people, he has posted 2517 tweets and liked 2167 tweets.<BR /><BR />
 
 			</TEXT>
 
@@ -6540,6 +6550,14 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 					Check <AH href='http://alejakomiksu.com/autor/428/Andreas/' target='_blank'>Aleja Komiksu</AH><BR /><BR />
 				</TEXT>
 
+				<TEXT title='Schreiber &amp; Leser'>
+
+					<IMG width="23" height="17" src="resources/lang-de.gif"/>Schreiber &amp; Leser plans the publication of Raffington Event.<BR /><BR />
+
+					Check <AH href='http://www.schreiberundleser.de/index.php?main_page=index&amp;cPath=cPath=1_57' target='_blank'>Schreiber &amp; Leser</AH><BR /><BR />
+				</TEXT>
+
+
 
 				<!--<TEXT title='Sherpa'>-->
 
@@ -7942,6 +7960,8 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="ls4" file="album_cap_gesamt1_sl.jpg" width="750" height="1009" />
 		<Image showAt="ls4" file="album_cap_gesamt1_sl_ex.jpg" width="400" height="716" title="Thanks to Ralph Ulbrich"/>
 		<Image showAt="ls5" file="album_cap_gesamt2_sl.jpg" width="750" height="1006" />
+		<Image showAt="ls6" file="album_cap_gesamt3.jpg" width="750" height="1005" />
+		<Image showAt="ls7" file="album_cap_gesamt4.jpg" width="750" height="1005" />
 
 	</Comments>
 
