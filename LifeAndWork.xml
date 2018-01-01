@@ -53,7 +53,7 @@
 	<Year id="y2000"/><Year id="y2001"/><Year id="y2002"/><Year id="y2003"/><Year id="y2004"/>
 	<Year id="y2005"/><Year id="y2006"/><Year id="y2007"/><Year id="y2008"/><Year id="y2009"/>
 	<Year id="y2010"/><Year id="y2011"/><Year id="y2012"/><Year id="y2013"/><Year id="y2014"/>
-	<Year id="y2015"/><Year id="y2016"/><Year id="y2017"/>
+	<Year id="y2015"/><Year id="y2016"/><Year id="y2017"/><Year id="y2018"/>
 
 	<Language id="lang-fr" name="French" />
 	<Language id="lang-nl" name="Dutch" />
@@ -647,6 +647,7 @@
 		<Illustration id="i251" drawings="p1" year="y2017" description="Inktober 31" tags="inktober2017" />
 		<Illustration id="i252" drawings="p1" year="y2017" description="Inktober 31 Combination" tags="inktober2017" />
 		<Illustration id="i253" drawings="p1" year="y2017" description="Homage to Bernie Wrightson" tags="homage" />
+		<Illustration id="i254" drawings="p1" year="y2018" description="Bonne Année Happy New Year Frohes Neues Jahr 2018" tags="wish card" />
 		
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -2062,7 +2063,7 @@
 				On this album, in which Andreas experiments with different drawing styles, Andreas works with many new artists: Mazan, Dieter, Hyuna and Raven.
 				It contains the story "l'Ours" (the bear), which he made with Cornette in 2001, and the story "Milk" for which Andreas'
 				coloring-partner Isa Cochet did not do the coloring, but the scenario. Surprising!<BR />
-				-- Information from <AH href="http://www.sceneario.com/bande-dessinee/derives/volume-2/26967.html">Sceneario</AH><BR /><BR />
+				-- Information from <AH href="http://www.sceneario.com/bande-dessinee/derives/volume-2/26967.html" target="_blank">Sceneario</AH><BR /><BR />
 
 				<AH href="https://www.huffingtonpost.com/entry/bernie-wrightson-dead_us_58cf5ee8e4b0be71dcf5b448" target="_blank">Bernie Wrightson</AH> died in March of this year. His influence on Andreas' early work is profound. Andreas drew an homage in his memory: <REF ref="i253" /><BR /><BR />
 
@@ -7457,7 +7458,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i219" file="ami-ralph.jpg" width="800" height="1132" title="Thanks to Ralph Ulbrich" >
 			<Thumbnail file="ami-ralph.jpg" width="71" height="100"/>
 		</Image>
-		<Image showAt="i220" file="newyear2017.jpg" width="1280" height="640" title="Really" >
+		<Image showAt="i220" file="newyear2017.jpg" width="1280" height="640">
 			<Thumbnail file="newyear2017.jpg" width="100" height="50"/>
 		</Image>
 		<Image showAt="i221" file="inktober-2017-1.jpg" width="764" height="1024" title="Inktober 1" >
@@ -7558,6 +7559,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		</Image>
 		<Image showAt="i253" file="homage_bernie_wrightson.jpg" width="700" height="933" title="Swamp Thing - Homage to Bernie Wrightson (1948-2017)" >
 			<Thumbnail file="homage_bernie_wrightson.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i254" file="newyear-2018.jpg" width="1280" height="651">
+			<Thumbnail file="newyear-2018.jpg" width="100" height="51"/>
 		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />

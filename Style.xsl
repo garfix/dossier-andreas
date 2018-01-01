@@ -591,7 +591,7 @@
 						<xsl:for-each select="//Album[xt:intersection(id(@stories), id(current()/@stories))]">
 							<xsl:sort select="@year" />
 							<xsl:if test="@multialbum">
-								<TR style="background-color: #EEE8AA">
+								<TR style="background-color: #FFE4B5">
 									<xsl:call-template name="showLinkedValue">
 										<xsl:with-param name="person" select="($person)" />
 										<xsl:with-param name="link" select="." />
