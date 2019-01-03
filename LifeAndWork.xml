@@ -391,6 +391,7 @@
 		<Tag id='inktober2015' description="Inktober 2015" />
 		<Tag id='inktober2017' description="Inktober 2017" />
 		<Tag id='homage' description="Homages" />
+		<Tag id='exhibition' description="Exhibition" />
 		<Tag id='unavailable' description="- Unavailable -" />
 		<Tag id='misc' description="Miscellaneous items" />
 
@@ -647,7 +648,9 @@
 		<Illustration id="i251" drawings="p1" year="y2017" description="Inktober 31" tags="inktober2017" />
 		<Illustration id="i252" drawings="p1" year="y2017" description="Inktober 31 Combination" tags="inktober2017" />
 		<Illustration id="i253" drawings="p1" year="y2017" description="Homage to Bernie Wrightson" tags="homage" />
-		<Illustration id="i254" drawings="p1" year="y2018" description="Bonne Année Happy New Year Frohes Neues Jahr 2018" tags="wish card" />
+		<Illustration id="i254" drawings="p1" year="y2018" description="Bonne Année Happy New Year Frohes Neues Jahr 2018" tags="wish" />
+		<Illustration id="i255" drawings="p1 p79" year="y2014" description="Bonne Année ! Happy New Year ! Frohes Neues Jahr !..." tags="wish" />
+		<Illustration id="i256" drawings="p1" year="y2018" description="Strasbulles" tags="exhibition" />
 		
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -707,6 +710,7 @@
 		<Album id="a19" title="Cyrrus-Mil" multialbum="true"
 			stories="s41 s51" />
 		<Album id="a20" title="Dérives"
+			year="y1991"
 			stories="s43 s44 s45 s46 s47 s48" />
 		<Album id="a21" title="Styx"
 			startDate="1994/00/00"
@@ -1012,10 +1016,14 @@
 		<Album id="a120" title="Capricorn - Gesamtausgabe 4" multialbum="true"
 			   year="y2017"
 			   stories="s104 s107 s111" />
+		<Album id="a121" title="Capricorn - Gesamtausgabe 5" multialbum="true"
+			   year="y2018"
+			   stories="s115 s120 s122" />
 
 		<Series id="series1" title="Rork" stories="s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s17 s18 s12 s19 s13 s14 s15 s16 s128" />
 		<Series id="series2" title="Capricorne" stories="s60 s61 s62 s63 s64 s87 s91 s94 s102 s104 s107 s111 s115 s120 s122 s124 s127 s129 s132 s134 s135" />
 		<Series id="series7" title="Arq" stories="s65 s66 s67 s84 s86 s90 s95 s106 s109 s113 s119 s121 s123 s125 s126 s130 s131 s133" />
+		<Series id="series10" title="Dérives" stories="s43 s44 s45 s46 s47 s48 s136 s137 s112 s138 s139 s140 s141" />
 		<Series id="series5" title="Cyrrus" stories="s41 s42 s51" />
 		<Series id="series6" title="Cromwell Stone" stories="s40 s55 s105" />
 		<Series id="series8" title="Mobilis" stories="s85 s88 s89" />
@@ -1171,6 +1179,7 @@
 		<AlbumEdition id="as57" album="a19" year="y2015" language="lang-nl" />
 		<AlbumEdition id="as58" album="a113" year="y2017" language="lang-nl" />
 		<AlbumEdition id="as59" album="a114" year="y2017" language="lang-nl" title="Meester" />
+		<AlbumEdition id="as60" album="a118" year="y2018" language="lang-nl" title="Afdwalingen" isbn="978-90-8988-146-5" />
 		<AlbumEdition id="adc1" album="a13" year="y1991" language="lang-fr" color="false" />
 		<AlbumEdition id="adc2" album="a13" year="y1994" language="lang-fr" color="false" />
 		<AlbumEdition id="adc3" album="a19" year="y1993" language="lang-fr" />
@@ -1346,6 +1355,8 @@
 		<AlbumEdition id="ls5" album="a116" year="y2016" language="lang-de" title="Capricorn Gesamtausgabe 2" />
 		<AlbumEdition id="ls6" album="a119" year="y2017" language="lang-de" title="Capricorn Gesamtausgabe 3" />
 		<AlbumEdition id="ls7" album="a120" year="y2017" language="lang-de" title="Capricorn Gesamtausgabe 4" />
+		<AlbumEdition id="ls8" album="a121" year="y2018" language="lang-de" title="Capricorn Gesamtausgabe 5" />
+		<AlbumEdition id="ls9" album="a25" year="y2018" language="lang-de" title="Privatdetektiv Raffington Event" />
 		<AlbumEdition id="dh1" album="a16" year="y1992" language="lang-en" />
 		<AlbumEdition id="dh2" album="a26" year="y1994" language="lang-en" color="false" />
 
@@ -1687,6 +1698,9 @@
 		<Magazine id="mag55" title="Bédéka" language="lang-fr" >
 			<MagazineItem idref="art77"><MI year="y2004" nrs="7"/></MagazineItem>
 		</Magazine>
+		<Magazine id="mag56" title="Zone 5300" language="lang-nl" >
+			<MagazineItem idref="s137"><MI year="y2018" nrs="117"/></MagazineItem>
+		</Magazine>
 
 		<Publisher id="pub1" name="Le Lombard" address="I-II, Paul-Henri Spaaklaan-1070, Bruxelles (B)"
 			magazines="mag1 mag2 mag26"
@@ -1705,7 +1719,7 @@
 		<Publisher id="pub7" name="Bédérama" address="Paris (F)"
 			albumEditions="ab1" />
 		<Publisher id="pub8" name="Sherpa" address="Wederik 8, 1902 JH Castricum (NL)"
-			albumEditions="as1 as2 as3 as4 as5 as6 as7 as8 as9 as10 as11 as12 as13 as14 as15 as16 as17 as18 as20 as21 as22 as23 as24 as25 as26 as27 as28 as29 as30 as31 as32 as33 as34 as35 as36 as37 as38 as39 as40 as41 as42 as43 as44 as45 as46 as47 as48 as49 as50 as51 as52 as53 as54 as55 as56 as57 as58 as59"/>
+			albumEditions="as1 as2 as3 as4 as5 as6 as7 as8 as9 as10 as11 as12 as13 as14 as15 as16 as17 as18 as20 as21 as22 as23 as24 as25 as26 as27 as28 as29 as30 as31 as32 as33 as34 as35 as36 as37 as38 as39 as40 as41 as42 as43 as44 as45 as46 as47 as48 as49 as50 as51 as52 as53 as54 as55 as56 as57 as58 as59 as60"/>
 		<Publisher id="pub9" name="Delcourt" address="Paris (F)"
 			magazines="mag41"
 			albumEditions="adc1 adc2 adc3 adc4 adc5 adc6 adc7 adc8 adc9 adc10 adc11 adc12 adc13 adc14 adc15 adc16 adc17 adc18 adc19 adc20 adc21 adc22 adc23 adc24 adc25 adc26 adc27 adc28 adc29 adc30 adc31 adc32 adc33 adc34 adc35 adc36 adc37 adc38 adc39 adc40" />
@@ -1843,7 +1857,7 @@
 		<Publisher id="pub72" name="Publisher of Slash(?)"
 				   magazines="mag50" />
 		<Publisher id="pub73" name="Schreiber und Leser"
-				   albumEditions="ls1 ls2 ls3 ls4 ls5 ls6 ls7" />
+				   albumEditions="ls1 ls2 ls3 ls4 ls5 ls6 ls7 ls8 ls9" />
 
 			
 	</Context>
@@ -2055,6 +2069,19 @@
 		
 		
 		<Comment showAt="changes">
+
+			<TEXT date="2019-01-03">
+				<TITLE>3 January 2019</TITLE>
+
+				Leser &amp; Schreiber published <REF ref="a25" /> and <REF ref="a121" />.<BR /><BR />
+
+				Thanks to Christiaan ter Veen for informing me that <REF ref="s137" /> (from <REF ref="a118" />) has also been published in <REF ref="mag56" />.<BR /><BR />
+
+				In June 2018, Andreas has an exhibition in the 11e Festival Européen de la Bande Dessinées in Strasbourg "Strasbulles" (France). <REF ref="i256" />.<BR /><BR />
+
+				Next to <AH href="https://twitter.com/wattmanworm" target='_blank'>Twitter</AH>, Andreas occasionally puts photos on <AH href="https://www.instagram.com/wattmanworm/" target="_blank">Instagram</AH> and <AH href="https://wattmanworm.tumblr.com/" target='_blank'>Tumblr</AH> ("All this???").<BR /><BR />
+
+			</TEXT>
 
 			<TEXT date="2018-01-01">
 				<TITLE>1 January 2018</TITLE>
@@ -7563,6 +7590,12 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i254" file="newyear-2018.jpg" width="1280" height="651">
 			<Thumbnail file="newyear-2018.jpg" width="100" height="51"/>
 		</Image>
+		<Image showAt="i255" file="newyear-2014.jpg" width="700" height="934">
+			<Thumbnail file="newyear-2014.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i256" file="expo_strasbulles.jpg" width="1000" height="705">
+			<Thumbnail file="expo_strasbulles.jpg" width="100" height="71"/>
+		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />
 		<Image showAt="mag1" file="tintin_1978_47.jpg" width="200" height="280" title="Tintin 1978, number 47" />
@@ -7752,6 +7785,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="as57" file="album_cyrrusmil_sherpa2.jpg" width="623" height="842" title="Cover of limited edition, thanks to Peter Kuipers." />
 		<Image showAt="as58" file="album_terminus_sherpa.jpg" width="550" height="739" />
 		<Image showAt="as59" file="album_maitre2_sherpa.jpg" width="550" height="738"/>
+		<Image showAt="as60" file="album_derives_sherpa.jpg" width="350" height="490"/>
 		<Image showAt="a59" file="album_vergetenen_sherpa2.gif" width="350" height="501" />
 		<Image showAt="a59" file="album_vergetenen_sherpa3.gif" width="350" height="500" />
 		<Image showAt="a59" file="album_vergetenen_sherpa4.gif" width="350" height="507" />
@@ -7966,6 +8000,8 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="ls5" file="album_cap_gesamt2_sl.jpg" width="750" height="1006" />
 		<Image showAt="ls6" file="album_cap_gesamt3.jpg" width="750" height="1005" />
 		<Image showAt="ls7" file="album_cap_gesamt4.jpg" width="750" height="1005" />
+		<Image showAt="ls8" file="album_cap_gesamt5.jpg" width="750" height="1003" />
+		<Image showAt="ls9" file="album_raffington_ls.jpg" width="400" height="540" />
 
 	</Comments>
 
