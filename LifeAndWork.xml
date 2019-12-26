@@ -40,7 +40,7 @@
 	<PageType id="photos" name="Photos" tag="Photo" />
 
 	<Year id="y1945"/>
-					<Year id="y1951"/>
+                      <Year id="y1951"/>
 
 	<Year id="y1960"/>
 	<Year id="y1965"/><Year id="y1966"/><Year id="y1967"/><Year id="y1968"/><Year id="y1969"/>
@@ -53,7 +53,7 @@
 	<Year id="y2000"/><Year id="y2001"/><Year id="y2002"/><Year id="y2003"/><Year id="y2004"/>
 	<Year id="y2005"/><Year id="y2006"/><Year id="y2007"/><Year id="y2008"/><Year id="y2009"/>
 	<Year id="y2010"/><Year id="y2011"/><Year id="y2012"/><Year id="y2013"/><Year id="y2014"/>
-	<Year id="y2015"/><Year id="y2016"/><Year id="y2017"/><Year id="y2018"/>
+	<Year id="y2015"/><Year id="y2016"/><Year id="y2017"/><Year id="y2018"/><Year id="y2019"/>
 
 	<Language id="lang-fr" name="French" />
 	<Language id="lang-nl" name="Dutch" />
@@ -156,6 +156,8 @@
 		<Person id="p89" name="Dieter" />
 		<Person id="p90" name="Hyuna" />
 		<Person id="p91" name="Raven" />
+		<Person id="p92" name="Franquin" />
+		<Person id="p93" name="Breccia" />
 		
 		<Photo id="photo1" title="Andreas drawing Rork" year="y1979" file="002_DxO.jpg" width="1566" height="1038" shrunk-width="640" shrunk-height="424" tags="home" />
 		<Photo id="photo2" title="Andreas drawing ARQ 11" year="y2007" file="6 juin 2007 (4).JPG" width="640" height="480" shrunk-width="640" shrunk-height="480" tags="home" />
@@ -371,6 +373,7 @@
 		<Story id="s139" title="Charmant" drawings="p1" text="p91" year="y2016" />
 		<Story id="s140" title="Milk" drawings="p1" text="p79" year="y2016" />
 		<Story id="s141" title="Error" drawings="p1" text="p1" year="y2016" />
+		<Story id="s142" title="L'argentine" drawings="p1" text="p1" year="y2019" />
 		
 		<Tag id='intro' description="Introductions" />
 		<Tag id='cover' description="Covers" />
@@ -1019,6 +1022,26 @@
 		<Album id="a121" title="Capricorn - Gesamtausgabe 5" multialbum="true"
 			   year="y2018"
 			   stories="s115 s120 s122" />
+		<Album id="a122" title="Capricorn - Gesamtausgabe 6" multialbum="true"
+			   year="y2019"
+			   stories="s124 s127 s129" />
+		<Album id="a123" title="Capricorn - Gesamtausgabe 7" multialbum="true"
+			   year="y2019"
+			   stories="s132 s134 s135" />
+		<Album id="a124" title="Capricorne - intégrale 1" multialbum="true"
+			   year="y2019"
+			   stories="s60 s61 s62 s63 s64" />
+		<Album id="a125" title="Capricorne - intégrale 2" multialbum="true"
+			   year="y2019"
+			   stories="s87 s91 s94 s102 s104" />
+		<Album id="a126" title="Capricorne - intégrale 3" multialbum="true"
+			   year="y2019"
+			   stories="s107 s111 s115 s120 s122" />
+		<Album id="a127" title="Capricorne - intégrale 4" multialbum="true"
+			   year="y2019"
+			   stories="s124 s127 s129 s132 s134 s135" />
+		<Album id="a128" title="L'argentine" year="y2019"
+				stories="s142" />
 
 		<Series id="series1" title="Rork" stories="s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s17 s18 s12 s19 s13 s14 s15 s16 s128" />
 		<Series id="series2" title="Capricorne" stories="s60 s61 s62 s63 s64 s87 s91 s94 s102 s104 s107 s111 s115 s120 s122 s124 s127 s129 s132 s134 s135" />
@@ -1116,6 +1139,11 @@
 		<AlbumEdition id="al65" album="a113" year="y2015" language="lang-fr" />
 		<AlbumEdition id="al66" album="a25" year="y2016" language="lang-fr" isbn="9782803635290" cover="hc" />
 		<AlbumEdition id="al67" album="a114" year="y2016" language="lang-fr" />
+		<AlbumEdition id="al68" album="a124" year="y2019" language="lang-fr" />
+		<AlbumEdition id="al69" album="a125" year="y2019" language="lang-fr" />
+		<AlbumEdition id="al70" album="a126" year="y2019" language="lang-fr" />
+		<AlbumEdition id="al71" album="a127" year="y2019" language="lang-fr" />
+		<AlbumEdition id="al72" album="a21" year="y2012" language="lang-fr" isbn="9782803631773" />
 		<AlbumEdition id="aj1" album="a2" title="Rork" year="y1983" language="lang-fr" cover="sc" color="false" />
 		<AlbumEdition id="aj2" album="a10" year="y1980" language="lang-fr" cover="sc" color="false" />
 		<AlbumEdition id="aj3" album="a36" year="y1985" exCount="650" signed="true" numbered="true" />
@@ -1317,7 +1345,7 @@
 		<AlbumEdition id="eg4" album="a19" year="y2015" language="lang-pl" />
 		<AlbumEdition id="eg5" album="a26" year="y2015" language="lang-pl" />
 		<AlbumEdition id="eg6" album="a85" year="y2016" language="lang-pl" />
-		<AlbumEdition id="eg7" album="a117" year="y2016" language="lang-pl" title="ARQ Cz&#x119;&#x15b;&#x107;" />
+		<AlbumEdition id="eg7" album="a117" year="y2016" language="lang-pl" title="ARQ #3" />
 		<AlbumEdition id="man1" album="a28" year="y2007" language="lang-pl" title="Kozioro&#x017C;ec - 1 - Obiekt" isbn="978-83-922479-4-4" />
 		<AlbumEdition id="man2" album="a29" year="y2007" language="lang-pl" title="Kozioro&#x017C;ec - 2 - Elektryczno&#x015B;&#x0107;" isbn="978-83-922479-5-1" />
 		<AlbumEdition id="man3" album="a7" year="y2007" language="lang-pl" title="Powrót" isbn="978-83-922479-8-2" />
@@ -1336,7 +1364,7 @@
 		<AlbumEdition id="sid4" album="a110" year="y2013" language="lang-pl" title="Kozioro&#x017C;ec - 9 - Przej&#x015B;cie" isbn="978-83-937967-9-3" />
 		<AlbumEdition id="sid5" album="a103" year="y2013" language="lang-pl" title="Rork - Tom 1 (#0-3)" isbn=" 978-83-937967-4-8" />
 		<AlbumEdition id="sid6" album="a111" year="y2014" language="lang-pl" title="Kozioro&#x017C;ec - 10 - Fragment" />
-		<AlbumEdition id="sid7" album="a78" year="y2014" language="lang-pl" title="Kozioro&#x017C;ec - 11 - Chi&#0144;czycy" />
+		<AlbumEdition id="sid7" album="a78" year="y2014" language="lang-pl" title="Kozioro&#x017C;ec - 11 - Chi&#x0144;czycy" />
 		<AlbumEdition id="sid8" album="a83" year="y2014" language="lang-pl" title="Kozioro&#x017C;ec - 12 - Patrick" />
 		<AlbumEdition id="sid9" album="a86" year="y2014" language="lang-pl" title="Kozioro&#x017C;ec - 13 - " />
 		<AlbumEdition id="sid10" album="a93" year="y2014" language="lang-pl" title="Kozioro&#x017C;ec - 14 - Sen w klatce" />
@@ -1348,6 +1376,7 @@
 		<AlbumEdition id="sid16" album="a106" year="y2015" language="lang-pl" title="Kozioro&#x017C;ec - 18 - Je&#x17a;d&#x17a;cy" />
 		<AlbumEdition id="sid17" album="a109" year="y2015" language="lang-pl" title="Kozioro&#x017C;ec - 19 - Zarkan" />
 		<AlbumEdition id="sid18" album="a113" year="y2016" language="lang-pl" title="Kozioro&#x017C;ec - 20 - Terminus" />
+		<AlbumEdition id="sid19" album="a114" year="y2018" language="lang-pl" title="Kozioro&#x017C;ec - 21 - " />
 		<AlbumEdition id="ls1" album="a85" year="y2015" language="lang-de" title="Cromwell Stone Gesamtausgabe" />
 		<AlbumEdition id="ls2" album="a103" year="y2015" language="lang-de" title="Rork Gesamtausgabe 1" />
 		<AlbumEdition id="ls3" album="a105" year="y2015" language="lang-de" title="Rork Gesamtausgabe 2" />
@@ -1357,8 +1386,15 @@
 		<AlbumEdition id="ls7" album="a120" year="y2017" language="lang-de" title="Capricorn Gesamtausgabe 4" />
 		<AlbumEdition id="ls8" album="a121" year="y2018" language="lang-de" title="Capricorn Gesamtausgabe 5" />
 		<AlbumEdition id="ls9" album="a25" year="y2018" language="lang-de" title="Privatdetektiv Raffington Event" />
+		<AlbumEdition id="ls10" album="a122" year="y2019" language="lang-de" title="Capricorn Gesamtausgabe 6" />
+		<AlbumEdition id="ls11" album="a123" year="y2019" language="lang-de" title="Capricorn Gesamtausgabe 7" />
+		<AlbumEdition id="ls12" album="a12" year="y2019" language="lang-de" title="Im Labyrinth der Erinnerungen" />
 		<AlbumEdition id="dh1" album="a16" year="y1992" language="lang-en" />
 		<AlbumEdition id="dh2" album="a26" year="y1994" language="lang-en" color="false" />
+		<AlbumEdition id="tc1" album="a85" year="y2019" language="lang-en" title="Cromwell Stone" />
+		<AlbumEdition id="ecc1" album="a103" year="y2015" language="lang-es" title="Rork Integral 1" />
+		<AlbumEdition id="ecc2" album="a105" year="y2015" language="lang-es" title="Rork Integral 2" />
+		<AlbumEdition id="fut1" album="a128" year="y2019" language="lang-fr" />
 
 		<Magazine id="mag1" title="Tintin/Hello BD (fr); Kuifje (nl)" language="lang-fr lang-nl">
 			<MagazineItem idref="s23"><MI year="y1977" nrs="32" /></MagazineItem>
@@ -1704,7 +1740,7 @@
 
 		<Publisher id="pub1" name="Le Lombard" address="I-II, Paul-Henri Spaaklaan-1070, Bruxelles (B)"
 			magazines="mag1 mag2 mag26"
-			albumEditions="al1 al2 al3 al4 al5 al6 al7 al8 al9 al10 al11 al12 al13 al14 al15 al16 al18 al19 al20 al21 al22 al23 al24 al25 al26 al27 al27a al28 al28a al29 al30 al31 al32 al33 al34 al35 al36 al37 al38 al39 al39a al40 al41 al42 al43 al44 al45 al46 al47 al48 al49 al50 al51 al52 al53 al54 al55 al56 al57 al58 al59 al60 al61 al62 al63 al64 al65 al66 al67" />
+			albumEditions="al1 al2 al3 al4 al5 al6 al7 al8 al9 al10 al11 al12 al13 al14 al15 al16 al18 al19 al20 al21 al22 al23 al24 al25 al26 al27 al27a al28 al28a al29 al30 al31 al32 al33 al34 al35 al36 al37 al38 al39 al39a al40 al41 al42 al43 al44 al45 al46 al47 al48 al49 al50 al51 al52 al53 al54 al55 al56 al57 al58 al59 al60 al61 al62 al63 al64 al65 al66 al67 al68 al69 al70 al71 al72" />
 		<Publisher id="pub2" name="Jonas" address="Bruxelles (B)"
 			albumEditions="aj1 aj2 aj3" />
         <Publisher id="pub3" name="Deligne (Michel)" address="Bruxelles (B)"
@@ -1845,7 +1881,7 @@
 		<Publisher id="pub66" name="Finix Comics"
 			albumEditions="fin1" />
 		<Publisher id="pub67" name="Sideca"
-			albumEditions="sid1 sid2 sid3 sid4 sid5 sid6 sid7 sid8 sid9 sid10 sid11 sid12 sid13 sid14 sid15 sid16 sid17 sid18" />
+			albumEditions="sid1 sid2 sid3 sid4 sid5 sid6 sid7 sid8 sid9 sid10 sid11 sid12 sid13 sid14 sid15 sid16 sid17 sid18 sid19" />
 		<Publisher id="pub68" name="dBD"
             magazines="mag52" />
 		<Publisher id="pub69" name="Arcadia Media"
@@ -1855,9 +1891,15 @@
 		<Publisher id="pub71" name="Posse Press"
             magazines="mag55" />
 		<Publisher id="pub72" name="Publisher of Slash(?)"
-				   magazines="mag50" />
+			magazines="mag50" />
 		<Publisher id="pub73" name="Schreiber und Leser"
-				   albumEditions="ls1 ls2 ls3 ls4 ls5 ls6 ls7 ls8 ls9" />
+			albumEditions="ls1 ls2 ls3 ls4 ls5 ls6 ls7 ls8 ls9 ls10 ls11 ls12" />
+		<Publisher id="pub74" name="Titan Comics"
+            albumEditions="tc1" />
+        <Publisher id="pub75" name="ECC Comics"
+            albumEditions="ecc1 ecc2" />
+        <Publisher id="pub76" name="Futuropolis"
+        	albumEditions='fut1' />
 
 			
 	</Context>
@@ -2059,6 +2101,32 @@
                 See also <WWWlink href="http://www.danielmaghen.com/DM/books/dragon1/dragon.html"/>
             </TEXT>
         </Comment>
+        <Comment showAt="p92 p93">
+			<TEXT title="Vienna Comix - Star Gast Interview">
+
+				<BR/>
+				Taken from <AH href="https://viennacomix.at/wp-content/uploads/2019/03/Vienna-COMIX-Programmheft-2019_web.pdf" target="_blank">this interview</AH> in 2019:<BR/><BR/>
+
+				<Q>By which comics authors you feel most influenced? Who are your "signposts"?</Q>
+
+<A>Chronologically: Franquin, Hermann, Moebius, Bernie Wrightson, Neal Adams, Joe Kubert, Gil Kane, Alberto Breccia. There are others, of course, but these are the most important ones. My idols remain <REF ref="p92"/> and <REF ref="p93"/>.</A>
+				
+			</TEXT>
+		</Comment>
+		<Comment showAt="p92">
+			<BR/><BR/>
+			More about Franquin:<BR/><BR/>
+
+			<AH href="https://en.wikipedia.org/wiki/Andr%C3%A9_Franquin" target="_blank">Wikipedia on Franquin</AH><BR/>
+			<AH href="https://www.lambiek.net/artists/f/franquin_andre.htm" target="_blank">Franquin on Lambiek.net</AH><BR/>
+		</Comment>
+		<Comment showAt="p93">
+			<BR/><BR/>
+			More about Breccia:<BR/><BR/>
+
+			<AH href="https://en.wikipedia.org/wiki/Alberto_Breccia" target="_blank">Wikipedia on Albert Breccia</AH><BR/>
+			<AH href="https://web.archive.org/web/20070603205008/http://www.buchmesse.de/comic-argentina/ebrecciaf.htm" target="_blank">Buchmesse, via Internet Archive</AH> The likeliness with Andreas' work is striking sometimes<BR/>
+		</Comment>
 
 		<!-- ######### EXPECTED ####### -->
 
@@ -2070,10 +2138,34 @@
 		
 		<Comment showAt="changes">
 
+			<TEXT date="2019-12-26">
+				<TITLE>26 December 2019</TITLE>
+
+				Andreas is back with an intriguing new album: <REF ref="a128" />. Thanks Peter for pointing it out! It was published by Futuropolis, a new publisher for Andreas.<BR/>
+				Here's <AH href="https://www.youtube.com/watch?v=RmXSJD5UhrQ" target='_blank'>an introduction video</AH><BR/><BR/>
+
+				Andreas and Isa Cochet were at the <AH href="https://viennacomix.at/" target='_blank'>Vienna Comix festival</AH> on 6 and 7 April.<BR />
+				You can find an interview with Andreas and Isa (in German) in the <AH href="https://viennacomix.at/wp-content/uploads/2019/03/Vienna-COMIX-Programmheft-2019_web.pdf" target='_blank'>festival program</AH><BR/><BR/>
+
+				I added items on <REF ref="p92"/> and <REF ref="p93"/> because Andreas names them his most important influences.<BR/><BR/>
+
+				Schreiber &amp; Leser published <REF ref="a122" />, <REF ref="a123" /> and <REF ref="a12" />.<BR />
+				More information on <AH href="https://www.schreiberundleser.de/index.php?main_page=index&amp;cPath=1_57" target='_blank'>their website</AH>.<BR/><BR/>
+
+				In november the American publisher Titan Comics published <REF ref="a85" /> in a single volume.
+				The edition even got <AH href="https://www.youtube.com/watch?v=EkG1o-jDwwQ" target='_blank'>its own trailer</AH>, which I think is pretty awesome!<BR/>
+				Here's a <AH href="http://www.exquisiteterror.com/cromwell-stone-titan-comics-review" target='_blank'>review</AH>.<BR/><BR/>	
+
+				Le Lombard published an integral series of Capricorne in four large volumes: <REF ref="a124" /> <REF ref="a125" /> <REF ref="a126" /> <REF ref="a127" /><BR/><BR/>
+
+				I found out that Spanish publisher <AH href="https://www.ecccomics.com/comics/rork-1579.aspx" target='_blank'>ECC Comics</AH> published Rork Integral in 2015.<BR/><BR/>
+
+			</TEXT>
+
 			<TEXT date="2019-01-03">
 				<TITLE>3 January 2019</TITLE>
 
-				Leser &amp; Schreiber published <REF ref="a25" /> and <REF ref="a121" />.<BR /><BR />
+				Schreiber &amp; Leser published <REF ref="a25" /> and <REF ref="a121" />.<BR /><BR />
 
 				Thanks to Christiaan ter Veen for informing me that <REF ref="s137" /> (from <REF ref="a118" />) has also been published in <REF ref="mag56" />.<BR /><BR />
 
@@ -2690,7 +2782,7 @@
 			</TEXT>
 		</Comment>
 		<Comment showAt="y1951" authors="p23">
-			Andreas was born on 3 January, 1951. When I congratulated him on his birthday, he noted: It was also Franquin's birthday :)
+			Andreas was born on 3 January, 1951. When I congratulated him on his birthday, he noted: It was also <REF ref="p92"/>'s birthday :)
 		</Comment>
 		<Comment showAt="p79" authors="p23">
 			Isa Cochet exposes some of her work at <AH href='http://mlle-zou.blogspot.nl/' target='_blank'>MLLE ZOU</AH>
@@ -3518,7 +3610,7 @@
 				refer to favorite books and tv-programs or people that I admire.</QUOTE></TEXT>
 			</Comment>
 			<Comment showAt="s55">
-				<TEXT><QUOTE>In <REF ref="s55"/> I refer with certain details to Breccia, Moebius and Twin Peaks. Sometimes readers
+				<TEXT><QUOTE>In <REF ref="s55"/> I refer with certain details to <REF ref="p93"/>, Moebius and Twin Peaks. Sometimes readers
 				find out these references, but often it's about something obscure or a personal note.</QUOTE></TEXT>
 			</Comment>
 			<Comment showAt="s59">
@@ -4544,7 +4636,7 @@
 		</Article>
 		<Article id="art9" title="The pirate invited: Andreas" authors="p35" persons="p1" year="y1981">
 			<Comment showAt="y1981">
-			<TEXT>1981, A year to mark a white stone in the career of ANDREAS. In effect, a German living in Paris and drawing for belgian magazines, ANDREAS publishes - at a french publisher! - in the beginning of the year, his first album "Revelations Posthumous" on scenario of François RIVIERE. Like many other draftsmen of its generation, it is the mythical "How to become draftsman of STRIP CARTOONS" (with FRANQUIN and JIJE! Miam! Miam!) that will cause the young ANDREAS to be diverted right way to slip along the slope of the vice and the cartoon... At the end of the book, an address: that of a school - in Belgium - which gives courses of STRIP CARTOONS. Once read, he left at once, and we find him on the benches of the workshop STRIP CARTOONS of Saint-Luc Institute in Brussels. It is at the end of the second year that he decides to follow in parallel the courses of PAAPE, the famous creator of "Marc Davier" and of "Luc Orient". After some time, he takes ANDREAS for an assistant. They undertake then "Udolfo", a realistic series - on scenario of DUCHATEAU - which will appear first of all in TINTIN before being published in limited edition at a small editor. ANDREAS performs the pencil sketches and PAAPE the inking. Then he decides to fly on his own wings and creates, always for TINTIN, a series in which he assumes all alone the full realization: "Rork". We find there a fantastic atmosphere that is reminiscent of LOVECRAFT - that ANDREAS read a lot. It is precisely LOVECRAFT - the great fantastic american writer - which is the main character of the first "Révélation Posthume" that he carries out with RIVIERE for the magazine (A SUIVRE). Started more than two years earlier, this series is not only remarkable for its scenario, but also by the technology rediscovered by ANDREAS to accomplish its boards: that of the card to be scratched ("carte à gratter")! "I take my drawing which I reproduce with the back of a yellow sheet of copy. I then transfer it on the chart which I scrape while following the dotted line and while working my grayed"</TEXT>
+			<TEXT>1981, A year to mark a white stone in the career of ANDREAS. In effect, a German living in Paris and drawing for belgian magazines, ANDREAS publishes - at a french publisher! - in the beginning of the year, his first album "Revelations Posthumous" on scenario of François RIVIERE. Like many other draftsmen of its generation, it is the mythical "How to become draftsman of STRIP CARTOONS" (with <REF ref="p92"/> and JIJE! Miam! Miam!) that will cause the young ANDREAS to be diverted right way to slip along the slope of the vice and the cartoon... At the end of the book, an address: that of a school - in Belgium - which gives courses of STRIP CARTOONS. Once read, he left at once, and we find him on the benches of the workshop STRIP CARTOONS of Saint-Luc Institute in Brussels. It is at the end of the second year that he decides to follow in parallel the courses of PAAPE, the famous creator of "Marc Davier" and of "Luc Orient". After some time, he takes ANDREAS for an assistant. They undertake then "Udolfo", a realistic series - on scenario of DUCHATEAU - which will appear first of all in TINTIN before being published in limited edition at a small editor. ANDREAS performs the pencil sketches and PAAPE the inking. Then he decides to fly on his own wings and creates, always for TINTIN, a series in which he assumes all alone the full realization: "Rork". We find there a fantastic atmosphere that is reminiscent of LOVECRAFT - that ANDREAS read a lot. It is precisely LOVECRAFT - the great fantastic american writer - which is the main character of the first "Révélation Posthume" that he carries out with RIVIERE for the magazine (A SUIVRE). Started more than two years earlier, this series is not only remarkable for its scenario, but also by the technology rediscovered by ANDREAS to accomplish its boards: that of the card to be scratched ("carte à gratter")! "I take my drawing which I reproduce with the back of a yellow sheet of copy. I then transfer it on the chart which I scrape while following the dotted line and while working my grayed"</TEXT>
 			<TEXT>Tools? "a pin inserted in a wood stem makes an excellent point; or, for the thicker features, a vaccine point..." The result is superb, stunning but... "It takes very long, It takes much more time to make a board in chart to be scratched that with Indian ink. And then, it is necessary to avoid being mistaken... if not, it is necessary to start again!"</TEXT>
 			<TEXT>To note in your notebooks: you will soon be able to see in Brussels, Paris, Lyons, Marseilles, Toulouse, Aix-en-Province an exhibition of the originals of ANDREAS. Opens the eye!</TEXT><BR />
 
@@ -4556,7 +4648,7 @@
 		<Article id="art12" title="Andreas. In grey and in colors." authors="p33" persons="p1" year="y1983">
 			<Comment>
 				<TEXT>
-					Of all our young stripbook authors, Andreas is doubtlessly the most controversial. Noone is indifferent to his work, and that is a sign of quality. Everyone agrees about his drawing talent, however, both fans and professionals. "And yet, I would have never reached this level if Jijé had not strongly critised the few plates I dared show him. I hadn't expected any compliments of course, but these were complete bashings! Enough to discourage the most stubborn beginner. To me this was an enormous shock. I have to say that what I drew at the time did not match what I felt. I had not yet succeeded to determine my own original and personal style. Yet, rather than to give in to despair, I went back to work. I did my best to find my own way. At first as a draughtsman I was strongly influenced by people like Franquin, but eventually I chose a more realistic approach, inspired by certain American draughtsmen. The unconventional way they treated a scenario strongly matched the way I wanted to tell my own story for so long."
+					Of all our young stripbook authors, Andreas is doubtlessly the most controversial. Noone is indifferent to his work, and that is a sign of quality. Everyone agrees about his drawing talent, however, both fans and professionals. "And yet, I would have never reached this level if Jijé had not strongly critised the few plates I dared show him. I hadn't expected any compliments of course, but these were complete bashings! Enough to discourage the most stubborn beginner. To me this was an enormous shock. I have to say that what I drew at the time did not match what I felt. I had not yet succeeded to determine my own original and personal style. Yet, rather than to give in to despair, I went back to work. I did my best to find my own way. At first as a draughtsman I was strongly influenced by people like <REF ref="p92"/>, but eventually I chose a more realistic approach, inspired by certain American draughtsmen. The unconventional way they treated a scenario strongly matched the way I wanted to tell my own story for so long."
 				</TEXT>
 				<TEXT>
 					In Bruxelles Andreas mastered the art. In Sint-Lucas he takes a course by Claude Renard, and later, in Sint-Gilles, the one by Eddy Paape. "In Germany, where I was born and made my first drawings, the comic strip did not evolve the way it did in Belgium and France. There is not a single school where you can learn about it. I dreamt a long time about the trade and saw only one solution: to emigrate. The Belgium school of comic strips had an international call and therefore it was logical that I moved there. Afterwards I settled in Paris... and eventually I arrived in Bretagne. I like the misty coast in that region. The landscape is fantastic and the people are both reserved and warm. There I find the rest I need for my work. Actually, this may be because of my northern upbringing, I never felt drawn towards the sun. But this Brettonic grey breathes an athmostphere of mystery strengthened by the countless remains of its Celtic past."
@@ -4810,7 +4902,7 @@
 				then I noticed how strongly ideological they were colored, real propaganda.
 				As a child I could only see the adventurous travels of three young heroes.</A>
 			</Comment>
-			<Comment showAt="y1965">
+			<Comment showAt="y1965 p92">
 				<A text="p1">In Western Germany I soon switched to Mickey. That magazine was forbidden in
 				the DDR. Actually all that was forbidden in the DDR appealed to me. All they
 				knew there from the West were Fix und Foxi and other weak Disney-lookalikes.
@@ -4821,11 +4913,11 @@
 				did something to me, especially the ones from Robbedoes. Not so much those of
 				Asterix, they were too perfect. I didn't realize it so much then, but with
 				Asterix you tend to forget that they are drawings. You don't have that with
-				Robbedoes. Franquins' drawings always fascinated me. In that time he was my
+				Robbedoes. <REF ref="p92"/>' drawings always fascinated me. In that time he was my
 				idol.</A>
 				<Q>How old were you then?</Q>
 				<A text="p1">It started when I was about thirteen, fourteen.
-				I didn't know then that it was Franquin drawing Robbedoes,
+				I didn't know then that it was <REF ref="p92"/> drawing Robbedoes,
 				beause they never showed the names of the authors. That happened only much
 				later, back then I only knew the comics. Later, when when I was at college,
 				I got French lessons. I'd have to say that I was not a good student
@@ -4862,7 +4954,7 @@
 			<Comment showAt="y1970 p73"><!-- error in the book!? -->
 				<Q>How was Saint-Luc?</Q>
 				<A text="p1">I had read Vandoorn's booklet <EM>Comment on devient
-				créateur de bandes dessinées</EM> on Franquin and <REF ref="p73"/>. It mentioned
+				créateur de bandes dessinées</EM> on <REF ref="p92"/> and <REF ref="p73"/>. It mentioned
 				the address of the Saint-Luc in Brussels. When I inquired after
 				the enrollment dates, it turned out that I was only just too late.
 				That's why I first did a year of academy of arts in Düsseldorf.
@@ -4877,7 +4969,7 @@
 				In short, I liked it there. In hindsight I would have not been a
 				bad architect after all, because I was really interested in it.</A>
 			</Comment>
-			<Comment showAt="y1971"><!-- error in the book!? -->
+			<Comment showAt="y1971 p92"><!-- error in the book!? -->
 				<A>My community (military) service I also did in Düsseldorf.
 				I was a telephone operator in a hospital.
 				Soon I did nightshifts, which didn't require you to do much more
@@ -4889,7 +4981,7 @@
 				<Q>None of the drawing from that period was published?
 				It didn't result in any comics?</Q>
 				<A text="p1">No, but that was not the point. I was influenced
-				very much by Franquin: large feet, big noses, humour.
+				very much by <REF ref="p92"/>: large feet, big noses, humour.
 				A bit of adventure, but with funny characters.</A>
 				<Q>Do you still own these drawings?</Q>
 				<A text="p1">I still have drawings from when I was sixteen,
@@ -6403,14 +6495,10 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 						</WWWlink>
 					</WWWsite>
 
-					<WWWsite title="Schreiber und Leser">
+					<WWWsite title="Aleja Komiksu">
 						Publisher of German albums<BR/>
-						<WWWlink language="lang-de" href="http://www.schreiberundleser.de/" >
-							(Search: Andreas)
-						</WWWlink>
+						<WWWlink language="lang-pl" href="http://alejakomiksu.com/autor/428/Andreas/" ></WWWlink>
 					</WWWsite>
-!!!!!					http://alejakomiksu.com/autor/428/Andreas/
-
 
 					<!--<WWWsite title="Planeta-DeAgostini">
 						Find their Andreas albums by doing a search on 'andreas'.<BR/>
@@ -6573,17 +6661,17 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 
 				<TEXT title='Sideca'>
 
-					<IMG width="23" height="17" src="resources/lang-pl.gif"/>Sideca plans the publication of Kozioro&#x017C;ec #21: Mistrz in 2018, as well as Raffington Event and Styx.<BR /><BR />
+					<IMG width="23" height="17" src="resources/lang-pl.gif"/>Sideca plans the publication of Raffington Event and Styx.<BR /><BR />
 
 					Check <AH href='http://alejakomiksu.com/autor/428/Andreas/' target='_blank'>Aleja Komiksu</AH><BR /><BR />
 				</TEXT>
 
-				<TEXT title='Schreiber &amp; Leser'>
+				<!-- <TEXT title='Schreiber &amp; Leser'>
 
 					<IMG width="23" height="17" src="resources/lang-de.gif"/>Schreiber &amp; Leser plans the publication of Raffington Event.<BR /><BR />
 
 					Check <AH href='http://www.schreiberundleser.de/index.php?main_page=index&amp;cPath=cPath=1_57' target='_blank'>Schreiber &amp; Leser</AH><BR /><BR />
-				</TEXT>
+				</TEXT> -->
 
 
 
@@ -6773,7 +6861,8 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
         <Image showAt="p77" file="photo_leiber.jpg" width="250" height="319" title="Fritz Leiber (1910 - 1992)" />
         <Image showAt="p78" file="photo_Corbeyran.jpg" width="150" height="250" title="Corbeyran" />
         <Image showAt="p79" file="photo_isa_cochet.jpg" width="640" height="480" title="Isa Cochet" />
-
+        <Image showAt="p92" file="photo_Franquin.jpg" width="330" height="220" title="André Franquin" />
+		<Image showAt="p93" file="photo_Breccia.jpg" width="200" height="274" title="Alberto Breccia" />
 
 
 		<Image showAt="s15" file="album_descente_bookmark_schlirf.jpg" width="705" height="551" title="Ex-libris with 'Descente', published by bookshop Schlirf in Brussels in 1992. 250 Copies. Can be read as page 47 of the story! - an anonimous submitter." />
@@ -7673,7 +7762,6 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="al27a" file="album_avonture_lombard_fr.jpg" width="255" height="345" />
 		<Image showAt="al28" file="album_raffington_lombard.jpg" width="350" height="478" />
 		<Image showAt="al28a" file="album_raffington_lombard_fr1.jpg" width="254" height="345" />
-		<Image showAt="al26" file="album_styx_lombard_fr.jpg" width="350" height="498" />
 		<Image showAt="al29" file="album_styx_lombard.jpg" width="350" height="473" />
 		<Image showAt="al30" file="album_objet_lombard.jpg" width="350" height="481" />
 		<Image showAt="al31" file="album_electricite_lombard.jpg" width="350" height="481" />
@@ -7713,6 +7801,11 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="al65" file="album_terminus_lombard.jpg" width="436" height="600" />
 		<Image showAt="al66" file="album_raffington_lombard_2016.jpg" width="550" height="727" />
 		<Image showAt="al67" file="album_maitre_lombard.jpg" width="325" height="456" />
+		<Image showAt="al68" file="album_capricorne_integrale1_lombard.jpg" width="600" height="806" />
+		<Image showAt="al69" file="album_capricorne_integrale2_lombard.jpg" width="600" height="806" />
+		<Image showAt="al70" file="album_capricorne_integrale3_lombard.jpg" width="600" height="806" />
+		<Image showAt="al71" file="album_capricorne_integrale4_lombard.jpg" width="600" height="806" />
+		<Image showAt="al72" file="album_styx_lombard_fr2.jpg" width="600" height="806" />
 		<Image showAt="aj1" file="album_rork_jonas.jpg" width="350" height="459" />
 		<Image showAt="l1" file="album_carte_l.jpg" width="350" height="480" />
 
@@ -7992,6 +8085,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="sid16" file="album_cavaliers_sideca.jpg" width="400" height="539" />
 		<Image showAt="sid17" file="album_zarkan_sideca.jpg" width="400" height="538" />
 		<Image showAt="sid18" file="album_terminus_sideca.jpg" width="400" height="540" />
+		<Image showAt="sid19" file="album_maitre_sideca.jpg" width="609" height="822" />
 		<Image showAt="ls1" file="album_cromwell_schreiber.jpg" width="431" height="600" />
 		<Image showAt="ls2" file="album_integrale1_schreiber.jpg" width="459" height="600" />
 		<Image showAt="ls3" file="album_integrale2_schreiber.jpg" width="459" height="600" />
@@ -8002,6 +8096,13 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="ls7" file="album_cap_gesamt4.jpg" width="750" height="1005" />
 		<Image showAt="ls8" file="album_cap_gesamt5.jpg" width="750" height="1003" />
 		<Image showAt="ls9" file="album_raffington_ls.jpg" width="400" height="540" />
+		<Image showAt="ls10" file="album_cap_gesamt6_ls.jpg" width="750" height="1006" />
+		<Image showAt="ls11" file="album_cap_gesamt7_ls.jpg" width="750" height="1006" />
+		<Image showAt="ls12" file="album_caverne_ls.jpg" width="750" height="1013" />
+		<Image showAt="tc1" file="album_cromwell_titan.jpg" width="400" height="556" />
+		<Image showAt="ecc1" file="album_rork_integral1_ecc.jpg" width="685" height="1000" />
+		<Image showAt="ecc2" file="album_rork_integral2_ecc.jpg" width="650" height="1000" />
+		<Image showAt="fut1" file="album_argentine_futuropolis.jpg" width="600" height="848" />
 
 	</Comments>
 

@@ -852,46 +852,64 @@
     <!-- cell templates -->
 
     <xsl:template match="Person" mode="cell">
-        <xsl:value-of select="@name" />
+        <A href="/andreas/p1_{@id}.php" target="andreas">
+            <xsl:value-of select="@name" />
+        </A>
     </xsl:template>
 
     <xsl:template match="Story" mode="cell">
-        <xsl:value-of select="@title" />
+        <A href="/andreas/p1_{@id}.php" target="andreas">
+            <xsl:value-of select="@title" />
+        </A>
     </xsl:template>
 
     <xsl:template match="Photo" mode="cell">
-        <xsl:value-of select="@title" />
+        <A href="/andreas/p1_{@id}.php" target="andreas">
+            <xsl:value-of select="@title" />
+        </A>
     </xsl:template>
 
     <xsl:template match="Illustration" mode="cell">
-        <xsl:value-of select="@description" />
+        <A href="/andreas/p1_{@id}.php" target="andreas">
+            <xsl:value-of select="@description" />
+        </A>
     </xsl:template>
 
     <xsl:template match="Album" mode="cell">
-        <xsl:value-of select="@title" />
+        <A href="/andreas/p1_{@id}.php" target="andreas">
+            <xsl:value-of select="@title" />
+        </A>
     </xsl:template>
 
     <xsl:template match="Series" mode="cell">
-        <xsl:value-of select="@title" />
+        <A href="/andreas/p1_{@id}.php" target="andreas">
+            <xsl:value-of select="@title" />
+        </A>
     </xsl:template>
 
     <xsl:template match="Preface" mode="cell">
-        <xsl:value-of select="@title" />
+        <A href="/andreas/p1_{@id}.php" target="andreas">
+            <xsl:value-of select="@title" />
+        </A>
     </xsl:template>
 
     <xsl:template match="Language" mode="cell">
+        <A href="/andreas/p1_{@id}.php" target="andreas">
         <IMG src="resources/{@id}.gif" width="23" height="17" /><xsl:text> </xsl:text><xsl:value-of select="@name" />
+        </A>
     </xsl:template>
 
     <xsl:template match="AlbumEdition" mode="cell">
-        <xsl:choose>
-            <xsl:when test="@title">
-                <xsl:value-of select="@title" />
-            </xsl:when>
-            <xsl:when test="not (@title)">
-                <xsl:value-of select="id(@album)/@title" />
-            </xsl:when>
-        </xsl:choose>
+        <A href="/andreas/p1_{@album}.php" target="andreas">
+            <xsl:choose>
+                <xsl:when test="@title">
+                    <xsl:value-of select="@title" />
+                </xsl:when>
+                <xsl:when test="not (@title)">
+                    <xsl:value-of select="id(@album)/@title" />
+                </xsl:when>
+            </xsl:choose>
+        </A>
         <xsl:text> (</xsl:text>
         <xsl:apply-templates select="id(@year)" mode="cell"/>
         <xsl:text>, </xsl:text>
@@ -900,11 +918,15 @@
     </xsl:template>
 
     <xsl:template match="Collection" mode="cell">
+        <A href="/andreas/p1_{@id}.php" target="andreas">
         <xsl:value-of select="@title" />
+        </A>
     </xsl:template>
 
     <xsl:template match="Magazine" mode="cell">
-        <xsl:value-of select="@title" />
+        <A href="/andreas/p1_{@id}.php" target="andreas">
+            <xsl:value-of select="@title" />
+        </A>    
     </xsl:template>
 
     <xsl:template match="MagazineItem" mode="cell">
@@ -936,16 +958,20 @@
     </xsl:template>
 
     <xsl:template match="Publisher" mode="cell">
-        <xsl:value-of select="@name" />
+        <A href="/andreas/p1_{@id}.php" target="andreas">
+            <xsl:value-of select="@name" />
+        </A>
     </xsl:template>
 
     <xsl:template match="Article" mode="cell">
-        <xsl:value-of select="@title" />
-        <xsl:if test="@year">
-		<xsl:text> (</xsl:text>
-        <xsl:apply-templates select="id(@year)" mode="cell"/>
-        <xsl:text>)</xsl:text>
-		</xsl:if>
+        <A href="/andreas/p1_{@id}.php" target="andreas">
+            <xsl:value-of select="@title" />
+            <xsl:if test="@year">
+    		<xsl:text> (</xsl:text>
+            <xsl:apply-templates select="id(@year)" mode="cell"/>
+            <xsl:text>)</xsl:text>
+    		</xsl:if>
+        </A>
     </xsl:template>
 
     <xsl:template match="PageType" mode="cell">
@@ -953,11 +979,15 @@
     </xsl:template>
 
     <xsl:template match="Year" mode="cell">
-        <xsl:value-of select="substring-after(@id, 'y')" />
+        <A href="/andreas/p1_{@id}.php" target="andreas">
+            <xsl:value-of select="substring-after(@id, 'y')" />
+        </A>
     </xsl:template>
 
     <xsl:template match="Misc" mode="cell">
-        <xsl:value-of select="@shortDescription" />
+        <A href="/andreas/p1_{@id}.php" target="andreas">
+            <xsl:value-of select="@shortDescription" />
+        </A>
     </xsl:template>
 
     <xsl:template match="@startDate" mode="cell">
