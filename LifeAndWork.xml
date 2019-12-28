@@ -54,6 +54,7 @@
 	<Year id="y2005"/><Year id="y2006"/><Year id="y2007"/><Year id="y2008"/><Year id="y2009"/>
 	<Year id="y2010"/><Year id="y2011"/><Year id="y2012"/><Year id="y2013"/><Year id="y2014"/>
 	<Year id="y2015"/><Year id="y2016"/><Year id="y2017"/><Year id="y2018"/><Year id="y2019"/>
+	<Year id="y2020"/>
 
 	<Language id="lang-fr" name="French" />
 	<Language id="lang-nl" name="Dutch" />
@@ -1038,7 +1039,7 @@
 			   year="y2019"
 			   stories="s107 s111 s115 s120 s122" />
 		<Album id="a127" title="Capricorne - intégrale 4" multialbum="true"
-			   year="y2019"
+			   year="y2020"
 			   stories="s124 s127 s129 s132 s134 s135" />
 		<Album id="a128" title="L'argentine" year="y2019"
 				stories="s142" />
@@ -1142,7 +1143,7 @@
 		<AlbumEdition id="al68" album="a124" year="y2019" language="lang-fr" />
 		<AlbumEdition id="al69" album="a125" year="y2019" language="lang-fr" />
 		<AlbumEdition id="al70" album="a126" year="y2019" language="lang-fr" />
-		<AlbumEdition id="al71" album="a127" year="y2019" language="lang-fr" />
+		<AlbumEdition id="al71" album="a127" year="y2020" language="lang-fr" />
 		<AlbumEdition id="al72" album="a21" year="y2012" language="lang-fr" isbn="9782803631773" />
 		<AlbumEdition id="aj1" album="a2" title="Rork" year="y1983" language="lang-fr" cover="sc" color="false" />
 		<AlbumEdition id="aj2" album="a10" year="y1980" language="lang-fr" cover="sc" color="false" />
@@ -2138,10 +2139,10 @@
 		
 		<Comment showAt="changes">
 
-			<TEXT date="2019-12-26">
-				<TITLE>26 December 2019</TITLE>
+			<TEXT date="2019-12-28">
+				<TITLE>28 December 2019</TITLE>
 
-				Andreas is back with an intriguing new album: <REF ref="a128" />. Thanks Peter for pointing it out! It was published by Futuropolis, a new publisher for Andreas.<BR/>
+				Andreas is back with an intriguing new album: <REF ref="a128" />. Thanks, Peter Motte for pointing it out! It was published by Futuropolis, a new publisher for Andreas.<BR/>
 				Here's <AH href="https://www.youtube.com/watch?v=RmXSJD5UhrQ" target='_blank'>an introduction video</AH><BR/><BR/>
 
 				Andreas and Isa Cochet were at the <AH href="https://viennacomix.at/" target='_blank'>Vienna Comix festival</AH> on 6 and 7 April.<BR />
@@ -2156,7 +2157,7 @@
 				The edition even got <AH href="https://www.youtube.com/watch?v=EkG1o-jDwwQ" target='_blank'>its own trailer</AH>, which I think is pretty awesome!<BR/>
 				Here's a <AH href="http://www.exquisiteterror.com/cromwell-stone-titan-comics-review" target='_blank'>review</AH>.<BR/><BR/>	
 
-				Le Lombard published an integral series of Capricorne in four large volumes: <REF ref="a124" /> <REF ref="a125" /> <REF ref="a126" /> <REF ref="a127" /><BR/><BR/>
+				Le Lombard published an integral series of Capricorne in four large volumes: <REF ref="a124" /> <REF ref="a125" /> <REF ref="a126" /> <REF ref="a127" /> The last one is expected in januari.<BR/><BR/>
 
 				I found out that Spanish publisher <AH href="https://www.ecccomics.com/comics/rork-1579.aspx" target='_blank'>ECC Comics</AH> published Rork Integral in 2015.<BR/><BR/>
 
@@ -6554,7 +6555,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 					</WWWsite>
 					<WWWsite>
 						Peter Motte's Andreas Martens blog.<BR/>
-						<WWWlink language="lang-nl" href="http://andreas-martens.skynetblogs.be/" />
+						<WWWlink language="lang-nl" href="https://andreasmartens.wordpress.com/" />
 					</WWWsite>
 					<WWWsite title="L'oeil qui pense">
 						Interesting site. Has some articles on Rork and Capricorne. Features the Rork strip "Les oubliés" from Tintin.<BR/>
