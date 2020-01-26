@@ -1738,6 +1738,9 @@
 		<Magazine id="mag56" title="Zone 5300" language="lang-nl" >
 			<MagazineItem idref="s137"><MI year="y2018" nrs="117"/></MagazineItem>
 		</Magazine>
+		<Magazine id="mag57" title="Stripgids" language="lang-nl" >
+			<MagazineItem idref="art78"><MI year="y2014" nrs="37"/></MagazineItem>
+		</Magazine>
 
 		<Publisher id="pub1" name="Le Lombard" address="I-II, Paul-Henri Spaaklaan-1070, Bruxelles (B)"
 			magazines="mag1 mag2 mag26"
@@ -2138,6 +2141,16 @@
 		
 		
 		<Comment showAt="changes">
+
+			<TEXT date="2020-01-26">
+				<TITLE>26 Januari 2020</TITLE>
+
+				Pierre Loubere has sent me a ton of Andreas interviews. I will not show them all at once.<BR/><BR/>
+
+				Here is the first one:<BR/><REF ref="art78" />
+				<BR /><br/>
+
+			</TEXT>
 
 			<TEXT date="2019-12-28">
 				<TITLE>28 December 2019</TITLE>
@@ -6353,6 +6366,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Article id="art77" title="Un auteur incontournable" persons="p1" year="y2004">
 			<b><!-- has picture so should be shown in "full text available" --></b>
 		</Article>
+		<Article id="art78" title="Een lezer kan best wel wat mysterie aan" persons="p1" year="y2014">
+			<b><!-- has picture so should be shown in "full text available" --></b>
+		</Article>
 
 		<Article id="art_site" title="On the Andreas website" authors="p23" persons="p23">
 			<Comment>
@@ -8058,6 +8074,13 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="art77" file="incontournable-3.jpg" width="826" height="1169" />
 		<Image showAt="art77" file="incontournable-4.jpg" width="826" height="1169" />
 		<Image showAt="art77" file="incontournable-5.jpg" width="826" height="1169" title="Thanks to Pierre Loubere"  />
+		<Image showAt="mag57" file="stripgids-37-0.jpg" width="679" height="960"/>
+		<Image showAt="art78" file="stripgids-37-1.jpg" width="1166" height="825"/>
+		<Image showAt="art78" file="stripgids-37-2.jpg" width="825" height="1166"/>
+		<Image showAt="art78" file="stripgids-37-3.jpg" width="825" height="1166"/>
+		<Image showAt="art78" file="stripgids-37-4.jpg" width="825" height="1166"/>
+		<Image showAt="art78" file="stripgids-37-5.jpg" width="825" height="1166"/>
+		<Image showAt="art78" file="stripgids-37-6.jpg" width="825" height="1166" title="Thanks to Pierre Loubere" />
 		
 
 		<Image showAt="man1" file="album_object_manzoku.jpg" width="350" height="488" title="Thanks to Karol Wi&#x015B;niewski" />
