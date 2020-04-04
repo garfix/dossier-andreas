@@ -319,14 +319,14 @@
 		<Story id="s84" title="Racken" pageCount="46" text="p1" drawings="p1" />
 		<Story id="s85" title="Heurts" pageCount="46" text="p1" drawings="p34" />
 		<Story id="s86" title="White Dust" pageCount="46" text="p1" drawings="p1" />
-		<Story id="s87" title="Attaque" pageCount="46" text="p1" drawings="p1" />
+		<Story id="s87" title="Attaque" pageCount="46" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s88" title="Seconde Chance" text="p1" drawings="p34" />
 		<Story id="s89" title="Manipulations Minutieuses" text="p1" drawings="p34" />
 		<Story id="s90" title="Réveil" text="p1" drawings="p1" />
-		<Story id="s91" title="Le dragon bleu" text="p1" drawings="p1" />
+		<Story id="s91" title="Le dragon bleu" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s92" title="Rennes (France)" pageCount="4" text="p1" drawings="p1" />
 		<Story id="s93" title="La carte majeure" pageCount="46" text="p74 p75" drawings="p1" />
-		<Story id="s94" title="Tunnel" pageCount="48" text="p1" drawings="p1" />
+		<Story id="s94" title="Tunnel" pageCount="48" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s95" title="Dorro Zengu" pageCount="48" text="p1" drawings="p1" />
 		<Story id="s96" title="Swords and deviltry" text="p77" drawings="p1" />
 		<Story id="s97" title="Swords against death" text="p77" drawings="p1" />
@@ -334,47 +334,47 @@
 		<Story id="s99" title="Swords against wizardry" text="p77" drawings="p1" />
 		<Story id="s100" title="The swords of Lankhmar" text="p77" drawings="p1" />
 		<Story id="s101" title="Swords and ice magic" text="p77" drawings="p1" />
-		<Story id="s102" title="Le Passage" text="p1" drawings="p1" />
+		<Story id="s102" title="Le Passage" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s103" title="Le temps de la réflexion" pageCount="4" text="p78" drawings="p1" />
-		<Story id="s104" title="Le Fragment" text="p1" drawings="p1" />
+		<Story id="s104" title="Le Fragment" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s105" title="Le testament de Cromwell Stone" text="p1" drawings="p1" />
 		<Story id="s106" title="Retrouvailles" text="p1" drawings="p1" />
-		<Story id="s107" title="Les Chinois" text="p1" drawings="p1" />
-		<Story id="s108" title="Quintos" pageCount="54" text="p1" drawings="p1 p79" />
+		<Story id="s107" title="Les Chinois" text="p1" drawings="p1" colorist="p79" />
+		<Story id="s108" title="Quintos" pageCount="54" text="p1" drawings="p1 p79" colorist="p79" />
 		<Story id="s109" title="Feu Croisé" text="p1" drawings="p1" />
-		<Story id="s111" title="Patrick" text="p1" drawings="p1" />
+		<Story id="s111" title="Patrick" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s112" title="L'ours" text="p81" drawings="p1" />
 		<Story id="s113" title="Tehos" text="p1" drawings="p1" />
 		<Story id="s114" title="Attention, auteurs méchants" text="p34" drawings="p1" />
-		<Story id="s115" title="-- empty title --" text="p1" drawings="p1" />
+		<Story id="s115" title="-- empty title --" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s116" title="Time Machine" text="p1" drawings="p83 p1" pageCount="46" />
 		<Story id="s117" title="Pourquoi j'aime la bande dessinée" text="p1" drawings="p1" pageCount="1" />
 		<Story id="s118" title="Civilisation television" drawings="p1" text="p84" year="y1981" />
 		<Story id="s119" title="Maître noir" pageCount="48" drawings="p1" text="p1" year="y2008" />
-		<Story id="s120" title="Rêve en cage" pageCount="48" drawings="p1" text="p1" year="y2008" />
+		<Story id="s120" title="Rêve en cage" pageCount="48" drawings="p1" text="p1" colorist="p79" year="y2008" />
 		<Story id="s121" title="Mission" pageCount="48" drawings="p1" text="p1" year="y2009" />
-		<Story id="s122" title="L'Operation" pageCount="48" drawings="p1" text="p1" year="y2009" />
+		<Story id="s122" title="L'Operation" pageCount="48" drawings="p1" text="p1" colorist="p79" year="y2009" />
 		<Story id="s123" title="Détectives" pageCount="48" drawings="p1" text="p1" year="y2010" />
-		<Story id="s124" title="New York" pageCount="48" drawings="p1" text="p1" year="y2010" />
+		<Story id="s124" title="New York" pageCount="48" drawings="p1" text="p1" colorist="p79" year="y2010" />
 		<Story id="s125" title="Intrus" pageCount="47" drawings="p1" text="p1" year="y2011" />
 		<Story id="s126" title="Lune" pageCount="48" drawings="p1" text="p1" year="y2012" />
-		<Story id="s127" title="Vu de pres" drawings="p1" text="p1" year="y2012" />
-		<Story id="s128" title="Les fantômes" drawings="p1" text="p1" year="y2012" />
-		<Story id="s129" title="Les cavalliers" drawings="p1" text="p1" year="y2013" />
+		<Story id="s127" title="Vu de pres" drawings="p1" text="p1" colorist="p79" year="y2012" />
+		<Story id="s128" title="Les fantômes" drawings="p1" text="p1" colorist="p79" year="y2012" />
+		<Story id="s129" title="Les cavalliers" drawings="p1" text="p1" colorist="p79" year="y2013" />
 		<Story id="s130" title="Rêves 1" drawings="p1" text="p1" year="y2013" />
 		<Story id="s131" title="Rêves 2" drawings="p1" text="p1" year="y2014" />
-		<Story id="s132" title="Zarkan" drawings="p1" text="p1" year="y2014" />
+		<Story id="s132" title="Zarkan" drawings="p1" text="p1" colorist="p79" year="y2014" />
 		<Story id="s133" title="Ici" drawings="p1" text="p1" year="y2015" />
-		<Story id="s134" title="Terminus" drawings="p1" text="p1" year="y2015" />
-		<Story id="s135" title="Maître" drawings="p1" text="p1" year="y2016" />
+		<Story id="s134" title="Terminus" drawings="p1" text="p1" colorist="p79" year="y2015" />
+		<Story id="s135" title="Maître" drawings="p1" text="p1" colorist="p79" year="y2016" />
 
-		<Story id="s136" title="Veuve noire" drawings="p1" text="p88" year="y2017" />
-		<Story id="s137" title="Maidstone" drawings="p1" text="p89" year="y2016" />
-		<Story id="s138" title="Laurance" drawings="p1" text="p90" year="y2016" />
-		<Story id="s139" title="Charmant" drawings="p1" text="p91" year="y2016" />
-		<Story id="s140" title="Milk" drawings="p1" text="p79" year="y2016" />
-		<Story id="s141" title="Error" drawings="p1" text="p1" year="y2016" />
-		<Story id="s142" title="L'argentine" drawings="p1" text="p1" year="y2019" />
+		<Story id="s136" title="Veuve noire" drawings="p1" text="p88" year="y2017" colorist="p1" />
+		<Story id="s137" title="Maidstone" drawings="p1" text="p89" year="y2016" colorist="p1" />
+		<Story id="s138" title="Laurance" drawings="p1" text="p90" year="y2016" colorist="p1" />
+		<Story id="s139" title="Charmant" drawings="p1" text="p91" year="y2016" colorist="p1" />
+		<Story id="s140" title="Milk" drawings="p1" text="p79" year="y2016" colorist="p1" />
+		<Story id="s141" title="Error" drawings="p1" text="p1" year="y2016" colorist="p1" />
+		<Story id="s142" title="L'argentine" drawings="p1" text="p1" colorist="p79" year="y2019" />
 		
 		<Tag id='intro' description="Introductions" />
 		<Tag id='cover' description="Covers" />
@@ -653,8 +653,10 @@
 		<Illustration id="i252" drawings="p1" year="y2017" description="Inktober 31 Combination" tags="inktober2017" />
 		<Illustration id="i253" drawings="p1" year="y2017" description="Homage to Bernie Wrightson" tags="homage" />
 		<Illustration id="i254" drawings="p1" year="y2018" description="Bonne Année Happy New Year Frohes Neues Jahr 2018" tags="wish" />
-		<Illustration id="i255" drawings="p1 p79" year="y2014" description="Bonne Année ! Happy New Year ! Frohes Neues Jahr !..." tags="wish" />
+		<Illustration id="i255" drawings="p1" colorist="p79" year="y2014" description="Bonne Année ! Happy New Year ! Frohes Neues Jahr !..." tags="wish" />
 		<Illustration id="i256" drawings="p1" year="y2018" description="Strasbulles" tags="exhibition" />
+		<Illustration id="i257" drawings="p1" year="y2019" description="New year 2019" tags="wish" />
+		<Illustration id="i258" drawings="p1" year="y2020" description="New year 2020" tags="wish" />
 		
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -2141,6 +2143,14 @@
 		
 		
 		<Comment showAt="changes">
+
+			<TEXT date="2020-04-04">
+				<TITLE>4 April 2020</TITLE>
+
+				I added the role of colorist to stories and illustrations to show where <REF ref="p79" /> participated in Andreas' work.<BR/><BR/>
+
+				I added the latest new years wishes (see Images / New year's wishes).<BR/><BR/>
+			</TEXT>
 
 			<TEXT date="2020-03-01">
 				<TITLE>1 March 2020</TITLE>
@@ -7740,6 +7750,12 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		</Image>
 		<Image showAt="i256" file="expo_strasbulles.jpg" width="1000" height="705">
 			<Thumbnail file="expo_strasbulles.jpg" width="100" height="71"/>
+		</Image>
+		<Image showAt="i257" file="newyear-2019.jpg" width="815" height="1010">
+			<Thumbnail file="newyear-2019.jpg" width="81" height="100"/>
+		</Image>
+		<Image showAt="i258" file="newyear-2020.jpg" width="1000" height="778">
+			<Thumbnail file="newyear-2020.jpg" width="100" height="78"/>
 		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />

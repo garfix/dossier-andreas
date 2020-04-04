@@ -37,6 +37,7 @@
 	title CDATA #IMPLIED
 	text IDREFS #IMPLIED
 	drawings IDREFS #IMPLIED
+	colorist IDREF #IMPLIED
 	startDate CDATA #IMPLIED
 	year IDREF #IMPLIED
 	themes IDREFS #IMPLIED
@@ -47,6 +48,7 @@
 	id ID #REQUIRED
 	description CDATA #IMPLIED
 	drawings IDREFS #IMPLIED
+	colorist IDREF #IMPLIED
 	startDate CDATA #IMPLIED
 	year IDREF #IMPLIED
 	tags IDREFS #IMPLIED>

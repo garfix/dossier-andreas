@@ -1716,6 +1716,7 @@
     <xsl:template match="@d" mode="name">D</xsl:template>
     <xsl:template match="@description" mode="name">Description</xsl:template>
     <xsl:template match="@drawings" mode="name">Draftsman</xsl:template>
+    <xsl:template match="@colorist" mode="name">Colorist</xsl:template>
     <xsl:template match="@exCount" mode="name">Number of copies</xsl:template>
     <xsl:template match="@fullName" mode="name">Full Name</xsl:template>
     <xsl:template match="@isbn" mode="name">ISBN</xsl:template>
@@ -1733,6 +1734,7 @@
     <xsl:template match="@startDate" mode="name">Started at</xsl:template>
     <xsl:template match="@stories" mode="name">Story</xsl:template>
     <xsl:template match="@text" mode="name">Scenario</xsl:template>
+    <xsl:template match="@colorist" mode="name">Colorist</xsl:template>
     <xsl:template match="@title" mode="name">Title</xsl:template>
     <xsl:template match="@year" mode="name">Year</xsl:template>
     <xsl:template match="@width" mode="name">Width</xsl:template>
