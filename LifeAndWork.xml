@@ -471,7 +471,7 @@
 		<Illustration id="i70" drawings="p1" year="y1994" description="Ex-libres 'Le retour de Cromwell Stone' Sherpa" tags="exlibris" />
 		<Illustration id="i71" drawings="p1" year="y1992" description="Ex-libris 'Dérives' Blitz" tags="exlibris" />
 		<Illustration id="i72" drawings="p1" year="y1993" description="Ex-libris 'Cromwell Stone' Alpha Comics" tags="exlibris" />
-		<Illustration id="i73" drawings="p1" year="y1989" description="New year's card 1989" tags="wish card" />
+		<Illustration id="i73" drawings="p1" year="y1989" description="New year's card 1989" tags="wish" />
 		<Illustration id="i74" drawings="p1" year="y1989" description="Catholic Boyscout's calendar 1989." tags="misc" />
 		<Illustration id="i75" drawings="p1" year="y2001" description="Rork" tags="plate" />
 		<Illustration id="i76" drawings="p1" year="y2001" description="Rork sitting on mountain" tags="plate" />
@@ -491,7 +491,7 @@
 		<Illustration id="i90" drawings="p1" year="y1984" description="Ex-libris" tags="exlibris" />
 		<Illustration id="i91" drawings="p1" description="Postcard Révélations posthumes" tags="card" />
 		<Illustration id="i92" drawings="p1" year="y2002" description="Poster Quai Des Bulles" tags="poster" />
-		<Illustration id="i93" drawings="p1" year="y2001" description="New year's card Lombard 2002" tags="wish card" />
+		<Illustration id="i93" drawings="p1" year="y2001" description="New year's card Lombard 2002" tags="wish" />
 		<Illustration id="i94" drawings="p1" year="y1995" description="Cover of RPG-book" tags="cover" />
 		<Illustration id="i95" drawings="p1" year="y1993" description="Birth Card" tags="card" />
 		<Illustration id="i96" drawings="p1" year="y2001" description="Ex Libris Astor. 2001" tags="exlibris" />
@@ -618,7 +618,7 @@
 		<Illustration id="i217" drawings="p1" year="y2015" description="Inktober 30: Rork" tags="inktober2015" />
 		<Illustration id="i218" drawings="p1" year="y2015" description="Inktober 31: Capricorne" tags="inktober2015" />
 		<Illustration id="i219" drawings="p1" year="y2016" description="Pour Ralph" tags="dedication" />
-		<Illustration id="i220" drawings="p1" year="y2017" description="Really?!" tags="wish card" />
+		<Illustration id="i220" drawings="p1" year="y2017" description="Really?!" tags="wish" />
 		<Illustration id="i221" drawings="p1" year="y2017" description="Inktober 1" tags="inktober2017" />
 		<Illustration id="i222" drawings="p1" year="y2017" description="Inktober 2" tags="inktober2017" />
 		<Illustration id="i223" drawings="p1" year="y2017" description="Inktober 3" tags="inktober2017" />
@@ -657,6 +657,7 @@
 		<Illustration id="i256" drawings="p1" year="y2018" description="Strasbulles" tags="exhibition" />
 		<Illustration id="i257" drawings="p1" year="y2019" description="New year 2019" tags="wish" />
 		<Illustration id="i258" drawings="p1" year="y2020" description="New year 2020" tags="wish" />
+		<Illustration id="i259" drawings="p1" year="y2013" description="Toute l'equipe des Éditions du Lombard vous souhaite une heureuse année 2013!" tags="wish" />
 		
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -1392,6 +1393,7 @@
 		<AlbumEdition id="ls10" album="a122" year="y2019" language="lang-de" title="Capricorn Gesamtausgabe 6" />
 		<AlbumEdition id="ls11" album="a123" year="y2019" language="lang-de" title="Capricorn Gesamtausgabe 7" />
 		<AlbumEdition id="ls12" album="a12" year="y2019" language="lang-de" title="Im Labyrinth der Erinnerungen" />
+		<AlbumEdition id="ls13" album="a19" year="y2020" language="lang-de" />
 		<AlbumEdition id="dh1" album="a16" year="y1992" language="lang-en" />
 		<AlbumEdition id="dh2" album="a26" year="y1994" language="lang-en" color="false" />
 		<AlbumEdition id="tc1" album="a85" year="y2019" language="lang-en" title="Cromwell Stone" />
@@ -1899,7 +1901,7 @@
 		<Publisher id="pub72" name="Publisher of Slash(?)"
 			magazines="mag50" />
 		<Publisher id="pub73" name="Schreiber und Leser"
-			albumEditions="ls1 ls2 ls3 ls4 ls5 ls6 ls7 ls8 ls9 ls10 ls11 ls12" />
+			albumEditions="ls1 ls2 ls3 ls4 ls5 ls6 ls7 ls8 ls9 ls10 ls11 ls12 ls13" />
 		<Publisher id="pub74" name="Titan Comics"
             albumEditions="tc1" />
         <Publisher id="pub75" name="ECC Comics"
@@ -2144,6 +2146,39 @@
 		
 		<Comment showAt="changes">
 
+			<TEXT date="2020-05-10">
+				<TITLE>10 May 2020</TITLE>
+				Ralph Ulbrich sent me the complete picture of the 2019 new year's wish. Thanks!<BR/>I added the 2013 wish as well.<BR/><BR/>
+
+				Moritz von Wolzogen alerted me to the new <REF ref="a19" /> edition of Schreiber &amp; Leser. First time Cyrrus appears in German. It's good that it finally appeared. Cyrrus is one of my personal favorites. The album deals with abstract concepts like time and causation, the characters are strong, it has a fast-paced storyline, and the album is very emotional. Strong cover image it has too, in this edition.<BR/><AH href="https://www.schreiberundleser.de/index.php?main_page=index&amp;cPath=1_57" target='_blank'>Read more</AH><BR/><BR/>
+
+				Continuing with Pierre Loubere's interviews: 2013.<BR/><BR/>
+
+				<AH href="https://www.actuabd.com/Angouleme-2013-Andreas-sort-de-l" target='_blank'>Angoulême 2013 - Andreas sort de l’ombre</AH> (2013)<BR/>
+				ActuaBD. About why Capricornus was continued by Lombard.<BR/><BR/>
+
+				<AH href="https://www.actuabd.com/Angouleme-2013-Andreas-J-aimerais" target='_blank'>Angoulême 2013 - Andreas : "J’aimerais faire des albums en 200 ou 300 planches"</AH> (2013)<BR/>
+				ActuaBD. About the writing process.<BR/><BR/>
+
+				<AH href="https://www.franceculture.fr/emissions/mauvais-genres/la-case-medium-dc-comics-andreas" target='_blank'>La case medium : Dc Comics, Andreas</AH> (2013)<BR/>
+				Audio interview<BR/><BR/>
+
+				<AH href="http://www.sceneario.com/interview/martens-andreas_ANDRE.html" target='_blank'>Entretien avec Martens ANDREAS pour sa série RORK aux Editions du LOMBARD</AH> (2013)<BR/>
+				sceneario.com Video interview<BR/><BR/>
+
+				<AH href="http://www.savemybrain.net/v2/2013/01/31/festival-de-la-bande-dessinee-dangouleme-2013-sous-le-signe-du-capricorne-14-200019939/" target='_blank'>Festival de la bande dessinée d'angoulême 2013 – sous le signe du Capricorne (1/4)</AH> (2013)<BR/>
+				Save my brain. Short interview<BR/><BR/>
+
+				<AH href="https://www.sudouest.fr/2013/02/01/l-exigence-d-andreas-953070-813.php" target='_blank'>L'exigence d'Andreas</AH> (2013)<BR/>
+				Sud Ouest. Short interview<BR/><BR/>
+
+				<AH href="https://www.bdtheque.com/interviews/255/andreas" target='_blank'>Interview de Andreas</AH> (2013)<BR/>
+				BDTheque. A medium sized interview<BR/><BR/>
+
+				<AH href="https://www.bodoi.info/andreas-createur-dunivers-rares/" target='_blank'>Andreas, créateur d'univers rares</AH> (2013)<BR/>
+				Bodoï. Saved the best interview for last.<BR/><BR/>
+
+			</TEXT>
 			<TEXT date="2020-04-04">
 				<TITLE>4 April 2020</TITLE>
 
@@ -7751,11 +7786,17 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i256" file="expo_strasbulles.jpg" width="1000" height="705">
 			<Thumbnail file="expo_strasbulles.jpg" width="100" height="71"/>
 		</Image>
+		<Image showAt="i257" file="newyear-2019-full.jpg" width="700" height="1400">
+			<Thumbnail file="newyear-2019.jpg" width="81" height="100"/>
+		</Image>
 		<Image showAt="i257" file="newyear-2019.jpg" width="815" height="1010">
 			<Thumbnail file="newyear-2019.jpg" width="81" height="100"/>
 		</Image>
 		<Image showAt="i258" file="newyear-2020.jpg" width="1000" height="778">
 			<Thumbnail file="newyear-2020.jpg" width="100" height="78"/>
+		</Image>
+		<Image showAt="i259" file="newyear-2013.jpg" width="450" height="579">
+			<Thumbnail file="newyear-2013.jpg" width="78" height="100"/>
 		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />
@@ -8071,6 +8112,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="atf6" file="album_cycle6_temps.jpg" width="206" height="295" />
 		<Image showAt="ac1" file="album_montre_creation.jpg" width="400" height="554" />
 		<Image showAt="aha1" file="album_cyrrus_humanoides.jpg" width="400" height="551" />
+		<Image showAt="aha2" file="album_mil_humanoides.jpg" width="400" height="540" />
 		<Image showAt="aha3" file="album_cyrrus_humanoides_2.jpg" width="400" height="534" />
 		<Image showAt="avo1" file="album_lame_vents.jpg" width="300" height="400" />
 		<Image showAt="eg1" file="album_cromwell_egmont.jpg" width="400" height="538" title="Thanks to Micha&#x0142; Famielec and Jacek Sleszynski" />
@@ -8178,6 +8220,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="ls10" file="album_cap_gesamt6_ls.jpg" width="750" height="1006" />
 		<Image showAt="ls11" file="album_cap_gesamt7_ls.jpg" width="750" height="1006" />
 		<Image showAt="ls12" file="album_caverne_ls.jpg" width="750" height="1013" />
+		<Image showAt="ls13" file="album_cyrrusmil_ls.jpg" width="600" height="810" />
 		<Image showAt="tc1" file="album_cromwell_titan.jpg" width="400" height="556" />
 		<Image showAt="ecc1" file="album_rork_integral1_ecc.jpg" width="685" height="1000" />
 		<Image showAt="ecc2" file="album_rork_integral2_ecc.jpg" width="650" height="1000" />
