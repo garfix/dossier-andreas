@@ -1394,12 +1394,14 @@
 		<AlbumEdition id="ls11" album="a123" year="y2019" language="lang-de" title="Capricorn Gesamtausgabe 7" />
 		<AlbumEdition id="ls12" album="a12" year="y2019" language="lang-de" title="Im Labyrinth der Erinnerungen" />
 		<AlbumEdition id="ls13" album="a19" year="y2020" language="lang-de" />
+		<AlbumEdition id="ls14" album="a128" year="y2020" language="lang-de" title="Argentina" />
 		<AlbumEdition id="dh1" album="a16" year="y1992" language="lang-en" />
 		<AlbumEdition id="dh2" album="a26" year="y1994" language="lang-en" color="false" />
 		<AlbumEdition id="tc1" album="a85" year="y2019" language="lang-en" title="Cromwell Stone" />
 		<AlbumEdition id="ecc1" album="a103" year="y2015" language="lang-es" title="Rork Integral 1" />
 		<AlbumEdition id="ecc2" album="a105" year="y2015" language="lang-es" title="Rork Integral 2" />
 		<AlbumEdition id="fut1" album="a128" year="y2019" language="lang-fr" />
+		<AlbumEdition id="kurc1" album="a128" year="y2020" language="lang-pl" title="Argentyna" />
 
 		<Magazine id="mag1" title="Tintin/Hello BD (fr); Kuifje (nl)" language="lang-fr lang-nl">
 			<MagazineItem idref="s23"><MI year="y1977" nrs="32" /></MagazineItem>
@@ -1901,13 +1903,15 @@
 		<Publisher id="pub72" name="Publisher of Slash(?)"
 			magazines="mag50" />
 		<Publisher id="pub73" name="Schreiber und Leser"
-			albumEditions="ls1 ls2 ls3 ls4 ls5 ls6 ls7 ls8 ls9 ls10 ls11 ls12 ls13" />
+			albumEditions="ls1 ls2 ls3 ls4 ls5 ls6 ls7 ls8 ls9 ls10 ls11 ls12 ls13 ls14" />
 		<Publisher id="pub74" name="Titan Comics"
             albumEditions="tc1" />
         <Publisher id="pub75" name="ECC Comics"
             albumEditions="ecc1 ecc2" />
         <Publisher id="pub76" name="Futuropolis"
         	albumEditions='fut1' />
+       	<Publisher id="pub77" name="Kurc"
+        	albumEditions='kurc1' />
 
 			
 	</Context>
@@ -2145,6 +2149,39 @@
 		
 		
 		<Comment showAt="changes">
+
+			<TEXT>
+				<TITLE>15 November 2020</TITLE>
+
+				<REF ref="a128" /> was published by <AH target="_blank" href="http://www.kurc.com.pl/pl,20,artykul-tytuly-0-65-0.html">Wydawnictwo Kurc</AH> (Polish)<BR/><BR/>
+
+				The publisher is working on new editions of the Rork integrale and Raffington Event.<BR/><BR/>
+
+			</TEXT>
+
+			<TEXT date="2020-10-04">
+				<TITLE>4 October 2020</TITLE>
+
+				<REF ref="a128" /> was published by <AH target="_blank" href="https://www.schreiberundleser.de/index.php?main_page=index&amp;cPath=1_57">Schreiber &amp; Leser</AH>.<BR/><BR/>
+
+				And here are the last interviews collected for us by Pierre Loubere:<BR/><BR/>
+
+				<AH href="https://www.actuabd.com/Andreas-passe-present-et-futur" target='_blank'>Andreas-passe-present-et-futur</AH> (2015)<BR/>
+				ActuaBD. About the reeditions of La Caverne du Souvenir and Raffington Event by Le Lombard.<BR/><BR/>
+
+				<AH href="https://www.actuabd.com/Raffington-Event-Detective-Par" target='_blank'>Raffington-Event-Detective</AH> (2016)<BR/>
+				ActuaBD. About the detective.<BR/><BR/>
+
+				<AH href="https://www.youtube.com/watch?v=FZjsaaL1hm8" target='_blank'>Les mondes fantastiques d'Andreas</AH> (2017)<BR/>
+				KABOOM! #33. 15 minute Interview with Andreas in which he talks about all of his work. From the comics he read as a child to his current work. Decorated with many images, this is a wonderful video. I've mentioned it before, but I can't leave it out, because it's too good!<BR/><BR/>
+
+				<AH href="https://www.20minutes.fr/arts-stars/culture/2436651-20190126-audio-angouleme-entre-joies-galeres-6-auteurs-lachent-favoris-grand-prix-2020" target='_blank'>20 Minutes</AH> (2019)<BR/>
+				Audio interview from Angoulême about Rork and Capricorne.<BR/><BR/>
+
+				<AH href="https://www.planetebd.com/interview/andreas/1258.html#image" target='_blank'>Interview bande dessinée</AH> (2019)<BR/>
+				Planete BD. Video interview with some questions about Capricone.<BR/><BR/>
+
+			</TEXT>
 
 			<TEXT date="2020-05-10">
 				<TITLE>10 May 2020</TITLE>
@@ -6760,179 +6797,13 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Article id="art_expected" title="Expected" authors="p23" persons="p1">
 			<Comment>
 
-				<TEXT title='Sideca'>
+				<TEXT title='Kurc'>
 
-					<IMG width="23" height="17" src="resources/lang-pl.gif"/>Sideca plans the publication of Raffington Event and Styx.<BR /><BR />
+					<IMG width="23" height="17" src="resources/lang-pl.gif"/>Kurc is working on new editions of the Rork integrale and Raffington Event.<BR /><BR />
 
-					Check <AH href='http://alejakomiksu.com/autor/428/Andreas/' target='_blank'>Aleja Komiksu</AH><BR /><BR />
+					Check <AH href='http://www.kurc.com.pl/pl,20,artykul-tytuly-0-65-0.html' target='_blank'>Wydawnictwo KURC</AH><BR /><BR />
 				</TEXT>
 
-				<!-- <TEXT title='Schreiber &amp; Leser'>
-
-					<IMG width="23" height="17" src="resources/lang-de.gif"/>Schreiber &amp; Leser plans the publication of Raffington Event.<BR /><BR />
-
-					Check <AH href='http://www.schreiberundleser.de/index.php?main_page=index&amp;cPath=cPath=1_57' target='_blank'>Schreiber &amp; Leser</AH><BR /><BR />
-				</TEXT> -->
-
-
-
-				<!--<TEXT title='Sherpa'>-->
-
-				<!--<IMG width="23" height="17" src="resources/lang-nl.gif"/> Sherpa plans to publish Capricornus 19 "Terminus" and Capricorne 20 "Meester" in January 2017.<BR /><BR />-->
-
-				<!--See <AH href='http://sherpa.nu/' target='_blank'>Sherpa</AH><BR /><BR />-->
-				<!--</TEXT>-->
-
-
-				<!--<TEXT title='Sideca'>
-					<IMG width="23" height="17" src="resources/lang-pl.gif"/>Sideca plans to publish Kozioro&#x017C;ec #17 - #19, and Raffington Event.<BR/><BR/>
-					See <AH href='http://alejakomiksu.com/wydawnictwa/626/Sideca/' target='_blank'>Aleja Komiksu</AH> and <AH href='https://www.facebook.com/wydawnictwosideca' target='_blank'>Sideca on Facebook</AH><BR />
-
-				</TEXT>-->
-
-				<!--				<TEXT title='Capricorne'>
-									<IMG src="resources/lang-nl.gif"/><BR />
-
-									Sherpa plans to publish Capricornus 15 - New York, Capricornus 16 - Close up, ARQ 17 - Dromen 2, and also a 1000 piece jigsaw puzzle of L'univers des dragons <REF ref='i128' /> <AH href='http://www.stripspeciaalzaak.be/beelden/TeVerschijnen/_pdf/Sherpa_2014.pdf' target='_blank'>Read this PDF for more information</AH><BR />
-
-									Thanks for noticing, Alex!<BR /><BR />
-
-									Check <AH href='http://www.sherpa.nu/' target='_blank'>Sherpa's website</AH> for the latest Capricorne and ARQ albums.<BR /><BR />
-
-									In 2014, Sideca will publish more Capricorne, Rork integral #2 and Raffington Event. See <AH href='http://alejakomiksu.com/wydawnictwa/626/Sideca/' target='_blank'>Alejakomiksu</AH><BR /><BR />
-									<IMG src="resources/lang-pl.gif"/><BR />
-
-								</TEXT>-->
-
-				<!--
-
-								<TEXT title='Le Lombard: Rork 0 - "Les Fantômes"'>
-									<IMG src="resources/lang-fr.gif"/><BR />
-
-									Andreas (via Twitter): "Yes, it is a stand-alone story in the spirit of the first short Rork-episodes. It can be read without reading the other books."<BR/>
-								</TEXT>
-
-									In August 2012, Sherpa will publish a bundled album that contains the albums Rork 0: "De Geesten" (in black and white), "Fragmenten", "Doorgangen" and "Het kathedralenkerhof". It also contains an extensive interview with Andreas. Total: 256 pages. The bundled album is called "Doorgangen".<BR /><BR />
-
-									In October 2012, Sherpa will publish Rork 0: "De Geesten" (in color).<BR /><BR />
-
-									See <WWWlink href='http://www.sherpa.nu/nieuwsbrief/SherpaNieuws_Andreas_20mei2012.jpg' /> and
-									<WWWlink href='http://www.stripspeciaalzaak.be/StripFacts.php#Sherpa' /><BR /><BR />
-
-				-->
-
-				<!--
-					Alex (on our guestbook):<BR/><BR/>
-					Arq 15, titel: Maan, maart 2012<BR/>
-					Rork 1&amp;2, Fragmenten en doorgangen, 850 exemplaren april 2012, groot formaat luxe hardcover 120 pagina's!!!<BR/>
-					Rork 0, eind 2012 hardcover kleur, groot formaat luxe hardcover zwart wit<BR/>
-
-				<TEXT title="Augustus 2010: Donjon Monsters: Een kaart van groot belang">
-					<WWWlink href="http://andreas-martens.skynetblogs.be/archive/2010/05/16/donjon-een-kaart-van-groot-belang.html" />
-					<IMG src="resources/lang-nl.gif"/>
-					<EM>Peter Motte</EM><BR /><BR />
-				</TEXT>
-				<TEXT title="Capricorne 15: New York">
-					<IMG src="resources/lang-fr.gif"/>
-					<EM>Pascal Batigne</EM><BR /><BR />
-				</TEXT>
-
-				<TEXT title="Sherpa: Reprints of Arq">
-					<IMG src="resources/lang-nl.gif"/>
-					Sherpa hopes to republish ARQ 1-6.<BR/>
-					<EM>Mat Schifferstein / Sherpa</EM>
-				</TEXT>
-				<TEXT title="Sherpa: Herdruk RORK; speciale editie Cromwell Stone">
-					<IMG src="resources/lang-nl.gif"/>
-					Sherpa heeft het plan om RORK te gaan herdrukken. Na lange besprekingen met Lombard blijkt nu dat L. van plan is de boeken te digitaliseren; met Franstalige herdrukken zal dan begonnen worden in 2007.
-					Wij hopen dan mee te kunnen produceren voor de NL editie.<BR /><BR/>
-					Voor herdrukken van Capricornus zijn vooralsnog (op korte termijn) geen plannen bij Lombard.<BR /><BR/>
-					Vanwege een overlevering (teveel geleverd) van het derde deel van Cromwell Stone zal een speciale editie van dit boek binnenkort te verkrijgen zijn via www.sherpa.nu. Het betreft zo’n 75 exemplaren voorzien van een extra prent, in kleur, namelijk de tekening die Andreas maakte als cover voor de Franse editie. Boek en prent zijn genummerd, maar niet gesigneerd. De laatste kans voor Andreas-fans die het boek nog niet bemachtigd hadden. Het boek zal niet via de boekhandel verkrijgbaar zijn. De prijs wordt Euro 39,95, excl. verzendkosten.<BR/><BR/>
-					<EM>Mat Schifferstein / Sherpa</EM>
-				</TEXT>-->
-				<!--
-				<TEXT title="Beginning of 2008, Manzoku: Powrót (Rork 7: Retour)">
-					<IMG src="resources/lang-pl.gif"/>
-				Publisher Manzoku takes over from Twoj Komiks to publish the final Rork album; see <WWWlink href="http://www.komiks.gildia.pl/komiksy/europa/2" /><BR/><BR/>
-				Manzoku is plans to publish at least 4 Capricorne albums; see <WWWlink href="http://www.manzoku.pl/index.php?kat=1&amp;kid=34" /><BR />
-				<EM>Micha&#x0142; Famielec</EM>				</TEXT>
--->
-				<!--<TEXT title="Future: Capricorne - entire series (Motopol - Twój Komiks)">
-					<IMG src="resources/lang-pl.gif"/>
-					After the Rork series Twój has planned the Capricorne series.<BR/>
-					<EM>Thanks to Paul Zamarlo for the information.</EM>
-				</TEXT>-->
-				<!--<TEXT title="Arq: Tehos">
-					<IMG src="resources/lang-nl.gif"/>
-					Tehos is expected end March 2007.<BR/>
-					<EM>Mat Schifferstein / Sherpa</EM>
-				</TEXT>-->
-				<!--<TEXT title="Capricorne 11: Patrick">
-					<IMG src="resources/lang-fr.gif"/>
-					In (probably) November the next Capricorne album will appear.
-				</TEXT>-->
-				<!--<TEXT title="Spring 2002: Album 12,5 jaar Sherpa (Sherpa)">
-					<IMG src="resources/lang-nl.gif"/>
-					Er komt volgend voorjaar nog een boekje over 12,5 jaar Sherpa uit, met een verjaardagkalendertje
-					met illustraties van alle belangrijke sherpa-auteurs, van Andreas wordt de zeefdruk voor
-					De Terugkeer afgedrukt.<BR/>
-					<EM>Mat Schifferstein / Sherpa</EM>
-				</TEXT>-->
-				<!--<TEXT title="December 2002: La Carte Majeure (Delcourt)">
-					<IMG src="resources/lang-fr.gif"/>
-					Cooperation of Andreas and Joann Sfar:
-					DONJON MONSTERS 3 - la Carte Majeure - (niveau 103)<BR/>
-					Check Lewis Trondheims site <WWWlink href="http://www.lewistrondheim.com/projets.php3"/><BR/>
-					According to Donjonland News all pages have been drawn. <WWWlink href="http://www.pastis.org/donjonland/news/index.html"/><BR/>
-					<EM>Thanks go to M. Bezuijen.</EM>
-				</TEXT>
-                <TEXT title="November 2004: Cromwell Stone 3: Het testament van Cromwell Stone (Sherpa)">
-                    <IMG src="resources/lang-nl.gif"/>
-                    Eind augustus 2004 (is vertraagd, ed.) verschijnt definitief bij uitgeverij Sherpa het derde meesterwerk van Andreas
-                    <EM>Het testament van Cromwell Stone</EM>
-                    in een gelimiteerde luxe editie van 1.000 exemplaren;
-                    groot formaat: 25,5 bij 34 cm;
-                    gebonden in heel linnen;
-                    met stofomslag.<BR/>
-                    825 exemplaren, afgewerkt in zwart linnen met witte bandbestempeling.
-                    Verkoopprijs Euro 29,95.<BR/>
-                    175 exemplaren, afgewerkt in zwart linnen met zilveren bandbestempeling en met exclusieve kleurenzeefdruk, genummerd en gesigneerd door Andreas!!!
-                    Verkoopprijs rond de 65 Euro.<BR/>
-                    <EM>Mat Schifferstein / Sherpa</EM>
-                </TEXT>
-                <TEXT title="September 2004: Cromwell Stone 3 (Delcourt)">
-                    <IMG src="resources/lang-fr.gif"/>
-                    Cromwell Stone 3 will be released in September, along with a "suitcase" filled with all 3 CS albums.
-                    There will also be a "suitcase" of recent Andreas albums.<BR/>
-                    <EM>Adriaan Bogaerts</EM>
-                </TEXT>
-				<TEXT title="August 2004: Capricorne 9: Le Passage (Lombard)">
-					<IMG src="resources/lang-fr.gif"/>
-                    <IMG src="resources/lang-nl.gif"/>
-                    The next Capricorne album will contain two stories ("Le Passage" and "Le Fragment")
-                    and a special 8-page dossier, in a total of 94+8 pages.<BR/>
-                    <EM>Mat Schifferstein, M. Bezuijen, an anonimous submitter</EM>
-				</TEXT>
-				<TEXT title="2004: Rork 6, 7 (Twój Komiks)">
-					<IMG src="resources/lang-pl.gif"/>
-					Rork is being published in Polish again. As it seems, all 7 albums this time.<BR/>
-					The first five albums were published already.<BR/>
-					More information, here: <WWWlink href="http://www.motopol.pl/twojkomiks/" /><BR/>
-					<EM>Thanks to Paul Zamarlo for the information.</EM>
-				</TEXT>
-                <TEXT title="January 2005: Arq 8 (Delcourt/Sherpa)">
-                    <IMG src="resources/lang-fr.gif"/>
-                    <IMG src="resources/lang-nl.gif"/>
-                    Arq 8 is expected in the first half of 2005.<BR/>
-                    <EM>Mat Schifferstein / Sherpa</EM>
-                </TEXT>-->
-				<!--<TEXT title="Future: Dérives 2 (Delcourt)">
-					<IMG src="resources/lang-fr.gif"/>
-					Apparently Andreas is working on a new <REF ref="a20"/> album, since a prepublication of one
-					of its stories (called "L'ours") has appeared in Delcourt's magazine "Pavillon Rouge".
-					<EM>Thanks to Wim Dewilde for this information.</EM><BR/>
-					<IMG src="images/story_lours.jpg"/>
-				</TEXT>-->
 			</Comment>
 		</Article>
 
@@ -8221,10 +8092,12 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="ls11" file="album_cap_gesamt7_ls.jpg" width="750" height="1006" />
 		<Image showAt="ls12" file="album_caverne_ls.jpg" width="750" height="1013" />
 		<Image showAt="ls13" file="album_cyrrusmil_ls.jpg" width="600" height="810" />
+		<Image showAt="ls14" file="album_argentine_ls.jpg" width="600" height="894" />
 		<Image showAt="tc1" file="album_cromwell_titan.jpg" width="400" height="556" />
 		<Image showAt="ecc1" file="album_rork_integral1_ecc.jpg" width="685" height="1000" />
 		<Image showAt="ecc2" file="album_rork_integral2_ecc.jpg" width="650" height="1000" />
 		<Image showAt="fut1" file="album_argentine_futuropolis.jpg" width="600" height="848" />
+		<Image showAt="kurc1" file="album_argentine_kurc.jpg" width="600" height="810" />
 
 	</Comments>
 
