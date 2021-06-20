@@ -37,7 +37,7 @@
 	</xsl:template>
 
 	<xsl:template name="createRSSFeed">
-		<xt:document method="xml" href="../andreas/andreas/_andreas_news.xml">
+		<xt:document method="xml" href="./site/andreas/_andreas_news.xml">
 			
 		<feed xmlns="http://www.w3.org/2005/Atom">
 		<title type="text">Dossier Andreas</title>
@@ -64,7 +64,7 @@
 	</xsl:template>
 	
     <xsl:template name="createFrameSetPage">
-        <xt:document method="html" href="../andreas/index.html">
+        <xt:document method="html" href="./site/index.html">
             <HTML>
                 <HEAD>
                     <LINK rel="SHORTCUT ICON" href="/favicon.ico" />
@@ -90,7 +90,7 @@
     </xsl:template>
     
    	<xsl:template name="createTopLeftPage">
-        <xt:document method="html" href="../andreas/andreas/_topleft.php">
+        <xt:document method="html" href="./site/andreas/_topleft.php">
 	        <xsl:processing-instruction name='php'>session_start(); ?</xsl:processing-instruction>
 			<HTML>
 	            <HEAD>
@@ -106,7 +106,7 @@
     </xsl:template>
 
 	<xsl:template name="createMenuPage">
-        <xt:document method="html" href="../andreas/andreas/_menu.php">
+        <xt:document method="html" href="./site/andreas/_menu.php">
             <xsl:processing-instruction name='php'>session_start(); ?</xsl:processing-instruction>
 			<HTML>
             <HEAD>
@@ -209,7 +209,7 @@
         <xsl:message><xsl:value-of select="$item-id" /></xsl:message>
         <xsl:variable name="filename" select="$item-id"></xsl:variable>
 
-        <xt:document method="html" href="../andreas/andreas/p1_{$filename}.php">
+        <xt:document method="html" href="./site/andreas/p1_{$filename}.php">
             <xsl:processing-instruction name='php'>session_start(); ?</xsl:processing-instruction>
 			<HTML>
                 <HEAD>
