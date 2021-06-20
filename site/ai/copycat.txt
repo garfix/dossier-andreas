@@ -1,0 +1,17 @@
+Melanie Mitchell (and Common Lisp source code)
+http://www.cs.pdx.edu/~mm/index.html
+
+Java implementation
+http://www2.psy.uq.edu.au/CogPsych/Copycat/
+
+Tutorial
+http://www2.psy.uq.edu.au/CogPsych/Copycat/Tutorial/
+
+Analogy-Making as a Complex Adaptive System - M. Mitchell
+http://www.cs.pdx.edu/~mm/amcas.pdf
+
+Copycat Java code:
+applet = copycat.java
+copycat.java start een frame window: TestWindow.java
+TestWindow.java heeft als enige (niet-menu) component copycatapp.java
+

@@ -1,0 +1,204 @@
+
+<html>
+
+<head>
+    <link href="resources/stylesheet.css" type="text/css" rel="stylesheet">
+    <META name="Description" content="Frames">
+</head>
+
+<body vlink="236101" alink="236101">
+
+    <center>
+    <table width="800" border="0" cellspacing="0" cellpadding="5" bgcolor="#FFFFFF">
+        <tr>
+            <td width="110" valign="top"></td>
+            <td>
+                <table>
+                <tr>
+                    <td><a href="index.html"><IMG src="resources/home.jpg" width="46" height="47"></a></td>
+                    <td><IMG src="resources/ai_rep.jpg" width="425" height="51"></td>
+                </tr>
+                </table>
+
+                <div class="pageheader">Frame Systems, Semantic Networks, Unification<br><IMG src="resources/ruler1.jpg"></div>
+                <p>
+                    This is not a complete library. I was just experimenting with representation and reasoning.
+                    I started out with some sort of semantic network. Always handy to represent Objects and Relations.
+                    Then, they became frames, so I could also represent typical qualities of objects, and
+                    inheritance with exceptions (the penguin is a bird, but can't fly).
+                    Then I thought it would be nice to be able to reason with the relations in a Prolog kind of
+                    way. So I created a unification routine that is able to make some simple non-recursive
+                    inductions regarding relations.
+                    This is where I stopped, because I realized I had no idea where to go next and what to do with the
+                    library. There are many possibilities. And it is not a simple task to integrate all these
+                    types of representation and reasoning.
+                </p>
+
+                <div class="header">What was implemented:</div>
+                <ul>
+                <li>Frames. A frame is something that can have any number of types (can belong to more than one group,
+                multiple inheritance).
+                <li>A Frame can be either an Object, a Relation, or a Type. An object is just an identifier.
+                All its characteristics are not built into the object, but are Relations, multi-valued predicates
+                that say something about the object. Relations may apply to all sorts of Frames.
+                relations (is a kind of). These are explicit part of the objects.
+                <li>Logical inference rules, which are an elementary subset of Prolog rules (like: father(x, y) :- parent(x, y), male(x).)
+                </ul>
+
+                <div class="header">Remarks</div>
+                <ul>
+                <li>Frames and Logical Inference are integrated. It is possible to reason logically with the system,
+                but it also allows exceptions to rules (All birds fly, penguins are birds, penguins don't fly).
+                All relations are represented in first order predicate logic, except for taxonomic hierarchical
+                <li>It is possible to Ask the model a query. It will return bindings, all possible bindings of
+                variables in the query onto concrete values.
+                <li>I also considered Production Systems for reasoning, but I found them to be unsuitable for
+                the simple tasks I had in mind. I don't understand why one should choose a Production System for
+                logical reasoning. It's very brute force (forward chaining) and seems to be most useful for
+                the kinds of reasoning used for planning problems.
+                </ul>
+
+                <div class="header">Sample use</div>
+                <pre>
+    CFSObjectType *Animal = new CFSObjectType("Animal");
+    CFSObjectType *Bird = new CFSObjectType("Bird");
+    CFSObjectType *Mammal = new CFSObjectType("Mammal");
+    ...
+
+    CFSObject *Opus = new CFSObject("Opus");
+    CFSObject *Bill = new CFSObject("Bill");
+    CFSObject *Pat = new CFSObject("Pat");
+    ...
+
+    Bird->AddType(Animal);
+    Mammal->AddType(Animal);
+    Penguin->AddType(Bird);
+    ...
+
+    Opus->AddType(Penguin);
+    Magnum->AddType(Penguin);
+    Bill->AddType(Cat);
+    ...
+
+    Model.Add(Animal);
+    Model.Add(Bird);
+    Model.Add(Mammal);
+    ...
+
+    CFSRelationType *CanFly = new CFSRelationType("can fly");
+    CanFly->AddRole("subject");
+    Model.Add(CanFly);
+    ...
+
+    CFSRelationType *Friend = new CFSRelationType("friend");
+    Friend->AddRole("subject1");
+    Friend->AddRole("subject2");
+    Model.Add(Friend);
+    ...
+
+    // a friend is always someone you know
+    Friend->AddType(Knows);
+
+    // a typical animal does not fly
+    Relation = new CFSRelation(CanFly);
+    Relation->SetRoleValue("subject", Animal);
+    Relation->SetTruth(false);
+    Model.Add(Relation);
+    ...
+
+    // a father is a parent
+    // parent(x, y) :- father(x, y).
+    Relation = new CFSRelation(Parent);
+    Relation->SetRoleValue("subject1", X);
+    Relation->SetRoleValue("subject2", Y);
+    Rule = new CFSRule(Relation);
+    Model.Add(Rule);
+    Relation = new CFSRelation(Father);
+    Relation->SetRoleValue("subject1", X);
+    Relation->SetRoleValue("subject2", Y);
+    Rule->AddCondition(Relation);
+    ...
+
+    /* queries */
+
+    // we said that
+    // 1) Opus is a penguin (type)
+    // 2) A penguin is a bird (type)
+    // 3) Birds typically have 2 legs (relation)
+    // How many legs has Opus?
+    CFSRelation Query1(LegCount);
+    Query1.SetRoleValue("subject", Opus);
+    Query1.SetRoleValue("count", X);
+    Bindings = Model.Ask(&Query1);
+    assert(Bindings.GetLength() > 0);
+    // the number of legs is taken from the first relation found (a LegCount)
+    // it's taken from its 'count' role
+    Value = (int)(((CFSObjectNumber *)Bindings.Get(0).GetValue(X))->GetFloat());
+    printf("Opus has %d legs.\n", Value);
+
+    // we said that
+    // 1) Opus is a penguin (type)
+    // 2) A penguin can't fly (relation)
+    // 3) A penguin is a bird (type)
+    // 4) Birds fly (relation)
+    // can Opus fly?
+    CFSRelation Query2(CanFly);
+    Query2.SetRoleValue("subject", Opus);
+    Query2.SetTruth(false);
+    Exists = Model.AskExists(&Query2);
+    if (Exists) printf("Opus can't fly.\n");
+    else printf("Opus can fly.\n");
+
+    // we said that
+    // 1) to be a friend of someone is to know him (relation type)
+    // 2) Bill is Opus' friend (relation)
+    // does Opus know Bill?
+    CFSRelation Query3(Knows);
+    Query3.SetRoleValue("subject1", Opus);
+    Query3.SetRoleValue("subject2", Bill);
+    Exists = Model.AskExists(&Query3);
+    if (Exists) printf("Opus knows Bill.\n");
+    else printf("Opus doesn't know Bill.\n");
+
+    // we said
+    // 1) a friend of a friend is always a friend (rule)
+    // 2) Bill is Opus' friend (relation)
+    // 3) Opus is Pat's friend (relation)
+    // is Bill Pat's friend?
+    CFSRelation Query4(Friend);
+    Query4.SetRoleValue("subject1", Bill);
+    Query4.SetRoleValue("subject2", Pat);
+    Exists = Model.AskExists(&Query4);
+    if (Exists) printf("Bill is Pat's friend\n");
+    else printf("Bill is not Pat's friend\n");
+
+    // given
+    // 1) Opus is Bill's father
+    // 2) Opus is Pat's father
+    // 3) A father is a parent
+    // 4) If a is parent of b, b is child of a
+    // How many animals can say they are Opus' child? - or -
+    // how many children has Opus?
+    CFSRelation Query5(Child);
+    Query5.SetRoleValue("subject1", X);
+    Query5.SetRoleValue("subject2", Opus);
+    Bindings = Model.Ask(&Query5);
+    printf("Opus has %d children: ", Bindings.GetLength());
+    for (int Index=0; Index < Bindings.GetLength(); Index++)
+    {
+        printf("%s ", Bindings.Get(Index).GetValue(X)->ToString().GetBuffer());
+    }
+    printf("\n");                </pre>
+
+                <div class="header">Links</div>
+                <ul>
+                    <li><a href=""></a>
+                </ul>
+          </td>
+          <td width="110">&nbsp;</td>
+      </tr>
+  </table>
+  </center>
+
+</body>
+</html>

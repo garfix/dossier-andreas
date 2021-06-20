@@ -1,0 +1,102 @@
+
+<html>
+
+<head>
+    <link href="resources/stylesheet.css" type="text/css" rel="stylesheet">
+    <META name="Description" content="Fuzzy Logic">
+</head>
+
+<body vlink="236101" alink="236101">
+
+    <center>
+    <table width="800" border="0" cellspacing="0" cellpadding="5" bgcolor="#FFFFFF">
+        <tr>
+            <td width="110" valign="top"></td>
+            <td>
+                <table>
+                <tr>
+                    <td><a href="index.html"><IMG src="resources/home.jpg" width="46" height="47"></a></td>
+                    <td><IMG src="resources/ai_rep.jpg" width="425" height="51"></td>
+                </tr>
+                </table>
+
+                <div class="pageheader">Fuzzy Logic<br><IMG src="resources/ruler1.jpg"></div>
+                <p>
+                I wrote this library in order to understand Fuzzy Logic. 
+                It mainly implements the draft version of the <A href="http://www.fuzzytech.com/binaries/ieccd1.pdf">IEC 1131-7 Fuzzy Control Programming</a> paper.
+                It took me the evening and weekend hours of about one month to implement. 
+                </p>
+
+                <div class="header">What was implemented:</div>
+                <ul>
+                <li>The Fuzzy Control Language up to second (Extension) level, except for the items in the next section.
+                <li>Fuzzy (Linguistic) Variables
+                <li>Piecewise linear sets (triangular, trapezoidal, etc.) and singleton sets. It is possible to use variables in set definitions. It is possible to create any set with the piecewise linear sets.
+                <li>Fuzzification and Defuzzification. I implemented the COG, COGS, MOM, RM and LM defuzzification methods. Default values and ranges are supported.
+                <li>Operator definitions: MAX/MIN, ASUM/PROD, and BSUM/BDIF.
+                <li>Activation methods: PROD and MIN.
+                <li>Accumulation methods: Only MAX.
+                <li>Rules: All FCL expressions are possible, including compound expressions (i.e. A IS S1 OR NOT (B IS S2)), 
+                expressions with the 'NOT' within: A IS NOT B, the weighting factor WITH, and multiple subconclusions.
+                </ul>
+
+                <div class="header">What was not implemented:</div>
+                <ul>
+                <li>The COA defuzzification method; because it proved too complicated for me.
+                <li>The BSUM and NSUM accumulation methods: because I have no idea how they should 
+                be implemented (with regard to the defuzzification process that follows it)
+                and I am not even sure what they should do exactly
+                <li>The OPTIONS / END_OPTIONS block: no idea what their syntax should be
+                </ul>
+
+                <div class="header">Remarks</div>
+                <p>I haven't used Fuzzy Logic yet, but I do have some things to say about it.</p>
+                <ul>
+                <li>Apparently it is used mainly for microcontrollers and such devices
+                and to a much lesser degree in games and large scale applications. That surprised me.
+                <li>Fuzzy Logic provides a great way to combine the results of several conflicting production rules. What I miss however, is some factor you can use to
+                specify the <i>importance</i> of a rule. At this time all rules seem to be of the same importance, and I suppose that can be a nuisance.
+                <li>I have only seen the draft version of the FCL specification, but I noticed that the accumulation of the results of different ruleblocks is not defined.
+                If several ruleblocks use different methods of accumulation, which method is used to accumulate all result sets that are created in the execution of the rules.
+                </ul>
+
+                <div class="header">Sample use</div>
+                <pre>
+// Create a Fuzzy Logic Model (the container for all parts)
+CFuzzyModel Model;
+
+// Load some fcl file to fill the model
+Model.Load("files/example.fcl");
+
+// set the contents of the input variables
+Model.GetVariable("Our_Health")->SetValue(25);
+Model.GetVariable("Enemy_Health")->SetValue(75);
+
+// calculate the new value of the output variables
+Model.Update();
+
+// Print the output variable's value
+float Crisp = Model.GetVariable("Aggressiveness")->GetValue();
+printf("agressiveness: %f \n", Crisp);
+                </pre>
+
+                <div class="header">Links</div>
+                <p>Somehow all these sites only provide part of the puzzle. And even with all the pieces, there still remain some (excusez) fuzzy areas.</p>
+                <ul>
+                <li><a href="http://www.fuzzytech.com/binaries/ieccd1.pdf">IEC 1131-7 Fuzzy Control Programming</a> The "Committee Draft" of the official FCL specification by the IEC. The final version costs somewhat over 100 euro's.
+                <li><A href="http://ffll.sourceforge.net/"> Free Fuzzy Logic Library</A> A C++ Fuzzy Logic implementation 
+                which has been a great inspiration to me, although I have done the implementation completely different. I hope this Michael Zarozinski dude
+                will find the time to finish his library, because it still misses some important parts.
+                <li><A href="http://www.iit.nrc.ca/IR_public/fuzzy/fuzzyJToolkit.html">FuzzyJ ToolKit </A> A Java Fuzzy Logic implementation.
+                <li><A href="http://www.cs.berkeley.edu/People/Faculty/Homepages/zadeh.html"> Lotfi A. Zadeh</A>, the inventor of Fuzzy Logic.
+                <li><A href="http://www.faqs.org/faqs/fuzzy-logic/part1/">Fuzzy Logic FAQ</A> Fuzzy Logic and Fuzzy Expert Systems 1/1 FAQ.
+                <li><a href ="http://groups.google.com/groups?group=comp.ai.fuzzy"> The Fuzzly Logic usegroup</a> I haven't really looked at it yet.
+                </ul>
+          </td>
+          <td width="110">&nbsp;</td>
+      </tr>
+  </table>
+  </center>
+
+</body>
+</html>

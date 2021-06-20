@@ -1,0 +1,94 @@
+<HTML>
+<HEAD>
+    <link href="resources/stylesheet.css" type="text/css" rel="stylesheet">
+    <meta name="keywords" content="Software Architecture, Architectural Patterns" >
+    <meta name="Description" content="Garfixia Software Architectures">
+    <title>Garfixia Software Architectures</title>
+</HEAD>
+
+<BODY vlink="0f0f60" alink="0f0f60">
+
+    <center>
+    <table width="800" height="100%" border="0" cellspacing="0" cellpadding="10" bgcolor="#FFFFFF">
+        <tr>
+            <td width="110" valign="top"></td>
+            <td>
+
+                <table>
+                <tr><td><IMG src="resources/dragon.jpg" width="150" height="195"></td><td><IMG src="resources/sa_rep.jpg" width="425" height="51"></td></tr>
+                <tr><td></td><td align=right>By <A href="http://www.patrickvanbergen.com/">Patrick van Bergen</a></td></tr>
+                </table>
+                <br>
+
+                <h2>Introduction</h2>
+                <p>
+                    The idea behind this site is to give myself and other programmers a high-level easy-to-understand
+                    overview of common architectural patterns in software. It is meant as a source of inspiration for those who are asked to create some program and have really no idea what it should look like or where to start.
+                    I hope you enjoy it.
+                </p>
+
+                <a name="DataFlow"></a>
+                <h2>Architectural patterns</h2>
+                <p>
+                    Each architecture is unique. However, some patterns are common in the history of software development.
+                    These are called architectural patterns. At least some of them will be familiar to you.
+                </p>
+                <ol>
+                    <li><a href="mvc.html">Model-View-Controller</a>
+                    <li><a href="pac.html">Presentation-Abstraction-Control</a>
+                    <li><a href="pipe_and_filter.html">Pipe-And-Filter</a>
+                    <li><a href="layers.html">Layered Systems</a>
+                    <li><a href="microkernel.html">Microkernel</a>
+                    <li><a href="tiers.html">Client-Server and N-Tier Systems</a>
+                    <li><a href="repository.html">Repository</a>
+					<li><a href="blackboard.html">Blackboard</a>
+                    <li><a href="fsm.html">Finite State Machine</a>
+                    <li><a href="process_control.html">Process Control</a>
+                    <li><a href="mas.html">Multi Agent System</a>
+                    <li><a href="broker.html">Broker a.k.a. Service Oriented Architecture</a>
+                    <li><a href="masterslave.html">Master-Slave</a>
+                    <li><a href="vm.html">Interpreter a.k.a. Virtual Machine</a>
+                    <li><a href="hub_and_spoke.html">Hub-And-Spoke</a>
+                    <li><a href="eventbus.html">Message Bus a.k.a. Event Bus</a>
+                    <li><a href="structural_model.html">Structural Model</a>
+					<li><a href="ports_and_adapters.html">Ports-And-Adapters a.k.a. Hexagonal Architecture</a>
+					<li><a href="peer_to_peer.html">Peer-to-peer</a>
+					<li><a href="event_sourcing.html">Event sourcing</a>
+					<li><a href="cqrs.html">CQRS</a>
+                </ol>
+
+<!--
+                <a name="ControlFlow"></a>
+                <h2>Control Flow</h2>
+                <p>
+                    Control flow describes the way activity flows through the application. For starters, an application may consist of a single process, that performs sequential executions, subroutine calls and loops. But the application may also consist of several asynchronous processes. But even if the application has only a single thread of control, it may emulate multiple simultanuous threads.
+                </p>
+                <p>
+                    Even though a single thread can at the lowest level only do loops and subroutine calls, at a
+                    higher level of abstraction it can create all sorts of control flows. Take <i>Implicit invocation</i> for example. At the lowest level it's just subroutine calls. At a higher level it's modules that become active when they receive an event that was sent earlier on by a different module. Often the application contains a specific module to create the control flow.
+                </p>
+                <p>I found that two characteristics stand out to describe control flow:
+                <i>command structure</i> (Control Tree or Control Loop) and <i>order of execution</i> (Parallel or Sequential).</p>
+                <ol>
+                    <li><a href="call_and_return.html">Call And Return a.k.a. Main program And Subroutines</a>
+                    <li><a href="implicit.html">Implicit Invocation a.k.a. Event Based</a>
+                    <li><a href="manager.html">Manager Model</a>
+                    <li><a href="emulatedparallel.html">Emulated Parallel</a>
+                </ol>
+-->
+                <h2>Books</h2>
+                <p>
+                    <ul>
+                        <li><a href="http://www.amazon.com/exec/obidos/tg/detail/-/0131829572/qid=1089224820/sr=8-14/ref=sr_8_xs_ap_i14_xgl14/104-4468847-9959100?v=glance&s=books&n=507846">Software Architecture - Perspectives on an emerging discipline</a> (1996). The original work on Software Architecture, but not a good reference. Not recommended.
+                        <li><a href="http://www.amazon.com/exec/obidos/tg/detail/-/0471958697/ref=pd_sim_books_5/104-4468847-9959100?v=glance&s=books">Pattern-Oriented Software Architecture, Volume 1: A System of Patterns</a> (1996). This is <i>the</i> best book available on Architectural Patterns. However, it only handles 7 patterns in-depth.
+                        <li><a href="http://www.amazon.com/exec/obidos/tg/detail/-/0321154959/ref=pd_bxgy_img_2/104-3366980-0821531?v=glance&s=books">Software Architecture in Practice, Second Edition</a> (2003). The standard work on Software Architecture. This is where you start to become a software architect.
+                    </ul>
+                </p>
+          </td>
+          <td width="110">&nbsp;</td>
+      </tr>
+  </table>
+  </center>
+
+</BODY>
+</HTML>

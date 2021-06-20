@@ -1,0 +1,233 @@
+
+<html>
+
+<head>
+    <link href="resources/stylesheet.css" type="text/css" rel="stylesheet">
+    <META name="Description" content="Hierarchical Concurrent Finite State Machines">
+</head>
+
+<body vlink="236101" alink="236101">
+
+    <center>
+    <table width="800" border="0" cellspacing="0" cellpadding="5" bgcolor="#FFFFFF">
+        <tr>
+            <td width="110" valign="top"></td>
+            <td>
+                <table>
+                <tr>
+                    <td><a href="index.html"><IMG src="resources/home.jpg" width="46" height="47"></a></td>
+                    <td><IMG src="resources/ai_rep.jpg" width="425" height="51"></td>
+                </tr>
+                </table>
+
+                <div class="pageheader">Hierarchical Concurrent Finite State Machines<br><IMG src="resources/ruler1.jpg"></div>
+				<p>This document is superseded by <a href="http://www.patrickvanbergen.com/on_fsm/on_fsm.html">this</a> document.
+                <p>
+                    Although Finite State Machines are not typical A.I., they form an important tool in the A.I.
+                    programmer's toolbox. A Finite State Machine is a program that acts differently depending
+                    on its "state". There are a finite number of states the program can be in. But just as
+                    important as the states of the program are the transitions between those states. It is
+                    possible to specify what code should be executed whenever the program changes from one state
+                    to the other.
+                </p>
+                <p>
+                    Simple finite state machines are flat and can be only in a single state at any time.
+                    These can usually be implemented by a single switch statement. In some applications,
+                    however, you want your program to be in several states simultanuously. This is called
+                    concurrency. Next, you may want to structure your state machine in a tree-like fashion,
+                    to avoid having to repeat common code in several states. It can greatly simplify the design
+                    of the program. This makes a finite state machine hierarchical.
+                </p>
+
+                <div class="header">What was implemented:</div>
+                <ul>
+                <li>States: Each state can have an update function, an entry function, and an exit function.
+                <li>Hierarchical structure: Each state may contain substates. You might say each state may
+                contain its own state machine.
+                <li>(Simple) Transitions: Each transition can create a bridge between any two states of the
+                state machine. Whenever the transition is fired, the source state is deactivated, the transition
+                code is executed, and the target state is activated. Deactivation entails the execution of the
+                exit code of the source state and its direct superstates. Activation entails the execution of the
+                target state's entry code and that of it direct superstates.
+                <li>Complex transitions: A complex transition has a number of source states and a number of target
+                states. When all source states are active, the transition fires. This means that the source states
+                are deactivated and the target states are activated. Complex transitions can be used to create
+                concurrency.
+                <li>Initial states. I chose not to create special initial states that have no other function
+                than to activate another state. In stead, an existing substate can be made the initial substate. When the superstate
+                is activated, its initial substate is automatically activated as well.
+                <li>History. There are no special history states. A state may have <i>shallow history</i>, which means
+                that when it is activated, the substate that was active when the state was last active will
+                be automatically activated again. It may also have <i>deep history</i>, which means that
+                when it is activated, the previous activation pattern of all substates and subsubstates will
+                be restored.
+                </ul>
+
+                <div class="header">What was not implemented:</div>
+                <p>
+                <ul>
+                <li>Final states. I see no use for them currently. The FSM's I picture are always active. They
+                don't <i>end</i>.
+                <li>Internal transitions.
+                <li>Handling of conflicting transitions. If multiple transitions could all fire, the first one
+                added to the model will fire. Not the most low-level. Nor is it possible to specify priorities.
+                </ul>
+                </p>
+
+                <div class="header">Remarks</div>
+                <ul>
+                <li>My starting point is the UML 1.1 specification for statechart diagrams. However I
+                diverted somewhat. I did not create special initial and history states. And, more importantly,
+                I did not model concurrent substates explicitly. I used complex transitions to implement
+                concurrency. It was easier to implement and it seems more intuitive to me. I made
+                simple transitions a special case of complex transitions.
+                <li>I chose not to implement state machines in a recursive manner. That is, a state machine
+                within a state machine. Even though it seems the most straightforward implementation, it
+                becomes a problem when you start defining transitions between states of different state machines.
+                For a number of reasons it is much easier to just have a single state machine with a number
+                of states and transitions, and to allow states to have substates.
+                <li>Concurrency can be implemented in two ways. The first way is by explicitly defining concurrent
+                substates that have explicit initial and final states. The other is by complex transitions
+                that fork and join the control flow. I chose the latter because it is a specific use of
+                complex transitions, which I needed anyway.
+                <li>The easiest way to create complex state machines is to require a special class for every state
+                the programmer needs. In C++ this is an enormous code overhead. Add to this the well-known
+                implementation of a state machine as a switch statement. This is how I reached my design
+                where the programmer needs to create only one class for his state machine, but needs to
+                create a switch statement in each of the interface functions.
+                <li>On updating states, the active top-level states are updated in the order in which they were added
+                to the model. When a top-level state is updated, its active substates, and subsubstates are updated
+                as well, in that order (top-down).
+                <li>A state machine should always have a single state as its top-level composite state. This state
+                is present when the FSM is created and is called Root. So even the application programmer adds
+                no (sub)states, the FSM still has a state. All states have Root as their super(super((...))state.
+                <li>If a state has a <i>deep history</i>, it overrides any other history settings of substates.
+                If a substate only has a <i>shallow history</i>, this will be overridden.
+                <li>I chose to combine simple and complex transitions. Simple transitions are activated when the source
+                state is active and the guard condition holds. Complex transitions may contain multiple source and
+                target states and are (by specification) automatically fired when the source states are active.
+                In my implementation, a "transition" can have any number of source and target states. If all source
+                states are active <i>and</i> the guard condition holds (the transition "should fire"), it fires.
+                At that time the source states are deactivated and the target states are activated.
+                <li>It could be a good idea to let the programmer create separate functions for all entry,
+                exit, guard and transition code. The programmer needs to give the address of the function to the
+                model. The functions are methods in a CFSMModel subclass. This saves having to check all
+                'switch' statements all the time, which could take time if there are a lot of states and transitions.
+                </ul>
+
+                <div class="header">Sample use</div>
+                <pre>
+
+class CMicrowave: public CFSMModel
+{
+protected:
+    bool LightSwitchedOn;
+
+    CFSMState *Activate;
+    CFSMState *Mode;
+    CFSMState *ModeDisabled;
+    ...
+
+    CFSMTransition *ModeDisabled_ModeOperational;
+    CFSMTransition *ModeOperational_ModeDisabled;
+    CFSMTransition *ModeOperationalSetTime_ModeOperationalIdle;
+    ...
+
+    CFSMTransition *Activate_ModeDisplayLight;
+    ...
+
+public:
+    CMicrowave()
+    {
+        // create states
+        Activate = AddState("Activate");
+        Mode = AddState("Mode");
+        ...
+
+        // create substates
+        ModeDisabled = AddState("ModeDisabled", Mode);
+        ...
+
+        // create transitions
+        ModeDisabled_ModeOperational = AddTransition
+            (ModeDisabled, ModeOperational, "close");
+        ModeOperational_ModeDisabled = AddTransition
+            (ModeOperational, ModeDisabled, "open");
+        ...
+
+        // create complex transitions
+        Activate_ModeDisplayLight = AddTransition();
+        Activate_ModeDisplayLight->AddSourceState(Activate);
+        Activate_ModeDisplayLight->AddTargetState(Mode);
+        Activate_ModeDisplayLight->AddTargetState(Display);
+        Activate_ModeDisplayLight->AddTargetState(LightOn);
+
+        // initialization
+        LightSwitchedOn = false;
+        // top level
+        GetRootState()->SetInitialSubState(Activate);
+        // lower levels
+        Mode->SetInitialSubState(ModeOperational);
+        ModeOperational->SetInitialSubState(ModeOperationalIdle);
+
+        // history states
+        ModeOperational->SetHistory(FSMHISTORY_SHALLOW);
+        ModeOperationalProgram->SetHistory(FSMHISTORY_SHALLOW);
+    }
+    virtual void UpdateState(CFSMState *State)
+    {
+        printf("State \"%s\" Updates.\n", State->GetName().GetBuffer());
+    }
+    virtual void EnterState(CFSMState *State)
+    {
+        printf("State \"%s\" Entered.\n", State->GetName().GetBuffer());
+    }
+    virtual void ExitState(CFSMState *State)
+    {
+        printf("State \"%s\" Exited.\n", State->GetName().GetBuffer());
+    }
+    virtual bool ShouldFire(CFSMTransition *Transition)
+    {
+        return true;
+    }
+    virtual void Fire(CFSMTransition *Transition)
+    {
+        if (Transition == LightOff_LightOn) LightSwitchedOn = true;
+        else if (Transition == LightOn_LightOff) LightSwitchedOn = false;
+
+        printf("Transition \"%s\" Fires.\n",
+            Transition->GetName().GetBuffer());
+    }
+};
+
+void FSM(void)
+{
+    CMicrowave Microwave;
+
+    // first start the microwave at its initial state
+    Microwave.Start();
+
+    // update many times (may be placed in an infinite loop)
+    Microwave.Update();
+
+    // maybe stop and deactivate all states
+    Microwave.Stop();
+
+    // print the current state of the FSM
+    printf("%s", Microwave.ToString().GetBuffer());
+}
+
+                </pre>
+
+                <div class="header">Links</div>
+                <ul>
+                    <li><a href="http://homepage.mac.com/pauljlucas/resume/thesis.pdf">An object-oriented language system for implementing concurrent hierarchical finite state machines</a>
+                </ul>
+          </td>
+          <td width="110">&nbsp;</td>
+      </tr>
+  </table>
+  </center>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+Modeling Rational Agents within a BDI-Architecture
+http://citeseer.ist.psu.edu/rd/95589163%2C122564%2C1%2C0.25%2CDownload/http://citeseer.ist.psu.edu/cache/papers/cs/3981/ftp:zSzzSzarchive.cs.umbc.eduzSzpubzSzWWWzSzcourseszSzgraduatezSz771zSzfall97zSzpaperszSzrao14.pdf/rao91modeling.pdf
+
+A. S. Rao and M. P. Georgeff, “An Abstract Architecture for Rational Agents”, Proceedings of the Third International Conference on Principles of Knowledge Representation and Reasoning (KR'92), C. Rich, W. Swartout and B. Nebel (editors), Morgan Kaufmann Publishers, 1992.
+
+M. d'Inverno, D. Kinny, M. Luck, M. Wooldrige, "A Formal Specification of dMARS", INTELLIGENT AGENTS IV: Agent Theories, Architectures, and Languages, M. Singh, M. Wooldrige, and A. Rao (editors), LNAI 1365, Springer-Verlag, 1998.
+http://www.ecs.soton.ac.uk/~mml/papers/atal97.pdf
+
+The Belief-Desire-Intention Model of Agency
+http://www.cs.huji.ac.il/~imas/readings/atal98b.pdf
+
+Michael E. Bratman, “Intention, Plans, and Practical Reasoning”, Harvard University Press, Cambridge, MA (USA), 1987.
+
+In most existing BDI implementations (e.g. PRS, JACK, dMARS) agents have a predefined and fixed set of plans.	
+
+UMBC on BDI agents
+http://agents.umbc.edu/Applications_and_Software/Software/Academic/BDI_Agents/index.shtml
+
+Z notation reference
+http://spivey.oriel.ox.ac.uk/~mike/zrm/zrm.pdf
+
+AgentSpeak (!)
+http://www.cs.mu.oz.au/682/agentspeak.pdf
+
+http://www.ecs.soton.ac.uk/~mml/papers/jlc98.pdf
+
+
+dMars
+=====
+M. d'Inverno, D. Kinny, M. Luck, and M. Wooldridge. 
+A formal specification of dMARS. 
+In Proceedings of the fourth International Workshop on Agent Theories, Architectures, and Languages (ATAL), pages 155-176, 1998. 
+
+JACK
+====
+JACK is the leading edge commercial BDI-agent toolkit. It represents a legal successor of PRS and dMars, but uses a intuitive language that extends the Java programming language with certain agent specifiec keywords. It is the first platform with support for capabilities and generic team structures, but does not yet support the FIPA-specifications.
+http://www.agent-software.com/shared/home/
+
+JadeX
+=====
+http://vsis-www.informatik.uni-hamburg.de/projects/jadex/
+
+
+
+Opmerkingen bij de implementatie:
+- RemoveGoalEvent wordt niet ondersteund, net als in de spec.
+- er bestaat ook een AgentSpeak(XL), misschien is die uitgebreider.
+
+trigger: +location(robot, X); 
+context: location(robot, X), location(bin, Y);
+body: 
+	action |
+	action -> (
+			action -> ( action ),
+			action
+		   ) |
+	!goal()
+.
+
+
+!  = add achievement goal
+?  = add test goal
++  = add belief
+-  = remove belief
+   = external action
+
+- External actions worden uitgevoerd via het model.
+

@@ -1,0 +1,111 @@
+
+<html>
+
+<head>
+    <link href="resources/stylesheet.css" type="text/css" rel="stylesheet">
+    <META name="Description" content="Natural Language Processing">
+</head>
+
+<body vlink="236101" alink="236101">
+
+    <center>
+    <table width="800" border="0" cellspacing="0" cellpadding="5" bgcolor="#FFFFFF">
+        <tr>
+            <td width="110" valign="top"></td>
+            <td>
+                <table>
+                <tr>
+                    <td><a href="index.html"><IMG src="resources/home.jpg" width="46" height="47"></a></td>
+                    <td><IMG src="resources/ai_rep.jpg" width="425" height="51"></td>
+                </tr>
+                </table>
+
+                <div class="pageheader">Natural Language Processing<br><IMG src="resources/ruler1.jpg"></div>
+                <p>
+                Currently I've only implemented a chart parser that can create multiple parse trees from ambiguous
+                sentences. The algorithm for the chart parser can be found in chapter 23 of
+				"Artificial Intelligence: A Modern Approach (AIMA)" by Stuart Russell and Peter Norvig.
+				I extended it so the different parse trees can be used separately.
+                </p>
+
+                <div class="header">What was implemented:</div>
+                <ul>
+                <li>The Chart Parser
+                <li>Lexicon and Grammar can be read from file
+                </ul>
+
+                <div class="header">Remarks</div>
+                <ul>
+				<li>I added a lexicon and a grammar because without them the parse is not of much use.
+                Both are lacking but will at least give you an idea. The grammar generates way too much
+                ambiguous sentences and is thus not very useful. The lexicon lacks even a lot of basic words.
+				<li>Implementing the chart parsing took a lot of time. First it was hard to understand the notation
+				used in the book AIMA. Secondly, there is a small, but annoying error in the algorithm:
+				the first line<br>
+				<pre>chart[0] &lt;- [0, 0, S' -> *S]<br></pre>
+				should read<br>
+				<pre>ADD-EDGE( [0, 0, S' -&gt; *S] )<br></pre>
+				Finally, and this has taken most of the time, the algorithm is meant to find out if a sentence is legal
+				or not. It creates internally only a combined parse tree. It proved quite hard and in demand of a
+				thorough understanding of the algorithm (which I gained in time) to pull the separate parse trees
+				from the combined tree.
+                </ul>
+                <p></p>
+                <div class="header">Sample use</div>
+                <pre>
+void PrintParseTrees(CNLPParseForest &ParseForest)
+{
+	for (int Index=0; Index&lt;ParseForest.GetParseTreeCount(); Index++)
+	{
+		CNLPParseTree *ParseTree = ParseForest.GetParseTree(Index);
+		printf("%s\n\n", ParseTree->ToString().GetBuffer());
+	}
+}
+
+void Parse(void)
+{
+	CNLPModel Model;
+	CNLPParseForest ParseForest;
+
+	// load a grammar
+	Model.AddGrammarRules("resources/grammar_english_thoughtreasure.txt");
+
+	// load a lexicon
+	Model.AddLexicalEntries("resources/lexicon_english_nouns.txt", "Noun");
+	Model.AddLexicalEntries("resources/lexicon_english_articles.txt", "Article");
+	Model.AddLexicalEntries("resources/lexicon_english_pronouns.txt", "Pronoun");
+	Model.AddLexicalEntries("resources/lexicon_english_verbs.txt", "Verb");
+	Model.AddLexicalEntries("resources/lexicon_english_adverbs.txt", "Adverb");
+	Model.AddLexicalEntries("resources/lexicon_english_adjectives.txt", "Adjective");
+	Model.AddLexicalEntries("resources/lexicon_english_determiners.txt", "Det");
+	Model.AddLexicalEntries("resources/lexicon_english_conjunctions.txt", "Conjunction");
+
+	// parse sentences and create and print the parse trees
+	Model.Parse("I feel a breeze.", ParseForest);
+	PrintParseTrees(ParseForest);
+
+	Model.Parse("fall leaves fall and spring leaves spring.", ParseForest);
+	PrintParseTrees(ParseForest);
+
+	Model.Parse("I think therefore I am.", ParseForest);
+	PrintParseTrees(ParseForest);
+}
+
+                </pre>
+
+                <div class="header">Links</div>
+                <ul>
+                <li><a href="http://www.signiform.com/tt/book/Syn.html">Thought Treasure</a> This is where I got the grammar.
+                <li><a href="http://www.link.cs.cmu.edu/link/">Link Grammar</a> This is where I got the lexicon
+                <li><a href="http://aima.cs.berkeley.edu/lisp/language/algorithms/chart-parse.lisp">AIMA: Chart Parser in Lisp</a> The chart parsing algorithm implemented in LISP
+                <li><a href="http://www.btinternet.com/~paul.hitchcock1/">Grammimes</a> Some syntactic categories explained
+                <li><a href="http://www.cse.unsw.edu.au/~billw/nlpdict.html">NLP Dictionary</a> By Bill Wilson
+                </ul>
+          </td>
+          <td width="110">&nbsp;</td>
+      </tr>
+  </table>
+  </center>
+
+</body>
+</html>

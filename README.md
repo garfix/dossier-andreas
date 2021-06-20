@@ -41,3 +41,7 @@ This creates 'index.html' in /andreas and a series of PHP files in /andreas/andr
 The file index.html is the base file of the site.
 
 I did not test all of this, you may need to be creative :) The website pages used to be static html pages. I turned them into PHP pages just to allow user comments. If you have are having trouble getting the PHP pages to work, consider generating HTML pages in stead. This will make it easier.
+
+## AI and Software Architectures
+
+The "site" map also contains the directories "ai" and "software_architecture". These are some of my other projects. They are old projects, but there are many links to them on the internet (especially to "software_architecture"). I should have placed them on a different domain, but I didn't. And now, because of the links, I don't want to move them anymore.

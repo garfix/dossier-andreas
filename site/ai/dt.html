@@ -1,0 +1,119 @@
+
+<html>
+
+<head>
+    <link href="resources/stylesheet.css" type="text/css" rel="stylesheet">
+    <META name="Description" content="Decision Trees">
+</head>
+
+<body vlink="236101" alink="236101">
+
+    <center>
+    <table width="800" border="0" cellspacing="0" cellpadding="5" bgcolor="#FFFFFF">
+        <tr>
+            <td width="110" valign="top"></td>
+            <td>
+                <table>
+                <tr>
+                    <td><a href="index.html"><IMG src="resources/home.jpg" width="46" height="47"></a></td>
+                    <td><IMG src="resources/ai_rep.jpg" width="425" height="51"></td>
+                </tr>
+                </table>
+
+                <div class="pageheader">Decision Trees<br><IMG src="resources/ruler1.jpg"></div>
+                <p>
+                A simple implementation of the Decision Tree learning algorithm as described in
+                chapter 18 of Artificial Intelligence: A Modern Approach; by Stuart Russell and Peter Norvig.<br>
+                A decision tree is the shortest amount of questions needed to establish wether an object belongs
+                to some set. For example: this object is red, round, and smells sour; is it edible?
+				The algorithm generates such a tree from a number of examples (objects of which you know if they
+				belong to the set or not).
+                </p>
+
+                <div class="header">What was implemented:</div>
+                <ul>
+                <li>The decision tree learning algorithm.
+                <li>The possibility to give names to all attributes and attribute values, so the decision tree may be printed.
+                </ul>
+
+                <div class="header">What was not implemented:</div>
+                <ul>
+                <li>Functionality to prevent noise and overfitting.
+                </ul>
+
+                <div class="header">Remarks</div>
+                <ul>
+                <li>If an agent wants to use this algorithm to learn which objects belong to a set and which do not,
+                it will have to run the algorithm over all examples each time one is added. Also, all examples need to be stored
+                for later use. This may be tedious and time consuming if there are a lot of attributes or examples.
+                There are also algorithms that dynamically modify the decision tree. I don't know anything about these yet.
+                <li>The decision tree is too strict to my taste. It always gives a yes or no answer, even if
+                the examples contradict each other, or there is insufficient data to make a decision. It would be
+                better if a decision tree could also say "probably", "probably not" or "I don't know".
+                <li>The book AIMA contains an error in figure 18.8: "Hungry" branches in "No" and "Yes"; these
+                words should be switched.
+                </ul>
+
+                <div class="header">Sample use</div>
+                <p>I've left parts of the code out here, to make it more readable.</p>
+                <pre>
+CDTModel DecisionTreeModel(ATTRIBUTE_COUNT);
+CDTDecisionTree *DecisionTree;
+
+.... more variables ....
+
+// first add the attributes
+Attribute = new CDTAttribute("Is there an alternative restaurant nearby?");
+Attribute->AddValue(YES, "Yes");
+Attribute->AddValue(NO, "No");
+DecisionTreeModel.SetAttribute(0, Attribute);
+
+Attribute = new CDTAttribute("Does the restaurant have a comfortable bar?");
+Attribute->AddValue(YES, "Yes");
+Attribute->AddValue(NO, "No");
+DecisionTreeModel.SetAttribute(1, Attribute);
+
+.... more attributes ...
+
+// fill the model with examples
+for (int Index=0; Index &lt; EXAMPLE_COUNT; Index++)
+{
+	// create object from attribute values
+	Object = CreateObject(ObjectValues[Index]);
+
+	// let model manage object
+	DecisionTreeModel.AddObject(Object);
+
+	// add example to decision tree
+	DecisionTreeModel.AddExample(Object, WillWait[Index]);
+}
+
+// create sample object
+SampleObject = CreateObject(SampleObjectValues);
+
+// learn the decision tree
+DecisionTree = DecisionTreeModel.CreateDecisionTree();
+
+// ask the decision tree to decide if we should wait in a certain situation
+DecisionValue = DecisionTree->MakeDecision(*SampleObject);
+
+// print the decision tree
+printf("%s\n", DecisionTree->ToString().GetBuffer());
+
+// remove data
+delete DecisionTree;
+delete SampleObject;
+                </pre>
+
+                <div class="header">Links</div>
+                <ul>
+                <li><a href="http://www.ar.krakow.pl/invisip/WP-4/decision-trees-intro.pdf">Decision Trees - basic definitions</a> A document on the Information measure.
+                </ul>
+          </td>
+          <td width="110">&nbsp;</td>
+      </tr>
+  </table>
+  </center>
+
+</body>
+</html>

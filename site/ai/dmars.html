@@ -1,0 +1,151 @@
+
+<html>
+
+<head>
+    <link href="resources/stylesheet.css" type="text/css" rel="stylesheet">
+    <META name="Description" content="dMARS, BDI, Belief Desire Intention">
+</head>
+
+<body vlink="236101" alink="236101">
+
+    <center>
+    <table width="800" border="0" cellspacing="0" cellpadding="5" bgcolor="#FFFFFF">
+        <tr>
+            <td width="110" valign="top"></td>
+            <td>
+                <table>
+                <tr>
+                    <td><a href="index.html"><IMG src="resources/home.jpg" width="46" height="47"></a></td>
+                    <td><IMG src="resources/ai_rep.jpg" width="425" height="51"></td>
+                </tr>
+                </table>
+
+                <div class="pageheader">Belief, Desire, Intention: dMARS<br><IMG src="resources/ruler1.jpg"></div>
+                <p>Last updated: <script>document.write(document.lastModified);</script></p>
+                <p>The BDI (Belief, Desire, Intention) architecture is the most well-established inner-agent architecture. It models an agent quite directly in the way people see their own mental activity: based on their beliefs about the world, the goals/desires they have and the plans they are currently executing to achieve these goals. 	However, there is no such thing as <i>the</i> BDI architecture. It should be seen as a range of architectures. Much of its literature is concerned with the logical underpinnings of the architecture, which can be quite remote from any implementations. There are three generations of BDI architectures: PRS (Practical Reasoning System), dMARS (distributed Multi Agent Reasoning System), and JACK (Java Agent Kernel). I chose to implement dMARS because its structure and inner workings have been described best in public literature, as far as I know.</p>
+				<p>AgentSpeak(L) is the language based on a subset of dMARS agent functionality. I was interested in it because I needed a language to use (test) my dMARS agent. However, I found the language too restrictive; I would not be able to test major parts of the agent. Thus I created my own syntax to describe a dMARS plan.</p>
+
+				<p>I used the knowledge and some of the algorithms from the chapters on logical reasoning from "Artificial Intelligence: A Modern Approach" (AIMA), by Stuart Russell and Peter Norvig. For current purposes it was enough for me to restrict myself to reasoning with Horn clauses (a la Prolog). I decided not to try anything more complicated at the moment.</p>
+				<p>Because I expect to reuse the Predicate Logic constructs in this agent, I decided to separate these from the rest of the agent. I created a separate module, Predicate Logic (pl).</p>
+
+                <p>I finished this library in a working state, but far from being perfect. Making it perfect would currently take too much time. Perhaps at a later date.</p>
+
+                <div class="header">What was implemented:</div>
+                <ul>
+                <li>The agent described in 'A formal specification of dMARS'.
+				 <li>A small language to write dMARS plans.
+                  <li>A built-in equals predicate (=), as in '=(X, Y)' or 'NOT =(X, jack)'
+                </ul>
+
+                <div class="header">What was not implemented:</div>
+                <ul>
+                <li><b><i>Remove goal</i> actions.</b> Although AgentSpeak describes -!g(t), the event that a goal was removed, it is not part of the dMARS spec, so I left it out completely.
+				  <li>Maintenance conditions.
+				  <li>External actions: They are implemented, but the action should somehow return a substitution; and this was not completely clear.
+                </ul>
+
+                <div class="header">Remarks</div>
+                <ul>
+                <li><b>Situation formula: no compound formula, but a series of literals.</b> I chose to simplify situation formulas because the unification of compound formulas (containing both and and or clauses) is currently too complicated for me. I am using the unification algorithms of AIMA, which are based on Horn clauses. Thus I interpreted a situation formula as a sequence of predicate logical literals.
+				<li><b>Multiple context substitutions.</b> In order to decide wether a plan is <i>applicable</i>, the agent attempts to find a variable <i>substitution</i> in order to match the context with the belief base. It is possible that multiple substitutions are found. The spec. is silent here. I chose to add the plan to the list of applicable plans multiple times, each time with a different substitution.
+                <li><b>Closed World Assumption.</b> This assumption states that a fact is false iff it is not available in the knowledge base. It is one of Prolog's basic assumptions. It is important because it makes <i>practical</i> logical programming environments feasible. For example, if it is (only) given that "position(vehicle, a)", it can be concluded (with the CWA) that "NOT position(vehicle, b)". Not assuming this, would require "~position(vehicle, b)" to be stated explicitly, as well as "~position(vehicle, c)", "~position(vehicle, d)", etc, etc. The spec states <i>mistakenly</i> that 'dMARS beliefs are "rather" like Prolog facts: ... positive or negative atomic formulae containing no variables'. Prolog facts are <i>not</i> literals, just atoms; they cannot be negative. In order to write a practical agent, in the spirit of Prolog's logical reasoning, I decided to incorporate the CWA into the agent. For most agents it is more important to reason practically than purely logically.
+				  <li>Chosing the right representation for atoms, literals, plans and variables proved quite a task. I chose to implement atoms like one would implement a string: passing an atom from one place to the next implies a complete copy of the atom. This was necessary to ensure that all copies would be deleted properly (management reason). A plan, however, is too big a structure to copy. Managegement of plans is not much of an issue either. So they are passed by pointer. Because of the Prolog-like structure I chose, there are no negative atom literals in my system. However, one would like to check that a certain atom does not occur. For this reason I added a 'positive' field in the atom structure. It may be somewhat misleading, but is was much more efficient to do it this way. Variables are problematic, because one needs to check regularly if two variables are exactly equal (i.e. not only the same name). This is done most efficiently by comparing variable memory addresses. So if a variable is used more than once in a structure; all pointers point to the same variable object. It uses a reference counter to determine wether the variable should really be removed. This should be improved however, because currently there are many places were I check if the reference count is 0. I tried to use a smart-pointer here, but that didn't work.
+				  <li>I may have misunderstood the spec, but in my implementation there can only be one plan to match a single goal. If that plan fails, no other goal is attempted. The question is: should the goal become active again? Should the agent store the goal event until the goal is completed? The spec seems to say so, but I have not implemented it that way.
+				  <li>Note to self: In CPLModel::BackChainList, all variables are passed down the line; don't do that. And in subsitutions, when 'x=y', then also: 'y=x'! See also lines around 452.
+				  <li>The use of logical functions has not been tested.
+                  <li>The spec says something about binding the results of a successful achievement goal plan instance back to the calling plan instance. I don't know what this means. For a test goal holds the same. In this case I do know what it means, but the test goal can yield multiple substitutions (f.i. in case of 'running(X, E)' while only X was bound up until then) and it is not clear how they should all be processed.
+                </ul>
+
+                <div class="header">Sample use</div>
+                <pre>
+	CdMARSModel Model;
+	CdMARSParser &Parser = Model.GetParser();
+	CPLAtom Belief;
+	CdMARSPlan *Plan;
+
+	CLogger::GetLogger().SetLogFile("dMARS.log");
+
+	// if you see waste in your current lane, move to the lane with the bin,
+	// and drop it there.
+	Plan = Parser.ParsePlan(
+		"trigger: +location(waste, X);" \
+		"context: location(robot, X), location(bin, Y);" \
+		"body: pick(waste) -> (!location(robot, Y) -> ( drop(waste) ) )."
+	);
+	Plan->SetName("TopLevel Plan.");
+	assert(Parser.IsSuccessful());
+	Model.AddPlan(Plan);
+
+	// if you should go to lane Y, and you are in lane X, and X and Y are adjacent,
+	// then move to lane Y
+	Plan = Parser.ParsePlan(
+		"trigger: !location(robot, Y);" \
+		"context: location(robot, X), adjacent(X, Y);" \
+		"body: move(X, Y);" \
+		"success: +location(robot, Y), -location(robot, X)."
+		);
+	Plan->SetName("Move 1 lane.");
+	Model.AddPlan(Plan);
+	assert(Parser.IsSuccessful());
+
+	// if you should go to lane Z, and you are in lane X (which is not Z),
+	// and lane X is adjacent to lane Y, then move to lane Y
+	//	(except when there is a car at Y)
+	Plan = Parser.ParsePlan(
+		"trigger: !location(robot, Z);" \
+		"context: location(robot, X), adjacent(X, Y), " \
+			"adjacent(Y, Z), NOT =(X, Z), NOT location(car, Y);" \
+		"body: !location(robot, Y) -> (!location(robot, Z))."
+		);
+	Plan->SetName("Move to intermediate lane.");
+	Model.AddPlan(Plan);
+	assert(Parser.IsSuccessful());
+
+	Parser.ParseAtom("adjacent(a, b).", Belief);
+	assert(Parser.IsSuccessful());
+	Model.AddBelief(Belief);
+
+	Parser.ParseAtom("adjacent(b, c).", Belief);
+	assert(Parser.IsSuccessful());
+	Model.AddBelief(Belief);
+
+	Parser.ParseAtom("adjacent(c, d).", Belief);
+	assert(Parser.IsSuccessful());
+	Model.AddBelief(Belief);
+
+	Parser.ParseAtom("location(robot, b).", Belief);
+	assert(Parser.IsSuccessful());
+	Model.AddBelief(Belief);
+
+	Parser.ParseAtom("location(waste, b).", Belief);
+	assert(Parser.IsSuccessful());
+	Model.AddBelief(Belief);
+
+	Parser.ParseAtom("location(bin, d).", Belief);
+	assert(Parser.IsSuccessful());
+	Model.AddBelief(Belief);
+
+	for (int i=0; i<50; i++)
+	{
+		Model.Update();
+	}
+				</pre>
+
+                <div class="header">Links</div>
+                <ul>
+					  <li>Michael E. Bratman, “Intention, Plans, and Practical Reasoning”, Harvard University Press, Cambridge, MA (USA), 1987. - The original work on BDI.
+                    <li><a href="http://www.ecs.soton.ac.uk/~mml/papers/atal97.pdf">A formal specification of dMARS</a>. M. d'Inverno, D. Kinny, M. Luck, and M. Wooldridge. In Proceedings of the fourth International Workshop on Agent Theories, Architectures, and Languages (ATAL), pages 155-176, 1998.
+					  <li><a href="http://www.cs.mu.oz.au/682/agentspeak.pdf">AgentSpeak(L): BDI Agents speak out in a logical computable language</a>. Anand S. Rao. 1995(?). Useful addition to dMARS spec, especially for the examples.
+					  <li><a href="http://www.ecs.soton.ac.uk/~mml/papers/jlc98.pdf">Engineering AgentSpeak(L):
+A Formal Computational Model</a>. Mark D'Inverno and Michael Luck. 1998. Extension to Rao's article, but no examples.
+					  <li><a href="http://www.agent-software.com/shared/home/">Jack</a>. JACK is the leading edge commercial BDI-agent toolkit.
+					  <li><a href="http://vsis-www.informatik.uni-hamburg.de/projects/jadex/">JADEX</a>. Open source Java extension of Jade framework with BDI.
+                </ul>
+          </td>
+          <td width="110">&nbsp;</td>
+      </tr>
+  </table>
+  </center>
+
+</body>
+</html>

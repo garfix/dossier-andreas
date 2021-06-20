@@ -1,0 +1,209 @@
+
+<html>
+
+<head>
+    <link href="resources/stylesheet.css" type="text/css" rel="stylesheet">
+    <META name="Description" content="Maes Behavior Network">
+</head>
+
+<body vlink="236101" alink="236101">
+
+    <center>
+    <table width="800" border="0" cellspacing="0" cellpadding="5" bgcolor="#FFFFFF">
+        <tr>
+            <td width="110" valign="top"></td>
+            <td>
+                <table>
+                <tr>
+                    <td><a href="index.html"><IMG src="resources/home.jpg" width="46" height="47"></a></td>
+                    <td><IMG src="resources/ai_rep.jpg" width="425" height="51"></td>
+                </tr>
+                </table>
+
+                <div class="pageheader">Maes Behavior Network<br><IMG src="resources/ruler1.jpg"></div>
+				  <p>Last updated: <script>document.write(document.lastModified);</script></p>
+                <p>On studying cognitive agents, and in particular the <a href="http://csrg.cs.memphis.edu/">Conscious Software Research Group</a>, I came across Pattie Maes' Behavior Network, which is described in detail in <a href="http://citeseer.ist.psu.edu/rd/95589163%2C526757%2C1%2C0.25%2CDownload/http://citeseer.ist.psu.edu/cache/papers/cs/26140/ftp:zSzzSzpublications.ai.mit.eduzSzai-publicationszSz1000-1499zSzAIM-1180.pdf/maes89how.pdf">How to do the right thing</a>. <a href="http://www.msci.memphis.edu/~franklin/">Stan Franklin</a> is very excited about it, so I thought I should make my own implementation and see for myself.</p>
+				<p>It is a so-called "action-selection" mechanism: it continuously looks for the best possible action to execute in the current environment. It is a planner in the reactive-agent tradition: it's more important to "stay-alive", react fast, and perform actions that are "good-enough", rather than to come up with the perfect plan <i>too late</i>.</p>
+				
+				  <p>The network has traits of both neural networks and symbolic systems. Its inner workings can be followed more easily than a neural network, but much more difficult than a purely symbolic planner.</p>
+
+				  <div class="header">Note:</div>
+				  <p>I wish I could say I was able to make a perfect implementation of Maes' network. However, that is not the case. I struggled a long time with the things I will mention in the section 'remarks'. After some time I got the network in a state where it would (1) solve the problem and not continue endlessly, (2) make it solve the problem in 19 cycles (20 actually) and in the same way as in the article, and (3) have the activation values of at least the first 7 cycles perfect. But that's where I got stuck. The activation values starting with cycle 8 do not match completely with those my network generates.<br>
+				  I went to great lengths to create the activation values reported in the article. However, in doing so I had to resort to some ugly hacks, which may well be patches for shortcomings in Maes' original implementation. Chose the "UseHacks()" option to try to recreate the article's values; not using the hacks will also give you about the same results, but without the hacks.<br>
+				  It took me about two days to make a full implementation of the network. It took me another 4 days to try to match the activation values as well as possible. The problems that are too hard too solve / too unimportant to spend great amounts of time on them. I suspect they are caused by small implementation differences having to do with cutting down numbers so they don't become negative. Very hard to reproduce, especially since Maes' implementation iterates in a different manner over all competence modules.</p>
+				  
+				  <div class="header">Wanted: source code</div>
+				  <p>If anyone knows of the source code of Maes' network, please show me. I would also be interested in ports to other languages.</p>
+				  
+                <div class="header">What was implemented:</div>
+                <p>I implemented all elements of the network as described in Maes' article.</p>
+					<ul>
+					<li>The class CMBNCompetenceModule matches one-on-one with the concept in the article. 
+					<li>A CMBNLink object matches all links of the same type between two modules (for example, all successor links between two competence modules are represented by a single link object). 
+					<li>The class CMBNProposition represents all propositions with the same name. Normally this means one proposition per object, but you'll find the exeption for the proposition 'hand-is-empty': these are actually two identical propositions which I represent by a single CMBNProposition object.
+					<li>The class CMBNModel serves as a manager for competence modules, propositions and links, and performs the high level functionality for the network, like Start and Update.
+					</ul></p>
+					<p>It works as follows: first you enter the propositions and competence modules into the model. Then you perform "Start()" on the model. This creates the links between the modules, makes some precalculations (for example, how many times a proposition is used in an add-list), resets Time (a cycle counter), and fills the active goals list. Then you continuously run "Update()" to let the network recalculate the activation values and activate the active module. An end-condition may be that the "once-only" goals have been achieved. You can check if this has happened. Instead, you may execute only "Run()". This will executed "Start()" and call "Update()" until all once-only goals have been achieved.</p>
+
+                <div class="header">Remarks</div>
+                <ul>
+				  <li><b>Multiple identical propositions.</b> The proposition "HAND-IS-EMPTY" occurs twice in the example of the article (which was taken over from another article). It took me some time to realize that the robot really has two hands and that there are two identical propositions to represent this. Both propositions say something about the hands of the robot, but the exact meaning of each proposition is hard to establish. The first proposition may be TRUE and the second FALSE at the same time. This would mean the robot has one empty hand left. Only if both propositions are FALSE, the robot has no empty hands and "HAND-IS-EMPTY" really becomes FALSE. You might think the first "HAND-IS-EMPTY" refers to the left hand of the robot and the other "HAND-IS-EMPTY" refers to the right hand, but this is notably not the case. It is better to think of both propositions as a counter: "HAND-IS-EMPTY" is TRUE if at least one of its propositions is TRUE.<br>
+				  I cannot get around the thought that this feature (which is actually quite useful!), is in a <i>Lisp </i> implementation of the network so easy (or even obvious) you wouldn't give it a second thought. In a C++ implementation, this is completely different. The Lisp implementation places all true propositions in a Situation-list. In C++, in which you are more inclined to think of propositions as objects with a truth-value, there is no need to place them in a list. What's more, from a performance point-of-view it would make more sense to change the truth value to TRUE or FALSE in order to move the proposition in or out of the current situation, rather than move the proposition from one list to another (which costs much more time).<br>
+				  As a compromise between computing speed and expressibility (I wanted to get Maes' example working, of course), I chose for an implementation wherein the Proposition class changed from a simple atomic proposition to a counter-based proposition (I really don't know if this is an existing concept or not). Multiple identical (by name) propositions are represented by a single proposition object. Each proposition may carry its own truth value. These truth values are represented by a truth-counter in the class. If both propositions are TRUE, the truth-counter is set to 2. If both propositions are FALSE, the truth-counter is set to 0. Only when the truth-counter is 0, and one asks if the proposition is TRUE, the object says no (FALSE).
+                <li><b>Multiple links of the same type.</b> There can be multiple successor, predessor, or conflictor links between two competence modules. For computation purposes I found it easiest to group these together in a single Link object.
+				  <li><b>Decay.</b> In the elaborative example, the article shows the activation levels of all competence modules, after the "Decay" function has been applied. However, the values at page 15, at TIME 1, have clearly not been normalized by the decay function, since their mean activation value is 18.78 in stead of 20.00. The means of the values at TIME 2 and 3 are both 20.00 as they should be, and I assume the values are normalized in the rest of the article as well. The problem is bot just that the values in the article of the first cycle are incorrect, they seem to be necessary for the results in the following cycles. My reluctant conclusion is that the Delay() function is only used beginning with the second cycle, however strange this would be. Using this restriction I could at least recreate the activation values up to the second cycle.
+				  <li><b>Possible error: U('HAND-IS-EMPTY') == 2? </b> In order to get the activation values for time 3 and time 4 right I forced the activation values of time 3 and continued at time 4. The article gives information on how the activation values of time 4 are formed. I found that the values my network generated conflicted with Maes' values on three occasions, all of them inhibitions: "PICK-UP-SPRAYER decreases (inhibits) PICK-UP-SANDER with  3.895 (should be 5.84)", "PICK-UP-BOARD decreases (inhibits) PICK-UP-SANDER with  2.914 (should be 4.37)", and "PICK-UP-SPRAYER decreases (inhibits) PICK-UP-BOARD with  3.895 (should be 5.843)". After some serious debugging I found that I could get the correct values, if I set U('HAND-IS-EMPTY') to 2, instead of 3. This is the number of occurrences of 'HAND-IS-EMPTY' in delete lists of competence modules. The number should be 3, but may have been 2 in Maes' calculations. Again, very strange, one would expect that this number would be calculated, not hand-fed into the system. Using this hack, I got the activation values upto cycle 3 right. The influences of cycle 4 were also correct, but the resulting activation values sadly did not match.
+				  <li><b>Be careful to make the activation addition.</b> In cycle 4 I ran into the problem that all factors attributing to the new activation value were correct, but the activation value was slightly off. Looking into this, I found that the activation value of PICK-UP-SANDER was determined only by the spread-forward factor, and not by other factors. The only thing I could think off that could work was that the activation value was not calculated in whole and then cut off to zero, but that every addition of the activation calculation was cut off again. The calculation I used first was 
+	<pre>
+Activation = 
+	CompetenceModule->GetActivation() 
+	+ InputFromState 
+	+ InputFromGoals 
+	- TakenAwayByProtectedGoals 
+	+ (SpreadsBackward + SpreadsForward - TakesAway);
+	</pre>
+	followed by a statement that made the activation at least 0. To tackle the problem, I now use
+	<pre>
+Activation = CompetenceModule->GetActivation();
+Activation += InputFromState;
+Activation += InputFromGoals;
+Activation -= TakenAwayByProtectedGoals; 
+	if (Activation < 0.0f) Activation = 0.0f;
+Activation -= TakesAway; 
+	if (Activation < 0.0f) Activation = 0.0f;
+Activation += SpreadsBackward; 
+Activation += SpreadsForward; 
+	</pre>
+	Could it be that Maes uses a positive-only floating point datatype? This code worked for some time. Up to cycle 8 to be precise. Only it made the entire process take 20 cycles instead of 19...
+				  <li><b>Oddity.</b> In cycle 8 I stumbled over "PLACE-BOARD-IN-VISE decreases (inhibits) PUT-DOWN-BOARD with  7.131". According to the article, it should be 14.262517. It's a factor 2 difference, yes. But none of the attributing factors to this value could be found to be cause. I have no idea what's going on here...
+				  <li><b>Inhibition of equal-strength conflictors.</b> If module x conflicts with module y, module y should inhibit module x. However, if both modules conflict with eachother, only the strongest module (with the highest activation value) should inhibit the other. The article does not explicitly mention wether two equal-strength modules should inhibit each other, even though this follows from the remark that the most relevant modules should not eliminate each other. Examining the printed activation values in the article shows that two equal-strength modules do not inhibit eachother.
+				  <li><b>Activation is a positive value.</b> The activation value can become negative. When this happens however, the value is set to 0.0. This is only implicit in the article, that's why I mention it here.
+				  <li><b>No max() function.</b> On page 10 of the article, in the function "takes_away(x, y, t)", a "max" function is used in the specification. When I used it, the activation values of the article mismatched mine already in the second cycle. It did have the positive effect that the network solved the problem in 12 cycles (instead of the normal 19), but it made the "mistake" of sanding the board twice: once in the hand, once in the vise. I left the "max" function out to stay closer to the article's results.
+				  <li><b>To right moment to reset activation.</b> When module x activates, its activation value should be reset to 0. Also, the specification for activation-calculation on page 10 states that the activation values of (the other) modules should be calculated based on the activation value of x <i>from the cycle before the reset</i>. However, studying the activation values in the article, this is not what I found. I found that the activation-value of an activated module is reset immediately and the activation-values in the next cycle are calculated based on this 0 value, not on the value just prior to that. As an example: at time 19, PICK-UP-SPRAYER spreads 0.0 backwards to PLACE-IN-VISE for HAND-IS-EMPTY. This can only be because PICK-UP-SPRAYER has just become 0.
+				  <li><b>No hard requirements.</b> Before I used multiple identical propositions, I tried to solve the example network by creating different propositions for "hand-is-empty", namely "left-hand-is-empty" and "right-hand-is-empty". I figured I could let the network pick up the sander with the left hand, pick up the board with the right hand, sand the board, put down the sander, pick up the sprayer and spray-paint self. However, it turned out that the network picked up the sprayer with the left hand, than the board with the right hand, wait some time, and than spray-painted itself. It should have never done that since the goal could never be reached anymore. It may have been possible to tweak the parameters of the system to make it act intelligently, but that was of course what I had hoped.
+              <li><b>What are protected goals?</b> The article mentions that protected goals are (permanent) goals that have been achieved and should be protected. The goals in the example, however, are typical once-only goals. They are removed from the goals list once they are achieved. It is strange to see that the goal "BOARD-SANDED" is added to the "protected goals" list when it has been achieved at time = 8. In the example this does not play a role, because no competence module has a delete-list proposition that undoes a goal.
+				</ul>
+
+                <div class="header">Sample use</div>
+                <pre>
+	CMBNModel Model;
+	CMBNCompetenceModule *Module;
+
+	// propositions
+	CMBNProposition *PropSprayerSomewhere = Model.AddProposition("SPRAYER_SOMEWHERE", true);
+	CMBNProposition *PropSprayerInHand = Model.AddProposition("SPRAYER-IN-HAND", false);
+	CMBNProposition *PropSanderSomewhere = Model.AddProposition("SANDER-SOMEWHERE", true);
+	CMBNProposition *PropSanderInHand = Model.AddProposition("SANDER-IN-HAND", false);
+	CMBNProposition *PropBoardSomewhere = Model.AddProposition("BOARD-SOMEWHERE", true);
+	CMBNProposition *PropBoardInHand = Model.AddProposition("BOARD-IN-HAND", false);
+	CMBNProposition *PropBoardSanded = Model.AddProposition("BOARD-SANDED", false);
+	CMBNProposition *PropBoardInVise = Model.AddProposition("BOARD-IN-VISE", false);
+	CMBNProposition *PropOperational = Model.AddProposition("OPERATIONAL", true);
+	CMBNProposition *PropSelfPainted = Model.AddProposition("SELF-PAINTED", false);
+
+	// special propositions: both are identical, and hence stored in the same object
+	// The 'count' property of the proposition object will be set to 2.
+	CMBNProposition *PropHandIsEmpty = Model.AddProposition("HAND-IS-EMPTY", true);
+	                 PropHandIsEmpty = Model.AddProposition("HAND-IS-EMPTY", true);
+
+	// goals
+	Model.SetOnceOnlyGoal(PropBoardSanded);
+	Model.SetOnceOnlyGoal(PropSelfPainted);
+
+	// competence modules
+	Module = Model.AddCompetenceModule("PICK-UP-SPRAYER");
+	Module->AddPrecondition(PropSprayerSomewhere);
+	Module->AddPrecondition(PropHandIsEmpty);
+	Module->AddToAddList(PropSprayerInHand);
+	Module->AddToDeleteList(PropSprayerSomewhere);
+	Module->AddToDeleteList(PropHandIsEmpty);
+
+	Module = Model.AddCompetenceModule("PICK-UP-SANDER");
+	Module->AddPrecondition(PropSanderSomewhere);
+	Module->AddPrecondition(PropHandIsEmpty);
+	Module->AddToAddList(PropSanderInHand);
+	Module->AddToDeleteList(PropSanderSomewhere);
+	Module->AddToDeleteList(PropHandIsEmpty);
+
+	Module = Model.AddCompetenceModule("PICK-UP-BOARD");
+	Module->AddPrecondition(PropBoardSomewhere);
+	Module->AddPrecondition(PropHandIsEmpty);
+	Module->AddToAddList(PropBoardInHand);
+	Module->AddToDeleteList(PropBoardSomewhere);
+	Module->AddToDeleteList(PropHandIsEmpty);
+
+	Module = Model.AddCompetenceModule("PUT-DOWN-SPRAYER");
+	Module->AddPrecondition(PropSprayerInHand);
+	Module->AddToAddList(PropSprayerSomewhere);
+	Module->AddToAddList(PropHandIsEmpty);
+	Module->AddToDeleteList(PropSprayerInHand);
+
+	Module = Model.AddCompetenceModule("PUT-DOWN-SANDER");
+	Module->AddPrecondition(PropSanderInHand);
+	Module->AddToAddList(PropSanderSomewhere);
+	Module->AddToAddList(PropHandIsEmpty);
+	Module->AddToDeleteList(PropSanderInHand);
+
+	Module = Model.AddCompetenceModule("PUT-DOWN-BOARD");
+	Module->AddPrecondition(PropBoardInHand);
+	Module->AddToAddList(PropBoardSomewhere);
+	Module->AddToAddList(PropHandIsEmpty);
+	Module->AddToDeleteList(PropBoardInHand);
+
+	Module = Model.AddCompetenceModule("SAND-BOARD-IN-HAND");
+	Module->AddPrecondition(PropOperational);
+	Module->AddPrecondition(PropBoardInHand);
+	Module->AddPrecondition(PropSanderInHand);
+	Module->AddToAddList(PropBoardSanded);
+
+	Module = Model.AddCompetenceModule("SAND-BOARD-IN-VISE");
+	Module->AddPrecondition(PropOperational);
+	Module->AddPrecondition(PropBoardInVise);
+	Module->AddPrecondition(PropSanderInHand);
+	Module->AddToAddList(PropBoardSanded);
+
+	Module = Model.AddCompetenceModule("SPRAY-PAINT-SELF");
+	Module->AddPrecondition(PropOperational);
+	Module->AddPrecondition(PropSprayerInHand);
+	Module->AddToAddList(PropSelfPainted);
+	Module->AddToDeleteList(PropOperational);
+
+	Module = Model.AddCompetenceModule("PLACE-BOARD-IN-VISE");
+	Module->AddPrecondition(PropBoardInHand);
+	Module->AddToAddList(PropHandIsEmpty);
+	Module->AddToAddList(PropBoardInVise);
+	Module->AddToDeleteList(PropBoardInHand);
+
+	// global parameters
+	Model.SetThreshold(45.0f);
+	Model.SetPropositionEnergy(20.0f);
+	Model.SetGoalEnergy(70.0f);
+	Model.SetProtectedGoalEnergy(50.0f);
+	Model.SetMeanLevelOfActivation(20.0f);
+
+	
+	CLogger::GetLogger().SetLogFile("Maes.log");
+	CLogger::GetLogger().SetLogLevel(LOGLEVEL_DEBUG);
+
+	
+	Model.Start();
+	while (!Model.OnceOnlyGoalsAreMet())
+	{
+		Model.Update();
+	}
+
+                </pre>
+
+                <div class="header">Links</div>
+                <ul>
+                    <li><a href="http://citeseer.ist.psu.edu/rd/95589163%2C526757%2C1%2C0.25%2CDownload/http://citeseer.ist.psu.edu/cache/papers/cs/26140/ftp:zSzzSzpublications.ai.mit.eduzSzai-publicationszSz1000-1499zSzAIM-1180.pdf/maes89how.pdf">How to do the right thing</a>. Pattie Maes (1989).
+					<li>[Tyrrell, 94] Tyrrell, T. 1994. An Evaluation of Maes' Bottom-Up Mechanism for
+Behaviour Selection. In Journal of Adaptive Behaviour 2(4): 307--348
+          </td>
+          <td width="110">&nbsp;</td>
+      </tr>
+  </table>
+  </center>
+
+</body>
+</html>

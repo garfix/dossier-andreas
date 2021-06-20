@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link href="resources/stylesheet.css" type="text/css" rel="stylesheet">
+        <meta name="Description" content="Implicit invocation">
+        <title>Implicit invocation</title>
+    </head>
+    <body vlink="0f0f60" alink="0f0f60">
+        <center>
+        <table width="800" border="0" cellspacing="0" cellpadding="10" bgcolor="#FFFFFF">
+        <tr>
+        <td width="110" valign="top"></td>
+        <td>
+        <table>
+        <tr>
+        <td><a href="index.html"><IMG src="resources/home.jpg" width="46" height="60"></a></td>
+        <td><IMG src="resources/sa_rep.jpg" width="425" height="51"></td>
+        </tr>
+        </table>
+        <div class="pageheader">Implicit invocation a.k.a. Event Based<br><img src="resources/ruler1.jpg"></div>
+        <p>
+            This control flow uses <i>Messages</i> to transfer control.
+            The main program consists of an endless control loop. In each cycle of this loop, it passes all
+            messages that have been sent to all modules that registered themselves to receive messages of this type.
+            Each module then processes the message.
+            The module may publish new messages in this process. These messages will be multicast only at the
+            next control cycle.
+        </p>
+        <p>Command structure: <i>Control Loop</i>; Order of execution: <i>Sequential</i>.</p>
+
+        <p><center><img src="control_flow_implicit.jpg"></center></p>
+        <p>
+            This control flow has been introduced by modern GUI programs. It is famous for waiting most of the time.
+            Its base is a tiny loop, called the "idle loop", that just checks if the user has done something.
+            Only when the user has pressed a key, or clicked a mouse button, or when a timer has timed out,
+            the flow of control is transferred to a predefined part of the program, called an "event-handler".
+            The event-handler reacts to the event, in typically a very short time.
+            When it is done, it returns control to the
+            idle-loop. If the handler needs more time, it should spawn a separate thread of control to perform
+            the time-consuming action.
+        </p>
+
+        <h2>Links</h2>
+        <ul>
+            <li><a href="http://citeseer.nj.nec.com/cache/papers/cs/3410/http:zSzzSzreports-archive.adm.cs.cmu.eduzSzanonzSz1997zSzCMU-CS-97-153.pdf/towards-a-formal-treatment.pdf">Towards a formal treatment of implicit invocation</a>
+        </ul>
+
+        </td>
+        <td width="110">&nbsp;</td>
+        </tr>
+        </table>
+        </center>
+    </body>
+</html>
