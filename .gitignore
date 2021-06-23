@@ -1,5 +1,6 @@
 /remarks.txt
-.idea
+/.idea
+/*.sql
 /site/andreas/php/settings.php
 /site/andreas/_andreas_notes.xml
 /site/andreas/_andreas_news.xml
