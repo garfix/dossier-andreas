@@ -663,6 +663,7 @@
 		<Illustration id="i262" drawings="p1" colorist="p79" year="y2021" description="Rork with clouds" tags="plate" />
 		<Illustration id="i263" drawings="p1" colorist="p79" year="y2021" description="Rork on a rock" tags="plate" />
 		<Illustration id="i264" drawings="p1" colorist="p79" year="y2021" description="Rork before graffiti wall" tags="plate" />
+		<Illustration id="i265" drawings="p1" colorist="p79" year="y2019" description="Chinese wall" tags="plate" />
 		
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -2161,11 +2162,15 @@
 		<Comment showAt="changes">
 
 			<TEXT>
-				<TITLE>27 December 2021</TITLE>
+				<TITLE>29 December 2021</TITLE>
 
+				Andreas drew the pictures <REF ref="i261" />, <REF ref="i262" />, <REF ref="i263" />, and <REF ref="i264" />. Coloring was done by Isa Cochet. More pictures can be found on his <AH target="_blank" href="https://www.instagram.com/andreastries/">Instagram account</AH>.
+				<BR/><BR/>
 				Polish publisher Kurc published <REF ref="a25" />, <REF ref="a103" />, <REF ref="a105" /> and <REF ref="a21" />.
 				<BR/><BR/>
-				German publisher Schreiber und Leser published <REF ref="a26" /> with the name "Cutter".
+				German publisher Schreiber und Leser published <REF ref="a26" /> as "Cutter".
+				<BR/><BR/>
+				Andreas is now followed by 2113 people on Twitter and 689 on Instagram.
 				<BR/><BR/>
 
 			</TEXT>
@@ -7708,6 +7713,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		</Image>
 		<Image showAt="i264" file="image_rork_2021_4.jpg" width="600" height="750" title="From Andreas' Instagram feed">
 			<Thumbnail file="image_rork_2021_4.jpg" width="80" height="100"/>
+		</Image>
+		<Image showAt="i265" file="chinese_wall.jpg" width="555" height="312" title="Was for sale at Huberty &amp; Breyne Gallery">
+			<Thumbnail file="chinese_wall.jpg" width="100" height="56"/>
 		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />
