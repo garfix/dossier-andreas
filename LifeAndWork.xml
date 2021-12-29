@@ -54,7 +54,7 @@
 	<Year id="y2005"/><Year id="y2006"/><Year id="y2007"/><Year id="y2008"/><Year id="y2009"/>
 	<Year id="y2010"/><Year id="y2011"/><Year id="y2012"/><Year id="y2013"/><Year id="y2014"/>
 	<Year id="y2015"/><Year id="y2016"/><Year id="y2017"/><Year id="y2018"/><Year id="y2019"/>
-	<Year id="y2020"/>
+	<Year id="y2020"/><Year id="y2021"/>
 
 	<Language id="lang-fr" name="French" />
 	<Language id="lang-nl" name="Dutch" />
@@ -658,6 +658,11 @@
 		<Illustration id="i257" drawings="p1" year="y2019" description="New year 2019" tags="wish" />
 		<Illustration id="i258" drawings="p1" year="y2020" description="New year 2020" tags="wish" />
 		<Illustration id="i259" drawings="p1" year="y2013" description="Toute l'equipe des Éditions du Lombard vous souhaite une heureuse année 2013!" tags="wish" />
+		<Illustration id="i260" drawings="p1" year="y2021" description="Okay 2021... Go!" tags="wish" />
+		<Illustration id="i261" drawings="p1" colorist="p79" year="y2021" description="Rork in the snow" tags="plate" />
+		<Illustration id="i262" drawings="p1" colorist="p79" year="y2021" description="Rork with clouds" tags="plate" />
+		<Illustration id="i263" drawings="p1" colorist="p79" year="y2021" description="Rork on a rock" tags="plate" />
+		<Illustration id="i264" drawings="p1" colorist="p79" year="y2021" description="Rork before graffiti wall" tags="plate" />
 		
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -1395,6 +1400,7 @@
 		<AlbumEdition id="ls12" album="a12" year="y2019" language="lang-de" title="Im Labyrinth der Erinnerungen" />
 		<AlbumEdition id="ls13" album="a19" year="y2020" language="lang-de" />
 		<AlbumEdition id="ls14" album="a128" year="y2020" language="lang-de" title="Argentina" />
+		<AlbumEdition id="ls15" album="a26" year="y2021" language="lang-de" title="Cutter" isbn="978-3-96582-050-0" />
 		<AlbumEdition id="dh1" album="a16" year="y1992" language="lang-en" />
 		<AlbumEdition id="dh2" album="a26" year="y1994" language="lang-en" color="false" />
 		<AlbumEdition id="tc1" album="a85" year="y2019" language="lang-en" title="Cromwell Stone" />
@@ -1402,6 +1408,10 @@
 		<AlbumEdition id="ecc2" album="a105" year="y2015" language="lang-es" title="Rork Integral 2" />
 		<AlbumEdition id="fut1" album="a128" year="y2019" language="lang-fr" />
 		<AlbumEdition id="kurc1" album="a128" year="y2020" language="lang-pl" title="Argentyna" />
+		<AlbumEdition id="kurc2" album="a25" year="y2020" language="lang-pl" isbn="978-83-959339-2-9" />
+		<AlbumEdition id="kurc3" album="a103" year="y2021" language="lang-pl" title="Rork ksi&#281;ga 1" isbn="978-83-959339-3-6"/>
+		<AlbumEdition id="kurc4" album="a105" year="y2021" language="lang-pl" title="Rork ksi&#281;ga 2" isbn="978-83-963279-1-8"/>
+		<AlbumEdition id="kurc5" album="a21" year="y2021" language="lang-pl" title="Styks" isbn="978-83-963279-2-5"/>
 
 		<Magazine id="mag1" title="Tintin/Hello BD (fr); Kuifje (nl)" language="lang-fr lang-nl">
 			<MagazineItem idref="s23"><MI year="y1977" nrs="32" /></MagazineItem>
@@ -1903,7 +1913,7 @@
 		<Publisher id="pub72" name="Publisher of Slash(?)"
 			magazines="mag50" />
 		<Publisher id="pub73" name="Schreiber und Leser"
-			albumEditions="ls1 ls2 ls3 ls4 ls5 ls6 ls7 ls8 ls9 ls10 ls11 ls12 ls13 ls14" />
+			albumEditions="ls1 ls2 ls3 ls4 ls5 ls6 ls7 ls8 ls9 ls10 ls11 ls12 ls13 ls14 ls15" />
 		<Publisher id="pub74" name="Titan Comics"
             albumEditions="tc1" />
         <Publisher id="pub75" name="ECC Comics"
@@ -1911,7 +1921,7 @@
         <Publisher id="pub76" name="Futuropolis"
         	albumEditions='fut1' />
        	<Publisher id="pub77" name="Kurc"
-        	albumEditions='kurc1' />
+        	albumEditions='kurc1 kurc2 kurc3 kurc4 kurc5' />
 
 			
 	</Context>
@@ -2149,6 +2159,16 @@
 		
 		
 		<Comment showAt="changes">
+
+			<TEXT>
+				<TITLE>27 December 2021</TITLE>
+
+				Polish publisher Kurc published <REF ref="a25" />, <REF ref="a103" />, <REF ref="a105" /> and <REF ref="a21" />.
+				<BR/><BR/>
+				German publisher Schreiber und Leser published <REF ref="a26" /> with the name "Cutter".
+				<BR/><BR/>
+
+			</TEXT>
 
 			<TEXT>
 				<TITLE>15 November 2020</TITLE>
@@ -6633,8 +6653,13 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 						</WWWlink>
 					</WWWsite>
 
+					<WWWsite title="Kurc">
+						Polish publisher<BR/>
+						<WWWlink language="lang-pl" href="http://www.kurc.com.pl/" ></WWWlink>
+					</WWWsite>
+
 					<WWWsite title="Aleja Komiksu">
-						Publisher of German albums<BR/>
+						Polish website<BR/>
 						<WWWlink language="lang-pl" href="http://alejakomiksu.com/autor/428/Andreas/" ></WWWlink>
 					</WWWsite>
 
@@ -7669,6 +7694,21 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i259" file="newyear-2013.jpg" width="450" height="579">
 			<Thumbnail file="newyear-2013.jpg" width="78" height="100"/>
 		</Image>
+		<Image showAt="i260" file="newyear-2021.jpg" width="1200" height="589">
+			<Thumbnail file="newyear-2021.jpg" width="100" height="49"/>
+		</Image>
+		<Image showAt="i261" file="image_rork_2021_1.jpg" width="600" height="800" title="From Andreas' Twitter feed">
+			<Thumbnail file="image_rork_2021_1.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i262" file="image_rork_2021_2.jpg" width="600" height="800" title="From Andreas' Twitter feed">
+			<Thumbnail file="image_rork_2021_2.jpg" width="75" height="100"/>
+		</Image>
+		<Image showAt="i263" file="image_rork_2021_3.jpg" width="590" height="657" title="From Andreas' Twitter feed">
+			<Thumbnail file="image_rork_2021_3.jpg" width="77" height="100"/>
+		</Image>
+		<Image showAt="i264" file="image_rork_2021_4.jpg" width="600" height="750" title="From Andreas' Instagram feed">
+			<Thumbnail file="image_rork_2021_4.jpg" width="80" height="100"/>
+		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />
 		<Image showAt="mag1" file="tintin_1978_47.jpg" width="200" height="280" title="Tintin 1978, number 47" />
@@ -8093,11 +8133,16 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="ls12" file="album_caverne_ls.jpg" width="750" height="1013" />
 		<Image showAt="ls13" file="album_cyrrusmil_ls.jpg" width="600" height="810" />
 		<Image showAt="ls14" file="album_argentine_ls.jpg" width="600" height="894" />
+		<Image showAt="ls15" file="album_coutoo_ls.jpg" width="600" height="825" />
 		<Image showAt="tc1" file="album_cromwell_titan.jpg" width="400" height="556" />
 		<Image showAt="ecc1" file="album_rork_integral1_ecc.jpg" width="685" height="1000" />
 		<Image showAt="ecc2" file="album_rork_integral2_ecc.jpg" width="650" height="1000" />
 		<Image showAt="fut1" file="album_argentine_futuropolis.jpg" width="600" height="848" />
 		<Image showAt="kurc1" file="album_argentine_kurc.jpg" width="600" height="810" />
+		<Image showAt="kurc2" file="album_raffington_event_kurc.jpg" width="600" height="818" />
+		<Image showAt="kurc3" file="album_rork_integrale_1_kurc.jpg" width="600" height="818" />
+		<Image showAt="kurc4" file="album_rork_integrale_2_kurc.jpg" width="600" height="823" />
+		<Image showAt="kurc5" file="album_styx_kurc.jpg" width="600" height="810" />
 
 	</Comments>
 
