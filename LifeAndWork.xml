@@ -2005,13 +2005,6 @@
 			</TEXT>
 		</Comment>
 
-		<Comment showAt="front_twitter" authors="p23">
-			<TEXT>
-				<EM>Follow Andreas on Twitter</EM><BR/><BR/>
-				<Twitter_Widget />
-			</TEXT>
-		</Comment>
-
 		<Comment showAt="front_notes" authors="p23">
 			<TEXT>
 				<EM>Recent comments</EM><BR/><BR/>
