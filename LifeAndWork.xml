@@ -54,7 +54,7 @@
 	<Year id="y2005"/><Year id="y2006"/><Year id="y2007"/><Year id="y2008"/><Year id="y2009"/>
 	<Year id="y2010"/><Year id="y2011"/><Year id="y2012"/><Year id="y2013"/><Year id="y2014"/>
 	<Year id="y2015"/><Year id="y2016"/><Year id="y2017"/><Year id="y2018"/><Year id="y2019"/>
-	<Year id="y2020"/><Year id="y2021"/>
+	<Year id="y2020"/><Year id="y2021"/><Year id="y2022"/>
 
 	<Language id="lang-fr" name="French" />
 	<Language id="lang-nl" name="Dutch" />
@@ -67,25 +67,25 @@
 
 	<Context>
 		<Person id="p1" name="Andreas" fullName="Andreas Martens" />
-		<Person id="p2" name="François Rivière" />
+		<Person id="p2" name="Fran?ois Rivi?re" />
 		<Person id="p3" name="Pierre Dominique" />
-		<Person id="p4" name="André-Paul Duchâteau" />
+		<Person id="p4" name="Andr?-Paul Duch?teau" />
 		<Person id="p5" name="Eddy Paape" />
 		<Person id="p6" name="Greg" />
-		<Person id="p7" name="Claudine Hémery" />
-		<Person id="p8" name="Gérard Santi" />
+		<Person id="p7" name="Claudine H?mery" />
+		<Person id="p8" name="G?rard Santi" />
 		<Person id="p9" name="Philippe Berthet" />
 		<Person id="p10" name="Antonio Cossu" />
 		<Person id="p11" name="Philippe Foerster" />
 		<Person id="p12" name="Ferdinand Scholz" />
-		<Person id="p13" name="Gérard Goffaux" />
-		<Person id="p14" name="Frédéric Bézian" />
+		<Person id="p13" name="G?rard Goffaux" />
+		<Person id="p14" name="Fr?d?ric B?zian" />
 		<Person id="p15" name="Yann" fullName="Yann Le Pennetier" />
 		<Person id="p16" name="Leigh Sauerwein" />
 		<Person id="p17" name="Michel Jamsin" />
-		<Person id="p18" name="Pierre Polomé" />
+		<Person id="p18" name="Pierre Polom?" />
 		<Person id="p19" name="Mat Schifferstein (Sherpa)" />
-		<Person id="p20" name="René Smulders" />
+		<Person id="p20" name="Ren? Smulders" />
 		<Person id="p21" name="H.P. Lovecraft" />
 		<Person id="p22" name="Berni Wrightson" />
 		<Person id="p23" name="Patrick van Bergen (Site Editor)" />
@@ -96,13 +96,13 @@
 		<Person id="p28" name="Toon Dohmen" />
 		<Person id="p29" name="Hans van Soest" />
 		<Person id="p30" name="Neal Adams" />
-		<Person id="p31" name="René Vossen" />
+		<Person id="p31" name="Ren? Vossen" />
 		<Person id="p32" name="Arthur Schopenhauer" />
 		<Person id="p33" name="Jean Louis Lechat" />
 		<Person id="p34" name="Christian Durieux" />
-		<Person id="p35" name="José-Louis Manuel" />
-		<Person id="p36" name="Jean Léturgie" />
-		<Person id="p37" name="Yves Frémion" />
+		<Person id="p35" name="Jos?-Louis Manuel" />
+		<Person id="p36" name="Jean L?turgie" />
+		<Person id="p37" name="Yves Fr?mion" />
 		<Person id="p38" name="Daniel Hugues" />
 		<Person id="p39" name="Thierry Groensteen" />
 		<Person id="p40" name="Ruud Booms" />
@@ -128,7 +128,7 @@
 		<Person id="p60" name="Clause Moliterni" />
 		<Person id="p61" name="Paul Renaud" />
 		<Person id="p62" name="Olivier de Broyer" />
-		<Person id="p63" name="Benoît Houbart" />
+		<Person id="p63" name="Beno?t Houbart" />
 		<Person id="p64" name="Eric Flux" />
 		<Person id="p65" name="Philippe Sohet" />
 		<Person id="p66" name="Vernal" />
@@ -136,19 +136,19 @@
 		<Person id="p68" name="Jeff Jones" />
 		<Person id="p69" name="Claude Renard" />
 		<Person id="p70" name="Duveaux" />
-		<Person id="p71" name="François Schuiten" />
+		<Person id="p71" name="Fran?ois Schuiten" />
 		<Person id="p72" name="Goffin" />
-		<Person id="p73" name="Jijé"/>
+		<Person id="p73" name="Jij?"/>
 		<Person id="p74" name="Joann Sfar"/>
 		<Person id="p75" name="Lewis Trondheim"/>
-		<Person id="p76" name="Argé Nieuwenhuis"/>
+		<Person id="p76" name="Arg? Nieuwenhuis"/>
 		<Person id="p77" name="Fritz Leiber"/>
 		<Person id="p78" name="Corbeyran" fullName="Eric Corberand"/>
 		<Person id="p79" name="Isa Cochet"/>
 		<Person id="p80" name="Wim Dewilde"/>
 		<Person id="p81" name="Jean-Luc Cornette"/>
-		<Person id="p82" name="Stéphane Deschamps"/>
-		<Person id="p83" name="Clarke" fullName="Frédéric Seron" />
+		<Person id="p82" name="St?phane Deschamps"/>
+		<Person id="p83" name="Clarke" fullName="Fr?d?ric Seron" />
 		<Person id="p84" name="Pierre Hurel" />
 		<Person id="p85" name="Axel Patisson" />
 		<Person id="p86" name="Damien Perez" />
@@ -159,6 +159,7 @@
 		<Person id="p91" name="Raven" />
 		<Person id="p92" name="Franquin" />
 		<Person id="p93" name="Breccia" />
+		<Person id="p94" name="Clarke" />
 		
 		<Photo id="photo1" title="Andreas drawing Rork" year="y1979" file="002_DxO.jpg" width="1566" height="1038" shrunk-width="640" shrunk-height="424" tags="home" />
 		<Photo id="photo2" title="Andreas drawing ARQ 11" year="y2007" file="6 juin 2007 (4).JPG" width="640" height="480" shrunk-width="640" shrunk-height="480" tags="home" />
@@ -200,10 +201,10 @@
 		<Photo id="photo38" title="Isa is done coloring Rork" year="y2012" file="PICT6032_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
 		<Photo id="photo39" title="Isa is coloring Virginia (Cyrrus)" year="y2012" file="PICT6035_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
 		<Photo id="photo40" title="Andreas draws an illustration - back" year="y2012" file="PICT6036_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
-		<Photo id="photo41" title="Isa colors a Limisaï" year="y2012" file="PICT6038_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
-		<Photo id="photo42" title="Isa is done coloring a Limisaï" year="y2012" file="PICT6041_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
-		<Photo id="photo43" title="Picture of a Limisaï" year="y2012" file="PICT6043_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
-		<Photo id="photo44" title="A colored picture of a Limisaï" year="y2012" file="PICT6045_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
+		<Photo id="photo41" title="Isa colors a Limisa?" year="y2012" file="PICT6038_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
+		<Photo id="photo42" title="Isa is done coloring a Limisa?" year="y2012" file="PICT6041_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
+		<Photo id="photo43" title="Picture of a Limisa?" year="y2012" file="PICT6043_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
+		<Photo id="photo44" title="A colored picture of a Limisa?" year="y2012" file="PICT6045_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
 		<Photo id="photo45" title="Andreas draws Rork - front" year="y2012" file="PICT6046_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
 		<Photo id="photo46" title="Andreas draws Rork - side" year="y2012" file="PICT6047_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
 		<Photo id="photo47" title="Andreas draws Rork - closeup" year="y2012" file="PICT6048_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
@@ -233,28 +234,28 @@
 
 		
 
-		<Story id="s1" title="Un siècle pour une maison" pageCount="7" text="p1" drawings="p1" />
+		<Story id="s1" title="Un si?cle pour une maison" pageCount="7" text="p1" drawings="p1" />
 		<Story id="s2" title="Point fatal" pageCount="7" text="p1" drawings="p1" />
 		<Story id="s3" title="La tache" pageCount="7" text="p1" drawings="p1" />
 		<Story id="s4" title="Low Valley" pageCount="7" text="p1" drawings="p1" />
 		<Story id="s5" title="Fragments" pageCount="6" text="p1" drawings="p1" />
 		<Story id="s6" title="Le retour de la tache" pageCount="7" text="p1" drawings="p1" />
-		<Story id="s7" title="Rork à New York" pageCount="5" text="p1" drawings="p1" />
+		<Story id="s7" title="Rork ? New York" pageCount="5" text="p1" drawings="p1" />
 		<Story id="s8" title="La longue nuit" pageCount="5" text="p1" drawings="p1" />
-		<Story id="s9" title="Le maître des rêves" pageCount="7" text="p1" drawings="p1" />
-		<Story id="s10" title="Le cimetière des géants" pageCount="7" text="p1" drawings="p1" />
-		<Story id="s11" title="Le prisonnier du désespoir" pageCount="27" text="p1" drawings="p1" />
-		<Story id="s12" title="Le cimetière de cathédrales" pageCount="46" text="p1" drawings="p1" />
-		<Story id="s13" title="Lumière d'étoile" pageCount="46" text="p1" drawings="p1" />
+		<Story id="s9" title="Le ma?tre des r?ves" pageCount="7" text="p1" drawings="p1" />
+		<Story id="s10" title="Le cimeti?re des g?ants" pageCount="7" text="p1" drawings="p1" />
+		<Story id="s11" title="Le prisonnier du d?sespoir" pageCount="27" text="p1" drawings="p1" />
+		<Story id="s12" title="Le cimeti?re de cath?drales" pageCount="46" text="p1" drawings="p1" />
+		<Story id="s13" title="Lumi?re d'?toile" pageCount="46" text="p1" drawings="p1" />
 		<Story id="s14" title="Capricorne" pageCount="46" text="p1" drawings="p1" />
 		<Story id="s15" title="Descente" pageCount="46" text="p1" drawings="p1" />
 		<Story id="s16" title="Retour" pageCount="54" text="p1" drawings="p1" />
-		<Story id="s17" title="Les oubliés" pageCount="9" text="p1" drawings="p1" />
-		<Story id="s18" title="Les aventures mystérieuses et rocambolesques de l'agent spatial" pageCount="1" text="p1" drawings="p1 p11" />
-		<Story id="s19" title="Le sauveur du crétacé" pageCount="2" text="p1" drawings="p1" />
-		<Story id="s20" title="Soirée de gala" pageCount="4" text="p1" drawings="p1" />
+		<Story id="s17" title="Les oubli?s" pageCount="9" text="p1" drawings="p1" />
+		<Story id="s18" title="Les aventures myst?rieuses et rocambolesques de l'agent spatial" pageCount="1" text="p1" drawings="p1 p11" />
+		<Story id="s19" title="Le sauveur du cr?tac?" pageCount="2" text="p1" drawings="p1" />
+		<Story id="s20" title="Soir?e de gala" pageCount="4" text="p1" drawings="p1" />
 		<Story id="s21" title="Le soleil se couche" pageCount="6" text="p3" drawings="p1 p3" />
-		<Story id="s22" title="Carol détective: Mission en 2012" pageCount="16" text="p4" drawings="p1 p5" />
+		<Story id="s22" title="Carol d?tective: Mission en 2012" pageCount="16" text="p4" drawings="p1 p5" />
 		<Story id="s23" title="L'enclume de la foudre" pageCount="2" text="p6" drawings="p1 p5" />
 		<Story id="s24" title="La montre aux 7 rubis" pageCount="30" text="p4" drawings="p1 p5" />
 		<Story id="s25" title="Le grimoire de Lucifer" pageCount="17" text="p4" drawings="p1 p5" />
@@ -262,16 +263,16 @@
 		<Story id="s27" title="La caverne du souvenir" pageCount="51" text="p1" drawings="p1" />
 		<Story id="s28" title="Schizo" pageCount="5" text="p1" drawings="p1" />
 		<Story id="s29" title="Biographie de Robert-Howard Barlow (1918-1951) et ses relations avec H.P. Lovecraft" year="y1978" pageCount="8" text="p2" drawings="p1" />
-		<Story id="s30" title="Amnésie" year="y1978" pageCount="12" text="p2" drawings="p1" />
+		<Story id="s30" title="Amn?sie" year="y1978" pageCount="12" text="p2" drawings="p1" />
 		<Story id="s31" title="La visitation d'Amiens" year="y1979" pageCount="8" text="p2" drawings="p1" />
-		<Story id="s32" title="La femme de cire du musée Spitzner" year="y1980" pageCount="8" text="p2" drawings="p1" />
-		<Story id="s33" title="Le crime de la mosquée" year="y1980" pageCount="8" text="p2" drawings="p1" />
+		<Story id="s32" title="La femme de cire du mus?e Spitzner" year="y1980" pageCount="8" text="p2" drawings="p1" />
+		<Story id="s33" title="Le crime de la mosqu?e" year="y1980" pageCount="8" text="p2" drawings="p1" />
 		<Story id="s34" title="Doublures" pageCount="3" text="p2" drawings="p1" />
 		<Story id="s35" title="Changeons d'air" pageCount="3" text="p1" drawings="p1" />
 		<Story id="s36" title="Le pirate" pageCount="1" text="p1" drawings="p1" />
 		<Story id="s37" title="L'ouvrier disparu" pageCount="4" text="p8" drawings="p1" />
 		<Story id="s38" title="Hiver 51" year="y1981" pageCount="21" text="p1" drawings="p9" />
-		<Story id="s39" title="Eté 60" year="y1984" pageCount="22" text="p1" drawings="p9" />
+		<Story id="s39" title="Et? 60" year="y1984" pageCount="22" text="p1" drawings="p9" />
 		<Story id="s40" title="Cromwell Stone" pageCount="46" text="p1" drawings="p1" />
 		<Story id="s41" title="Cyrrus" pageCount="44" text="p1" drawings="p1" />
 		<Story id="s42" title="Mil" pageCount="46" text="p1" drawings="p1" />
@@ -279,7 +280,7 @@
 		<Story id="s44" title="Extinction" year="y1984" pageCount="7" text="p11" drawings="p1" />
 		<Story id="s45" title="Touriste" year="y1987" pageCount="4" text="p12" drawings="p1" />
 		<Story id="s46" title="Chat" year="y1990" pageCount="7" text="p13" drawings="p1" /> <!-- titel onzeker, mijn vertaling -->
-		<Story id="s47" title="Crépuscule" year="y1990" pageCount="7" text="p14" drawings="p1" /> <!-- titel onzeker, mijn vertaling -->
+		<Story id="s47" title="Cr?puscule" year="y1990" pageCount="7" text="p14" drawings="p1" /> <!-- titel onzeker, mijn vertaling -->
 		<Story id="s48" title="Puzzle" year="y1991" pageCount="6" text="p15" drawings="p1" /> <!-- titel onzeker, mijn vertaling -->
 		<Story id="s49" title="Jane Eyre" pageCount="16" text="p16" drawings="p1" />
 		<Story id="s50" title="X-20" pageCount="10" text="p1" drawings="p1" />
@@ -293,23 +294,23 @@
 		<Story id="s58" title="Coutoo" pageCount="46" text="p1" drawings="p1" />
 		<Story id="s59" title="Le triangle rouge" pageCount="46" text="p1" drawings="p1" />
 		<Story id="s60" title="L'objet" pageCount="46" text="p1" drawings="p1" />
-		<Story id="s61" title="Electricité" pageCount="46" text="p1" drawings="p1" />
+		<Story id="s61" title="Electricit?" pageCount="46" text="p1" drawings="p1" />
 		<Story id="s62" title="Deliah" pageCount="46" text="p1" drawings="p1" />
-		<Story id="s63" title="Le cube numérique" pageCount="46" text="p1" drawings="p1" />
-		<Story id="s64" title="Le sécret" pageCount="46" text="p1" drawings="p1" />
+		<Story id="s63" title="Le cube num?rique" pageCount="46" text="p1" drawings="p1" />
+		<Story id="s64" title="Le s?cret" pageCount="46" text="p1" drawings="p1" />
 		<Story id="s65" title="Ailleurs" pageCount="46" text="p1" drawings="p1" />
-		<Story id="s66" title="Mémoires 1" pageCount="46" text="p1" drawings="p1" />
-		<Story id="s67" title="Mémoires 2" pageCount="46" text="p1" drawings="p1" />
+		<Story id="s66" title="M?moires 1" pageCount="46" text="p1" drawings="p1" />
+		<Story id="s67" title="M?moires 2" pageCount="46" text="p1" drawings="p1" />
 		<Story id="s68" title="Fantalia" pageCount="44" text="p1" drawings="p1" />
-		<Story id="s69" title="El regreso / Deludëkkba" pageCount="8" text="p1" drawings="p1" />
+		<Story id="s69" title="El regreso / Delud?kkba" pageCount="8" text="p1" drawings="p1" />
 		<Story id="s70" title="El octavo prisionero" pageCount="8" text="p1" drawings="p1" />
 		<Story id="s71" title="Le cauchemar" pageCount="3" text="p1" drawings="p1" />
 		<Story id="s72" title="Azteca" pageCount="46" text="p1" drawings="p1" />
-		<Story id="s73" title="Ils ne m'ont pas écouté" pageCount="1" text="p1" drawings="p1" />
+		<Story id="s73" title="Ils ne m'ont pas ?cout?" pageCount="1" text="p1" drawings="p1" />
 		<Story id="s74" title="Jim" pageCount="7" text="p1" drawings="p1" />
 		<Story id="s75" title="Liber Odii" pageCount="5" text="p1" drawings="p1" />
-		<Story id="s76" title="Le rêveur" pageCount="5" text="p1" drawings="p1" />
-		<Story id="s77" title="Mécanique" pageCount="5" text="p1" drawings="p1" />
+		<Story id="s76" title="Le r?veur" pageCount="5" text="p1" drawings="p1" />
+		<Story id="s77" title="M?canique" pageCount="5" text="p1" drawings="p1" />
 		<Story id="s78" title="Les miroirs de Doctor X" pageCount="5" text="p1" drawings="p1" />
 		<Story id="s79" title="La maison des esprits" pageCount="5" text="p1" drawings="p1" />
 		<Story id="s80" title="Fleur" pageCount="5" text="p1" drawings="p1" />
@@ -322,7 +323,7 @@
 		<Story id="s87" title="Attaque" pageCount="46" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s88" title="Seconde Chance" text="p1" drawings="p34" />
 		<Story id="s89" title="Manipulations Minutieuses" text="p1" drawings="p34" />
-		<Story id="s90" title="Réveil" text="p1" drawings="p1" />
+		<Story id="s90" title="R?veil" text="p1" drawings="p1" />
 		<Story id="s91" title="Le dragon bleu" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s92" title="Rennes (France)" pageCount="4" text="p1" drawings="p1" />
 		<Story id="s93" title="La carte majeure" pageCount="46" text="p74 p75" drawings="p1" />
@@ -335,38 +336,38 @@
 		<Story id="s100" title="The swords of Lankhmar" text="p77" drawings="p1" />
 		<Story id="s101" title="Swords and ice magic" text="p77" drawings="p1" />
 		<Story id="s102" title="Le Passage" text="p1" drawings="p1" colorist="p79" />
-		<Story id="s103" title="Le temps de la réflexion" pageCount="4" text="p78" drawings="p1" />
+		<Story id="s103" title="Le temps de la r?flexion" pageCount="4" text="p78" drawings="p1" />
 		<Story id="s104" title="Le Fragment" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s105" title="Le testament de Cromwell Stone" text="p1" drawings="p1" />
 		<Story id="s106" title="Retrouvailles" text="p1" drawings="p1" />
 		<Story id="s107" title="Les Chinois" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s108" title="Quintos" pageCount="54" text="p1" drawings="p1 p79" colorist="p79" />
-		<Story id="s109" title="Feu Croisé" text="p1" drawings="p1" />
+		<Story id="s109" title="Feu Crois?" text="p1" drawings="p1" />
 		<Story id="s111" title="Patrick" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s112" title="L'ours" text="p81" drawings="p1" />
 		<Story id="s113" title="Tehos" text="p1" drawings="p1" />
-		<Story id="s114" title="Attention, auteurs méchants" text="p34" drawings="p1" />
+		<Story id="s114" title="Attention, auteurs m?chants" text="p34" drawings="p1" />
 		<Story id="s115" title="-- empty title --" text="p1" drawings="p1" colorist="p79" />
 		<Story id="s116" title="Time Machine" text="p1" drawings="p83 p1" pageCount="46" />
-		<Story id="s117" title="Pourquoi j'aime la bande dessinée" text="p1" drawings="p1" pageCount="1" />
+		<Story id="s117" title="Pourquoi j'aime la bande dessin?e" text="p1" drawings="p1" pageCount="1" />
 		<Story id="s118" title="Civilisation television" drawings="p1" text="p84" year="y1981" />
-		<Story id="s119" title="Maître noir" pageCount="48" drawings="p1" text="p1" year="y2008" />
-		<Story id="s120" title="Rêve en cage" pageCount="48" drawings="p1" text="p1" colorist="p79" year="y2008" />
+		<Story id="s119" title="Ma?tre noir" pageCount="48" drawings="p1" text="p1" year="y2008" />
+		<Story id="s120" title="R?ve en cage" pageCount="48" drawings="p1" text="p1" colorist="p79" year="y2008" />
 		<Story id="s121" title="Mission" pageCount="48" drawings="p1" text="p1" year="y2009" />
 		<Story id="s122" title="L'Operation" pageCount="48" drawings="p1" text="p1" colorist="p79" year="y2009" />
-		<Story id="s123" title="Détectives" pageCount="48" drawings="p1" text="p1" year="y2010" />
+		<Story id="s123" title="D?tectives" pageCount="48" drawings="p1" text="p1" year="y2010" />
 		<Story id="s124" title="New York" pageCount="48" drawings="p1" text="p1" colorist="p79" year="y2010" />
 		<Story id="s125" title="Intrus" pageCount="47" drawings="p1" text="p1" year="y2011" />
 		<Story id="s126" title="Lune" pageCount="48" drawings="p1" text="p1" year="y2012" />
 		<Story id="s127" title="Vu de pres" drawings="p1" text="p1" colorist="p79" year="y2012" />
-		<Story id="s128" title="Les fantômes" drawings="p1" text="p1" colorist="p79" year="y2012" />
+		<Story id="s128" title="Les fant?mes" drawings="p1" text="p1" colorist="p79" year="y2012" />
 		<Story id="s129" title="Les cavalliers" drawings="p1" text="p1" colorist="p79" year="y2013" />
-		<Story id="s130" title="Rêves 1" drawings="p1" text="p1" year="y2013" />
-		<Story id="s131" title="Rêves 2" drawings="p1" text="p1" year="y2014" />
+		<Story id="s130" title="R?ves 1" drawings="p1" text="p1" year="y2013" />
+		<Story id="s131" title="R?ves 2" drawings="p1" text="p1" year="y2014" />
 		<Story id="s132" title="Zarkan" drawings="p1" text="p1" colorist="p79" year="y2014" />
 		<Story id="s133" title="Ici" drawings="p1" text="p1" year="y2015" />
 		<Story id="s134" title="Terminus" drawings="p1" text="p1" colorist="p79" year="y2015" />
-		<Story id="s135" title="Maître" drawings="p1" text="p1" colorist="p79" year="y2016" />
+		<Story id="s135" title="Ma?tre" drawings="p1" text="p1" colorist="p79" year="y2016" />
 
 		<Story id="s136" title="Veuve noire" drawings="p1" text="p88" year="y2017" colorist="p1" />
 		<Story id="s137" title="Maidstone" drawings="p1" text="p89" year="y2016" colorist="p1" />
@@ -375,6 +376,8 @@
 		<Story id="s140" title="Milk" drawings="p1" text="p79" year="y2016" colorist="p1" />
 		<Story id="s141" title="Error" drawings="p1" text="p1" year="y2016" colorist="p1" />
 		<Story id="s142" title="L'argentine" drawings="p1" text="p1" colorist="p79" year="y2019" />
+
+		<Story id="s143" title="Ce matin" drawings="p94" text="p1" year="y2018" />
 		
 		<Tag id='intro' description="Introductions" />
 		<Tag id='cover' description="Covers" />
@@ -390,7 +393,7 @@
 		<Tag id='portfolio' description="Portfolios" />
 		<Tag id='home' description="Andreas at home in his studio" />
 		<Tag id='signing' description="Signing session with Isa Cochet, Antwerp 2012" />
-		<Tag id='poland' description="Andreas and Isa Cochet in &#x0141;ód&#x017a;, Poland 2014" />
+		<Tag id='poland' description="Andreas and Isa Cochet in &#x0141;?d&#x017a;, Poland 2014" />
 		<Tag id='puzzle' description="Puzzles" />
 		<Tag id='inktober2015' description="Inktober 2015" />
 		<Tag id='inktober2017' description="Inktober 2017" />
@@ -410,18 +413,18 @@
 		<Illustration id="i10" description="Tante Germania" drawings="p1" tags="illustration" />
 		<Illustration id="i11" year="y1983" description="Cromwell Stone and Gordon Globe" drawings="p1" tags="intro" />
 		<Illustration id="i12" year="y1984" description="Cyrrus" drawings="p1" tags="intro" />
-		<Illustration id="i13" year="y1985" description="Border - An illustration with a text of José-Luis Bocquet" drawings="p1" tags="illustration" />
+		<Illustration id="i13" year="y1985" description="Border - An illustration with a text of Jos?-Luis Bocquet" drawings="p1" tags="illustration" />
 		<Illustration id="i14" year="y1986" description="Espace vital - An illustration with a text of Rudy Rucker" drawings="p1" tags="illustration" />
 		<Illustration id="i15" year="y1985" description="Le cavalier blanc (after Lucky Luke)" drawings="p1" tags="misc" />
-		<Illustration id="i16" year="y1985" description="L'épave" drawings="p1" tags="illustration" />
+		<Illustration id="i16" year="y1985" description="L'?pave" drawings="p1" tags="illustration" />
 		<Illustration id="i17" year="y1986" description="Screaming man with thorns" drawings="p1" tags="plate" />
 		<Illustration id="i18" year="y1985" description="Black-and-white poster for the exhibition 'Bulles' in Bordeaux" drawings="p1" tags="poster" />
 		<!-- Mentioned in "De fantastische werelden", but they are not there, according to Pierre Loubere.
 		<Illustration id="i19" year="y1986" description="A color illustration" drawings="p1" tags="unavailable" />
 		<Illustration id="i20" year="y1986" description="A color illustration" drawings="p1" tags="unavailable" />-->
-		<Illustration id="i21" year="y1987" description="Au secours des hommes - 40 Illustrations for novel Jean Coué" drawings="p1" tags="illustration" />
+		<Illustration id="i21" year="y1987" description="Au secours des hommes - 40 Illustrations for novel Jean Cou?" drawings="p1" tags="illustration" />
 		<!--<Illustration id="i22" year="y1987" description="Cover illustration Je Bouquine #46" drawings="p1" tags="cover" />-->
-		<Illustration id="i23" year="y1987" description="Cover illustration Les Cahiers de la Bande Dessinée, nr. 73" drawings="p1" tags="cover" />
+		<Illustration id="i23" year="y1987" description="Cover illustration Les Cahiers de la Bande Dessin?e, nr. 73" drawings="p1" tags="cover" />
 		<Illustration id="i24" year="y1985" description="Rork, staring" drawings="p1" tags="plate" />
 		<Illustration id="i25" year="y1987" description="New-year's wish for 1988" drawings="p1" tags="wish" />
 		<Illustration id="i26" year="y1988" description="Cover Zozolala 40" drawings="p1" tags="cover" />
@@ -430,16 +433,16 @@
 		<Illustration id="i29" year="y1995" description="Cromwell Stone, up close" drawings="p1" tags="cover exlibris" />
 		<Illustration id="i30" year="y1995" description="Cromwell Stone, terrified" drawings="p1" tags="cover exlibris" />
 		<Illustration id="i31" year="y1995" description="Batman" drawings="p1" tags="misc" />
-		<Illustration id="i32" year="y1996" description="Cover Rêve-en-Bulles 1996, nr 12" drawings="p1" tags="cover" />
+		<Illustration id="i32" year="y1996" description="Cover R?ve-en-Bulles 1996, nr 12" drawings="p1" tags="cover" />
 		<Illustration id="i33" year="y1996" description="Fire at the horizon" drawings="p1" tags="plate" />
 		<Illustration id="i34" year="y1996" description="4 Plates of men on stairs" drawings="p1" tags="portfolio" />
-		<Illustration id="i35" year="y1985" description="La messagère: 10 colored plates" drawings="p1" tags="portfolio" />
+		<Illustration id="i35" year="y1985" description="La messag?re: 10 colored plates" drawings="p1" tags="portfolio" />
 		<Illustration id="i36" year="y1989" description="A color illustration" drawings="p1" tags="unavailable" />
 		<!-- <Illustration id="i37" description="Le chat noir" drawings="p1" /> -->
 		<Illustration id="i38" year="y1994" description="Tour de Babel - Etemenaki" drawings="p1" tags="portfolio" />
 		<Illustration id="i39" year="y1981" description="Coverillustration album Jules Verne" drawings="p1" tags="cover" />
 		<!--<Illustration id="i40" description="Coverillustration album Jules Verne" drawings="p1" />-->
-<!--		<Illustration id="i41" drawings="p1" description="6 (cover-)illustrations for the first six parts of the 'Cycle des épées' of Fritz Leiber, published by Temps Futurs (1982-1983)"/>-->
+<!--		<Illustration id="i41" drawings="p1" description="6 (cover-)illustrations for the first six parts of the 'Cycle des ?p?es' of Fritz Leiber, published by Temps Futurs (1982-1983)"/>-->
 		<Illustration id="i42" year="y1990" drawings="p1" description="Poster 'Capricornus' Aladin" tags="poster" />
 		<Illustration id="i43" year="y1992" drawings="p1" description="Ex-libris 'Descente' published by comics bookstore Schlirf Book, Brussels" tags="exlibris" />
 		<Illustration id="i44" year="y1993" drawings="p1" description="Color illustration for Comic Bookstore Ty Bulle(s?), Rennes" tags="unavailable" />
@@ -449,15 +452,15 @@
 		<Illustration id="i48" drawings="p1" description="Ex-libris 'Le retour de Cromwell Stone'" tags="exlibris" />
 		<Illustration id="i49" year="y1995" drawings="p1" description="Pour Patrick" tags="dedication" />
 		<Illustration id="i50" year="y1986" drawings="p1" description="Pour Michel" tags="dedication" />
-		<Illustration id="i51" year="y1993" drawings="p1" description="Pour Benoît" tags="dedication" />
+		<Illustration id="i51" year="y1993" drawings="p1" description="Pour Beno?t" tags="dedication" />
 		<Illustration id="i52" drawings="p1" description="Ex-libris in 'La monographie'" tags="exlibris" />
 		<Illustration id="i53" year="y1995" drawings="p1" description="Ex-libris in 'Le triangle rouge'" tags="exlibris" />
 		<Illustration id="i54" year="y2000" drawings="p1" description="Ex-libris Rork published by Swof" tags="exlibris" />
-		<Illustration id="i55" year="y1987" drawings="p1" description="Bookmark for Lumière d'étoile" tags="bookmark" />
+		<Illustration id="i55" year="y1987" drawings="p1" description="Bookmark for Lumi?re d'?toile" tags="bookmark" />
 		<Illustration id="i56" drawings="p1" description="Ex-libris Capricorne published by Swof" tags="exlibris" />
 		<Illustration id="i57" year="y1997" drawings="p1" description="Aquarel L'Autre Monde" tags="misc" />
 		<Illustration id="i58" year="y1999" drawings="p1" description="Delcourt's 1999 catalogue" tags="cover" />
-		<Illustration id="i59" year="y1981" drawings="p1" description="Pour Jean-François" tags="dedication" />
+		<Illustration id="i59" year="y1981" drawings="p1" description="Pour Jean-Fran?ois" tags="dedication" />
 		<Illustration id="i60" year="y1988" drawings="p1" description="Bookmark man with glasses" tags="bookmark" />
 		<Illustration id="i61" year="y1993" drawings="p1" description="Bookmark 'Retour' Forbidden Worlds" tags="bookmark" />
 		<Illustration id="i62" year="y1995" drawings="p1 p11" description="Ex-libris 'Styx' Sans Titre" tags="exlibris" />
@@ -469,7 +472,7 @@
 		<Illustration id="i68" drawings="p1" year="y1996" description="Label for a bottle of wine." tags="misc" />
 		<Illustration id="i69" drawings="p1" year="y1995" description="Ex-libris 'Le retour de Cromwell Stone' Het B-Gevaar" tags="exlibris" />
 		<Illustration id="i70" drawings="p1" year="y1994" description="Ex-libres 'Le retour de Cromwell Stone' Sherpa" tags="exlibris" />
-		<Illustration id="i71" drawings="p1" year="y1992" description="Ex-libris 'Dérives' Blitz" tags="exlibris" />
+		<Illustration id="i71" drawings="p1" year="y1992" description="Ex-libris 'D?rives' Blitz" tags="exlibris" />
 		<Illustration id="i72" drawings="p1" year="y1993" description="Ex-libris 'Cromwell Stone' Alpha Comics" tags="exlibris" />
 		<Illustration id="i73" drawings="p1" year="y1989" description="New year's card 1989" tags="wish" />
 		<Illustration id="i74" drawings="p1" year="y1989" description="Catholic Boyscout's calendar 1989." tags="misc" />
@@ -489,7 +492,7 @@
 		<Illustration id="i88" drawings="p1" year="y1998" description="Pour Dams" tags="dedication" />
 		<Illustration id="i89" drawings="p1" year="y2002" description="Ex-libris comics shop Aladin" tags="exlibris" />
 		<Illustration id="i90" drawings="p1" year="y1984" description="Ex-libris" tags="exlibris" />
-		<Illustration id="i91" drawings="p1" description="Postcard Révélations posthumes" tags="card" />
+		<Illustration id="i91" drawings="p1" description="Postcard R?v?lations posthumes" tags="card" />
 		<Illustration id="i92" drawings="p1" year="y2002" description="Poster Quai Des Bulles" tags="poster" />
 		<Illustration id="i93" drawings="p1" year="y2001" description="New year's card Lombard 2002" tags="wish" />
 		<Illustration id="i94" drawings="p1" year="y1995" description="Cover of RPG-book" tags="cover" />
@@ -505,7 +508,7 @@
 		<Illustration id="i104" drawings="p1" year="y1982" description="The swords of Lankhmar" tags="illustration" />
 		<Illustration id="i105" drawings="p1" year="y1983" description="Swords and ice magic" tags="illustration" />
 		<Illustration id="i106" drawings="p1" description="Ex-libris 'De Terugkeer van Cromwell Stone'" tags="exlibris" />
-		<Illustration id="i107" drawings="p1" description="Sérigraphie" tags="poster" />
+		<Illustration id="i107" drawings="p1" description="S?rigraphie" tags="poster" />
 		<Illustration id="i108" drawings="p1" description="Le Lombard Capricorne wallpapers" tags="wallpaper" />
 		<Illustration id="i109" drawings="p1" description="Le Lombard Capricorne e-cards" tags="card" />
 		<Illustration id="i110" drawings="p1" description="Ex-libris Testament Forbidden Zone" tags="exlibris" />
@@ -525,7 +528,7 @@
 		<Illustration id="i124" drawings="p1" year="y1985" description="Rork with ferryman skeletons" tags="cover" />
 		<Illustration id="i125" drawings="p1 p11" year="y1997" description="Laurel Hardy carrying some device" tags="plate" />
 		<Illustration id="i126" drawings="p1 p11" year="y1997" description="Demons, and pointing guns" tags="plate" />
-		<Illustration id="i127" drawings="p1" year="y2006" description="Le Lombard 60 ans après - Andreas" tags="plate" />
+		<Illustration id="i127" drawings="p1" year="y2006" description="Le Lombard 60 ans apr?s - Andreas" tags="plate" />
 		<Illustration id="i128" drawings="p1" year="y2007" description="Dragon" tags="plate" />
 		<Illustration id="i129" drawings="p1" year="y1981" description="Rork holding a card" tags="dedication" />
 		<Illustration id="i130" drawings="p1" year="y2001" description="Oscar" tags="misc" />
@@ -533,7 +536,7 @@
 		<Illustration id="i132" drawings="p1" year="y1996" description="Man in cup and saucer" tags="plate" />
 		<Illustration id="i133" drawings="p1" year="y1980" description="Men stabbing" tags="plate" />
 		<Illustration id="i134" drawings="p1" year="y1988" description="Rork illustration" tags="dedication" />
-		<Illustration id="i135" drawings="p1" year="y1979" description="Légende des Nibelungen" tags="cover" />
+		<Illustration id="i135" drawings="p1" year="y1979" description="L?gende des Nibelungen" tags="cover" />
 		<Illustration id="i136" drawings="p1" year="y1993" description="Saint Georges" tags="dedication" />
 		<Illustration id="i137" drawings="p1" year="y1993" description="Happy animals" tags="illustration" />
 		<Illustration id="i138" drawings="p1" year="y1979" description="Heart" tags="illustration" />
@@ -549,9 +552,9 @@
 		<Illustration id="i148" drawings="p1" year="y2005" description='"Capricorne" - Les chinois' tags="exlibris" />
 		<Illustration id="i149" drawings="p1" description="Wallpaper Quintos" tags="wallpaper" />
 		<Illustration id="i150" drawings="p1" description='Poster La caverne du souvenir' tags="poster" />
-		<Illustration id="i151" drawings="p1" year="y2002" description='Cover Belzébulle' tags="cover" />
+		<Illustration id="i151" drawings="p1" year="y2002" description='Cover Belz?bulle' tags="cover" />
 		<Illustration id="i152" drawings="p1" description='Cover Comics Lit' tags="cover" />
-		<Illustration id="i153" drawings="p1" year="y2001" description='Maître Andreas' tags="intro" />
+		<Illustration id="i153" drawings="p1" year="y2001" description='Ma?tre Andreas' tags="intro" />
 		<Illustration id="i154" drawings="p1" year="y1998" description="Bookmark Monographie 1" tags="bookmark" />
 		<Illustration id="i155" drawings="p1" year="y1998" description="Bookmark Monographie 2" tags="bookmark" />
 		<Illustration id="i156" drawings="p1" description="Bookmark Swof Capricorne 1" tags="bookmark" />
@@ -565,7 +568,7 @@
 		<Illustration id="i164" drawings="p1" year="y1980" description="Pour Caroline et Pierre-Guillaume" tags="dedication" />
 		<Illustration id="i165" drawings="p1" year="y1986" description="Cromwell" tags="dedication" />
 		<Illustration id="i166" drawings="p1" year="y1991" description="Pour Freddy + Celine" tags="dedication" />
-		<Illustration id="i167" drawings="p1" year="y1989" description="Pour Frédéric" tags="dedication" />
+		<Illustration id="i167" drawings="p1" year="y1989" description="Pour Fr?d?ric" tags="dedication" />
 		<Illustration id="i168" drawings="p1" year="y1981" description="Pour Guy" tags="dedication" />
 		<Illustration id="i169" drawings="p1" year="y1986" description="Pour Jurry" tags="dedication" />
 		<Illustration id="i170" drawings="p1" description="Pour Kasper" tags="dedication" />
@@ -573,10 +576,10 @@
 		<Illustration id="i172" drawings="p1" year="y1997" description="Pour Philippe" tags="dedication" />
 		<Illustration id="i173" drawings="p1" year="y1986" description="Voor Ton" tags="dedication" />
 		<Illustration id="i174" drawings="p1" year="y2011" description="Help!" tags="illustration" />
-		<Illustration id="i175" drawings="p1" description="Für Marc" tags="dedication" />
-		<Illustration id="i176" drawings="p1" description="Für Horst" tags="dedication" />
-		<Illustration id="i177" drawings="p1" description="Für Robert" tags="dedication" />
-		<Illustration id="i178" drawings="p1" description="Für Stefan" tags="dedication" />
+		<Illustration id="i175" drawings="p1" description="F?r Marc" tags="dedication" />
+		<Illustration id="i176" drawings="p1" description="F?r Horst" tags="dedication" />
+		<Illustration id="i177" drawings="p1" description="F?r Robert" tags="dedication" />
+		<Illustration id="i178" drawings="p1" description="F?r Stefan" tags="dedication" />
 		<Illustration id="i179" drawings="p1" year="y2011" description="Thanks for the great website, Patrick!" tags="dedication" />
 		<Illustration id="i180" drawings="p1" year="y2012" description="Pour Koen + Isabelle" tags="dedication" />
 		<Illustration id="i181" drawings="p1" year="y2009" description="Pour Pierrick" tags="dedication" />
@@ -652,18 +655,19 @@
 		<Illustration id="i251" drawings="p1" year="y2017" description="Inktober 31" tags="inktober2017" />
 		<Illustration id="i252" drawings="p1" year="y2017" description="Inktober 31 Combination" tags="inktober2017" />
 		<Illustration id="i253" drawings="p1" year="y2017" description="Homage to Bernie Wrightson" tags="homage" />
-		<Illustration id="i254" drawings="p1" year="y2018" description="Bonne Année Happy New Year Frohes Neues Jahr 2018" tags="wish" />
-		<Illustration id="i255" drawings="p1" colorist="p79" year="y2014" description="Bonne Année ! Happy New Year ! Frohes Neues Jahr !..." tags="wish" />
+		<Illustration id="i254" drawings="p1" year="y2018" description="Bonne Ann?e Happy New Year Frohes Neues Jahr 2018" tags="wish" />
+		<Illustration id="i255" drawings="p1" colorist="p79" year="y2014" description="Bonne Ann?e ! Happy New Year ! Frohes Neues Jahr !..." tags="wish" />
 		<Illustration id="i256" drawings="p1" year="y2018" description="Strasbulles" tags="exhibition" />
 		<Illustration id="i257" drawings="p1" year="y2019" description="New year 2019" tags="wish" />
 		<Illustration id="i258" drawings="p1" year="y2020" description="New year 2020" tags="wish" />
-		<Illustration id="i259" drawings="p1" year="y2013" description="Toute l'equipe des Éditions du Lombard vous souhaite une heureuse année 2013!" tags="wish" />
+		<Illustration id="i259" drawings="p1" year="y2013" description="Toute l'equipe des ?ditions du Lombard vous souhaite une heureuse ann?e 2013!" tags="wish" />
 		<Illustration id="i260" drawings="p1" year="y2021" description="Okay 2021... Go!" tags="wish" />
 		<Illustration id="i261" drawings="p1" colorist="p79" year="y2021" description="Rork in the snow" tags="plate" />
 		<Illustration id="i262" drawings="p1" colorist="p79" year="y2021" description="Rork with clouds" tags="plate" />
 		<Illustration id="i263" drawings="p1" colorist="p79" year="y2021" description="Rork on a rock" tags="plate" />
 		<Illustration id="i264" drawings="p1" colorist="p79" year="y2021" description="Rork before graffiti wall" tags="plate" />
 		<Illustration id="i265" drawings="p1" colorist="p79" year="y2019" description="Chinese wall" tags="plate" />
+		<Illustration id="i266" drawings="p1" year="y2022" description="Quelle bonne année!" tags="wish" />
 		
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -672,11 +676,11 @@
 		<Album id="a2" title="Passages"
 			year="y1981"
 			stories="s8 s9 s10 s11" />
-		<Album id="a3" title="Le cimetière de cathédrales"
+		<Album id="a3" title="Le cimeti?re de cath?drales"
 			startDate="1986/00/00"
 			year="y1987"
 			stories="s12" />
-		<Album id="a4" title="Lumière d'étoile"
+		<Album id="a4" title="Lumi?re d'?toile"
 			startDate="1987/99/99"
 			year="y1987"
 			stories="s13" />
@@ -691,9 +695,9 @@
 		<Album id="a7" title="Retour"
 			year="y1992"
 			stories="s16" />
-		<Album id="a8" title="Luc Oriënt: Les spores de nulle part"
+		<Album id="a8" title="Luc Ori?nt: Les spores de nulle part"
 			stories="s22" />
-		<Album id="a9" title="Luc Oriënt: L'enclume de la foudre"
+		<Album id="a9" title="Luc Ori?nt: L'enclume de la foudre"
 			stories="s23" />
 		<Album id="a10" title="La montre aux 7 rubis"
 			stories="s24" />
@@ -702,7 +706,7 @@
 		<Album id="a12" title="La caverne du souvenir"
 			year="y1981"
 			stories="s27" />
-		<Album id="a13" title="Révélations posthumes"
+		<Album id="a13" title="R?v?lations posthumes"
 			stories="s29 s30 s31 s32 s33" />
 		<Album id="a14" title="Dream is over"
 			stories="s34" />
@@ -722,14 +726,14 @@
 			stories="s42" />
 		<Album id="a19" title="Cyrrus-Mil" multialbum="true"
 			stories="s41 s51" />
-		<Album id="a20" title="Dérives"
+		<Album id="a20" title="D?rives"
 			year="y1991"
 			stories="s43 s44 s45 s46 s47 s48" />
 		<Album id="a21" title="Styx"
 			startDate="1994/00/00"
 			year="y1995"
 			stories="s54" />
-		<Album id="a22" title="L'avonture du journal Tintin: 40 ans de bandes dessinées"
+		<Album id="a22" title="L'avonture du journal Tintin: 40 ans de bandes dessin?es"
 			year="y1986"
 			stories="s18" />
 		<Album id="a23" title="Le retour de Cromwell Stone"
@@ -753,46 +757,46 @@
 		<Album id="a28" title="L'objet"
 			year="y1996"
 			stories="s60" />
-		<Album id="a29" title="Electricité"
+		<Album id="a29" title="Electricit?"
 			year="y1996"
 			stories="s61" />
 		<Album id="a30" title="Deliah"
 			year="y1997"
 			stories="s62" />
-		<Album id="a31" title="Le cube numérique"
+		<Album id="a31" title="Le cube num?rique"
 			year="y1998"
 			stories="s63" />
-		<Album id="a32" title="Le sécret"
+		<Album id="a32" title="Le s?cret"
 			year="y1999"
 			stories="s64" />
 		<Album id="a33" title="Ailleurs"
 			year="y1997"
 			stories="s65" />
-		<Album id="a34" title="Mémoires 1"
+		<Album id="a34" title="M?moires 1"
 			year="y1998"
 			stories="s66" />
-		<Album id="a35" title="Mémoires 2"
+		<Album id="a35" title="M?moires 2"
 			year="y1999"
 			stories="s67" />
-		<Album id="a36" title="La messagère"
+		<Album id="a36" title="La messag?re"
 			illustrations="i35" />
 		<Album id="a37" title="Fantalia"
 			stories="s68" />
 		<Album id="a38" title="Norte Sur"
 			stories="s69" />
-		<Album id="a39" title="Le neuvième art entre dans l'art nouveau, tome 1"
+		<Album id="a39" title="Le neuvi?me art entre dans l'art nouveau, tome 1"
 			illustrations="i36" />
-		<Album id="a40" title="La révolucion francesa"
+		<Album id="a40" title="La r?volucion francesa"
 			stories="s70" />
-		<Album id="a41" title="A l'aube de la liberté"
+		<Album id="a41" title="A l'aube de la libert?"
 			stories="s70" />
 		<Album id="a42" title="Entre chats"
 			stories="s71" />
 		<Album id="a43" title="Azteca"
 			stories="s72" />
-		<Album id="a44" title="Les croqueurs de sable, tome 4: l'âme braise"
+		<Album id="a44" title="Les croqueurs de sable, tome 4: l'?me braise"
 			illustrations="i38" />
-		<Album id="a45" title="La fabrique Delcourt à dix ans"
+		<Album id="a45" title="La fabrique Delcourt ? dix ans"
 			stories="s73" />
 		<Album id="a46" title="Sans dessus dessous"
 			illustrations="i39" />
@@ -807,16 +811,16 @@
 		<Album id="a50" title="Heurts"
 			year="y2000"
 			stories="s85" />
-		<Album id="a51" title="L'encyclopédie des Bandes Dessinées"
+		<Album id="a51" title="L'encyclop?die des Bandes Dessin?es"
 			year="y1986"
 			articles="art21" />
-		<Album id="a52" title="Dictionnaire de la bande dessinée"
+		<Album id="a52" title="Dictionnaire de la bande dessin?e"
 			year="y1989"
 			articles="art38"/>
-		<Album id="a53" title="Dictionnaire mondial de la bande dessinée"
+		<Album id="a53" title="Dictionnaire mondial de la bande dessin?e"
 			year="y1994"
 			articles="art45"/>
-		<Album id="a54" title="La Bande Dessinée en France"
+		<Album id="a54" title="La Bande Dessin?e en France"
 			year="y1997"
 			articles="art52" />
 		<Album id="a55" title="Andreas. Une monographie"
@@ -841,7 +845,7 @@
 		<Album id="a61" title="Manipulations Minutieuses"
 			year="y2002"
 			stories="s89" />
-		<Album id="a62" title="Réveil"
+		<Album id="a62" title="R?veil"
 			year="y2002"
 			stories="s90" />
 		<Album id="a63" title="Le dragon bleu"
@@ -904,10 +908,10 @@
 		<Album id="a79" title="Quintos"
             year="y2006"
             stories="s108"/>
-		<Album id="a80" title="Feu Croisé"
+		<Album id="a80" title="Feu Crois?"
             year="y2006"
             stories="s109"/>
-		<Album id="a81" title="Coffret tomes 1 à 3" multialbum="true"
+		<Album id="a81" title="Coffret tomes 1 ? 3" multialbum="true"
             year="y2004"
             stories="s40 s55 s105"/>
 		<Album id="a82" title="L'ecrin"
@@ -931,19 +935,19 @@
 		<Album id="a88" title="Mister President 3: Time Machine"
             year="y2007"
             stories="s116"/>
-		<Album id="a89" title="Pourquoi j'aime la bande dessinée"
+		<Album id="a89" title="Pourquoi j'aime la bande dessin?e"
             year="y2006"
             stories="s117"/>
 		<Album id="a90" title="Les nouveaux petits-miquets"
             year="y1982"
             articles="art11"/>
-		<Album id="a91" title="Maître noir"
+		<Album id="a91" title="Ma?tre noir"
             year="y2008"
             stories="s119"/>
 		<Album id="a92" title="ARQ (first cycle)" multialbum="true"
             year="y2009"
             stories="s65 s66 s67 s84 s86 s90"/>
-		<Album id="a93" title="Rêve en cage"
+		<Album id="a93" title="R?ve en cage"
             year="y2008"
             stories="s120"/>
 		<Album id="a94" title="Mission"
@@ -955,7 +959,7 @@
 		<Album id="a96" title="ARQ (second cycle)" multialbum="true"
             year="y2010"
             stories="s95 s106 s109 s113 s119 s121"/>
-		<Album id="a97" title="Détectives"
+		<Album id="a97" title="D?tectives"
             year="y2010"
             stories="s123"/>
 		<Album id="a98" title="New York"
@@ -973,24 +977,24 @@
 		<Album id="a102" title="Vu de pres"
             year="y2012"
             stories="s127"/>
-		<Album id="a103" title="Rork - L'intégrale 1" multialbum="true"
+		<Album id="a103" title="Rork - L'int?grale 1" multialbum="true"
             year="y2012"
             stories="s128 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s17 s12 s19"
             illustrations="i78 i75 i79 i17 i119 i111 i50" />
-        <Album id="a104" title="Les fantômes"
+        <Album id="a104" title="Les fant?mes"
         	year="y2012"
         	stories="s128" />
-		<Album id="a105" title="Rork - L'intégrale 2" multialbum="true"
+		<Album id="a105" title="Rork - L'int?grale 2" multialbum="true"
             year="y2013"
             stories="s13 s14 s15 s16"
             illustrations="i47 i82 i83" />
         <Album id="a106" title="Les cavaliers"
         	year="y2013"
         	stories="s129" />
-        <Album id="a107" title="Rêves 1"
+        <Album id="a107" title="R?ves 1"
         	year="y2013"
         	stories="s130" />
-        <Album id="a108" title="Rêves 2"
+        <Album id="a108" title="R?ves 2"
         	year="y2014"
         	stories="s131" />
         <Album id="a109" title="Zarkan"
@@ -1008,7 +1012,7 @@
 		<Album id="a113" title="Terminus"
 			   year="y2015"
 			   stories="s134" />
-		<Album id="a114" title="Maître"
+		<Album id="a114" title="Ma?tre"
 			   year="y2016"
 			   stories="s135" />
 		<Album id="a115" title="Capricorn - Gesamtausgabe 1" multialbum="true"
@@ -1020,7 +1024,7 @@
 		<Album id="a117" title="ARQ (third cycle)" multialbum="true"
 			   year="y2016"
 			   stories="s123 s125 s126 s130 s131 s133"/>
-		<Album id="a118" title="Dérives 2"
+		<Album id="a118" title="D?rives 2"
 			   year="y2017"
 			   stories="s136 s137 s112 s138 s139 s140 s141"/>
 		<Album id="a119" title="Capricorn - Gesamtausgabe 3" multialbum="true"
@@ -1038,33 +1042,35 @@
 		<Album id="a123" title="Capricorn - Gesamtausgabe 7" multialbum="true"
 			   year="y2019"
 			   stories="s132 s134 s135" />
-		<Album id="a124" title="Capricorne - intégrale 1" multialbum="true"
+		<Album id="a124" title="Capricorne - int?grale 1" multialbum="true"
 			   year="y2019"
 			   stories="s60 s61 s62 s63 s64" />
-		<Album id="a125" title="Capricorne - intégrale 2" multialbum="true"
+		<Album id="a125" title="Capricorne - int?grale 2" multialbum="true"
 			   year="y2019"
 			   stories="s87 s91 s94 s102 s104" />
-		<Album id="a126" title="Capricorne - intégrale 3" multialbum="true"
+		<Album id="a126" title="Capricorne - int?grale 3" multialbum="true"
 			   year="y2019"
 			   stories="s107 s111 s115 s120 s122" />
-		<Album id="a127" title="Capricorne - intégrale 4" multialbum="true"
+		<Album id="a127" title="Capricorne - int?grale 4" multialbum="true"
 			   year="y2020"
 			   stories="s124 s127 s129 s132 s134 s135" />
 		<Album id="a128" title="L'argentine" year="y2019"
 				stories="s142" />
+		<Album id="a129" title="Rencontres obliques" year="y2018"
+				stories="s143" />
 
 		<Series id="series1" title="Rork" stories="s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s17 s18 s12 s19 s13 s14 s15 s16 s128" />
 		<Series id="series2" title="Capricorne" stories="s60 s61 s62 s63 s64 s87 s91 s94 s102 s104 s107 s111 s115 s120 s122 s124 s127 s129 s132 s134 s135" />
 		<Series id="series7" title="Arq" stories="s65 s66 s67 s84 s86 s90 s95 s106 s109 s113 s119 s121 s123 s125 s126 s130 s131 s133" />
-		<Series id="series10" title="Dérives" stories="s43 s44 s45 s46 s47 s48 s136 s137 s112 s138 s139 s140 s141" />
+		<Series id="series10" title="D?rives" stories="s43 s44 s45 s46 s47 s48 s136 s137 s112 s138 s139 s140 s141" />
 		<Series id="series5" title="Cyrrus" stories="s41 s42 s51" />
 		<Series id="series6" title="Cromwell Stone" stories="s40 s55 s105" />
 		<Series id="series8" title="Mobilis" stories="s85 s88 s89" />
-		<Series id="series3" title="Luc Oriënt" stories="s22 s23" />
+		<Series id="series3" title="Luc Ori?nt" stories="s22 s23" />
 		<Series id="series4" title="Udolfo" stories="s24 s25" />
-		<Series id="series9" title="Le cycle des Epées" stories="s96 s97 s98 s99 s100 s101" />
+		<Series id="series9" title="Le cycle des Ep?es" stories="s96 s97 s98 s99 s100 s101" />
 
-		<Preface id="preface1" title="Les mystères d'Andreas" year="y1983" text="p2" /> <!-- onzeker, nl: De mysteries van Andreas --><!-- oktober 1983 -->
+		<Preface id="preface1" title="Les myst?res d'Andreas" year="y1983" text="p2" /> <!-- onzeker, nl: De mysteries van Andreas --><!-- oktober 1983 -->
 		<Preface id="preface2" title="Met de Noorderzon..." text="p7" /> <!-- nog te vertalen -->
 		<Preface id="preface3" title="Woord vooraf" text="p19" />
 		<Preface id="preface4" title="Hoe lees ik Andreas" text="p65" />
@@ -1072,7 +1078,7 @@
 		<Collection id="col1" title="Verhalen en Legenden (FR)" />
 		<Collection id="col2" title="Verhalen en Legenden" />
 		<Collection id="col3" title="Everest" />
-		<Collection id="col4" title="Signé" />
+		<Collection id="col4" title="Sign?" />
 		<Collection id="col5" title="K2" />
 		<Collection id="col6" title="Getekend" />
 		<Collection id="col7" title="Metro" />
@@ -1108,7 +1114,7 @@
 		<AlbumEdition id="al27" album="a22" year="y1986" language="lang-nl" title="Het avontuur van het weekblad Kuifje: 40 jaar strips"/>
 		<AlbumEdition id="al27a" album="a22" year="y1986" language="lang-fr" />
 		<AlbumEdition id="al28" album="a25" year="y1989" language="lang-nl" title="Raffington Event - detective" isbn="90.6421.745.9" d="1989.0086.2308" cover="hc" />
-		<AlbumEdition id="al28a" album="a25" year="y1989" language="lang-fr" title="Raffington Event - détective" cover="hc" />
+		<AlbumEdition id="al28a" album="a25" year="y1989" language="lang-fr" title="Raffington Event - d?tective" cover="hc" />
 		<AlbumEdition id="al29" album="a21" year="y1995" language="lang-nl" title="Styx" isbn="90.5581.048.7" d="1995.0086.3376" collection="col6" cover="hc" />
 		<AlbumEdition id="al30" album="a28" year="y1999" language="lang-fr" isbn="2803612364" />
 		<AlbumEdition id="al31" album="a29" year="y1999" language="lang-fr" isbn="2803612771" />
@@ -1117,8 +1123,8 @@
 		<AlbumEdition id="al34" album="a32" year="y2000" language="lang-fr" isbn="2803614898" />
 		<AlbumEdition id="al35" album="a57" year="y2001" language="lang-fr" />
 		<AlbumEdition id="al36" album="a12" year="y1998" language="lang-fr" />
-		<AlbumEdition id="al37" album="a8" year="y1990" language="lang-nl" cover="sc" title="Luc Oriënt: De sporen van doktor X" />
-		<AlbumEdition id="al38" album="a9" year="y1978" language="lang-nl" cover="sc" title="Luc Oriënt: Het aambeeld van de bliksem" />
+		<AlbumEdition id="al37" album="a8" year="y1990" language="lang-nl" cover="sc" title="Luc Ori?nt: De sporen van doktor X" />
+		<AlbumEdition id="al38" album="a9" year="y1978" language="lang-nl" cover="sc" title="Luc Ori?nt: Het aambeeld van de bliksem" />
 		<AlbumEdition id="al39" album="a63" year="y2002" language="lang-fr" cover="sc" />
 		<AlbumEdition id="al39a" album="a63" year="y2002" language="lang-fr" cover="hc" />
 		<AlbumEdition id="al40" album="a66" year="y2003" language="lang-fr" cover="hc" />
@@ -1154,6 +1160,7 @@
 		<AlbumEdition id="al70" album="a126" year="y2019" language="lang-fr" />
 		<AlbumEdition id="al71" album="a127" year="y2020" language="lang-fr" />
 		<AlbumEdition id="al72" album="a21" year="y2012" language="lang-fr" isbn="9782803631773" />
+		<AlbumEdition id="al73" album="a129" year="y2018" language="lang-fr" isbn="978-2-8036-7236-3"/>
 		<AlbumEdition id="aj1" album="a2" title="Rork" year="y1983" language="lang-fr" cover="sc" color="false" />
 		<AlbumEdition id="aj2" album="a10" year="y1980" language="lang-fr" cover="sc" color="false" />
 		<AlbumEdition id="aj3" album="a36" year="y1985" exCount="650" signed="true" numbered="true" />
@@ -1226,7 +1233,7 @@
 		<AlbumEdition id="adc6" album="a23" year="y1994" language="lang-fr" cover="hc"/>
 		<AlbumEdition id="adc7" album="a23" year="y1994" language="lang-fr" cover="hc" exCount="950" />
 		<AlbumEdition id="adc8" album="a42" year="y1989" language="lang-fr" cover="hc"/>
-		<AlbumEdition id="adc9" album="a43" year="y1992" language="lang-fr" title="Aztèques" cover="hc" />
+		<AlbumEdition id="adc9" album="a43" year="y1992" language="lang-fr" title="Azt?ques" cover="hc" />
 		<AlbumEdition id="adc10" album="a45" year="y1996" language="lang-fr" cover="hc" />
 		<AlbumEdition id="adc11" album="a33" year="y1997" language="lang-fr" />
 		<AlbumEdition id="adc12" album="a34" year="y1999" language="lang-fr" />
@@ -1342,11 +1349,11 @@
 		<AlbumEdition id="aalp3" album="a3" year="y1991" language="lang-de" title="Der Friedhof der Kathedralen" isbn="3-89311-153-0" />
 		<AlbumEdition id="aalp4" album="a4" year="y1992" language="lang-de" title="Sternenlicht" isbn="3-89311-188-3" />
 		<AlbumEdition id="aalp5" album="a16" year="y1993" language="lang-de" title="Cromwell Stone" />
-		<AlbumEdition id="aalp6" album="a23" year="y1997" language="lang-de" title="Die Rückkehr von Cromwell Stone" />
-        <AlbumEdition id="atf1" album="a68" year="y1982" language="lang-fr" title="Epées et démons" />
-        <AlbumEdition id="atf2" album="a69" year="y1982" language="lang-fr" title="Epées et mort" />
-        <AlbumEdition id="atf3" album="a70" year="y1982" language="lang-fr" title="Epées et brumes" />
-        <AlbumEdition id="atf4" album="a71" year="y1982" language="lang-fr" title="Epées et sorciers" />
+		<AlbumEdition id="aalp6" album="a23" year="y1997" language="lang-de" title="Die R?ckkehr von Cromwell Stone" />
+        <AlbumEdition id="atf1" album="a68" year="y1982" language="lang-fr" title="Ep?es et d?mons" />
+        <AlbumEdition id="atf2" album="a69" year="y1982" language="lang-fr" title="Ep?es et mort" />
+        <AlbumEdition id="atf3" album="a70" year="y1982" language="lang-fr" title="Ep?es et brumes" />
+        <AlbumEdition id="atf4" album="a71" year="y1982" language="lang-fr" title="Ep?es et sorciers" />
         <AlbumEdition id="atf5" album="a72" year="y1982" language="lang-fr" title="Le royaume de Lankhmar" />
         <AlbumEdition id="atf6" album="a73" year="y1983" language="lang-fr" title="La magie des glaces" />
 		<AlbumEdition id="eg1" album="a85" year="y2007" language="lang-pl" title="Cromwell Stone" isbn="978-83-237-2866-5" />
@@ -1358,7 +1365,7 @@
 		<AlbumEdition id="eg7" album="a117" year="y2016" language="lang-pl" title="ARQ #3" />
 		<AlbumEdition id="man1" album="a28" year="y2007" language="lang-pl" title="Kozioro&#x017C;ec - 1 - Obiekt" isbn="978-83-922479-4-4" />
 		<AlbumEdition id="man2" album="a29" year="y2007" language="lang-pl" title="Kozioro&#x017C;ec - 2 - Elektryczno&#x015B;&#x0107;" isbn="978-83-922479-5-1" />
-		<AlbumEdition id="man3" album="a7" year="y2007" language="lang-pl" title="Powrót" isbn="978-83-922479-8-2" />
+		<AlbumEdition id="man3" album="a7" year="y2007" language="lang-pl" title="Powr?t" isbn="978-83-922479-8-2" />
 		<AlbumEdition id="man4" album="a30" year="y2008" language="lang-pl" title="Kozioro&#x017C;ec - 3 - Deliah" isbn="978-83-922479-6-8" />
 		<AlbumEdition id="man5" album="a31" year="y2008" language="lang-pl" title="Kozioro&#x017C;ec - 4 - Sze&#x015B;cian Numeryczny" isbn="978-83-922479-7-5" />
 		<AlbumEdition id="man6" album="a32" year="y2012" language="lang-pl" title="Kozioro&#x017C;ec - 5 - Sekret" />
@@ -1463,7 +1470,7 @@
 			<MagazineItem idref="i112"><MI year="y1993" nrs="16" /></MagazineItem>
 			<MagazineItem idref="s16"><MI year="y1993" nrs="16"/></MagazineItem>
 		</Magazine>
-		<Magazine id="mag2" title="Tintin Sélection" language="lang-fr">
+		<Magazine id="mag2" title="Tintin S?lection" language="lang-fr">
 			<MagazineItem idref="s22"><MI year="y1977" nrs="19" /></MagazineItem>
 		</Magazine>
 		<Magazine id="mag3" title="Curiosity Magazine" language="lang-fr">
@@ -1481,9 +1488,9 @@
 			<MagazineItem idref="s33"><MI year="y1978" nrs="35" /></MagazineItem>
 			<MagazineItem idref="i8"><MI year="y1979" nrs="21" /></MagazineItem>
 			<MagazineItem idref="i138"><MI year="y1979" nrs="21" /></MagazineItem>
-			<MagazineItem idref="s34"><MI year="y1981" nrs="Spécial Lennon" /></MagazineItem>
+			<MagazineItem idref="s34"><MI year="y1981" nrs="Sp?cial Lennon" /></MagazineItem>
 			<MagazineItem idref="s118"><MI year="y1981" nrs="45" /></MagazineItem>
-			<MagazineItem idref="s35"><MI year="y1986" nrs="Spécial Rythm'n bulles" /></MagazineItem>
+			<MagazineItem idref="s35"><MI year="y1986" nrs="Sp?cial Rythm'n bulles" /></MagazineItem>
 		</Magazine>
 		<Magazine id="mag6" title="Wordt Vervolgd" language="lang-nl">
 			<MagazineItem idref="s29"><MI year="y1980" nrs="1" /></MagazineItem>
@@ -1526,11 +1533,11 @@
 			<MagazineItem idref="s38"><MI year="y1982" nrs="2301-2303" /></MagazineItem>
 			<MagazineItem idref="s39"><MI year="y1984" nrs="2426" /></MagazineItem>
 		</Magazine>
-		<Magazine id="mag12" title="Le Journal Illustré (le plus grande du monde)" language="lang-fr">
+		<Magazine id="mag12" title="Le Journal Illustr? (le plus grande du monde)" language="lang-fr">
 			<MagazineItem idref="s40"><MI year="y1983" nrs="1-4" /></MagazineItem>
 			<MagazineItem idref="i11"><MI year="y1983" nrs="3" /></MagazineItem>
 		</Magazine>
-		<Magazine id="mag13" title="Métal Hurlant" language="lang-fr">
+		<Magazine id="mag13" title="M?tal Hurlant" language="lang-fr">
 			<MagazineItem idref="s41"><MI year="y1984" nrs="101-104" /></MagazineItem>
 			<MagazineItem idref="i12"><MI year="y1984" nrs="101" /></MagazineItem>
 			<MagazineItem idref="s42"><MI year="y1986" nrs="123-" /><MI year="y1987" nrs="-127" /></MagazineItem>
@@ -1560,7 +1567,7 @@
 		<Magazine id="mag17" title="Titanic" language="lang-fr">
 			<MagazineItem idref="s41"><MI year="y1986" nrs="15-19" /></MagazineItem>
 		</Magazine>
-		<Magazine id="mag18" title="Les Cahiers de la Bande Dessinée" language="lang-fr">
+		<Magazine id="mag18" title="Les Cahiers de la Bande Dessin?e" language="lang-fr">
 			<MagazineItem idref="art14"><MI year="y1984" nrs="56" /></MagazineItem> <!-- fantastische: 1986! -->
 			<MagazineItem idref="art16"><MI year="y1985" nrs="61" /></MagazineItem>
 			<MagazineItem idref="art20"><MI year="y1986" nrs="70" /></MagazineItem>
@@ -1604,7 +1611,7 @@
 		<Magazine id="mag21" title="Scarce Annual" language="lang-fr">
 			<MagazineItem idref="i31"><MI year="y1995" nrs="2" /></MagazineItem>
 		</Magazine>
-		<Magazine id="mag22" title="Conséquences" language="lang-fr">
+		<Magazine id="mag22" title="Cons?quences" language="lang-fr">
 			<MagazineItem idref="s50"><MI year="y1990" nrs="13-14" /></MagazineItem>
 			<MagazineItem idref="art39"><MI year="y1990" nrs="13-14" /></MagazineItem>
 			<MagazineItem idref="art41"><MI year="y1990" nrs="15-16" /></MagazineItem>
@@ -1613,7 +1620,7 @@
 			<MagazineItem idref="s56"><MI year="y1994" nrs="1" /></MagazineItem>
 			<MagazineItem idref="s52"><MI year="y1994" nrs="2" /></MagazineItem>
 		</Magazine>
-		<Magazine id="mag24" title="Rêve-en-Bulles" language="lang-fr">
+		<Magazine id="mag24" title="R?ve-en-Bulles" language="lang-fr">
 			<MagazineItem idref="i32"><MI year="y1996" nrs="12" /></MagazineItem>
 			<MagazineItem idref="art1"><MI year="y1996" nrs="12" /></MagazineItem>
 			<MagazineItem idref="art48"><MI year="y1996" nrs="12" /></MagazineItem>
@@ -1669,7 +1676,7 @@
 		<Magazine id="mag33" title="Solaris" language="lang-fr"> <!-- publisher?? -->
 			<MagazineItem idref="art30"><MI year="y1987" nrs="72"/></MagazineItem>
 		</Magazine>
-		<Magazine id="mag34" title="Protée" language="lang-fr"> <!-- publisher?? -->
+		<Magazine id="mag34" title="Prot?e" language="lang-fr"> <!-- publisher?? -->
 			<MagazineItem idref="art42"><MI year="y1991" nrs="1 (vol. 19)"/></MagazineItem>
 		</Magazine>
 		<Magazine id="mag35" title="Faille Temporelle" language="lang-fr"> <!-- publisher?? -->
@@ -1694,7 +1701,7 @@
 			<MagazineItem idref="art64"><MI year="y2001" nrs="5"/></MagazineItem>
 			<MagazineItem idref="i153"><MI year="y2001" nrs="23"/></MagazineItem>
 		</Magazine>
-		<Magazine id="mag41" title="Delcourt Planète" language="lang-fr">
+		<Magazine id="mag41" title="Delcourt Plan?te" language="lang-fr">
 			<MagazineItem idref="s114"><MI year="y2000" nrs="11"/></MagazineItem>
 		</Magazine>
 		<Magazine id="mag42" title="Comics Lit" language="lang-en">
@@ -1713,7 +1720,7 @@
 			<MagazineItem idref="s10"><MI year="y1989" nrs="4"/></MagazineItem>
 			<MagazineItem idref="s11"><MI year="y1989" nrs="4"/></MagazineItem>
 		</Magazine>
-		<Magazine id="mag44" title="Belzébulle" language="lang-fr" >
+		<Magazine id="mag44" title="Belz?bulle" language="lang-fr" >
 			<MagazineItem idref="i151"><MI year="y2002" nrs="0"/></MagazineItem>
 		</Magazine>
 		<Magazine id="mag45" title="Onapratut magazine" language="lang-fr" >
@@ -1722,7 +1729,7 @@
 		<Magazine id="mag46" title="BullDozer" language="lang-fr" > <!-- publisher? -->
 			<MagazineItem idref="art65"><MI year="y2005" nrs="4"/></MagazineItem>
 		</Magazine>
-		<Magazine id="mag47" title="Bodoï" language="lang-fr" > <!-- publisher? -->
+		<Magazine id="mag47" title="Bodo?" language="lang-fr" > <!-- publisher? -->
 			<MagazineItem idref="art66"><MI year="y2003" nrs="67"/></MagazineItem>
 			<MagazineItem idref="art67"><MI year="y2003" nrs="76"/></MagazineItem>
 		</Magazine>
@@ -1749,7 +1756,7 @@
 		<Magazine id="mag54" title="The Jack Kirby collector" language="lang-en" >
 			<MagazineItem idref="art76"><MI year="y2000" nrs="28"/></MagazineItem>
 		</Magazine>
-		<Magazine id="mag55" title="Bédéka" language="lang-fr" >
+		<Magazine id="mag55" title="B?d?ka" language="lang-fr" >
 			<MagazineItem idref="art77"><MI year="y2004" nrs="7"/></MagazineItem>
 		</Magazine>
 		<Magazine id="mag56" title="Zone 5300" language="lang-nl" >
@@ -1761,19 +1768,19 @@
 
 		<Publisher id="pub1" name="Le Lombard" address="I-II, Paul-Henri Spaaklaan-1070, Bruxelles (B)"
 			magazines="mag1 mag2 mag26"
-			albumEditions="al1 al2 al3 al4 al5 al6 al7 al8 al9 al10 al11 al12 al13 al14 al15 al16 al18 al19 al20 al21 al22 al23 al24 al25 al26 al27 al27a al28 al28a al29 al30 al31 al32 al33 al34 al35 al36 al37 al38 al39 al39a al40 al41 al42 al43 al44 al45 al46 al47 al48 al49 al50 al51 al52 al53 al54 al55 al56 al57 al58 al59 al60 al61 al62 al63 al64 al65 al66 al67 al68 al69 al70 al71 al72" />
+			albumEditions="al1 al2 al3 al4 al5 al6 al7 al8 al9 al10 al11 al12 al13 al14 al15 al16 al18 al19 al20 al21 al22 al23 al24 al25 al26 al27 al27a al28 al28a al29 al30 al31 al32 al33 al34 al35 al36 al37 al38 al39 al39a al40 al41 al42 al43 al44 al45 al46 al47 al48 al49 al50 al51 al52 al53 al54 al55 al56 al57 al58 al59 al60 al61 al62 al63 al64 al65 al66 al67 al68 al69 al70 al71 al72 al73" />
 		<Publisher id="pub2" name="Jonas" address="Bruxelles (B)"
 			albumEditions="aj1 aj2 aj3" />
         <Publisher id="pub3" name="Deligne (Michel)" address="Bruxelles (B)"
 			magazines="mag3 mag12"
 			albumEditions="adg1 adg2" />
-		<Publisher id="pub4" name="Création (Bédéscope)"
+		<Publisher id="pub4" name="Cr?ation (B?d?scope)"
 			albumEditions="ac1" />
 		<Publisher id="pub5" name="Louis Musin" address="Bruxelles (B)"
 			magazines="mag4" />
 		<Publisher id="pub6" name="Casterman" address="Doornik"
 			magazines="mag5 mag6" />
-		<Publisher id="pub7" name="Bédérama" address="Paris (F)"
+		<Publisher id="pub7" name="B?d?rama" address="Paris (F)"
 			albumEditions="ab1" />
 		<Publisher id="pub8" name="Sherpa" address="Wederik 8, 1902 JH Castricum (NL)"
 			albumEditions="as1 as2 as3 as4 as5 as6 as7 as8 as9 as10 as11 as12 as13 as14 as15 as16 as17 as18 as20 as21 as22 as23 as24 as25 as26 as27 as28 as29 as30 as31 as32 as33 as34 as35 as36 as37 as38 as39 as40 as41 as42 as43 as44 as45 as46 as47 as48 as49 as50 as51 as52 as53 as54 as55 as56 as57 as58 as59 as60"/>
@@ -1795,7 +1802,7 @@
 		<Publisher id="pub15" name="Zet.El" address="Nijmegen (NL) /Tilburg (NL)"
 			magazines="mag19"
 			albumEditions="azl1" />
-		<Publisher id="pub16" name="Humanoïdes Associés" address="Paris (F)"
+		<Publisher id="pub16" name="Humano?des Associ?s" address="Paris (F)"
 			magazines="mag13"
 			albumEditions="aha1 aha2 aha3" />
 		<Publisher id="pub17" name="Arboris" address="Boldijk 2, 7021 ZA, Zelhem (NL)"
@@ -1811,12 +1818,12 @@
 			magazines="mag16" />
 		<Publisher id="pub22" name="Dendros" address="Zelhem (NL)"
 			magazines="mag17" />
-		<Publisher id="pub23" name="Glénat" address="Bruxelles (B) / Grenoble"
+		<Publisher id="pub23" name="Gl?nat" address="Bruxelles (B) / Grenoble"
 			magazines="mag18"
 			albumEditions="agl1"/>
 		<Publisher id="pub24" name="Potrzebie" address="Toulouse (F)"
 			magazines="mag20" />
-		<Publisher id="pub25" name="Saga" address="St. Leu-la-Forêt"
+		<Publisher id="pub25" name="Saga" address="St. Leu-la-For?t"
 			magazines="mag21" />
 		<Publisher id="pub26" name="Les Impressions Nouvelles" address="Paris (F)"
 			magazines="mag22" />
@@ -1861,7 +1868,7 @@
 			magazines="mag36" />
 		<!--<Publisher id="pub46" name="Komiks Fantastyka"
 			albumEditions="ako1 ako2" />-->
-		<Publisher id="pub47" name="Twój Komiks"
+		<Publisher id="pub47" name="Tw?j Komiks"
 			albumEditions="atw1 atw2 atw3 atw4 atw5 atw6" />
 		<Publisher id="pub48" name="XYZ"
 			albumEditions="axyz1" />
@@ -1887,9 +1894,9 @@
             magazines="mag44" />
 		<Publisher id="pub59" name="Onapratut"
             magazines="mag45" />
-		<Publisher id="pub60" name="Le Citron hallucinogène"
+		<Publisher id="pub60" name="Le Citron hallucinog?ne"
             albumEditions="citr1" />
-		<Publisher id="pub61" name="Éditions Kimé"
+		<Publisher id="pub61" name="?ditions Kim?"
             magazines="mag48" />
 		<Publisher id="pub62" name="Ediciones Zinco"
             albumEditions="zinc1" />
@@ -1948,7 +1955,7 @@
         <Comment showAt="a75">
             <TEXT>
             22 Draughtsmen worked on this album:
-            Andreas, Balez, Bodin, Cornette, Davodeau, Duprat, Edith, Espé, Fournier, Guérineau, Joub, Julliard, Hyuna, Larcenet, Lejonc, Lemaire, Mézières, Moreno, Murat, Notamy, Sternis and Troub´s.
+            Andreas, Balez, Bodin, Cornette, Davodeau, Duprat, Edith, Esp?, Fournier, Gu?rineau, Joub, Julliard, Hyuna, Larcenet, Lejonc, Lemaire, M?zi?res, Moreno, Murat, Notamy, Sternis and Troub?s.
             </TEXT>
         </Comment>
         <Comment showAt="p77">
@@ -1958,7 +1965,7 @@
         </Comment>
 		<Comment showAt="mag39">
 			<TEXT>
-			Tomá&#x0161; Prok&#x016F;pek: our magazine ERA21 is issued bimonthly and each issue will contain 4 pages of
+			Tom?&#x0161; Prok&#x016F;pek: our magazine ERA21 is issued bimonthly and each issue will contain 4 pages of
 			<REF ref="s59" />. The first part will be published in #1/2003 and the last one in #6/2004.
 			More info about our mag you can find at <WWWlink href="http://www.erag.cz/press/era21.asp?page_id=90" />
 			(unfortunately only in Czech).
@@ -1978,12 +1985,14 @@
 			The site is never finished; you are invited to bring in new
 			pictures, articles and comments, to extend it further.<BR/><BR/>
 			Enjoy!<BR/><BR/>
-			
+
 			<AH id="m" href=""><IMG width="18" height="18" border="0" src="/andreas/resources/email.gif" />E-mail me</AH> I'd like to hear from you :)
 			<BR/><BR/>
 			The source code and data of this website can be found on <AH href="https://github.com/garfix/dossier-andreas" target="_blank">Github</AH>.
 			<BR/><BR/>
 			Patrick van Bergen
+			<BR/><BR/><BR/><BR/>
+				<Instagram_Widget />
 			</TEXT>
 		</Comment>
 
@@ -2014,7 +2023,7 @@
 		</Comment>
 
 		<Comment showAt="ab1" authors="p23">
-			<TEXT>Detail of the back cover of this album, showing Rivière and Andreas.<BR/>
+			<TEXT>Detail of the back cover of this album, showing Rivi?re and Andreas.<BR/>
 			<IMG src="images/album_revelations_bederama_detail.jpg" align="left" width="600" height="374"/></TEXT>
 		</Comment>
 		<Comment showAt="a55" authors="p65">
@@ -2041,7 +2050,7 @@
 			<TEXT>
 				Philippe Sohet, professor of communication at the University of Quebec at Montreal (UQAM),
 				has written several studies about culture in the media. He is the author (with Y. Lacroix)
-				of two books about Andreas's work (Andreas, une monographie, St-Egrève: Mosquito, 1997
+				of two books about Andreas's work (Andreas, une monographie, St-Egr?ve: Mosquito, 1997
 				et L'ambition narrative, Montreal: XYZ, 1999). His most recent book, about the author
 				Edmond Baudoin, was published in January 2001.
 			</TEXT>
@@ -2063,7 +2072,7 @@
         </Comment>
 		<Comment showAt="y2001" authors="p23">
 			<TEXT>
-				Andreas wins the Great price "Bonnet d’âne" of the comics festival of St Malo for his entire oeuvre. That also means
+				Andreas wins the Great price "Bonnet d??ne" of the comics festival of St Malo for his entire oeuvre. That also means
 				he may draw the poster for next year's festival.
 			</TEXT>
 		</Comment>
@@ -2072,7 +2081,7 @@
 			
 				Andreas tours though France.<BR /><BR />
 				
-				x - 13 October: Exposition Andreas, galerie Petits Papiers, 91, rue Saint-Honoré, 75001 Paris. <AH href='www.petitspapiers.be' target='_blank'>link</AH><BR />				
+				x - 13 October: Exposition Andreas, galerie Petits Papiers, 91, rue Saint-Honor?, 75001 Paris. <AH href='www.petitspapiers.be' target='_blank'>link</AH><BR />				
 				26 - 28 October: Exposition at comic festival Quai-des-Bulles,  Saint-Malo. <AH href='http://www.bodoi.info/news/2012-10-28/quai-des-bulles-2012-lexpo-andreas/62231' target='_blank'>Pictures of the event</AH><BR /><BR />
 
 				and Belgium.<BR /><BR />
@@ -2154,6 +2163,14 @@
 		
 		<Comment showAt="changes">
 			<TEXT>
+				<TITLE>29 December 2022</TITLE>
+
+				Dutch publisher Sherpa announced <AH href="https://andreasmartens.wordpress.com/2022/10/19/eindelijk-the-art-of-andreas/" target="_blank">The Art of Andreas</AH>, a tribute album with many new plates, to appear in three editions, in three languages (nl, en, fr?). Expected end March.<BR/><BR/>
+
+				In 2018, Andreas wrote the story "Ce matin" for the album <REF ref="a129" />. The album is part 3 of the series Réalités obliques by <AH target="_blank" href="https://www.lelombard.com/auteur-bd/clarke">Clarke</AH>. See also <AH target="_blank" href="https://www.furet.com/livres/realites-obliques-tome-3-rencontres-obliques-clarke-9782803672363.html">here</AH>. Nice find, Peter!<BR/><BR/>
+			</TEXT>
+
+			<TEXT>
 				<TITLE>22 May 2022</TITLE>
 
 				Andreas left Twitter because he was "just fed up with all the crazies and idiots on the platform" (he told me when I asked him about it via email). "I tried to avoid them but the algorithm kept bringing them back.".<BR/><BR/>
@@ -2202,9 +2219,9 @@
 				KABOOM! #33. 15 minute Interview with Andreas in which he talks about all of his work. From the comics he read as a child to his current work. Decorated with many images, this is a wonderful video. I've mentioned it before, but I can't leave it out, because it's too good!<BR/><BR/>
 
 				<AH href="https://www.20minutes.fr/arts-stars/culture/2436651-20190126-audio-angouleme-entre-joies-galeres-6-auteurs-lachent-favoris-grand-prix-2020" target='_blank'>20 Minutes</AH> (2019)<BR/>
-				Audio interview from Angoulême about Rork and Capricorne.<BR/><BR/>
+				Audio interview from Angoul?me about Rork and Capricorne.<BR/><BR/>
 
-				<AH href="https://www.planetebd.com/interview/andreas/1258.html#image" target='_blank'>Interview bande dessinée</AH> (2019)<BR/>
+				<AH href="https://www.planetebd.com/interview/andreas/1258.html#image" target='_blank'>Interview bande dessin?e</AH> (2019)<BR/>
 				Planete BD. Video interview with some questions about Capricone.<BR/><BR/>
 
 			</TEXT>
@@ -2217,19 +2234,19 @@
 
 				Continuing with Pierre Loubere's interviews: 2013.<BR/><BR/>
 
-				<AH href="https://www.actuabd.com/Angouleme-2013-Andreas-sort-de-l" target='_blank'>Angoulême 2013 - Andreas sort de l’ombre</AH> (2013)<BR/>
+				<AH href="https://www.actuabd.com/Angouleme-2013-Andreas-sort-de-l" target='_blank'>Angoul?me 2013 - Andreas sort de l?ombre</AH> (2013)<BR/>
 				ActuaBD. About why Capricornus was continued by Lombard.<BR/><BR/>
 
-				<AH href="https://www.actuabd.com/Angouleme-2013-Andreas-J-aimerais" target='_blank'>Angoulême 2013 - Andreas : "J’aimerais faire des albums en 200 ou 300 planches"</AH> (2013)<BR/>
+				<AH href="https://www.actuabd.com/Angouleme-2013-Andreas-J-aimerais" target='_blank'>Angoul?me 2013 - Andreas : "J?aimerais faire des albums en 200 ou 300 planches"</AH> (2013)<BR/>
 				ActuaBD. About the writing process.<BR/><BR/>
 
 				<AH href="https://www.franceculture.fr/emissions/mauvais-genres/la-case-medium-dc-comics-andreas" target='_blank'>La case medium : Dc Comics, Andreas</AH> (2013)<BR/>
 				Audio interview<BR/><BR/>
 
-				<AH href="http://www.sceneario.com/interview/martens-andreas_ANDRE.html" target='_blank'>Entretien avec Martens ANDREAS pour sa série RORK aux Editions du LOMBARD</AH> (2013)<BR/>
+				<AH href="http://www.sceneario.com/interview/martens-andreas_ANDRE.html" target='_blank'>Entretien avec Martens ANDREAS pour sa s?rie RORK aux Editions du LOMBARD</AH> (2013)<BR/>
 				sceneario.com Video interview<BR/><BR/>
 
-				<AH href="http://www.savemybrain.net/v2/2013/01/31/festival-de-la-bande-dessinee-dangouleme-2013-sous-le-signe-du-capricorne-14-200019939/" target='_blank'>Festival de la bande dessinée d'angoulême 2013 – sous le signe du Capricorne (1/4)</AH> (2013)<BR/>
+				<AH href="http://www.savemybrain.net/v2/2013/01/31/festival-de-la-bande-dessinee-dangouleme-2013-sous-le-signe-du-capricorne-14-200019939/" target='_blank'>Festival de la bande dessin?e d'angoul?me 2013 ? sous le signe du Capricorne (1/4)</AH> (2013)<BR/>
 				Save my brain. Short interview<BR/><BR/>
 
 				<AH href="https://www.sudouest.fr/2013/02/01/l-exigence-d-andreas-953070-813.php" target='_blank'>L'exigence d'Andreas</AH> (2013)<BR/>
@@ -2238,8 +2255,8 @@
 				<AH href="https://www.bdtheque.com/interviews/255/andreas" target='_blank'>Interview de Andreas</AH> (2013)<BR/>
 				BDTheque. A medium sized interview<BR/><BR/>
 
-				<AH href="https://www.bodoi.info/andreas-createur-dunivers-rares/" target='_blank'>Andreas, créateur d'univers rares</AH> (2013)<BR/>
-				Bodoï. Saved the best interview for last.<BR/><BR/>
+				<AH href="https://www.bodoi.info/andreas-createur-dunivers-rares/" target='_blank'>Andreas, cr?ateur d'univers rares</AH> (2013)<BR/>
+				Bodo?. Saved the best interview for last.<BR/><BR/>
 
 			</TEXT>
 			<TEXT date="2020-04-04">
@@ -2257,26 +2274,26 @@
 
 				Today: 2011 and 2012. I will provide short introductions and links to the interviews:<BR/><BR/>
 
-				<AH href="https://www.actuabd.com/Capricorne-en-manque-de-reperes" target='_blank'>Capricorne en manque de repères</AH> (2011)<BR/>
+				<AH href="https://www.actuabd.com/Capricorne-en-manque-de-reperes" target='_blank'>Capricorne en manque de rep?res</AH> (2011)<BR/>
 				ActuaBD. Lombard decides not to publish the final 5 Capricorne albums<BR/><BR/>
 
-				<AH href="https://www.youtube.com/watch?v=NmtdPvFx49o" target='_blank'>Andreas et Billout à la galerie Petits Papiers Paris</AH> (2012)<BR/>
-				YouTube video with images of the exposition at Petit Papiers. Interview about Les fantômes<BR/><BR/>
+				<AH href="https://www.youtube.com/watch?v=NmtdPvFx49o" target='_blank'>Andreas et Billout ? la galerie Petits Papiers Paris</AH> (2012)<BR/>
+				YouTube video with images of the exposition at Petit Papiers. Interview about Les fant?mes<BR/><BR/>
 
-				<AH href="https://www.bdgest.com/expo-49-BD-rork-les-fantomes.html" target='_blank'>Rork - Les fantômes</AH> (2012)<BR/>
-				BDGest. On Les fantômes, Rork, ARQ, and Capricorne<BR/><BR/>
+				<AH href="https://www.bdgest.com/expo-49-BD-rork-les-fantomes.html" target='_blank'>Rork - Les fant?mes</AH> (2012)<BR/>
+				BDGest. On Les fant?mes, Rork, ARQ, and Capricorne<BR/><BR/>
 
-				<AH href="http://bdzoom.com/52705/interviews/un-entretien-avec-andreas/" target='_blank'>Un entretien avec Andreas (1ère partie)</AH> (2012)<BR/>
+				<AH href="http://bdzoom.com/52705/interviews/un-entretien-avec-andreas/" target='_blank'>Un entretien avec Andreas (1?re partie)</AH> (2012)<BR/>
 				BDZoom. Wonderful large piece about Andreas' earlier work and his American influences.<BR/><BR/>
 
-				<AH href="http://www.unamourdebd.fr/2012/09/rencontre-avec-andreas-au-musee-des-arts-et-metiers-le-13092012/" target='_blank'>Rencontre avec Andreas, au Musée des Arts et Métiers</AH> (2012)<BR/>
+				<AH href="http://www.unamourdebd.fr/2012/09/rencontre-avec-andreas-au-musee-des-arts-et-metiers-le-13092012/" target='_blank'>Rencontre avec Andreas, au Mus?e des Arts et M?tiers</AH> (2012)<BR/>
 				Un Amour de BD. Short interview.<BR/><BR/>
 
-				<AH href="https://www.7bd.fr/2012/10/rencontre-avec-andreas.html" target='_blank'>Rencontre avec Andréas</AH> (2012)<BR/>
+				<AH href="https://www.7bd.fr/2012/10/rencontre-avec-andreas.html" target='_blank'>Rencontre avec Andr?as</AH> (2012)<BR/>
 				7BD. Account of a short uninformative meeting with Andreas.<BR/><BR/>
 
-				<AH href="https://www.lesoir.be/art/les-fantomes-d-8217-andreas_t-20121005-024C05.html" target='_blank'>Les fantômes d’Andreas</AH> (2012)<BR/>
-				Le Soir. Short bit on Les fantômes<BR/><BR/>
+				<AH href="https://www.lesoir.be/art/les-fantomes-d-8217-andreas_t-20121005-024C05.html" target='_blank'>Les fant?mes d?Andreas</AH> (2012)<BR/>
+				Le Soir. Short bit on Les fant?mes<BR/><BR/>
 
 				<AH href="https://www.planetebd.com/bd/le-lombard/rork/integrale-2/18285.html" target='_blank'>Rork INTEGRAL 2</AH> (2012)<BR/>
 				PlaneteBD. About Rork Integral 2, with <AH href="https://www.dailymotion.com/embed/video/xx28qq" target='_blank'>video interview</AH><BR/><BR/>
@@ -2330,7 +2347,7 @@
 
 				Thanks to Christiaan ter Veen for informing me that <REF ref="s137" /> (from <REF ref="a118" />) has also been published in <REF ref="mag56" />.<BR /><BR />
 
-				In June 2018, Andreas has an exhibition in the 11e Festival Européen de la Bande Dessinées in Strasbourg "Strasbulles" (France). <REF ref="i256" />.<BR /><BR />
+				In June 2018, Andreas has an exhibition in the 11e Festival Europ?en de la Bande Dessin?es in Strasbourg "Strasbulles" (France). <REF ref="i256" />.<BR /><BR />
 
 				Next to <AH href="https://twitter.com/wattmanworm" target='_blank'>Twitter</AH>, Andreas occasionally puts photos on <AH href="https://www.instagram.com/wattmanworm/" target="_blank">Instagram</AH> and <AH href="https://wattmanworm.tumblr.com/" target='_blank'>Tumblr</AH> ("All this???").<BR /><BR />
 
@@ -2339,7 +2356,7 @@
 			<TEXT date="2018-01-01">
 				<TITLE>1 January 2018</TITLE>
 
-				<REF ref="a118" /> was published, a sequence to Dérives, an album from '91 (26 years ago!)<BR /><BR />
+				<REF ref="a118" /> was published, a sequence to D?rives, an album from '91 (26 years ago!)<BR /><BR />
 				On this album, in which Andreas experiments with different drawing styles, Andreas works with many new artists: Mazan, Dieter, Hyuna and Raven.
 				It contains the story "l'Ours" (the bear), which he made with Cornette in 2001, and the story "Milk" for which Andreas'
 				coloring-partner Isa Cochet did not do the coloring, but the scenario. Surprising!<BR />
@@ -2358,7 +2375,7 @@
 
 				Portfolio Andreas PDF from Le Lombard
 
-				<AH href="http://www.lelombard.com/Presse/portfolio_andreas.pdf" target="_blank">Redécouvrons les mondes d'Andreas</AH><BR /><BR />
+				<AH href="http://www.lelombard.com/Presse/portfolio_andreas.pdf" target="_blank">Red?couvrons les mondes d'Andreas</AH><BR /><BR />
 
 				Andreas participated for the second time in "Inktober". I collected the pictures in the tab "Images / Inktober 2017".<BR /><BR />
 
@@ -2426,7 +2443,7 @@
 			<TEXT date="2014-12-31">
 				<TITLE>31 December 2014</TITLE>
 							
-				As I was informed by Jarek Chmielewski, on October 4 and 5, Andreas had a signing session and an interview together with Isa Cochet at the <AH href='http://komiksfestiwal.com/' target='_blank'>International Festival of Comics &amp; Games</AH> in &#x0141;ód&#x017a;, Poland. Here is <AH href='http://www.youtube.com/watch?v=nrgMC8a-ISY' target='_blank'>a video of the interview</AH>. Maciek Szatko sent me his three photos: <REF ref='photo66' />. Some other photos could be found on the internet: <REF ref='photo51' />.<BR /><BR />
+				As I was informed by Jarek Chmielewski, on October 4 and 5, Andreas had a signing session and an interview together with Isa Cochet at the <AH href='http://komiksfestiwal.com/' target='_blank'>International Festival of Comics &amp; Games</AH> in &#x0141;?d&#x017a;, Poland. Here is <AH href='http://www.youtube.com/watch?v=nrgMC8a-ISY' target='_blank'>a video of the interview</AH>. Maciek Szatko sent me his three photos: <REF ref='photo66' />. Some other photos could be found on the internet: <REF ref='photo51' />.<BR /><BR />
 
 				This year, Sideca (Poland) published <REF ref='a78' />, <REF ref='a83' />, <REF ref='a86' />, <REF ref='a93' />, <REF ref='a95' />, <REF ref='a98' />, and <REF ref='a105' />. And more to come next year!<BR /><BR />
 
@@ -2453,7 +2470,7 @@
 				This unique series of the artists at work can be found in the <B>Photos</B> section, starting with <REF ref='photo25' /><BR /><BR />
 				He also showed the dedicace that Andreas drew for them: <REF ref='i180' /><BR /><BR />
 				
-				Andreas had an exposition, called <AH href='http://www.bdangouleme.com/94,les-arcanes-d-andreas' target='_blank'>Les arcanes d'Andreas</AH>, at the Festival International de la BD at Angoulême:
+				Andreas had an exposition, called <AH href='http://www.bdangouleme.com/94,les-arcanes-d-andreas' target='_blank'>Les arcanes d'Andreas</AH>, at the Festival International de la BD at Angoul?me:
 				<ul>
 					<li><AH href='http://www.youtube.com/watch?v=zsip7qaobNw&amp;sns=tw' target='_blank'>Les Arcanes d'Andreas</AH><BR />Video: Andreas talks about the exposition.</li>
 					<li><AH href='http://www.actuabd.com/Angouleme-2013-Andreas-J-aimerais' target='_blank'>Andreas : "J'aimerais faire des albums en 200 ou 300 planches"</AH><BR />Interview with Andreas</li>
@@ -2470,11 +2487,11 @@
 				
 				Remarkable is that we see the first video interviews of Andreas:<BR />
 				<ul>
-				<li><AH href='http://www.youtube.com/watch?v=NmtdPvFx49o' target='_blank'>Andreas &amp; Billout à la Galerie Petits Papiers Paris </AH></li>
+				<li><AH href='http://www.youtube.com/watch?v=NmtdPvFx49o' target='_blank'>Andreas &amp; Billout ? la Galerie Petits Papiers Paris </AH></li>
 				<li><AH href='http://www.youtube.com/watch?v=8jizOR5GHsg' target='_blank'>Exposition Andreas - Quai des Bulles 2012</AH> - via Isa Cochet</li>
 				<li><AH href='http://www.publicsenat.fr/vod/un-monde-de-bulles/speciale-bruxelles/121890' target='_blank'>UN MONDE DE BULLES</AH>
 				(The part with Andreas from 9:00 to 12:12) - via Nathalie Van Camp</li>
-				<li><AH href='http://vimeo.com/54669403' target='_blank'>Andreas dédicace, "Rork volume 1, l'intégrale", Le Lombard</AH> Watch Andreas drawing through a glass window.</li>
+				<li><AH href='http://vimeo.com/54669403' target='_blank'>Andreas d?dicace, "Rork volume 1, l'int?grale", Le Lombard</AH> Watch Andreas drawing through a glass window.</li>
 				</ul>
 				
 				Here is also an article with a video interview:<BR />
@@ -2497,14 +2514,14 @@
 					<ul>
 					<li><AH href='http://www.lalibre.be/culture/livres/article/760842/andreas-trente-ans-de-fragments.html' target='_blank'>Andreas, trente ans de fragments</AH></li>
 					<li><AH href='http://www.quaidesbulles.com/le-festival-2012/expositions/expositions-2012/article/les-arcanes-d-andreas' target='_blank'>Les arcanes d'Andreas</AH></li>
-					<li><AH href='http://www.ouest-france.fr/actu/actuDet_-Quai-des-Bulles.-Quand-on-lit-une-BD-on-est-deja-dans-un-autre-monde-_-2126629_actu.Htm' target='_blank'>Quai des Bulles. " Quand on lit une BD, on est déjà dans un autre monde "</AH></li>
+					<li><AH href='http://www.ouest-france.fr/actu/actuDet_-Quai-des-Bulles.-Quand-on-lit-une-BD-on-est-deja-dans-un-autre-monde-_-2126629_actu.Htm' target='_blank'>Quai des Bulles. " Quand on lit une BD, on est d?j? dans un autre monde "</AH></li>
 					<li><AH href='http://www.bdgest.com/expos.php?IdExpo=49' target='_blank'>Andreas, interview</AH></li>
 					<li><AH href='http://www.brokenfrontier.com/columns/p/detail/crossing-borders-the-genius-of-andreas-and-rork' target='_blank'>Crossing Borders: The Genius Of Andreas And Rork</AH> - via Mat Schifferstein</li>
 					</ul>
 				
 				and an audio interview:<BR />
 				<ul>
-				<li><AH href='http://expressbd.fr/2012/10/02/andreas-auteur-des-series-rork-et-capricorne/' target='_blank'>Andreas, auteur des séries 'Rork' et 'Capricorne'</AH></li>
+				<li><AH href='http://expressbd.fr/2012/10/02/andreas-auteur-des-series-rork-et-capricorne/' target='_blank'>Andreas, auteur des s?ries 'Rork' et 'Capricorne'</AH></li>
 				</ul>
 				<BR />
 								
@@ -2561,7 +2578,7 @@
 			</TEXT>
 			<TEXT date="2010-04-15">
 				<TITLE>15 April 2010</TITLE>
-				Wim Dewilde has kept an astonishing record of Dédicaces at <WWWlink href='http://www.flickr.com/photos/41038929@N03/' /> Wow!
+				Wim Dewilde has kept an astonishing record of D?dicaces at <WWWlink href='http://www.flickr.com/photos/41038929@N03/' /> Wow!
 			</TEXT>
 			<TEXT date="2010-04-13">
 				<TITLE>13 April 2010</TITLE>
@@ -2625,7 +2642,7 @@
 				
 				Some illustrations <REF ref='i150' />, the cover of <REF ref='i74' />, <REF ref='s117' />, <REF ref='i153' />.<BR /><BR />
 				
-				And I conclude this time with an album by Yves Frémion, who interviewed many young and promising comics artists, back in 1982. Among them, Andreas: <REF ref='a90' />.
+				And I conclude this time with an album by Yves Fr?mion, who interviewed many young and promising comics artists, back in 1982. Among them, Andreas: <REF ref='a90' />.
 			</TEXT>
 			<TEXT date="2008-01-24">
 				<TITLE>24 January 2008</TITLE>
@@ -2656,19 +2673,19 @@
 				Karol Wi&#x015B;niewski notified us that the first two Capricorne albums are released in Poland: <REF ref='a28' /> and <REF ref='a29' />.<BR /><BR />
 				
 				Andreas did some drawings for the third album of Clarke's series "Mister President" <REF ref='a88' /> and
-				for the collective album <REF ref='a89' /> (thanks for noticing, Mikaël Devaux!)<BR /><BR />
+				for the collective album <REF ref='a89' /> (thanks for noticing, Mika?l Devaux!)<BR /><BR />
 				
 				Great many thanks to a contributor who sent the original picture of <REF ref='i14' />, the intriguing picture <REF ref='i10' /> and the picture <REF ref="i130" />.<BR /><BR />
 				
 				Pierre Loubere sent <REF ref="s118" />, <REF ref='i131' />, <REF ref='i132' />, <REF ref='i133' />, <REF ref='i134' />, <REF ref='i135' />, <REF ref='i136' />, <REF ref='i137' />, <REF ref='i138' />; thanks a lot, Pierre! <BR /><BR />
 				
-				I was wondering about the magazine "Hello Bédé", in which Andreas published. It appears that the French Tintin magazine was named like that from 1989 to 1993. Some googling later I found the covers of all Tintin / Kuifje / Hello Bédé covers on <WWWlink href="http://lejournaldetintin.free.fr/" /> This helped me to adapt the page <REF ref="mag1" />.<BR /><BR />
+				I was wondering about the magazine "Hello B?d?", in which Andreas published. It appears that the French Tintin magazine was named like that from 1989 to 1993. Some googling later I found the covers of all Tintin / Kuifje / Hello B?d? covers on <WWWlink href="http://lejournaldetintin.free.fr/" /> This helped me to adapt the page <REF ref="mag1" />.<BR /><BR />
 
 				And if all this wasn't enough... Andreas participated in a magnificent series of albums (4) <REF ref='a87' /> about dragons for which he created a marvellous illustration of a dragon spitting fire: <REF ref='i128' />.<BR /><BR />
 			</TEXT>
 			<TEXT date="2007-08-08">
 				<TITLE>8 August 2007</TITLE>
-				Turbulent times for Polish Andreas fans! Publisher Twój Komiks went bankrupt, just before their publication of the final Rork album. 
+				Turbulent times for Polish Andreas fans! Publisher Tw?j Komiks went bankrupt, just before their publication of the final Rork album. 
 				This was especially upsetting since the publisher was, so it seems, holding on to the publication rights. Some time later publisher Manzoku took over the Rork series. 
 				They intend to publish the final album and start publishing the Capricorne albums.
 				In the meanwhile the Polish publisher Egmont published <REF ref="a85" /><BR /><BR />
@@ -2707,7 +2724,7 @@
 
 			<TEXT date="2006-03-26">
 				<TITLE>26 March 2006</TITLE>
-				Tom Verschueren has sent me a lot of new material. Thanks! Here it is: <REF ref="i117" />, <REF ref="i118" />, <REF ref="i119" />, <REF ref="i120" />, <REF ref="i121" />, <REF ref="i122" />, <REF ref="i123" />, <REF ref="i124" />, <REF ref="art16a" />, <REF ref="i11" />, <REF ref="i25" />, <REF ref="i73" />, <REF ref="i28" />, <REF ref="mag19" /> and two more wallpapers at <REF ref="i108" />. He also mentioned that Andreas has started signing autographs again, at <WWWlink href="http://www.salondulivreparis.com/dedicace.php" title="Programme des dédicaces du Salon du Livre" /> Due to my own sloppyness I failed to notice the dates: 17 and 18 March. Hopefully this was not the only time ... <BR/><BR />Wiel Felder has translated the signs in <REF ref="s109" />. Thanks! I myself haven't even bought the book yet :}<BR /><BR /> I myself added the cover at <REF ref="mag16" />, <REF ref="a77" />, <REF ref="a81" />, and <REF ref="a82" />. Does anyone know what Andreas did exactly for L'ecrin?
+				Tom Verschueren has sent me a lot of new material. Thanks! Here it is: <REF ref="i117" />, <REF ref="i118" />, <REF ref="i119" />, <REF ref="i120" />, <REF ref="i121" />, <REF ref="i122" />, <REF ref="i123" />, <REF ref="i124" />, <REF ref="art16a" />, <REF ref="i11" />, <REF ref="i25" />, <REF ref="i73" />, <REF ref="i28" />, <REF ref="mag19" /> and two more wallpapers at <REF ref="i108" />. He also mentioned that Andreas has started signing autographs again, at <WWWlink href="http://www.salondulivreparis.com/dedicace.php" title="Programme des d?dicaces du Salon du Livre" /> Due to my own sloppyness I failed to notice the dates: 17 and 18 March. Hopefully this was not the only time ... <BR/><BR />Wiel Felder has translated the signs in <REF ref="s109" />. Thanks! I myself haven't even bought the book yet :}<BR /><BR /> I myself added the cover at <REF ref="mag16" />, <REF ref="a77" />, <REF ref="a81" />, and <REF ref="a82" />. Does anyone know what Andreas did exactly for L'ecrin?
 			</TEXT>
 			<TEXT date="2006-02-23">
 				<TITLE>23 February 2006</TITLE>
@@ -2799,7 +2816,7 @@
 
                 Update! Adriaan Bogaerts surprised me with <REF ref="a14" />.
                 An anonimous submitter sent this funny <REF ref="i95" />.
-                And Micha&#x0142; Antosiewicz of Twój Komiks lets us know
+                And Micha&#x0142; Antosiewicz of Tw?j Komiks lets us know
                 the Polish <REF ref="a5" /> is out.
             </TEXT>
             <TEXT date="2003-08-06">
@@ -2819,7 +2836,7 @@
 			<TEXT date="2003-02-08">
 				<TITLE>8 February 2003</TITLE>
 				Thanks again, Peter, to make sure I am not missing anything that is available anywhere on the Internet.
-				Thanks, Marc Bavay, for the cover scans of the Bédérama edition of <REF ref="a13"/>.
+				Thanks, Marc Bavay, for the cover scans of the B?d?rama edition of <REF ref="a13"/>.
 				Does anyone have a copy of the german edition of Cromwell Stone (and the return of - ), by Alpha Comics?
 			</TEXT>
 			<TEXT date="2003-02-02">
@@ -2982,7 +2999,7 @@
 		</Comment>-->
 		<Comment showAt="i130">
 			<TEXT>This picture is made by Andreas for an edition of Spirou magazin dedicated to Durieux' character "Oscar". Several artists positioned Oscar
-			in different scenes / countries, using each only a single picture. Andreas placed Oscar in Scotland (Écosse). Source: a friend of the website.
+			in different scenes / countries, using each only a single picture. Andreas placed Oscar in Scotland (?cosse). Source: a friend of the website.
 			</TEXT>
 		</Comment>
 		<Comment showAt="mag19 s51" authors="p23"><TEXT><REF ref="mag19"/> contains the 2 revised and the 2 added pages of <REF ref="s51"/>.</TEXT></Comment>
@@ -3000,10 +3017,10 @@
 			been given an index of 1.</TEXT>
 		</Comment>
 		<Comment showAt="y1965" authors="p23">
-			<TEXT>Andreas and his parents move to Düsseldorf.</TEXT>
+			<TEXT>Andreas and his parents move to D?sseldorf.</TEXT>
 		</Comment>
 		<Comment showAt="y1967" authors="p23">
-			<TEXT>Andreas meets Joachim Müller, a teacher who teaches him art, literature,
+			<TEXT>Andreas meets Joachim M?ller, a teacher who teaches him art, literature,
 			music, and, indirectly, drawing.</TEXT>
 		</Comment>
 		<Comment showAt="y1971" authors="p23">
@@ -3052,8 +3069,8 @@
 			<TEXT>Wiel Felder has translated the signs in this story. The number before the dot is the pagenumber (Andreas' numbering). The number behind the dot is the number of the picture.<BR/><BR/>
 			6.1 Zenaga!<BR/>
 			6.2 Let Tolba continue alone! Look after the child!<BR/>
-			6.3 Yes, Hodh-Makil. The child’s name is Akim.<BR/>
-			I know what the child’s name is called. I do not wish to speak his name.<BR/>
+			6.3 Yes, Hodh-Makil. The child?s name is Akim.<BR/>
+			I know what the child?s name is called. I do not wish to speak his name.<BR/>
 			6.4	Yes Hodh-Makil.<BR/>
 			<BR/>
 			7.1	Do you want to see your son, Hodh-Makil?<BR/>
@@ -3063,7 +3080,7 @@
 			8.1 I do not understand your tongue! Who are you?<BR/>
 			8.2 I do not comprehend what you are saying.<BR/>
 			8.3 Now go away and let me pass!<BR/>
-			8.7 Alla’s breath brought a demon!<BR/>
+			8.7 Alla?s breath brought a demon!<BR/>
 			<BR/>
 			9.7 There is a child . . . I have to see him.<BR/>
 			9.8 I want to understand.<BR/>
@@ -3184,7 +3201,7 @@
 				me: a comic strip bores quickly. One knows immediately the name of the
 				assassin while at the same time the investigation and the mystery does
 				not have the time of to develop. It is too short and disappointing, in
-				general... except in <NAME>Léo Malet</NAME> adapted by Tardi in a minimum of
+				general... except in <NAME>L?o Malet</NAME> adapted by Tardi in a minimum of
 				120 pages! In an album of normal length, it is more difficult. But I tried
 				it nevertheless!</A>
 			</Comment>
@@ -3341,7 +3358,7 @@
 				have been published, mainly by Bruna. Lovecrafts horror is not
 				subtle, and many of his stories are boring and grotesque, but he
 				has inspired many people, amongst whom Philippe Druillet and
-				Alberto Breccía, who have each in their own way tried to express
+				Alberto Brecc?a, who have each in their own way tried to express
 				the Unimaginable.</TEXT>
 			</Comment>
 			<Comment showAt="p21">
@@ -3479,7 +3496,7 @@
 				immediately a supernatural force lowers <QUOTE>an enormous mass</QUOTE>.
 				Lucky for us Neels has made a mistake in his calculations.
 				Understandably, since he is unable to build a device of suitable
-				size for thís calculation.</TEXT>
+				size for th?s calculation.</TEXT>
 			</Comment>
 			<Comment showAt="s2">
 				<TEXT>We then return to Andreas' precision. At the moment Rork
@@ -4797,7 +4814,7 @@
 		</Article>
 		<Article id="art9" title="The pirate invited: Andreas" authors="p35" persons="p1" year="y1981">
 			<Comment showAt="y1981">
-			<TEXT>1981, A year to mark a white stone in the career of ANDREAS. In effect, a German living in Paris and drawing for belgian magazines, ANDREAS publishes - at a french publisher! - in the beginning of the year, his first album "Revelations Posthumous" on scenario of François RIVIERE. Like many other draftsmen of its generation, it is the mythical "How to become draftsman of STRIP CARTOONS" (with <REF ref="p92"/> and JIJE! Miam! Miam!) that will cause the young ANDREAS to be diverted right way to slip along the slope of the vice and the cartoon... At the end of the book, an address: that of a school - in Belgium - which gives courses of STRIP CARTOONS. Once read, he left at once, and we find him on the benches of the workshop STRIP CARTOONS of Saint-Luc Institute in Brussels. It is at the end of the second year that he decides to follow in parallel the courses of PAAPE, the famous creator of "Marc Davier" and of "Luc Orient". After some time, he takes ANDREAS for an assistant. They undertake then "Udolfo", a realistic series - on scenario of DUCHATEAU - which will appear first of all in TINTIN before being published in limited edition at a small editor. ANDREAS performs the pencil sketches and PAAPE the inking. Then he decides to fly on his own wings and creates, always for TINTIN, a series in which he assumes all alone the full realization: "Rork". We find there a fantastic atmosphere that is reminiscent of LOVECRAFT - that ANDREAS read a lot. It is precisely LOVECRAFT - the great fantastic american writer - which is the main character of the first "Révélation Posthume" that he carries out with RIVIERE for the magazine (A SUIVRE). Started more than two years earlier, this series is not only remarkable for its scenario, but also by the technology rediscovered by ANDREAS to accomplish its boards: that of the card to be scratched ("carte à gratter")! "I take my drawing which I reproduce with the back of a yellow sheet of copy. I then transfer it on the chart which I scrape while following the dotted line and while working my grayed"</TEXT>
+			<TEXT>1981, A year to mark a white stone in the career of ANDREAS. In effect, a German living in Paris and drawing for belgian magazines, ANDREAS publishes - at a french publisher! - in the beginning of the year, his first album "Revelations Posthumous" on scenario of Fran?ois RIVIERE. Like many other draftsmen of its generation, it is the mythical "How to become draftsman of STRIP CARTOONS" (with <REF ref="p92"/> and JIJE! Miam! Miam!) that will cause the young ANDREAS to be diverted right way to slip along the slope of the vice and the cartoon... At the end of the book, an address: that of a school - in Belgium - which gives courses of STRIP CARTOONS. Once read, he left at once, and we find him on the benches of the workshop STRIP CARTOONS of Saint-Luc Institute in Brussels. It is at the end of the second year that he decides to follow in parallel the courses of PAAPE, the famous creator of "Marc Davier" and of "Luc Orient". After some time, he takes ANDREAS for an assistant. They undertake then "Udolfo", a realistic series - on scenario of DUCHATEAU - which will appear first of all in TINTIN before being published in limited edition at a small editor. ANDREAS performs the pencil sketches and PAAPE the inking. Then he decides to fly on his own wings and creates, always for TINTIN, a series in which he assumes all alone the full realization: "Rork". We find there a fantastic atmosphere that is reminiscent of LOVECRAFT - that ANDREAS read a lot. It is precisely LOVECRAFT - the great fantastic american writer - which is the main character of the first "R?v?lation Posthume" that he carries out with RIVIERE for the magazine (A SUIVRE). Started more than two years earlier, this series is not only remarkable for its scenario, but also by the technology rediscovered by ANDREAS to accomplish its boards: that of the card to be scratched ("carte ? gratter")! "I take my drawing which I reproduce with the back of a yellow sheet of copy. I then transfer it on the chart which I scrape while following the dotted line and while working my grayed"</TEXT>
 			<TEXT>Tools? "a pin inserted in a wood stem makes an excellent point; or, for the thicker features, a vaccine point..." The result is superb, stunning but... "It takes very long, It takes much more time to make a board in chart to be scratched that with Indian ink. And then, it is necessary to avoid being mistaken... if not, it is necessary to start again!"</TEXT>
 			<TEXT>To note in your notebooks: you will soon be able to see in Brussels, Paris, Lyons, Marseilles, Toulouse, Aix-en-Province an exhibition of the originals of ANDREAS. Opens the eye!</TEXT><BR />
 
@@ -4805,11 +4822,11 @@
 			</Comment>
 		</Article>
 		<Article id="art10" title="Meeting with Andreas" authors="p36" persons="p1" year="y1981" />
-		<Article id="art11" title="Andréas / Rivière" authors="p37" persons="p1 p2" year="y1982" />
+		<Article id="art11" title="Andr?as / Rivi?re" authors="p37" persons="p1 p2" year="y1982" />
 		<Article id="art12" title="Andreas. In grey and in colors." authors="p33" persons="p1" year="y1983">
 			<Comment>
 				<TEXT>
-					Of all our young stripbook authors, Andreas is doubtlessly the most controversial. Noone is indifferent to his work, and that is a sign of quality. Everyone agrees about his drawing talent, however, both fans and professionals. "And yet, I would have never reached this level if Jijé had not strongly critised the few plates I dared show him. I hadn't expected any compliments of course, but these were complete bashings! Enough to discourage the most stubborn beginner. To me this was an enormous shock. I have to say that what I drew at the time did not match what I felt. I had not yet succeeded to determine my own original and personal style. Yet, rather than to give in to despair, I went back to work. I did my best to find my own way. At first as a draughtsman I was strongly influenced by people like <REF ref="p92"/>, but eventually I chose a more realistic approach, inspired by certain American draughtsmen. The unconventional way they treated a scenario strongly matched the way I wanted to tell my own story for so long."
+					Of all our young stripbook authors, Andreas is doubtlessly the most controversial. Noone is indifferent to his work, and that is a sign of quality. Everyone agrees about his drawing talent, however, both fans and professionals. "And yet, I would have never reached this level if Jij? had not strongly critised the few plates I dared show him. I hadn't expected any compliments of course, but these were complete bashings! Enough to discourage the most stubborn beginner. To me this was an enormous shock. I have to say that what I drew at the time did not match what I felt. I had not yet succeeded to determine my own original and personal style. Yet, rather than to give in to despair, I went back to work. I did my best to find my own way. At first as a draughtsman I was strongly influenced by people like <REF ref="p92"/>, but eventually I chose a more realistic approach, inspired by certain American draughtsmen. The unconventional way they treated a scenario strongly matched the way I wanted to tell my own story for so long."
 				</TEXT>
 				<TEXT>
 					In Bruxelles Andreas mastered the art. In Sint-Lucas he takes a course by Claude Renard, and later, in Sint-Gilles, the one by Eddy Paape. "In Germany, where I was born and made my first drawings, the comic strip did not evolve the way it did in Belgium and France. There is not a single school where you can learn about it. I dreamt a long time about the trade and saw only one solution: to emigrate. The Belgium school of comic strips had an international call and therefore it was logical that I moved there. Afterwards I settled in Paris... and eventually I arrived in Bretagne. I like the misty coast in that region. The landscape is fantastic and the people are both reserved and warm. There I find the rest I need for my work. Actually, this may be because of my northern upbringing, I never felt drawn towards the sun. But this Brettonic grey breathes an athmostphere of mystery strengthened by the countless remains of its Celtic past."
@@ -4818,7 +4835,7 @@
 					Mystery...that is what pervades his stories.
 				</TEXT>
 				<TEXT>
-					"Even as a boy I was fascinated by everything that had to do with strange and paranormal phenomena. And later, in my trade, I never felt completely well if I did not work with these subjects in my text and images. I say: text ànd image, because to me the one can never be without the other. In general scenario writers are much too talkative. They tell all kinds of things that can be expressed more clearly and often better in a drawing than that it can be said...That is why I prefer to be my own scenario writer.
+					"Even as a boy I was fascinated by everything that had to do with strange and paranormal phenomena. And later, in my trade, I never felt completely well if I did not work with these subjects in my text and images. I say: text ?nd image, because to me the one can never be without the other. In general scenario writers are much too talkative. They tell all kinds of things that can be expressed more clearly and often better in a drawing than that it can be said...That is why I prefer to be my own scenario writer.
 				</TEXT>
 			</Comment>
 			<Comment showAt='s27'>			
@@ -4954,7 +4971,7 @@
 				comes to consciousness. The treasure he craves represents the Self and this treasure can't be conquered by violence. They who want to
 				conquer the Self by violence will be destroyed by violence. And so Andreas makes it happen. Jean DeVille encounters himself as a dying old
 				man (page 23). He has died then already, but by this confrontation he realizes his Self through death. This way drawing and story telling
-				reminds one of the Bardo Thödol, the Tibetan book of the dead. Stumbling through the twilight zone of death Jean meets an old woman, the
+				reminds one of the Bardo Th?dol, the Tibetan book of the dead. Stumbling through the twilight zone of death Jean meets an old woman, the
 				archetype of <EM>Anima</EM>, leader of souls and intermediary between the I and the unconscious Self. Jean obviously hasn't made use of
 				the Anima (the female) in himself; as earthly being he had a pityful underdeveloped consciousness. The fourfolds in this story correspond
 				to those of Christian doctrine, as depicted above:</TEXT>
@@ -4978,12 +4995,12 @@
 		<Article id="art20" title="(Review of) Fantalia and La Cage" authors="p39" persons="p1" year="y1986" />
 		<Article id="art21" title="- an item on Andreas -" authors="p41" persons="p1" year="y1986" />
 		<Article id="art22" title="Meeting with Andreas" authors="p39" persons="p1" year="y1987" />
-		<Article id="art23" title="Bonnes nouvelles du passé" authors="p42" persons="p1" year="y1987" />
-		<Article id="art24" title="Une BD en taille douce: de Hetzel à Andreas" authors="p43" persons="p1" year="y1987" />
-		<Article id="art25" title="Rork: un héros sous influences" authors="p44" persons="p1" year="y1987" />
-		<Article id="art26" title="Images fixés" authors="p45" persons="p1" year="y1987" />
+		<Article id="art23" title="Bonnes nouvelles du pass?" authors="p42" persons="p1" year="y1987" />
+		<Article id="art24" title="Une BD en taille douce: de Hetzel ? Andreas" authors="p43" persons="p1" year="y1987" />
+		<Article id="art25" title="Rork: un h?ros sous influences" authors="p44" persons="p1" year="y1987" />
+		<Article id="art26" title="Images fix?s" authors="p45" persons="p1" year="y1987" />
 		<Article id="art27" title="Andreas au pays des merveilles" authors="p46" persons="p1" year="y1987" />
-		<Article id="art28" title="Caïn etait dans la tombe" authors="p47" persons="p1" year="y1987" />
+		<Article id="art28" title="Ca?n etait dans la tombe" authors="p47" persons="p1" year="y1987" />
 		<Article id="art29" title="Le vertige infini" authors="p39" persons="p1" year="y1987" />
 		<Article id="art30" title="Andreas and Schuiten, creators of fantastic universes" authors="p48" persons="p1 p71" year="y1987" />
 		<Article id="art31" title="Andreas: well camouflaged nonsense?" authors="p49" persons="p1" year="y1987" />
@@ -4999,7 +5016,7 @@
 			<b><!-- has picture so should be shown in "full text available" --></b>
 		</Article>
 		<Article id="art41" title="Murder in the crypt" authors="p55" persons="p1" year="y1990" />
-		<Article id="art42" title="'Les lieux de la bande dessinée. Trois planches exemplaires d'Andreas Martens'" authors="p56" persons="p1" year="y1991" />
+		<Article id="art42" title="'Les lieux de la bande dessin?e. Trois planches exemplaires d'Andreas Martens'" authors="p56" persons="p1" year="y1991" />
 		<Article id="art43" title="Interview Andreas" authors="p57" persons="p1" year="y1992" />
 		<Article id="art44" title="A circular trip through Europe in twelve stages: Andreas and Germany" authors="p58" persons="p1" year="y1992" />
 		<Article id="art45" title="- 1 item on Andreas -" authors="p59 p60" persons="p1" year="y1994" />
@@ -5024,11 +5041,11 @@
                 <Q>A dish?</Q>
                 <A text="p1">A cake, a dessert.</A>
                 <Q>Stuffed, or...</Q>
-                <A text="p1">[Ed: unable to translate]"Non, assez fin, quand même, mais quand même quantitativement conséquent."</A>
+                <A text="p1">[Ed: unable to translate]"Non, assez fin, quand m?me, mais quand m?me quantitativement cons?quent."</A>
                 <Q>A drink?</Q>
                 <A text="p1">Tea.</A>
                 <Q>If one forced you to work with a scriptwriter, which one would you choose?</Q>
-                <A text="p1">Bézian.</A>
+                <A text="p1">B?zian.</A>
                 <Q>If one forced you to work with a draughtsman, which one would you choose?</Q>
                 <A text="p1">I don't know, a virtuoso in any case, one with which I could write all the things that I would not do myself.</A>
                 <Q>If you represented a personage?</Q>
@@ -5041,7 +5058,7 @@
                 <A text="p1">The whole of Shakespeare and the bible.</A>
                 <Q>If you had to define yourself in a word, what would it be?</Q>
                 <A text="p1">(thinking long and hard)... I don't know.</A>
-                <Q>Andréas?</Q>
+                <Q>Andr?as?</Q>
                 <A text="p1">Yes, for example (laughs)</A>
             </Comment>
         </Article>
@@ -5115,10 +5132,10 @@
 			<Comment showAt="y1970 p73"><!-- error in the book!? -->
 				<Q>How was Saint-Luc?</Q>
 				<A text="p1">I had read Vandoorn's booklet <EM>Comment on devient
-				créateur de bandes dessinées</EM> on <REF ref="p92"/> and <REF ref="p73"/>. It mentioned
+				cr?ateur de bandes dessin?es</EM> on <REF ref="p92"/> and <REF ref="p73"/>. It mentioned
 				the address of the Saint-Luc in Brussels. When I inquired after
 				the enrollment dates, it turned out that I was only just too late.
-				That's why I first did a year of academy of arts in Düsseldorf.
+				That's why I first did a year of academy of arts in D?sseldorf.
 				It was a higher education, comparable to a university. I won't
 				say the education was useless, but I wanted to go to Saint-Luc.
 				You could find workshops and follow lectures on arts history,
@@ -5131,7 +5148,7 @@
 				bad architect after all, because I was really interested in it.</A>
 			</Comment>
 			<Comment showAt="y1971 p92"><!-- error in the book!? -->
-				<A>My community (military) service I also did in Düsseldorf.
+				<A>My community (military) service I also did in D?sseldorf.
 				I was a telephone operator in a hospital.
 				Soon I did nightshifts, which didn't require you to do much more
 				than be present for six hours. So I could draw pictures to my
@@ -5219,7 +5236,7 @@
 				of Saint-Luc. In my year were <REF ref="p70"/> and me, in the next
 				year <REF ref="p10"/>, <REF ref="p11"/> and <REF ref="p9"/>,
 				and the year after that <REF ref="p71"/> and <REF ref="p72"/>
-				and later several others: Séraphine,
+				and later several others: S?raphine,
 				Chantal de Spiegeleer. Who came after that I don't remember.
 				When Schuiten came to Saint-Luc, we didn't understand
 				what his purpose was. He had already published a short
@@ -5310,7 +5327,7 @@
 				worked on a book about hunting in Belgium; Berthet drew the animals and
 				Foerster did the backgrounds and characters. That was the beginning,
 				we became professional slowly but certainly. Then followed the first
-				festivals of Angoulême, where we made our first important contacts...</A>
+				festivals of Angoul?me, where we made our first important contacts...</A>
 			</Comment>
 			<Comment showAt="y1977 p5 s22">
 				<Q>How did your collaboration with <REF ref="p5"/> come about? You were
@@ -5343,7 +5360,7 @@
 				<A>I had the scenario of <REF ref="p4"/>, specifying on the left what happens
 				on each picture and on the right the dialogues, picture by picture.
 				But I had a lot of freedom. <REF ref="p5"/> wanted me especially for the plate
-				layout, the mise en scène.</A>
+				layout, the mise en sc?ne.</A>
 			</Comment>
 			<Comment showAt="y1978 mag1 s24 p5">
 				<Q>That work division is remarkable, because in American comics the one
@@ -5379,19 +5396,19 @@
 				comes from that famous day when <REF ref="p73"/> visited the Saint-Luc.
 				I had a drawing on <EDITOR>in Dutch: schaafkarton</EDITOR>, my first. That happened to be the only
 				one of which <REF ref="p73"/> had said:"<QUOTE>That's good! Look, that is good,
-				elegant...</QUOTE> Rivière was there as well. He was looking for someone
+				elegant...</QUOTE> Rivi?re was there as well. He was looking for someone
 				to do the cover of a Jules Verne book and approached me. Later I asked
 				him to write a story for me. I believe he didn't feel like it at first,
 				but I persisted, so eventually he came up with a text on <REF ref="p21"/>.
 				After he had seen the first plates, he became more interested. At first we
 				worked for <REF ref="mag13"/>, for a Lovecraft special. But when I was
-				finished, Riviere told me: <QUOTE>Métal Hurlant isn't doing well these days,
+				finished, Riviere told me: <QUOTE>M?tal Hurlant isn't doing well these days,
 				they don't pay well. Maybe it would be better to go to
 				<REF ref="mag5"/>.</QUOTE> I must say I didn't feel good about this thing with
-				Métal Hurlant. That also led to some arguments. Later I understood that
+				M?tal Hurlant. That also led to some arguments. Later I understood that
 				it was really something for (A Suivre). They were looking exactly for
 				this mixture of comics and literature. After that we continued working for
-				them. Métal Hurlant was a lost case in all respects.</A>
+				them. M?tal Hurlant was a lost case in all respects.</A>
 			</Comment>
 			<Comment showAt="p21">
 				<Q>Was the collaboration with <REF ref="p2"/> for you the first acquintance
@@ -5644,12 +5661,12 @@
 				<Q>It is the beginning of your cooperation with <REF ref="mag13"/>
 				and <REF ref="pub16"/>. How was your relationship with the publisher?</Q>
 				<A text="p1">I thought myself absolutely unfit for the level of
-				<REF ref="mag13"/>. There was a kind of aura around Métal Hurlant.
+				<REF ref="mag13"/>. There was a kind of aura around M?tal Hurlant.
 				There had been so many things in it I admired. Furthermore
-				Humanoïdes made absolutely no limitations. I made <REF ref="s41"/>
+				Humano?des made absolutely no limitations. I made <REF ref="s41"/>
 				with a feeling of total freedom. It is kind of the reward for what
 				I did in Rork, without the limitations of <REF ref="mag1"/>. Not
-				that you hád to do Tintin-like things for Tintin, but you
+				that you h?d to do Tintin-like things for Tintin, but you
 				couldn't do just anything either. <REF ref="s40"/>
 				gave me the possibility to create Cyrrus in full freedom.
 				Making Cromwell Stone I didn't have the right state of mind,
@@ -5811,7 +5828,7 @@
 				<A text="p1"><REF ref="s58"/> is much simpler than <REF ref="s41"/>!</A>
 			</Comment>
 		</Article>
-		<Article id="art58" title="Dérives and Fantalia" authors="p56 p65" persons="p1" year="y1995">
+		<Article id="art58" title="D?rives and Fantalia" authors="p56 p65" persons="p1" year="y1995">
 			<Comment showAt="a20 mag13 pub9">
 				<Q>It's also the time of <REF ref="a20"/>. This album appeared
 				only long after the stories were published in <REF ref="mag13"/>.
@@ -5821,7 +5838,7 @@
 				of <REF ref="a20"/> after a scenario of my German friend
 				<REF ref="p12"/>. Later, when I was at <REF ref="pub9"/>,
 				he said to me: <QUOTE>He, we could publish those short
-				stories you did for Métal.</QUOTE> Then I added three more.</A>
+				stories you did for M?tal.</QUOTE> Then I added three more.</A>
 			</Comment>
 			<Comment showAt="a20 p14">
 				<Q>All scenarists of <REF ref="a20"/> are you friends.
@@ -5836,7 +5853,7 @@
 				never have written myself. That gave me the opportunity to
 				use different techniques to serve the scenario...and sometimes
 				the scenarist. Because the story of <REF ref="p10"/> is a bit like
-				Cossu, the story of Bézian is like Bézian, his drawing style
+				Cossu, the story of B?zian is like B?zian, his drawing style
 				even influenced me somewhat. The same holds for <REF ref="p13"/>.</A>
 			</Comment>
 			<Comment showAt="s47 p14">
@@ -5845,11 +5862,11 @@
 				because it contains many characters who also happen to come down
 				a stairs the whole time. I had to take that into account. It is
 				the story I enjoyed most. I don't currently plan to make a story
-				with anyone else, but should that happen, it will be with Bézian.
+				with anyone else, but should that happen, it will be with B?zian.
 				We agreed to work together again. He writes and I draw. I liked it
 				that he caused me trouble with <REF ref="a20"/>. When you write
 				yourself, you limit yourself to what you can make. The stories
-				in  Dérives liberated me from that somewhat. When I currently
+				in  D?rives liberated me from that somewhat. When I currently
 				write a story, I really only think of the story itself. While
 
 
@@ -5868,7 +5885,7 @@
 				for a special series. They gave me complete freedom.</A>
 			</Comment>
 			<Comment showAt="a44">
-				<A text="p23">Andreas drew a picture for the portfolio "La tour de Babel des croqueurs de sable" that was published in the album "L'âme Brase". The album is part of a series called "Les croqueurs de sable" that was written and drawn completely by Joly Guth.</A>
+				<A text="p23">Andreas drew a picture for the portfolio "La tour de Babel des croqueurs de sable" that was published in the album "L'?me Brase". The album is part of a series called "Les croqueurs de sable" that was written and drawn completely by Joly Guth.</A>
 			</Comment>
 			<Comment showAt="s68">
 				<A text="p1">
@@ -5898,7 +5915,7 @@
 				<Q>Do the world and the colors of <REF ref="s68"/> represent
 				the world of creation, the world of the characters?</Q>
 				<A text="p1">No. It is reality entering my world - how
-				should I say it? - in mý world! I always kept myself in
+				should I say it? - in m? world! I always kept myself in
 				the background, in the shadow, hence the grayness in the
 				beginning. Later the colors enter completely and make the
 				shadow impossible.</A>
@@ -5989,7 +6006,7 @@
 			<Comment showAt="y1974"> <!-- or thereabout -->
 				<A text="p1">Only relatively late I started thinking about the war.
 				That was when I went to Saint-Luc, where I was the German,
-				the <QUOTE>hun</QUOTE>. <QUOTE>Hé, are you starting
+				the <QUOTE>hun</QUOTE>. <QUOTE>H?, are you starting
 				the occupation again?</QUOTE> That sort of jokes. I heard
 				them too on my holidays to France. I remember really well.
 				On one day I was here in Brittany, with a girlfriend. When
@@ -6028,7 +6045,7 @@
 					and many short graphic novels all done in his own very particular way of story-telling.
 					Many of these creations belong to the fantastic. The cycles of Rork (7 volumes),
 					Capricorne (5 volumes) and Arq (4 volumes) are the best known, but some of his other
-					productions (Cyrrus, Fantalia, Aztéques, Le Triangle Rouge)(3)  are equally intriguing,
+					productions (Cyrrus, Fantalia, Azt?ques, Le Triangle Rouge)(3)  are equally intriguing,
 					enigmatic, and difficult to classify according to the traditional styles.<BR/>
 
 					His work often strikes the reader as difficult. Rather than in the gothic universe
@@ -6072,7 +6089,7 @@
 					conversely, some fantastic accounts are based on frameworks which make only minimal
 					use of such elements.<BR/>
 						The fantastic appears to be an effect of both representation and figures. It is, to use
-					Bellemin-Noël's apt words, "a way of telling" (Bellemin-Noël, 1972). Producing this
+					Bellemin-No?l's apt words, "a way of telling" (Bellemin-No?l, 1972). Producing this
 					"effect of the fantastic" entails essentially a shift from the universe of the characters
 					to that of the reader, i.e., an ontological hesitation. This fundamental fissure is
 					at the basis of the fantastic and the tensions of the irreconcilable that it evokes.
@@ -6129,13 +6146,13 @@
 					"There's aphro...somethin' 'r others!" This wavering in the flow and the vague
 					meaning (something, others) makes a phonetic jump possible from "aphro"
 					(aphrodisiac) to "afro" (African), i.e., a double meaning that allows the two
-					signifiés to be part of the universes of both the first and second scene.
+					signifi?s to be part of the universes of both the first and second scene.
 					Moreover, this balloon is perfectly aligned with Toby-Toby's vertical axis,
 					in the "column-space" which runs across and unites the two scenes(12).<BR/>
 						Thus, the opening page of Coutoo has a similar impact as some of Escher's
 					most popular patterns (Samson, 1987:11), in which the fantastic effect stems from
 					the confrontation between the codes of realism and the "irreality principle" of
-					an "improbable totality" (Bessière, 1974). Confusing the reader in Coutoo's opening(13)
+					an "improbable totality" (Bessi?re, 1974). Confusing the reader in Coutoo's opening(13)
 					represents more than a simple surprise effect: his first attempts of building a reality
 					with the current codes of probability will be proven ineffective(14).<BR/>
 						Moreover, far from clearing up a misunderstanding, the next pages do nothing
@@ -6178,7 +6195,7 @@
 				</TEXT>
 			</Comment>
 			<Comment showAt="s55">
-				<TEXT title="The Return of Cromwell Stone: The Strangeness of a 'Déjà-vu'">
+				<TEXT title="The Return of Cromwell Stone: The Strangeness of a 'D?j?-vu'">
 						With <REF ref="s55"/>, the fantastic becomes fixed in a more classical
 					set of themes of the relationship between man and fragments of alterity. But as an
 					element in a series--a sequel to a previous volume--the challenge in this volume is no
@@ -6198,7 +6215,7 @@
 						The opening page of The Return of Cromwell Stone (see Figure 3) does not, unlike
 					the one in Coutoo, attract attention by the construction of an improbable reality. On the
 					contrary, the Andreas reader is rather struck by a strange feeling of familiarity,
-					a "déjà-vu." The reader cannot but compare it to the opening page of the first story
+					a "d?j?-vu." The reader cannot but compare it to the opening page of the first story
 					of this cycle (see Figure 4), which it recreates in theme as well as composition.
 					This recreation is both meticulous and strangely shifted. Just as the incipit-page of
 					the first Cromwell Stone, it is structured around a composition with two similarly
@@ -6267,7 +6284,7 @@
 					come to hinge rather on the fragile and yet decisive oscillation between the reality of
 					the story and the ambiguity of its narrative. As Grivel (1992:27) has put it,
 					"the fantastic serves as a tool for trickery in the logic of the narrative"
-					(le fantastique désigne une feinte de la raison narrative). This is precisely why
+					(le fantastique d?signe une feinte de la raison narrative). This is precisely why
 					this genre lends itself so well to a study of narrative strategies and modes of
 					expression aimed at achieving this effect of confusion.
 				</TEXT>
@@ -6352,7 +6369,7 @@
 					  of the reading.
 					  <BR/>23) A series of "flashback sequences" in which a recitation of previous story parts is recalled.
 					  <BR/>24) Even though these different temporal levels can ultimately be united in one point of view,
-					  i.e., Crown's point of view in the first volume and Marlène's in the second.
+					  i.e., Crown's point of view in the first volume and Marl?ne's in the second.
 					  25) For example, the threats that must be countered in the first story have now become types
 					  of behavior that are to be encouraged.
 					  <BR/>26) A similar approach can be found in Chantal Montellier's work.
@@ -6364,39 +6381,39 @@
 			<Comment>
 				<TEXT title="References">
 					Andreas. 1984a. Cromwell Stone. Bruxelles: Editions Michel Deligne (translated by Milwaukee: Dark Horse, 1990).
-					<BR/>Andreas. 1984b. Cyrrus. Paris: Les Humanoïdes Associés; re-edited, 1993, Paris: Delcourt.
+					<BR/>Andreas. 1984b. Cyrrus. Paris: Les Humano?des Associ?s; re-edited, 1993, Paris: Delcourt.
 					<BR/>Andreas. 1984c. Fragments (Rork 1). Bruxelles: Le Lombard.
 					<BR/>Andreas. 1984d. Passages (Rork 2).Bruxelles: Le Lombard.
 					<BR/>Andreas. 1986. Fantalia. Bruxelles: Magic-Strip.
-					<BR/>Andreas. 1988a. Le cimetière de cathédrales (Rork 3). Bruxelles: Lombard.
-					<BR/>Andreas. 1988b. Lumière d'étoile (Rork 4) .  Bruxelles: Lombard.
+					<BR/>Andreas. 1988a. Le cimeti?re de cath?drales (Rork 3). Bruxelles: Lombard.
+					<BR/>Andreas. 1988b. Lumi?re d'?toile (Rork 4) .  Bruxelles: Lombard.
 					<BR/>Andreas. 1989. Coutoo. Paris: Delcourt (translated by Milwaukee: Dark Horse, 1990)
 					<BR/>Andreas. 1990a. Capricorne (Rork 5). Bruxelles: Lombard.
-					<BR/>Andreas. 1990b. "X-20". Conséquences, n 13, Paris: Les impressions nouvelles.
-					<BR/>Andreas et Rivière. 1991. Révélations posthumes. Paris: Delcourt, first edition: 1980.
+					<BR/>Andreas. 1990b. "X-20". Cons?quences, n 13, Paris: Les impressions nouvelles.
+					<BR/>Andreas et Rivi?re. 1991. R?v?lations posthumes. Paris: Delcourt, first edition: 1980.
 					<BR/>Andreas. 1992a. Descente (Rork 6) . Bruxelles: Lombard.
-					<BR/>Andreas. 1992b. Aztèques. Paris: Delcourt.
+					<BR/>Andreas. 1992b. Azt?ques. Paris: Delcourt.
 					<BR/>Andreas. 1993. Retour (Rork 7). Bruxelles: Le Lombard.
 					<BR/>Andreas. 1994. Le retour de Cromwell Stone. Paris: Delcourt.
 					<BR/>Andreas. 1995. Le triangle rouge . Paris: Delcourt.
 					<BR/>Andreas. 1996. L'objet (Capricorne 1). Bruxelles: Le Lombard.
-					<BR/>Andreas. 1997a. Electricité (Capricorne 2).  Bruxelles: Le Lombard.
+					<BR/>Andreas. 1997a. Electricit? (Capricorne 2).  Bruxelles: Le Lombard.
 					<BR/>Andreas. 1997b. Ailleurs (Arq 1). Paris: Delcourt.
 					<BR/>Andreas. 1998a. Deliah (Capricorne 3). Bruxelles: Le Lombard.
-					<BR/>Andreas. 1998b. Mémoires 1 (Arq 2). Paris: Delcourt.
-					<BR/>Andreas. 1999a. Le cube numérique (Capricorne 4). Bruxelles: Le Lombard.
-					<BR/>Andreas. 1999b. Mémoires 2 (Arq 3). Paris: Delcourt
+					<BR/>Andreas. 1998b. M?moires 1 (Arq 2). Paris: Delcourt.
+					<BR/>Andreas. 1999a. Le cube num?rique (Capricorne 4). Bruxelles: Le Lombard.
+					<BR/>Andreas. 1999b. M?moires 2 (Arq 3). Paris: Delcourt
 					<BR/>Andreas. 2000b. Racken (Arq 4). Paris: Delcourt.
 					<BR/>Andreas.  2000a. Le secret (Capricorne 5). Bruxelles: Le Lombard.
 					<BR/>Baetens, Jan. 1997. "Un fantastique muet." 5 pages on Revelations posthumes (Andreas 1991)
-					<BR/>Bellemin-Noël, Jean. 1972. "Notes sur le fantastique." Littérature. n. 8, Paris: Larousse.
-					<BR/>Bessière, Irène. 1974. Le récit fantastique. Paris: Larousse.
-					<BR/>Groensteen, Thierry. 1985. "Cromwell Stone." Les cahiers de la bande dessinée. n.61, Jan-Feb., p. 55, Grenoble: Glénat.
-					<BR/>Groensteen, Thierry. 1987. "Le vertige infini." Les cahiers de la bande dessinée. n.73, Jan-Feb., p.33-35, Grenoble: Glénat.
+					<BR/>Bellemin-No?l, Jean. 1972. "Notes sur le fantastique." Litt?rature. n. 8, Paris: Larousse.
+					<BR/>Bessi?re, Ir?ne. 1974. Le r?cit fantastique. Paris: Larousse.
+					<BR/>Groensteen, Thierry. 1985. "Cromwell Stone." Les cahiers de la bande dessin?e. n.61, Jan-Feb., p. 55, Grenoble: Gl?nat.
+					<BR/>Groensteen, Thierry. 1987. "Le vertige infini." Les cahiers de la bande dessin?e. n.73, Jan-Feb., p.33-35, Grenoble: Gl?nat.
 					<BR/>Grivel, Charles. 1992. Fantastique-fiction. Paris: Presses Universitaires de France.
-					<BR/>Samson, Jacques. 1987. "Andreas et Schuiten créateurs d'univers fantastiques." Solaris. n. 72, p. 11-15, Montréal.
-					<BR/>Sohet, Philippe. 1994. "Faux sanglant ou vrai semblant: les matrices énonciatives chez Chantal Montellier." In I'm caméra, pp. 81-103. Paris: Centre Simone de Beauvoir.
-					<BR/>Todorov, Tsevan. 1970. Introduction à la littérature fantastique. Paris: Seuil.
+					<BR/>Samson, Jacques. 1987. "Andreas et Schuiten cr?ateurs d'univers fantastiques." Solaris. n. 72, p. 11-15, Montr?al.
+					<BR/>Sohet, Philippe. 1994. "Faux sanglant ou vrai semblant: les matrices ?nonciatives chez Chantal Montellier." In I'm cam?ra, pp. 81-103. Paris: Centre Simone de Beauvoir.
+					<BR/>Todorov, Tsevan. 1970. Introduction ? la litt?rature fantastique. Paris: Seuil.
 				</TEXT>
 			</Comment>
 		</Article>
@@ -6444,33 +6461,33 @@
 		<Article id="art62" title="Andreas et la mise en page : Descente" authors="p82" persons="p1" year="y1998">
 			<Comment showAt="a6">
                 <TEXT title="(Rork volume 6, Le Lombard)">
-					In this book we encounter, only three pages away from eachother, two of the nicest examples of Andreas’ page layouts.<BR /><BR />
+					In this book we encounter, only three pages away from eachother, two of the nicest examples of Andreas? page layouts.<BR /><BR />
 				</TEXT>
 				<TEXT title="Linearity of reading within one page (continuity principle)">
 				<IMG src="resources/art_descente1.jpg" align="left" width="262" height="350"/>
 				Page 17. Rork slides from a snowy slope and falls into a ravine. We see that the panels are positioned, and that the drawings in the panels are oriented, in such a manner, that the eye <B>follows</B> the fall without leaving the page.<BR /><BR />
 				Comic art uses in general a "superimposed" storytelling: Reading the cases of the first strip, detaching the eye from the first strip, seeking and connecting with the second strip of panels, at the end detaching again from the page, seeking and connecting with the third strip, and so on... like the needle of a sowing machine. <BR /><BR />
-				In this page, the eye "follows" the movement. By doing so, the artist creates a cinematographic effect by forcing the eye of the reader to actually follow the movement of the character. Additionally, the absence of detaching-seeking-connecting results in a more "fluent" reading. (peut-être un moins grand risque de briser l'illusion référentielle, si ce n'était déjà fait en exposant tant de plaisir à dessiner et découper) [translator: hard to comprehend the meaning of the original sentence]. <BR /><BR />
+				In this page, the eye "follows" the movement. By doing so, the artist creates a cinematographic effect by forcing the eye of the reader to actually follow the movement of the character. Additionally, the absence of detaching-seeking-connecting results in a more "fluent" reading. (peut-?tre un moins grand risque de briser l'illusion r?f?rentielle, si ce n'?tait d?j? fait en exposant tant de plaisir ? dessiner et d?couper) [translator: hard to comprehend the meaning of the original sentence]. <BR /><BR />
 				I once talked about it to Andreas, who very modestly said "The Americans do it all the time". Here I think that Andreas is wrong. The mainstream comics, as I believe that those are the ones he was referring to, often guide the eye of the reader, but the most common effect is a simple diagonal allowing us to understand very fast, like publicity in printed media often oriented from top left to bottom right, the strategic direction.<BR /><BR />
-				To summarize, let’s say that it’s a way to reproduce our western way of reading. With Andreas, this system is more "Global" and never limited to one specific direction easing the reading of the page.<BR /><BR />
+				To summarize, let?s say that it?s a way to reproduce our western way of reading. With Andreas, this system is more "Global" and never limited to one specific direction easing the reading of the page.<BR /><BR />
 				Indeed, everybody who has just skimmed trough an album of Andreas will not have understood it. You only understand Andreas by reading, as a large part of the work has been left to do by the reader. <BR /><BR />
 We can compare two, almost similar at first sight (guiding the eye), page layout effects while their application (diagonal versus winding movement) and envisioned effect (improved readability versus immersion in the story) is completely opposite.<BR /><BR />
-We can read more about the cinematographic effect in <B>"Les Bijoux Ravis"</B>, from Benoît Peeters, where Hergé demonstrates this in the fall of Nestor from the stairs (pg 11 - The Castafiore Emerald)<BR /><BR />
+We can read more about the cinematographic effect in <B>"Les Bijoux Ravis"</B>, from Beno?t Peeters, where Herg? demonstrates this in the fall of Nestor from the stairs (pg 11 - The Castafiore Emerald)<BR /><BR />
 				</TEXT>
 				<TEXT title="Simultaneity of cases">
 				<IMG src="resources/art_descente2.jpg" align="right" width="260" height="274"/>
 				Lets take page 15 of the same album. Rork observes a globe that descends into a gullet. Andreas opposes the globe and Rork versus each other in two strips of two panels. The first panel containing the globe that descends, the second panel, Rork who observes it.<BR /><BR />
 Both strips are framed left and right by a panel of the same height as the two individual panels. In order to "decode" the system, the reader has to understand by this "framing" that the two panels (although one placed above the other, and thus in comic language one happening <B>before</B> the other) are in fact happening <B>simultaneously</B>. <BR /><BR />
-Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>, fourth album of Rork, page 32. The man and the cat have a telepathic link, and the superimposed panels makes us understand this even before Shamah discovers it.<BR /><BR />
+Another, maybe even stronger example, can be found in <B>"Lumi?re d'Etoile"</B>, fourth album of Rork, page 32. The man and the cat have a telepathic link, and the superimposed panels makes us understand this even before Shamah discovers it.<BR /><BR />
 				</TEXT>
 				<TEXT title="Conclusion">
 				Throughout these examples (but there are plenty with Andreas), we start to understand that comic art does not have to be limited to "sequential" (linear) art. Comics can function also in a cinematographic or juxtaposed way. The page layout itself participates in the storytelling.<BR />
 				</TEXT>
 				<TEXT>
-				Stéphane Deschamps<BR />
+				St?phane Deschamps<BR />
 				Translation: Carl Wyckaert<BR /><BR />
 
-				This article appeared in the summer of 1998 on the website Bédéphiles.<BR /><BR />
+				This article appeared in the summer of 1998 on the website B?d?philes.<BR /><BR />
 
 				Carl Wyckaert adds:<BR />More about this can be found in "Understanding Comics" 1993 Tundra Press, Scott McCloud. <WWWlink href="http://en.wikipedia.org/wiki/Understanding_Comics" />
 				</TEXT>
@@ -6478,7 +6495,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		</Article>
 		<Article id="art63" title="Entrevue avec Andreas" authors="p1" persons="p1" year="y2005">
 		</Article>
-		<Article id="art64" title="La dimension Andréas" authors="p85" persons="p1" year="y2001">
+		<Article id="art64" title="La dimension Andr?as" authors="p85" persons="p1" year="y2001">
 		</Article>
 		<Article id="art65" title="L'homme qui pense" persons="p1" year="y2005">
 		</Article>
@@ -6487,10 +6504,10 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		</Article>
 		<Article id="art67" title="Andreas Corpus" authors="p86" persons="p1" year="y2003">
 		</Article>
-		<Article id="art68" title="Où ils en sont. La caverne du souvenir" persons="p1" year="y1983">
+		<Article id="art68" title="O? ils en sont. La caverne du souvenir" persons="p1" year="y1983">
 			<b><!-- has picture so should be shown in "full text available" --></b>
 		</Article>
-		<Article id="art69" title="Un fantastique muet: H.P Lovecraft et R.H. Barlow dans les Révélations Posthumes d'Andreas et de Rivière" authors="p87" persons="p1" year="y1997">
+		<Article id="art69" title="Un fantastique muet: H.P Lovecraft et R.H. Barlow dans les R?v?lations Posthumes d'Andreas et de Rivi?re" authors="p87" persons="p1" year="y1997">
 		</Article>
 		<Article id="art70" title="Interview Andreas" persons="p1" year="y1998">
 		</Article>
@@ -6498,13 +6515,13 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		</Article>
 		<Article id="art72" title="Interview" persons="p1" year="y1997">
 		</Article>
-		<Article id="art73" title="Le maître du jeu, c'est lui!" persons="p1" year="y2012">
+		<Article id="art73" title="Le ma?tre du jeu, c'est lui!" persons="p1" year="y2012">
 			<b><!-- has picture so should be shown in "full text available" --></b>
 		</Article>
-		<Article id="art74" title="Insatiable Andréas" persons="p1" year="y2005">
+		<Article id="art74" title="Insatiable Andr?as" persons="p1" year="y2005">
 			<b><!-- has picture so should be shown in "full text available" --></b>
 		</Article>
-		<Article id="art75" title="A la croisée des univers" persons="p1" year="y2013">
+		<Article id="art75" title="A la crois?e des univers" persons="p1" year="y2013">
 			<b><!-- has picture so should be shown in "full text available" --></b>
 		</Article>
 		<Article id="art76" title="An interview with Andreas" persons="p1" year="y2000">
@@ -6690,8 +6707,8 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 					</WWWsite>-->
 					
 					
-					<!--<WWWsite title="Twój Komiks">
-						Twój Komiks publishes Rork.<BR/>
+					<!--<WWWsite title="Tw?j Komiks">
+						Tw?j Komiks publishes Rork.<BR/>
 						<WWWlink language="lang-pl" href="http://www.motopol.pl/twojkomiks/" />
 					</WWWsite>-->
 					<!--<WWWsite title="Heavy Metal">
@@ -6718,7 +6735,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 						immediately gives access to a wealth of resources!<BR/>
 						<WWWlink language="lang-fr" href="http://quentin.ebbs.net/andreas/" />
 					</WWWsite>-->
-					<WWWsite title="Wim Dewilde has kept an astonishing record of Dédicaces">
+					<WWWsite title="Wim Dewilde has kept an astonishing record of D?dicaces">
 						<WWWlink href='http://www.flickr.com/photos/41038929@N03/' />
 					</WWWsite>
 					<WWWsite>
@@ -6726,7 +6743,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 						<WWWlink language="lang-nl" href="https://andreasmartens.wordpress.com/" />
 					</WWWsite>
 					<WWWsite title="L'oeil qui pense">
-						Interesting site. Has some articles on Rork and Capricorne. Features the Rork strip "Les oubliés" from Tintin.<BR/>
+						Interesting site. Has some articles on Rork and Capricorne. Features the Rork strip "Les oubli?s" from Tintin.<BR/>
 						<WWWlink language="lang-fr" href="http://www.chez.com/bdandreas/ie/index.htm" />
 					</WWWsite>
 					<WWWsite>
@@ -6739,7 +6756,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 						Didier Fournet's comics museum featuring dozens of French comics authors. Has a lot of
 						interesting pictures and data you won't find elsewhere.<BR/>
 						<WWWlink language="lang-fr" href="http://bdcollection.org/Structures/Cadres/cadrevisite.html" >
-							(Select 'par auteurs' / Andréas)
+							(Select 'par auteurs' / Andr?as)
 						</WWWlink>
 					</WWWsite>-->
 
@@ -6750,7 +6767,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 						<WWWlink language="lang-en" href="http://www.geocities.com/buckyballc60/cap.html" />
 					</WWWsite>-->
 					<!--<WWWsite title="Andreas - Rork i inni...">
-						Seems like a great site! Contains information on all the major series, interviews and even 'Les Oubliés' in the native language! For once I wished I could read Polish!<BR/>
+						Seems like a great site! Contains information on all the major series, interviews and even 'Les Oubli?s' in the native language! For once I wished I could read Polish!<BR/>
 						<WWWlink language="lang-pl" href="http://home.elka.pw.edu.pl/~akrolak/" />
 					</WWWsite>-->
 					<!--<WWWsite title="A tribute to Andreas">
@@ -6774,7 +6791,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 						Check out their on-line Andreas forum!!<BR/>
 						<WWWlink language="lang-fr" href="http://www.bdparadisio.com/scripts/ForItems.cfm?IdSubject=1109212340" />
 					</WWWsite>
-					<WWWsite title="Bédéphiles">
+					<WWWsite title="B?d?philes">
 						Review of Descente<BR/>
 
 						<WWWlink language="lang-fr" href="http://www.multimania.com/notabene/bedefils/199805/andreas.htm" />
@@ -6828,11 +6845,10 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Article id="art_expected" title="Expected" authors="p23" persons="p1">
 			<Comment>
 
-				<TEXT title='Kurc'>
+				<TEXT title='Sherpa'>
 
-					<IMG width="23" height="17" src="resources/lang-pl.gif"/>Kurc is working on new editions of the Rork integrale and Raffington Event.<BR /><BR />
+					<IMG width="23" height="17" src="resources/lang-nl.gif"/>Dutch publisher Sherpa announced <AH href="https://andreasmartens.wordpress.com/2022/10/19/eindelijk-the-art-of-andreas/" target="_blank">The Art of Andreas</AH>, a tribute album with many new plates, to appear in three editions, in three languages (nl, en, fr?). Expected end March.<BR /><BR />
 
-					Check <AH href='http://www.kurc.com.pl/pl,20,artykul-tytuly-0-65-0.html' target='_blank'>Wydawnictwo KURC</AH><BR /><BR />
 				</TEXT>
 
 			</Comment>
@@ -6840,15 +6856,15 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 
 		<Image showAt="p1" file="photo_Andreas.jpg" width="295" height="371" title="Andreas" />
 		<Image showAt="p1" file="andreas_2006.jpg" width="165" height="201" title="Andreas" />
-		<Image showAt="p2" file="photo_Riviere.jpg" width="200" height="251" title="François Rivière" />
-		<Image showAt="p4" file="photo_Duchateaux.jpg" width="200" height="241" title="André-Paul Duchâteau" />
+		<Image showAt="p2" file="photo_Riviere.jpg" width="200" height="251" title="Fran?ois Rivi?re" />
+		<Image showAt="p4" file="photo_Duchateaux.jpg" width="200" height="241" title="Andr?-Paul Duch?teau" />
 		<Image showAt="p5" file="photo_Paape.jpg" width="200" height="260" title="Eddy Paape" />
 		<Image showAt="p6" file="photo_Greg.jpg" width="200" height="260" title="Greg" />
 		<Image showAt="p9" file="photo_Berthet.jpg" width="200" height="259" title="Philippe Berthet" />
 		<Image showAt="p10" file="photo_Cossu.jpg" width="150" height="194" title="Antonio Cossu" />
 		<Image showAt="p11" file="photo_Foerster.jpg" width="200" height="228" title="Philippe Foerster" />
-		<Image showAt="p13" file="photo_Goffaux.jpg" width="280" height="227" title="Gérard Goffaux" />
-		<Image showAt="p14" file="photo_Bezian.jpg" width="300" height="430" title="Frédéric Bézian" />
+		<Image showAt="p13" file="photo_Goffaux.jpg" width="280" height="227" title="G?rard Goffaux" />
+		<Image showAt="p14" file="photo_Bezian.jpg" width="300" height="430" title="Fr?d?ric B?zian" />
 		<Image showAt="p15" file="photo_Yann.jpg" width="150" height="201" title="Yann" />
 		<Image showAt="p21" file="photo_Lovecraft.jpg" width="200" height="263" title="H.P. Lovecraft" />
 		<Image showAt="p22" file="photo_Wrightson.jpg" width="200" height="195" title="Berni Wrightson" />
@@ -6857,14 +6873,14 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="p34" file="photo_Durieux.jpg" width="200" height="274" title="Christian Durieux" />
 		<Image showAt="p30" file="photo_Adams.jpg" width="316" height="290" title="Neal Adams" />
 		<Image showAt="p67" file="photo_Windsor-Smith.jpg" width="285" height="227" title="Barry Windsor-Smith" />
-		<Image showAt="p71" file="photo_Schuiten.jpg" width="195" height="300" title="François Schuiten" />
-		<Image showAt="p73" file="photo_Jije.jpg" width="120" height="111" title="Jijé" />
+		<Image showAt="p71" file="photo_Schuiten.jpg" width="195" height="300" title="Fran?ois Schuiten" />
+		<Image showAt="p73" file="photo_Jije.jpg" width="120" height="111" title="Jij?" />
 		<Image showAt="p74" file="photo_Sfar.jpg" width="150" height="173" title="Joann Sfar" />
 		<Image showAt="p75" file="photo_Trondheim.jpg" width="150" height="211" title="Lewis Trondheim" />
         <Image showAt="p77" file="photo_leiber.jpg" width="250" height="319" title="Fritz Leiber (1910 - 1992)" />
         <Image showAt="p78" file="photo_Corbeyran.jpg" width="150" height="250" title="Corbeyran" />
         <Image showAt="p79" file="photo_isa_cochet.jpg" width="640" height="480" title="Isa Cochet" />
-        <Image showAt="p92" file="photo_Franquin.jpg" width="330" height="220" title="André Franquin" />
+        <Image showAt="p92" file="photo_Franquin.jpg" width="330" height="220" title="Andr? Franquin" />
 		<Image showAt="p93" file="photo_Breccia.jpg" width="200" height="274" title="Alberto Breccia" />
 
 
@@ -6881,13 +6897,13 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="s49" file="story_janeeyre.jpg" width="620" height="760" title="First page. Thanks to an anonimous submitter." />
 		<Image showAt="s56" file="story_monster.jpg" width="286" height="423" />
 		<Image showAt="s72" file="story_azteca.jpg" width="500" height="704" />
-		<Image showAt="s73" file="story_delcourt.jpg" width="667" height="879" title="Il ne m'ont pas écouté. Sent in by Pierre Loubere." />
+		<Image showAt="s73" file="story_delcourt.jpg" width="667" height="879" title="Il ne m'ont pas ?cout?. Sent in by Pierre Loubere." />
 		<Image showAt="s80 p9" file="photo_filbert.jpg" width="150" height="338" title="Filbert, in the story 'Fleur'" />
 		<Image showAt="s80 p11" file="photo_foster.jpg" width="150" height="333" title="Foster, in the story 'Fleur'" />
 		<Image showAt="s80 p10" file="photo_antonio.jpg" width="150" height="333" title="Antonio, in the story 'Fleur'" />
 		<Image showAt="s80 p13" file="photo_gergof.jpg" width="150" height="342" title="Gergof, in the story 'Fleur'" />
 		<Image showAt="s114 series8" file="story_auteurs_mechants.jpg" width="1066" height="1391" title="Andreas and Durieux explain the secret of their collaboration. Thanks to Pierre Loubere." />
-		<Image showAt="s117" file="story_pourquoi.jpg" width="800" height="1159" title="Pourquoi j'aime la bande dessinée. Thanks to Pierre Loubere" />
+		<Image showAt="s117" file="story_pourquoi.jpg" width="800" height="1159" title="Pourquoi j'aime la bande dessin?e. Thanks to Pierre Loubere" />
 		<Image showAt="s118" file="illustration_television.jpg" width="558" height="768" title="Civilisation television. Thanks to Pierre Loubere" />
 
 		<Image showAt="i1" file="kuifje vpl 7847.jpg" width="500" height="683" title="Cover of Kuifje 1978-47. Thanks to Hans Heltzel.">
@@ -6989,10 +7005,10 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i32" file="mag_reve_1995.jpg" width="629" height="817" >
 			<Thumbnail file="mag_reve_1995.gif" width="75" height="100"/>
 		</Image>
-        <Image showAt="i33" file="illustration_tao_1.jpg" width="419" height="600" title="Appeared in TAO number 3, Caen 1996. Thanks to René Derosne.">
+        <Image showAt="i33" file="illustration_tao_1.jpg" width="419" height="600" title="Appeared in TAO number 3, Caen 1996. Thanks to Ren? Derosne.">
             <Thumbnail file="illustration_tao_1.jpg" width="70" height="100"/>
         </Image>
-        <Image showAt="i34" file="illustration_tao_2.jpg" width="369" height="600" title="Appeared in TAO number 3, Caen 1996. Thanks to René Derosne.">
+        <Image showAt="i34" file="illustration_tao_2.jpg" width="369" height="600" title="Appeared in TAO number 3, Caen 1996. Thanks to Ren? Derosne.">
             <Thumbnail file="illustration_tao_2.jpg" width="62" height="100"/>
         </Image>
         <Image showAt="i35" file="portfolio_messagere.jpg" width="437" height="576">
@@ -7035,10 +7051,10 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i49" file="misc_patrick.jpg" width="700" height="930" title="This odd picture Andreas made for me in 1995 on the Stripdriedaagse of Breda.">
 			<Thumbnail file="misc_patrick.jpg" width="75" height="100"/>
 		</Image>
-		<Image showAt="i50" file="misc_michel.jpg" width="495" height="662" title="Pour Michel. Thanks to Benoît Lintanf (and Quentin Gausset).">
+		<Image showAt="i50" file="misc_michel.jpg" width="495" height="662" title="Pour Michel. Thanks to Beno?t Lintanf (and Quentin Gausset).">
 			<Thumbnail file="misc_michel.jpg" width="80" height="107"/>
 		</Image>
-		<Image showAt="i51" file="misc_benoit.jpg" width="516" height="709" title="Pour Benoît. Thanks to Benoît Lintanf (and Quentin Gausset).">
+		<Image showAt="i51" file="misc_benoit.jpg" width="516" height="709" title="Pour Beno?t. Thanks to Beno?t Lintanf (and Quentin Gausset).">
 			<Thumbnail file="misc_benoit.jpg" width="80" height="104"/>
 		</Image>
 		<Image showAt="i52" file="misc_monographie.jpg" width="261" height="349" title="Ex-libris in 'La monographie'. Thanks to Quentin Gausset.">
@@ -7050,7 +7066,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i54" file="misc_swof_rork.jpg" width="273" height="403" title="Ex-libris Rork published by Swof (2000). Thanks to Quentin Gausset.">
 			<Thumbnail file="misc_swof_rork.jpg" width="80" height="118"/>
 		</Image>
-		<Image showAt="i55" file="misc_lumiere.jpg" width="150" height="508" title="Bookmark for Lumière d'étoile. Thanks to Quentin Gausset.">
+		<Image showAt="i55" file="misc_lumiere.jpg" width="150" height="508" title="Bookmark for Lumi?re d'?toile. Thanks to Quentin Gausset.">
 			<Thumbnail file="misc_lumiere.jpg" width="63" height="120"/>
 		</Image>
 		<Image showAt="i56" file="misc_swof_capricorne.jpg" width="252" height="334" title="Ex-libris Capricorne published by Swof . Thanks to Quentin Gausset.">
@@ -7065,10 +7081,10 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i58" file="album_catalogue_delcourt.jpg" width="530" height="732" title="Frontpage of Delcourt's 1999 catalogue. Thanks to Quentin Gausset.">
 			<Thumbnail file="album_catalogue_delcourt.jpg" width="80" height="110"/>
 		</Image>
-		<Image showAt="i59" file="misc_jeanfrancois.jpg" width="582" height="210" title="Pour Jean-François. Thanks to Jean-François Chanson (and Quentin Gausset).">
+		<Image showAt="i59" file="misc_jeanfrancois.jpg" width="582" height="210" title="Pour Jean-Fran?ois. Thanks to Jean-Fran?ois Chanson (and Quentin Gausset).">
 			<Thumbnail file="misc_jeanfrancois.jpg" width="80" height="74"/>
 		</Image>
-		<Image showAt="i60" file="misc_bookmark_jeanfrancois.jpg" width="650" height="139" title="Bookmark. Thanks to Jean-François Chanson (and Quentin Gausset).">
+		<Image showAt="i60" file="misc_bookmark_jeanfrancois.jpg" width="650" height="139" title="Bookmark. Thanks to Jean-Fran?ois Chanson (and Quentin Gausset).">
 			<Thumbnail file="misc_bookmark_jeanfrancois.jpg" width="90" height="35"/>
 		</Image>
 		<Image showAt="i61" file="album_retour_lombard_bookmark.jpg" width="250" height="2056" title="Bookmark of the french edition of 'Retour'. Published by comics bookstore Forbidden Worlds, Brussels, 1993. 150 Copies. Thanks to an anonimous submitter.">
@@ -7103,7 +7119,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i70 as5" file="album_retcromwell_sherpa_exlibris.jpg" width="365" height="566" title="Ex-libris 'Le retour de Cromwell Stone' Sherpa. Sent in by an anonimous submitter." >
 			<Thumbnail file="album_retcromwell_sherpa_exlibris.jpg" width="64" height="100"/>
 		</Image>
-		<Image showAt="i71" file="album_derives_blitz_exlibris.jpg" width="368" height="525" title="Ex-libres 'Dérives' (a plate from the album) published by Blitz, 1992. 150 Copies. Sent in by an anonimous submitter." >
+		<Image showAt="i71" file="album_derives_blitz_exlibris.jpg" width="368" height="525" title="Ex-libres 'D?rives' (a plate from the album) published by Blitz, 1992. 150 Copies. Sent in by an anonimous submitter." >
 			<Thumbnail file="album_derives_blitz_exlibris.jpg" width="70" height="100"/>
 		</Image>
 		<Image showAt="i72" file="album_cromwell_alpha_exlibris.jpg" width="371" height="516" title="Ex-libres 'Cromwell Stone' Alpha Comics verlag gmbh, 1993. 100 Copies. Sent in by an anonimous submitter." >
@@ -7113,7 +7129,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 			<Thumbnail file="misc_newyearscard_1989.jpg" width="100" height="70"/>
 		</Image>
 		<Image showAt="i73" file="illustration_zozolala_43.jpg" width="600" height="429" title="From Zozolala 43. Sent in by Tom Verschueren." />
-		<Image showAt="i74" file="misc_boyscouts_1989.jpg" width="339" height="1000" title="From the 1989 Calendar for Fédération des Scouts Catholiques de Belgique. Sent in by Didier Crick." >
+		<Image showAt="i74" file="misc_boyscouts_1989.jpg" width="339" height="1000" title="From the 1989 Calendar for F?d?ration des Scouts Catholiques de Belgique. Sent in by Didier Crick." >
 			<Thumbnail file="misc_boyscouts_1989.jpg" width="64" height="100"/>
 		</Image>
 
@@ -7159,13 +7175,13 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 			<Thumbnail file="misc_exlibris_cromwellstone_bgevaar.jpg" width="66" height="100"/>
 		</Image>
 		<Image showAt="i85" file="illustration_cromwellstone_bgevaar.jpg" width="348" height="474" title="Illustration 'Cromwell Stone' B-gevaar. Thanks to M. Bezuijen."/>
-		<Image showAt="i86" file="misc_fred.jpg" width="400" height="548" title="Pour Fred. - Angoulême - January 1995">
+		<Image showAt="i86" file="misc_fred.jpg" width="400" height="548" title="Pour Fred. - Angoul?me - January 1995">
 			<Thumbnail file="misc_fred.jpg" width="73" height="100"/>
 		</Image>
-		<Image showAt="i87" file="misc_envelope_cat.jpg" width="300" height="447" title="Picture on envelope. Angoulême - January 1997">
+		<Image showAt="i87" file="misc_envelope_cat.jpg" width="300" height="447" title="Picture on envelope. Angoul?me - January 1997">
 			<Thumbnail file="misc_envelope_cat.jpg" width="67" height="100"/>
 		</Image>
-		<Image showAt="i88" file="misc_dams.jpg" width="720" height="830" title="Pour Dams. Angoulême - January 1998">
+		<Image showAt="i88" file="misc_dams.jpg" width="720" height="830" title="Pour Dams. Angoul?me - January 1998">
 			<Thumbnail file="misc_dams.jpg" width="87" height="100"/>
 		</Image>
 		<Image showAt="i89" file="misc_exlibris_aladin_rork.jpg" width="500" height="701" title="Ex-libris comics shop Aladin. Sent in by an anonimous submitter.">
@@ -7174,7 +7190,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i90" file="misc_exlibris_1.jpg" width="351" height="700" title="Ex-libris. Sent in by an anonimous submitter.">
 			<Thumbnail file="misc_exlibris_1.jpg" width="60" height="120"/>
 		</Image>
-		<Image showAt="i91" file="misc_postcard_revelations.jpg" width="472" height="674" title="Postcard Révélations posthumes. Sent in by an anonimous submitter.">
+		<Image showAt="i91" file="misc_postcard_revelations.jpg" width="472" height="674" title="Postcard R?v?lations posthumes. Sent in by an anonimous submitter.">
 			<Thumbnail file="misc_postcard_revelations.jpg" width="75" height="107"/>
 		</Image>
 		<Image showAt="i92" file="misc_poster_quai1.jpg" width="525" height="799" title="Poster Festival Quai Des Bulles. Sent in by an anonimous submitter.">
@@ -7237,7 +7253,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i108" file="misc_wallpaper_lombard_4.jpg" width="350" height="263" title="Two more wallpapers. Thanks to Tom Verschueren." />
 		<Image showAt="i108" file="misc_wallpaper_lombard_5.jpg" width="350" height="263" />
 		<Image showAt="i108" file="misc_wallpaper_lombard_cap.jpg" width="350" height="263" title="And yet more wallpapers. Thanks, Pierre Loubere." />
-		<Image showAt="i108" file="misc_wallpaper_lombard_fire.jpg" width="350" height="263" title="J'ai payé ma dette, Capricorne! ..." />
+		<Image showAt="i108" file="misc_wallpaper_lombard_fire.jpg" width="350" height="263" title="J'ai pay? ma dette, Capricorne! ..." />
 			
 		<Image showAt="i109" file="misc_cappostcard1.jpg" width="350" height="300" title="A series of e-cards. They can be sent from the Lombard website. Thanks to M. Bezuijen.">
 			<Thumbnail file="misc_cappostcard1.jpg" width="100" height="85"/>
@@ -7299,7 +7315,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i126" file="image_signe_2.jpg" width="600" height="825" title="Two men facing large demons; gunfight; thanks to Pierre Loubere">
 			<Thumbnail file="image_signe_2.jpg" width="73" height="100"/>
 		</Image>
-		<Image showAt="i127" file="image_lombard_60ans.jpg" width="800" height="989" title="Le Lombard 60 ans après - Andreas; thanks to Pierre Loubere">
+		<Image showAt="i127" file="image_lombard_60ans.jpg" width="800" height="989" title="Le Lombard 60 ans apr?s - Andreas; thanks to Pierre Loubere">
 			<Thumbnail file="image_lombard_60ans.jpg" width="81" height="100"/>
 		</Image>
 		<Image showAt="i128" file="illustration_dragon.jpg" width="800" height="504" title="Dragon. Thanks to an incognito.">
@@ -7323,7 +7339,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i134" file="illustration_rork_fan.jpg" width="444" height="939" title="Illustration of Rork for a fan. Thanks to Pierre Loubere">
 			<Thumbnail file="illustration_rork_fan.jpg" width="47" height="100"/>
 		</Image>
-		<Image showAt="i135" file="illustration_nibelungen.jpg" width="800" height="1099" title="Cover design for 'Légende des Nibelungen'. Thanks to Pierre Loubere">
+		<Image showAt="i135" file="illustration_nibelungen.jpg" width="800" height="1099" title="Cover design for 'L?gende des Nibelungen'. Thanks to Pierre Loubere">
 			<Thumbnail file="illustration_nibelungen.jpg" width="73" height="100"/>
 		</Image>
 		<Image showAt="i136" file="illustration_georges.jpg" width="800" height="1101" title="Saint Georges. Drawing for a friend. Thanks to Pierre Loubere">
@@ -7377,7 +7393,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i152" file="mag_comics_lit.jpg" width="288" height="400" title="Comics Lit #11. Thanks to Pierre Loubere.">
 			<Thumbnail file="mag_comics_lit.jpg" width="72" height="100"/>
 		</Image>
-		<Image showAt="i153" file="intro_maitre.jpg" width="800" height="1032" title="Maître Andreas. Thanks to Pierre Loubere.">
+		<Image showAt="i153" file="intro_maitre.jpg" width="800" height="1032" title="Ma?tre Andreas. Thanks to Pierre Loubere.">
 			<Thumbnail file="intro_maitre.jpg" width="78" height="100"/>
 		</Image>
 		<Image showAt="i154" file="bookmarks_monographie_1.jpg" width="300" height="1209" title="Bookmark Monographie. Thanks to Pierre Loubere.">
@@ -7423,7 +7439,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i167" file="dedi_frederic_ball_89.jpg" width="842" height="716" title="Thanks to Wim Dewilde.">
 			<Thumbnail file="dedi_frederic_ball_89.jpg" width="100" height="85"/>
 		</Image>
-		<Image showAt="i168" file="dedi_guy_81.jpg" width="554" height="559" title="Pour Guy, ces vieilles photographies en noir et blanc. En toute amitié. Thanks to Wim Dewilde.">
+		<Image showAt="i168" file="dedi_guy_81.jpg" width="554" height="559" title="Pour Guy, ces vieilles photographies en noir et blanc. En toute amiti?. Thanks to Wim Dewilde.">
 			<Thumbnail file="dedi_guy_81.jpg" width="99" height="100"/>
 		</Image>
 		<Image showAt="i169" file="dedi_jurry_86.jpg" width="500" height="566" title="Thanks to Wim Dewilde.">
@@ -7718,6 +7734,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i265" file="chinese_wall.jpg" width="555" height="312" title="Was for sale at Huberty &amp; Breyne Gallery">
 			<Thumbnail file="chinese_wall.jpg" width="100" height="56"/>
 		</Image>
+		<Image showAt="i266" file="newyear-2022.jpg" width="600" height="1173">
+			<Thumbnail file="newyear-2022.jpg" width="51" height="100"/>
+		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />
 		<Image showAt="mag1" file="tintin_1978_47.jpg" width="200" height="280" title="Tintin 1978, number 47" />
@@ -7728,13 +7747,13 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="mag1" file="kuifje_1987_25.jpg" width="200" height="280" title="Kuifje 1987, number 25" />
 		<Image showAt="mag1" file="tintin_1987_25.jpg" width="200" height="280" title="Tintin 1987, number 25" />
 		<Image showAt="mag1" file="kuifje_1990_40.jpg" width="200" height="280" title="Kuifje 1990, number 40" />
-		<Image showAt="mag1" file="hello_bd_1990_40.jpg" width="200" height="280" title="Hello Bédé 1990, number 40" />
+		<Image showAt="mag1" file="hello_bd_1990_40.jpg" width="200" height="280" title="Hello B?d? 1990, number 40" />
 		<Image showAt="mag1" file="kuifje_1992_27.jpg" width="200" height="280" title="Kuifje 1992, number 27" />
-		<Image showAt="mag1" file="hello_bd_1992_27.jpg" width="200" height="280" title="Hello Bédé 1992, number 27" />
-		<Image showAt="mag1" file="hello_bd_1993_3.jpg" width="200" height="280" title="Hello Bédé 1993, number 3" />
+		<Image showAt="mag1" file="hello_bd_1992_27.jpg" width="200" height="280" title="Hello B?d? 1992, number 27" />
+		<Image showAt="mag1" file="hello_bd_1993_3.jpg" width="200" height="280" title="Hello B?d? 1993, number 3" />
 		<Image showAt="mag1" file="kuifje_1993_8.jpg" width="200" height="280" title="Kuifje 1993, number 8" />
 		<Image showAt="mag1" file="kuifje_1993_16.jpg" width="200" height="280" title="Kuifje 1993, number 16" />
-		<Image showAt="mag1" file="hello_bd_1993_16.jpg" width="200" height="280" title="Hello Bédé 1993, number 16" />
+		<Image showAt="mag1" file="hello_bd_1993_16.jpg" width="200" height="280" title="Hello B?d? 1993, number 16" />
 		<Image showAt="mag3" file="mag_curiosity_13.jpg" width="350" height="485" title="Curiosity #13. Thanks to Pierre Loubere." />
 		
 		<Image showAt="mag10" file="mag_viper_1.jpg" width="400" height="567" title="Cover of Viper #1, 1981. Thanks to Pierre Loubere." />
@@ -7749,7 +7768,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="mag23" file="mag_brazil_1.jpg" width="350" height="486" title="Thanks to Pierre Loubere" />
 		<Image showAt="mag33" file="mag_solaris_72.jpg" width="152" height="200" title="Thanks to Pierre Loubere" />
 		<Image showAt="mag27" file="mag_circus_37.jpg" width="350" height="485" title="Thanks to Pierre Loubere" />
-		<Image showAt="mag39" file="mag_era21_triangle.jpg" width="639" height="520" title="&#x010C;ervený Trojúhelník. Thanks to Tomá&#x0161; Prok&#x016F;pek." />
+		<Image showAt="mag39" file="mag_era21_triangle.jpg" width="639" height="520" title="&#x010C;erven? Troj?heln?k. Thanks to Tom?&#x0161; Prok&#x016F;pek." />
 		<Image showAt="mag45" file="mag_onapratut.jpg" width="350" height="496" title="Onapratut magazine #5. Thanks to Pierre Loubere." />
 		<Image showAt="mag48" file="mag_otrante_cover.jpg" width="500" height="725" title="The cover of Otrante magazine #13. Thanks to Pierre Loubere." />
 		<Image showAt="mag48" file="mag_otrante_back.jpg" width="500" height="725" title="The back of Otrante magazine #13. Thanks to Pierre Loubere." />
@@ -7820,7 +7839,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="al44" file="album_object_lombard_1997.jpg" width="287" height="400" />
 		<Image showAt="al45" file="album_electricite_lombard_1997.jpg" width="286" height="400" />
 		<Image showAt="al46" file="album_deliah_lombard_1997.jpg" width="287" height="400" />
-		<Image showAt="al54" file="album_president_3_lombard.jpg" width="400" height="546" title="Thanks to Mikaël Deveaux" />
+		<Image showAt="al54" file="album_president_3_lombard.jpg" width="400" height="546" title="Thanks to Mika?l Deveaux" />
 		<Image showAt="al55" file="album_reve_lombard.jpg" width="450" height="608" title="Thanks to Ghislain de Cadoudal, Pascal Batigne and Wim Dewilde." />
 		<Image showAt="al56" file="album_operation_lombard.jpg" width="450" height="620" title="Thanks to Alex Koppert." />
 		<Image showAt="al57" file="album_newyork_lombard.jpg" width="400" height="571" title="Thanks to Pascal Batigne." />
@@ -7839,6 +7858,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="al70" file="album_capricorne_integrale3_lombard.jpg" width="600" height="806" />
 		<Image showAt="al71" file="album_capricorne_integrale4_lombard.jpg" width="600" height="806" />
 		<Image showAt="al72" file="album_styx_lombard_fr2.jpg" width="600" height="806" />
+		<Image showAt="al73" file="album_rencontres_obliques_lombard_fr.jpg" width="475" height="477" />
 		<Image showAt="aj1" file="album_rork_jonas.jpg" width="350" height="459" />
 		<Image showAt="l1" file="album_carte_l.jpg" width="350" height="480" />
 
@@ -7948,7 +7968,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="adc29" file="coffret_cromwell_delcourt.jpg" width="800" height="500" title="Thanks to an anonimous submitter" />
 		<Image showAt="adc29" file="coffret_cromwell_delcourt_1.jpg" width="400" height="557" />
 		<Image showAt="adc29" file="coffret_cromwell_delcourt_2.jpg" width="400" height="557" />
-		<Image showAt="adc30" file="album_pourquoi_delcourt.jpg" width="400" height="563" title="Thanks to Mikaël Deveaux" />
+		<Image showAt="adc30" file="album_pourquoi_delcourt.jpg" width="400" height="563" title="Thanks to Mika?l Deveaux" />
 		<Image showAt="adc31" file="album_maitre_delcourt.jpg" width="400" height="478" title="Thanks to Ghislain de Cadoudal." />
 		<Image showAt="adc32" file="album_mission_delcourt.jpg" width="400" height="536" title="Thanks to Pascal Batigne." />
 		<Image showAt="adc33" file="album_detectives_delcourt.jpg" width="400" height="646" />
@@ -7994,7 +8014,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="atw2" file="album_passages_twoj.jpg" width="350" height="479" title="Scan by Paul Zamarlo."/>
 		<Image showAt="atw3" file="album_cimetiere_twoj.jpg" width="350" height="476" title="Scan by Paul Zamarlo."/>
 		<Image showAt="atw4" file="album_lumiere_twoj.jpg" width="435" height="597" title="Scan by Paul Zamarlo."/>
-		<Image showAt="atw5" file="album_capricorne_twoj.jpg" width="350" height="473" title="Thanks to Micha&#x0142; Antosiewicz of Twój Komiks."/>
+		<Image showAt="atw5" file="album_capricorne_twoj.jpg" width="350" height="473" title="Thanks to Micha&#x0142; Antosiewicz of Tw?j Komiks."/>
 		<Image showAt="atw6" file="album_descente_twoj.jpg" width="300" height="408" title="Thanks to Tom Verschueren."/>
 		<Image showAt="axyz1" file="album_ambition_xyz.jpg" width="596" height="899" title="The authors are Philippe Sohet and Yves Lacroix."/>
 		<Image showAt="asso1" file="album_comix2000_asso.jpg" width="350" height="522" title="Scan by Julien Mudry." />
@@ -8052,7 +8072,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="cfsl1" file="album_magnitude9.jpg" width="476" height="600" title="For the victims of the 2011 Japanese earthquake and tsunami." />
 
 		<Image showAt="art9" file="art_pirate.jpg" width="800" height="1145" title="Thanks to Pierre Loubere." />
-		<Image showAt="art11" file="art_nouveaux.jpg" width="800" height="1112" title="Andréas and Rivière. Thanks to Pierre Loubere." />
+		<Image showAt="art11" file="art_nouveaux.jpg" width="800" height="1112" title="Andr?as and Rivi?re. Thanks to Pierre Loubere." />
 		<Image showAt="art12" file="Kuifje int 8345.jpg" width="837" height="1212" title="Thanks to Hans Heltzel." />
 		<Image showAt="art13" file="Kuifje int 8403.jpg" width="694" height="1018" title="Thanks to Hans Heltzel." />
 		<Image showAt="art16a" file="article_stripschrift_198.jpg" width="600" height="887" title="Thanks to Tom Verschueren." />
