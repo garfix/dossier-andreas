@@ -30,13 +30,13 @@
 	<PageType id="stories" name="Stories" tag="Story" />
 	<PageType id="series" name="Series" tag="Series" />
 	<PageType id="articles" name="Articles" tag="Article" />
-	<PageType id="magazines" name="by Magazine" tag="Magazine" />
-	<PageType id="publishers" name="by Publisher" tag="Publisher" />
+	<PageType id="magazines" name="Magazine" tag="Magazine" />
+	<PageType id="publishers" name="Publisher" tag="Publisher" />
 	<PageType id="illustrations" name="Illustrations" tag="Illustration" />
 	<PageType id="indexes" name="Indexes" tag="Indexes" />
 	<PageType id="years" name="Chronology" tag="Year" />
-	<PageType id="language" name="by Language" tag="Language" />
-	<PageType id="persons" name="Persons" tag="Person" />
+	<PageType id="language" name="Language" tag="Language" />
+	<PageType id="persons" name="Person" tag="Person" />
 	<PageType id="photos" name="Photos" tag="Photo" />
 
 	<Year id="y1945"/>
@@ -54,7 +54,7 @@
 	<Year id="y2005"/><Year id="y2006"/><Year id="y2007"/><Year id="y2008"/><Year id="y2009"/>
 	<Year id="y2010"/><Year id="y2011"/><Year id="y2012"/><Year id="y2013"/><Year id="y2014"/>
 	<Year id="y2015"/><Year id="y2016"/><Year id="y2017"/><Year id="y2018"/><Year id="y2019"/>
-	<Year id="y2020"/><Year id="y2021"/><Year id="y2022"/>
+	<Year id="y2020"/><Year id="y2021"/><Year id="y2022"/><Year id="y2023"/>
 
 	<Language id="lang-fr" name="French" />
 	<Language id="lang-nl" name="Dutch" />
@@ -668,6 +668,7 @@
 		<Illustration id="i264" drawings="p1" colorist="p79" year="y2021" description="Rork before graffiti wall" tags="plate" />
 		<Illustration id="i265" drawings="p1" colorist="p79" year="y2019" description="Chinese wall" tags="plate" />
 		<Illustration id="i266" drawings="p1" year="y2022" description="Quelle bonne année!" tags="wish" />
+		<Illustration id="i267" drawings="p1" year="y2023" description="Bonne année!" tags="wish" />
 		
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -7737,6 +7738,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		</Image>
 		<Image showAt="i266" file="newyear-2022.jpg" width="600" height="1173">
 			<Thumbnail file="newyear-2022.jpg" width="51" height="100"/>
+		</Image>
+		<Image showAt="i267" file="bonne-annee-2023.jpg" width="1013" height="959">
+			<Thumbnail file="bonne-annee-2023.jpg" width="100" height="95"/>
 		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />
