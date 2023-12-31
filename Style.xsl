@@ -14,10 +14,10 @@
     <xsl:variable name="personIllustrations" select="//Illustration[xt:intersection(id(@drawings), id($person-id))]" />
     <xsl:variable name="personArticles" select="//Article[xt:intersection(id(@persons), id($person-id))]" />
     <xsl:variable name="personAlbums"
-        select="//Album[xt:intersection(id(@stories), ($personStories)) | xt:intersection(id(@illustrations), ($personIllustrations)) | xt:intersection(id(@articles), ($personArticles))]" />
+        select="//Album" />
     <xsl:variable name="personSeries"
         select="//Series[xt:intersection(id(@stories), ($personStories))]" />
-    <xsl:variable name="personAlbumEditions" select="//AlbumEdition[xt:intersection(id(@album), ($personAlbums))]" />
+    <xsl:variable name="personAlbumEditions" select="//AlbumEdition" />
     <xsl:variable name="personMagazines"
         select="//Magazine[xt:intersection(id(MagazineItem/@idref), ($personStories) | ($personIllustrations) | ($personArticles))]" />
     <xsl:variable name="personPublishers"
