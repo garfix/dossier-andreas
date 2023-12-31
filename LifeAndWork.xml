@@ -54,7 +54,7 @@
 	<Year id="y2005"/><Year id="y2006"/><Year id="y2007"/><Year id="y2008"/><Year id="y2009"/>
 	<Year id="y2010"/><Year id="y2011"/><Year id="y2012"/><Year id="y2013"/><Year id="y2014"/>
 	<Year id="y2015"/><Year id="y2016"/><Year id="y2017"/><Year id="y2018"/><Year id="y2019"/>
-	<Year id="y2020"/><Year id="y2021"/><Year id="y2022"/><Year id="y2023"/>
+	<Year id="y2020"/><Year id="y2021"/><Year id="y2022"/><Year id="y2023"/><Year id="y2024"/>
 
 	<Language id="lang-fr" name="French" />
 	<Language id="lang-nl" name="Dutch" />
@@ -1059,6 +1059,8 @@
 				stories="s142" />
 		<Album id="a129" title="Rencontres obliques" year="y2018"
 				stories="s143" />
+		<Album id="a130" title="The art of Andreas" year="y2023" 
+                />
 
 		<Series id="series1" title="Rork" stories="s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s17 s18 s12 s19 s13 s14 s15 s16 s128" />
 		<Series id="series2" title="Capricorne" stories="s60 s61 s62 s63 s64 s87 s91 s94 s102 s104 s107 s111 s115 s120 s122 s124 s127 s129 s132 s134 s135" />
@@ -1226,6 +1228,10 @@
 		<AlbumEdition id="as58" album="a113" year="y2017" language="lang-nl" />
 		<AlbumEdition id="as59" album="a114" year="y2017" language="lang-nl" title="Meester" />
 		<AlbumEdition id="as60" album="a118" year="y2018" language="lang-nl" title="Afdwalingen" isbn="978-90-8988-146-5" />
+        <AlbumEdition id="as61" album="a130" year="y2023" language="lang-nl" isbn="ISBN 978-90-8988-271-4" />
+        <AlbumEdition id="as62" album="a130" year="y2023" language="lang-nl" isbn="ISBN 978-90-8988-272-1" />
+        <AlbumEdition id="as63" album="a130" year="y2023" language="lang-fr" title="L'Art fantastique d'Andreas" isbn="ISBN 978-90-8988-304-9" />
+        <AlbumEdition id="as64" album="a130" year="y2023" language="lang-fr" title="L'Art fantastique d'Andreas" isbn="ISBN 978-90-8988-305-6" />
 		<AlbumEdition id="adc1" album="a13" year="y1991" language="lang-fr" color="false" />
 		<AlbumEdition id="adc2" album="a13" year="y1994" language="lang-fr" color="false" />
 		<AlbumEdition id="adc3" album="a19" year="y1993" language="lang-fr" />
@@ -1784,7 +1790,7 @@
 		<Publisher id="pub7" name="Bédérama" address="Paris (F)"
 			albumEditions="ab1" />
 		<Publisher id="pub8" name="Sherpa" address="Wederik 8, 1902 JH Castricum (NL)"
-			albumEditions="as1 as2 as3 as4 as5 as6 as7 as8 as9 as10 as11 as12 as13 as14 as15 as16 as17 as18 as20 as21 as22 as23 as24 as25 as26 as27 as28 as29 as30 as31 as32 as33 as34 as35 as36 as37 as38 as39 as40 as41 as42 as43 as44 as45 as46 as47 as48 as49 as50 as51 as52 as53 as54 as55 as56 as57 as58 as59 as60"/>
+			albumEditions="as1 as2 as3 as4 as5 as6 as7 as8 as9 as10 as11 as12 as13 as14 as15 as16 as17 as18 as20 as21 as22 as23 as24 as25 as26 as27 as28 as29 as30 as31 as32 as33 as34 as35 as36 as37 as38 as39 as40 as41 as42 as43 as44 as45 as46 as47 as48 as49 as50 as51 as52 as53 as54 as55 as56 as57 as58 as59 as60 as61 as62 as63 as64"/>
 		<Publisher id="pub9" name="Delcourt" address="Paris (F)"
 			magazines="mag41"
 			albumEditions="adc1 adc2 adc3 adc4 adc5 adc6 adc7 adc8 adc9 adc10 adc11 adc12 adc13 adc14 adc15 adc16 adc17 adc18 adc19 adc20 adc21 adc22 adc23 adc24 adc25 adc26 adc27 adc28 adc29 adc30 adc31 adc32 adc33 adc34 adc35 adc36 adc37 adc38 adc39 adc40" />
@@ -2163,6 +2169,12 @@
 		
 		
 		<Comment showAt="changes">
+			<TEXT>
+				<TITLE>31 December 2023</TITLE>
+
+				Sherpa published <REF ref="a130" />.<BR/><BR/>
+			</TEXT>
+
 			<TEXT>
 				<TITLE>29 December 2022</TITLE>
 
@@ -6846,12 +6858,14 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Article id="art_expected" title="Expected" authors="p23" persons="p1">
 			<Comment>
 
-				<TEXT title='Sherpa'>
+				<!-- <TEXT title='Sherpa'>
 
 					<IMG width="23" height="17" src="resources/lang-nl.gif"/>Dutch publisher Sherpa announced <AH href="https://andreasmartens.wordpress.com/2022/10/19/eindelijk-the-art-of-andreas/" target="_blank">The Art of Andreas</AH>, a tribute album with many new plates, to appear in multiple editions (? uncertain)<BR /><BR />
 
-				</TEXT>
-
+				</TEXT> -->
+                <TEXT>
+                    No albums expected. If you know of one, I would like to hear about it :)
+                </TEXT>
 
 			</Comment>
 		</Article>
@@ -7937,6 +7951,10 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="as58" file="album_terminus_sherpa.jpg" width="550" height="739" />
 		<Image showAt="as59" file="album_maitre2_sherpa.jpg" width="550" height="738"/>
 		<Image showAt="as60" file="album_derives_sherpa.jpg" width="350" height="490"/>
+		<Image showAt="as61" file="album_taoa_nl.jpg" width="600" height="792"/>
+        <Image showAt="as62" file="album_taoa_nl_luxe.jpg" width="600" height="792" title="Ultra limited collectors edition" />
+        <Image showAt="as63" file="album_taoa_fr.jpg" width="600" height="792"/>
+        <Image showAt="as64" file="album_taoa_fr_luxe.jpg" width="600" height="792" title="Ultra limited collectors edition" />
 		<Image showAt="a59" file="album_vergetenen_sherpa2.gif" width="350" height="501" />
 		<Image showAt="a59" file="album_vergetenen_sherpa3.gif" width="350" height="500" />
 		<Image showAt="a59" file="album_vergetenen_sherpa4.gif" width="350" height="507" />

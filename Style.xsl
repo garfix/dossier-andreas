@@ -65,7 +65,7 @@
 	
     <xsl:template name="createFrameSetPage">
         <xt:document method="html" href="./site/index.html">
-            <HTML>
+            <HTML lang="en">
                 <HEAD>
                     <LINK rel="SHORTCUT ICON" href="/favicon.ico" />
 					<LINK rel="alternate" type="application/atom+xml" title="Dossier Andreas" href="http://www.dossier-andreas.net/andreas/_andreas_news.xml" />
@@ -92,7 +92,7 @@
    	<xsl:template name="createTopLeftPage">
         <xt:document method="html" href="./site/andreas/_topleft.php">
 	        <xsl:processing-instruction name='php'>session_start(); ?</xsl:processing-instruction>
-			<HTML>
+			<HTML lang="en">
 	            <HEAD>
 	            	<style>
 	            		body { background-color: #E9DECC }
@@ -108,7 +108,7 @@
 	<xsl:template name="createMenuPage">
         <xt:document method="html" href="./site/andreas/_menu.php">
             <xsl:processing-instruction name='php'>session_start(); ?</xsl:processing-instruction>
-			<HTML>
+			<HTML lang="en">
             <HEAD>
                 <LINK href="resources/stylesheet.css" type="text/css" rel="stylesheet" />
 				<LINK rel="SHORTCUT ICON" href="/favicon.ico" />
@@ -211,7 +211,7 @@
 
         <xt:document method="html" href="./site/andreas/p1_{$filename}.php">
             <xsl:processing-instruction name='php'>session_start(); ?</xsl:processing-instruction>
-			<HTML>
+			<HTML lang="en">
                 <HEAD>
                     <LINK href="resources/stylesheet.css" type="text/css" rel="stylesheet" />
 					<LINK rel="SHORTCUT ICON" href="/favicon.ico" />
