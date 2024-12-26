@@ -6,7 +6,7 @@ The "site" map also contains the directories "ai" and "software_architecture". T
 
 I have placed it online mainly to open up the data for others to use (open data). Secondly, it allows you to revive the website when I am no longer around to support it (which I hope to do for a long long time :)
 
-The core data (LifeAndWork.xml) is an xml file that contains information about the albums, stories, and images Andreas created, along with information about the editions, publishers and magazines where he was published. 
+The core data (LifeAndWork.xml) is an xml file that contains information about the albums, stories, and images Andreas created, along with information about the editions, publishers and magazines where he was published.
 
 If you want to use any of it, check the license file.
 
@@ -14,7 +14,7 @@ The project creates the many php pages of the website from just two source files
 
 ## Document root
 
-The document root of the website should be the `site` directory. 
+The document root of the website should be the `site` directory.
 
 ## Build the site
 
@@ -26,7 +26,7 @@ Execute the script
 
     ./createAndreas.bat
 
-This creates the PHP files that form the site, in`site/andreas`. 
+This creates the PHP files that form the site, in`site/andreas`.
 
 ## Etc
 

@@ -7,7 +7,7 @@
 		http://biega.com/special-char.html
 		http://character-code.com/polish-html-codes.php
 	-->
-	
+
 	<!-- Turn all images in the directory into thumbnails:
 		mogrify -resize 100x100 *.jpg
 	-->
@@ -15,12 +15,12 @@
 	<!-- Turn all photos in the directory shrunk_photos into smaller photos:
 		mogrify -resize 640x640 *.*
 	-->
-	
+
 	<!--
-		Show creation dates: 
+		Show creation dates:
 		identify -format "%i %[EXIF:DateTimeOriginal] \n" *.*
-		
-		http://www.imagemagick.org/script/escape.php	
+
+		http://www.imagemagick.org/script/escape.php
 	-->
 
 	<PageType id="main" name="Home" tag="PageType" />
@@ -160,7 +160,7 @@
 		<Person id="p92" name="Franquin" />
 		<Person id="p93" name="Breccia" />
 		<Person id="p94" name="Clarke" />
-		
+
 		<Photo id="photo1" title="Andreas drawing Rork" year="y1979" file="002_DxO.jpg" width="1566" height="1038" shrunk-width="640" shrunk-height="424" tags="home" />
 		<Photo id="photo2" title="Andreas drawing ARQ 11" year="y2007" file="6 juin 2007 (4).JPG" width="640" height="480" shrunk-width="640" shrunk-height="480" tags="home" />
 		<Photo id="photo3" title="Andreas looks up" year="y2009" file="DSC01239.JPG" width="1600" height="1200" shrunk-width="640" shrunk-height="480" tags="home" />
@@ -185,7 +185,7 @@
 		<Photo id="photo22" title="Studio with page of ARQ 13 b/w" year="y2009" file="P1000685.JPG" width="2048" height="1536" shrunk-width="640" shrunk-height="480" tags="home" />
 		<Photo id="photo23" title="Studio with page of ARQ 13 color" year="y2009" file="P1000686.JPG" width="4000" height="3000" shrunk-width="640" shrunk-height="480" tags="home" />
 		<Photo id="photo24" title="Andreas is startled" year="y2009" file="P1000692.JPG" width="2048" height="1536" shrunk-width="640" shrunk-height="480" tags="home" />
-		
+
 		<Photo id="photo25" title="Andreas and Isa ask a question" year="y2012" file="PICT6019_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
 		<Photo id="photo26" title="Andreas and Isa" year="y2012" file="PICT6020_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
 		<Photo id="photo27" title="Isa Cochet colors Alanna (Arq)" year="y2012" file="PICT6021_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
@@ -210,7 +210,7 @@
 		<Photo id="photo47" title="Andreas draws Rork - closeup" year="y2012" file="PICT6048_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
 		<Photo id="photo48" title="Isa colors Rork" year="y2012" file="PICT6049_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
 		<Photo id="photo49" title="Isa colors Rork - closeup" year="y2012" file="PICT6050_1024x768.jpg" width="1024" height="768" shrunk-width="640" shrunk-height="480" tags="signing" />
-				
+
 		<Photo id="photo50" title="Andreas at Librarie Aladin" year="y2012" file="andreas , aladin , 13-10-2012 004.jpg" width="1500" height="1125" shrunk-width="640" shrunk-height="480" tags="misc" />
 
 		<Photo id="photo51" title="Interview 1" year="y2014" file="andreas-interview-1.jpg" width="1024" height="576" shrunk-width="640" shrunk-height="360" tags="poland" />
@@ -232,7 +232,7 @@
 		<Photo id="photo67" title="Drawing pictures 9" year="y2014" file="Obraz 062.jpg" width="640" height="480" shrunk-width="640" shrunk-height="480" tags="poland" />
 		<Photo id="photo68" title="Drawing pictures 10: For Maciek" year="y2014" file="Obraz 109.jpg" width="640" height="480" shrunk-width="640" shrunk-height="480" tags="poland" />
 
-		
+
 
 		<Story id="s1" title="Un siècle pour une maison" pageCount="7" text="p1" drawings="p1" />
 		<Story id="s2" title="Point fatal" pageCount="7" text="p1" drawings="p1" />
@@ -378,7 +378,7 @@
 		<Story id="s142" title="L'argentine" drawings="p1" text="p1" colorist="p79" year="y2019" />
 
 		<Story id="s143" title="Ce matin" drawings="p94" text="p1" year="y2018" />
-		
+
 		<Tag id='intro' description="Introductions" />
 		<Tag id='cover' description="Covers" />
 		<Tag id='plate' description="Plates" />
@@ -669,7 +669,8 @@
 		<Illustration id="i265" drawings="p1" colorist="p79" year="y2019" description="Chinese wall" tags="plate" />
 		<Illustration id="i266" drawings="p1" year="y2022" description="Quelle bonne année!" tags="wish" />
 		<Illustration id="i267" drawings="p1" year="y2023" description="Bonne année!" tags="wish" />
-		
+		<Illustration id="i268" drawings="p1" year="y2024" description="Bonne année!" tags="wish" />
+
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
 			year="y1980"
@@ -826,7 +827,7 @@
 			articles="art52" />
 		<Album id="a55" title="Andreas. Une monographie"
 			year="y1998"
-			articles="art53 art54 art55 art56 art57 art58" 
+			articles="art53 art54 art55 art56 art57 art58"
 			/>
 		<Album id="a56" title="White Dust"
 			year="y2000"
@@ -1059,7 +1060,7 @@
 				stories="s142" />
 		<Album id="a129" title="Rencontres obliques" year="y2018"
 				stories="s143" />
-		<Album id="a130" title="The art of Andreas" year="y2023" 
+		<Album id="a130" title="The art of Andreas" year="y2023"
                 />
 
 		<Series id="series1" title="Rork" stories="s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s17 s18 s12 s19 s13 s14 s15 s16 s128" />
@@ -1677,7 +1678,7 @@
 		<Magazine id="mag31" title="2000+"> <!-- language??, publisher?? -->
 			<MagazineItem idref="s40"><MI year="y1992" nrs="7"/></MagazineItem>
 		</Magazine>
-		<!-- this is not a magazine; its an album: a89 <Magazine id="mag32" title="Les nouveaux petits miquets" language="lang-fr"> 
+		<!-- this is not a magazine; its an album: a89 <Magazine id="mag32" title="Les nouveaux petits miquets" language="lang-fr">
 			<MagazineItem idref="art11"><MI year="y1982" nrs="January"/></MagazineItem>
 		</Magazine>-->
 		<Magazine id="mag33" title="Solaris" language="lang-fr"> <!-- publisher?? -->
@@ -1817,7 +1818,7 @@
 		<Publisher id="pub18" name="Oranje" address="Vlasstraat 17, 8710 Wielsbeke (NL) / Waregem"
 			albumEditions="ao1 ao2 ao3" />
 		<Publisher id="pub19" name="Dargaud" address="Paris (F)"
-			magazines="mag14 mag51" 
+			magazines="mag14 mag51"
 			albumEditions="ada1 ada2" />
 		<Publisher id="pub20" name="Charlie Chaplin" address="Le Havre (F)"
 			magazines="mag15" />
@@ -1855,7 +1856,7 @@
 		<Publisher id="pub36" name="Carlsen Verlag" address="Hamburg (D)"
 			albumEditions="acv1 acv2 acv3 acv4 acv5 acv6" />
 		<Publisher id="pub37" name="Nantier Beall Minoustchine (NBM) Publishing" address="555 8th ave., Ste.1202, New York, NY 10018 (US)"
-			albumEditions="anb1 anb2 anb3" 
+			albumEditions="anb1 anb2 anb3"
 			magazines="mag42" />
 		<Publisher id="pub38" name="Dark Horse Comics"
 			magazines="mag28" albumEditions="dh1 dh2"/>
@@ -1938,7 +1939,7 @@
        	<Publisher id="pub77" name="Kurc"
         	albumEditions='kurc1 kurc2 kurc3 kurc4 kurc5' />
 
-			
+
 	</Context>
 
 	<Comments>
@@ -1992,7 +1993,7 @@
 			The site is never finished; you are invited to bring in new
 			pictures, articles and comments, to extend it further.<BR/><BR/>
 			Enjoy!<BR/><BR/>
-			
+
 			<AH id="m" href=""><IMG width="18" height="18" border="0" src="/andreas/resources/email.gif" />E-mail me</AH> I'd like to hear from you :)
 			<BR/><BR/>
 			The source code and data of this website can be found on <AH href="https://github.com/garfix/dossier-andreas" target="_blank">Github</AH>.
@@ -2085,18 +2086,18 @@
 		</Comment>
 		<Comment showAt="y2012" authors="p23">
 			<TEXT>
-			
+
 				Andreas tours though France.<BR /><BR />
-				
-				x - 13 October: Exposition Andreas, galerie Petits Papiers, 91, rue Saint-Honoré, 75001 Paris. <AH href='www.petitspapiers.be' target='_blank'>link</AH><BR />				
+
+				x - 13 October: Exposition Andreas, galerie Petits Papiers, 91, rue Saint-Honoré, 75001 Paris. <AH href='www.petitspapiers.be' target='_blank'>link</AH><BR />
 				26 - 28 October: Exposition at comic festival Quai-des-Bulles,  Saint-Malo. <AH href='http://www.bodoi.info/news/2012-10-28/quai-des-bulles-2012-lexpo-andreas/62231' target='_blank'>Pictures of the event</AH><BR /><BR />
 
 				and Belgium.<BR /><BR />
 				1 November: Book fair Antwerpen (Andreas and Isa Cochet)<BR />
 				2 November: Book signing at B-gevaar in Brussels.<BR />
 				3 November: Album presentation and signing session at Librairie Filigranes in Brussels.<BR /><BR />
-				
-				
+
+
 			</TEXT>
 		</Comment>
 		<Comment showAt="p23" authors="p23">
@@ -2142,7 +2143,7 @@
 				<Q>By which comics authors you feel most influenced? Who are your "signposts"?</Q>
 
 <A>Chronologically: Franquin, Hermann, Moebius, Bernie Wrightson, Neal Adams, Joe Kubert, Gil Kane, Alberto Breccia. There are others, of course, but these are the most important ones. My idols remain <REF ref="p92"/> and <REF ref="p93"/>.</A>
-				
+
 			</TEXT>
 		</Comment>
 		<Comment showAt="p92">
@@ -2166,8 +2167,8 @@
 
 
 		<!-- ######### CHANGES ####### -->
-		
-		
+
+
 		<Comment showAt="changes">
 			<TEXT>
 				<TITLE>31 December 2023</TITLE>
@@ -2345,7 +2346,7 @@
 
 				In november the American publisher Titan Comics published <REF ref="a85" /> in a single volume.
 				The edition even got <AH href="https://www.youtube.com/watch?v=EkG1o-jDwwQ" target='_blank'>its own trailer</AH>, which I think is pretty awesome!<BR/>
-				Here's a <AH href="http://www.exquisiteterror.com/cromwell-stone-titan-comics-review" target='_blank'>review</AH>.<BR/><BR/>	
+				Here's a <AH href="http://www.exquisiteterror.com/cromwell-stone-titan-comics-review" target='_blank'>review</AH>.<BR/><BR/>
 
 				Le Lombard published an integral series of Capricorne in four large volumes: <REF ref="a124" /> <REF ref="a125" /> <REF ref="a126" /> <REF ref="a127" /> The last one is expected in januari.<BR/><BR/>
 
@@ -2455,40 +2456,40 @@
 			</TEXT>
 			<TEXT date="2014-12-31">
 				<TITLE>31 December 2014</TITLE>
-							
+
 				As I was informed by Jarek Chmielewski, on October 4 and 5, Andreas had a signing session and an interview together with Isa Cochet at the <AH href='http://komiksfestiwal.com/' target='_blank'>International Festival of Comics &amp; Games</AH> in &#x0141;ód&#x017a;, Poland. Here is <AH href='http://www.youtube.com/watch?v=nrgMC8a-ISY' target='_blank'>a video of the interview</AH>. Maciek Szatko sent me his three photos: <REF ref='photo66' />. Some other photos could be found on the internet: <REF ref='photo51' />.<BR /><BR />
 
 				This year, Sideca (Poland) published <REF ref='a78' />, <REF ref='a83' />, <REF ref='a86' />, <REF ref='a93' />, <REF ref='a95' />, <REF ref='a98' />, and <REF ref='a105' />. And more to come next year!<BR /><BR />
 
 				Jacek &#x15a;leszy&#x144;ski noted that <REF ref='a74' /> was published as two separate albums by Sideca: <REF ref='a110' /> and <REF ref='a111' />.<BR /><BR />
-				
+
 				Pierre Loubere sent me the scans of 5 Andreas interviews: <REF ref='art73' />, <REF ref='art74' />, <REF ref='art75' />, <REF ref='art77' /> (all in French), and <REF ref='art76' /> (in English). Wonderful!<BR /><BR />
-				
+
 				Sherpa published the first Andreas puzzle <REF ref='i185' /> (1000 pieces) and an companion <REF ref='i186' />.<BR /><BR />
-				
+
 				Andreas now has 1106 followers on Twitter.
-				
+
 			</TEXT>
 			<TEXT date="2013-12-31">
 				<TITLE>31 December 2013</TITLE>
 				Karol Wisniewski informed me that Poland has a new Andreas publisher: Sideca!<BR /><BR />
 				This year they have already published <REF ref='a57'/>, <REF ref='a63'/>, <REF ref='a66'/> and <REF ref='a74'/>, as well as <REF ref='a103'/>  In 2014 they will publish more Capricorne, Rork integral #2 and Raffington Event. See <AH href='http://alejakomiksu.com/wydawnictwa/626/Sideca/' target='_blank'>Alejakomiksu</AH><BR /><BR />
-				
+
 				2013 also was the year of <REF ref='a106'/> and <REF ref='a107'/>
-				
+
 			</TEXT>
 			<TEXT date="2013-05-08">
 			<TITLE>8 May 2013</TITLE>
 				Koen Buytaert sent me photos his wife Isabelle made of Andreas and Isa Cochet when they were signing albums in Antwerp last year.
 				This unique series of the artists at work can be found in the <B>Photos</B> section, starting with <REF ref='photo25' /><BR /><BR />
 				He also showed the dedicace that Andreas drew for them: <REF ref='i180' /><BR /><BR />
-				
+
 				Andreas had an exposition, called <AH href='http://www.bdangouleme.com/94,les-arcanes-d-andreas' target='_blank'>Les arcanes d'Andreas</AH>, at the Festival International de la BD at Angoulême:
 				<ul>
 					<li><AH href='http://www.youtube.com/watch?v=zsip7qaobNw&amp;sns=tw' target='_blank'>Les Arcanes d'Andreas</AH><BR />Video: Andreas talks about the exposition.</li>
 					<li><AH href='http://www.actuabd.com/Angouleme-2013-Andreas-J-aimerais' target='_blank'>Andreas : "J'aimerais faire des albums en 200 ou 300 planches"</AH><BR />Interview with Andreas</li>
 				</ul>
-				
+
 				Pierrick took this picture at Librarie Aladin <REF ref='photo50' />. Andreas made him a dedication <REF ref='i182' />. And this is one Andreas made in 2009: <REF ref='i181' />.<BR /><BR />
 
 				And thanks to Tom Verschueren for updating me with information on all Andreas latest albums and for sending me his dedication: <REF ref='i183' /> and this plate <REF ref='i184' />.
@@ -2497,7 +2498,7 @@
 			<TEXT date="2013-01-03">
 				<TITLE>3 January 2013</TITLE>
 				Andreas has had expositions at gallery Petit Papiers and at festival Quai-des-Bulles (<AH href='http://www.bodoi.info/news/2012-10-28/quai-des-bulles-2012-lexpo-andreas/62231' target='_blank'>Pictures of the event</AH>). <BR /><BR />
-				
+
 				Remarkable is that we see the first video interviews of Andreas:<BR />
 				<ul>
 				<li><AH href='http://www.youtube.com/watch?v=NmtdPvFx49o' target='_blank'>Andreas &amp; Billout à la Galerie Petits Papiers Paris </AH></li>
@@ -2506,23 +2507,23 @@
 				(The part with Andreas from 9:00 to 12:12) - via Nathalie Van Camp</li>
 				<li><AH href='http://vimeo.com/54669403' target='_blank'>Andreas dédicace, "Rork volume 1, l'intégrale", Le Lombard</AH> Watch Andreas drawing through a glass window.</li>
 				</ul>
-				
+
 				Here is also an article with a video interview:<BR />
 				<ul>
 				<li><AH href='http://www.cobra.be/cm/cobra/boek/121106-sa-andreas_striptekenaar_rork' target='_blank'>De David Lynch van de strip </AH><BR />
 				(Click on the large image for a video interview in English with Dutch subtitles) - via Wim dewilde<BR /></li>
 				</ul>
-				
+
 				Alex Koppert sent me the cover of <REF ref='a102' /><BR /><BR />
-				
+
 				Karol Wi&#x015B;niewski informed me that "Sekret" was published by Manzoku this year: <REF ref='a32' />. This is good news, of course. But Polish fans are hungry for many more albums.<BR /><BR />
-				
+
 				Tom Verschueren reminded me that it was about time that I'd mention the albums <REF ref='a103' /> and <REF ref='a104' /> :)<BR /><BR />
-				
+
 				Andreas' illustrations may be bought at <AH href='http://petitspapiers.be/?fond=rubrique&amp;id_rubrique=5' target='_blank'>Petits Papiers</AH><BR /><BR />
-				
+
 				Jeff Wesh created a <AH href='http://pinterest.com/jefwesh/andreas-martens/' target='_blank'>Pinterest page</AH> of Andreas, with many interesting pictures.<BR /><BR />
-				
+
 				New articles:<BR />
 					<ul>
 					<li><AH href='http://www.lalibre.be/culture/livres/article/760842/andreas-trente-ans-de-fragments.html' target='_blank'>Andreas, trente ans de fragments</AH></li>
@@ -2531,41 +2532,41 @@
 					<li><AH href='http://www.bdgest.com/expos.php?IdExpo=49' target='_blank'>Andreas, interview</AH></li>
 					<li><AH href='http://www.brokenfrontier.com/columns/p/detail/crossing-borders-the-genius-of-andreas-and-rork' target='_blank'>Crossing Borders: The Genius Of Andreas And Rork</AH> - via Mat Schifferstein</li>
 					</ul>
-				
+
 				and an audio interview:<BR />
 				<ul>
 				<li><AH href='http://expressbd.fr/2012/10/02/andreas-auteur-des-series-rork-et-capricorne/' target='_blank'>Andreas, auteur des séries 'Rork' et 'Capricorne'</AH></li>
 				</ul>
 				<BR />
-								
+
 				Andreas now has 713 followers on Twitter.
 			</TEXT>
 			<TEXT date="2012-05-28">
 				<TITLE>28 May 2012</TITLE>
 				<REF ref='a101' /> was released.<BR /><BR />
-				
+
 				The TAO issue dedicated to Andreas (#3, in 1996) was put online:
 				<AH href='http://eoleblog.com/2012/05/18/archives-tao-numero-3-andreas-et-jean-luc-coudray/' target='_blank'>read it here</AH>.
 				It contains an extensive interview, with lots of Andreas' images.<BR /><BR />
-				
+
 				I added the French edition of <REF ref='a84' /> (Thanks to Christiaan)<BR /><BR />
-				
+
 				I end with some dedications: <REF ref='i175' />, <REF ref='i176' />, <REF ref='i177' />, <REF ref='i178' />, <REF ref='i179' />
 			</TEXT>
-		
+
 			<TEXT date="2012-03-05">
 				<TITLE>5 March 2012</TITLE>
 				Thanks to Sherpa the abandoned series Capricorne will be continued in Dutch. And thanks to Alex for noticing.
 				Two albums will be released per year, starting with 'Patrick' (part 11). Note: Sherpa prints the albums strictly on demand. So you have to sign up to get a copy!
 				The sign up period ends on April 1st, so if you are interested, make haste!
 				<WWWlink href='http://sherpa.nu/' /><BR/>
-				
+
 				Last year <REF ref='a98' /> and <REF ref='a99' /> were published.<BR/><BR/>
-				
+
 				In March 2011, together with artists of all over the world, Andreas created an illustration for <REF ref='a100' />, an album that contains 250 illustrations about the Japanese earthquake and tsunami, to support the victims.<BR/><BR/>
-				
+
 				In December Rob Kalis created a very nice animation of Rork's movement sequence in Descente and put it on <AH href='http://www.youtube.com/watch?v=_8yt3jWLp1A&amp;context=C3c3417fADOEgsToPDskIbLnIcDtwYENOx4SrkacI' target='_blank'>YouTube</AH>.<BR/><BR/>
-				
+
 				Sebastian Otten informed me of the German edition of <REF ref="a79" />. I found the Carlsen edition of <REF ref='a11' /> and the cover of <REF ref='a38' /><BR/><BR/>
 
 				Andreas now has 398 followers on Twitter!
@@ -2635,71 +2636,71 @@
 			</TEXT>
 			<TEXT date="2008-08-16">
 				<TITLE>16 August 2008</TITLE>
-				
+
 				The latest ARQ, <REF ref='a91' />, appeared in March. The Polish editions of <REF ref='a30' /> and <REF ref='a31' /> were published.<BR /><BR />
-				
+
 				Pierre Loubere continues to be a source of inspiration :) He sent in these bookmarks: <REF ref="i154" />, <REF ref="i155" />, <REF ref="i156" />, <REF ref="i157" />, <REF ref="i158" />, <REF ref="i159" />; this postcard: <REF ref="i160" />; this ex-libris: <REF ref='i29' />; and this small article in Tintin magazine: <REF ref='art68' />.<BR /><BR />
-				
+
 				He also found the "book magazine" <REF ref='mag48' /> that contains two extended articles on Andreas work, and the magazines <REF ref='mag10' /> and <REF ref='mag15' />. The latter contains the image <REF ref='i18' />.<BR /><BR />
-				
+
 				I stopped hosting the site at home. It is now served by <WWWlink href="http://www.domaindiscount24.net/" /> (my longtime reliable domain name registrar). It will most likely be faster now, and will also be available when I am on holiday :)
-			
+
 			</TEXT>
 			<TEXT date="2008-01-27">
 				<TITLE>27 January 2008</TITLE>
 				This time I deliver the material I promised you a week ago. All thanks to Pierre Loubere. Where he finds it, I don't know :)<BR /><BR />
-				
+
 				First there are the covers of some magazines Andreas published in: <REF ref='mag23' />, <REF ref='mag27' />, <REF ref='mag3' />, <REF ref='mag33' />, <REF ref='mag45' />, <REF ref='i151' />.<BR /><BR />
-				
+
 				Then there are some articles:  <REF ref='art9' />, <REF ref='art19' />, <REF ref='art66' />.<BR /><BR />
-				
+
 				Some illustrations <REF ref='i150' />, the cover of <REF ref='i74' />, <REF ref='s117' />, <REF ref='i153' />.<BR /><BR />
-				
+
 				And I conclude this time with an album by Yves Frémion, who interviewed many young and promising comics artists, back in 1982. Among them, Andreas: <REF ref='a90' />.
 			</TEXT>
 			<TEXT date="2008-01-24">
 				<TITLE>24 January 2008</TITLE>
-				
+
 				I received a series of dedications from a collecting fan, who whishes to remain anonymous. Thanks, man!
 				<REF ref='i139' />, <REF ref='i140' />, <REF ref='i141' />, <REF ref='i142' />, <REF ref='i143' />, <REF ref='i144' />, <REF ref='i145' />, <REF ref='i146' />, <REF ref='i147' />, <REF ref='s73' />.<BR /><BR />
-				
+
 				I invite you all to send in more scans of such one-of-a-kind pictures Andreas has drawn (for you). Please share them with other fans.<BR /><BR />
-				
+
 				He also sent <REF ref='i148' />, <REF ref='i149' />, <REF ref='i30' />, <REF ref='i150' />, and <REF ref='s36' />.
-				
+
 			</TEXT>
 			<TEXT date="2008-01-20">
 				<TITLE>20 January 2008</TITLE>
 				The last Rork album was released in Poland at last: <REF ref='a7' />. Thanks to publisher <REF ref='pub55' />. Karol Wi&#x015B;niewski was so kind as to inform us.<BR /><BR />
-				
+
 				I subcategorized the section "Images", because the number of images became too large.<BR /><BR />
-				
+
 				And I browsed the internet for some of the covers of the Spanish editions of Andreas' work: <REF ref='a4' />, <REF ref='a5' />, <REF ref='a6' />, <REF ref='a65' />, <REF ref='a16' />, <REF ref='a23' />, <REF ref='a76' />, <REF ref='a56' />, <REF ref='a67' />, <REF ref='a80' />, <REF ref='a77' />.<BR /><BR />
 
 				That's all for now. However, I recently received tons of pictures which I hope to place soon. If time allows.
-				
+
 			</TEXT>
 			<TEXT date="2007-12-31">
 				<TITLE>31 December 2007</TITLE>
 				In November, Lombard published the French edition of <REF ref='a86' />. The album has no title and no text inside, so we will not ask the publisher to please please translate the work :)<BR /><BR />
-				
+
 				Karol Wi&#x015B;niewski notified us that the first two Capricorne albums are released in Poland: <REF ref='a28' /> and <REF ref='a29' />.<BR /><BR />
-				
+
 				Andreas did some drawings for the third album of Clarke's series "Mister President" <REF ref='a88' /> and
 				for the collective album <REF ref='a89' /> (thanks for noticing, Mikaël Devaux!)<BR /><BR />
-				
+
 				Great many thanks to a contributor who sent the original picture of <REF ref='i14' />, the intriguing picture <REF ref='i10' /> and the picture <REF ref="i130" />.<BR /><BR />
-				
+
 				Pierre Loubere sent <REF ref="s118" />, <REF ref='i131' />, <REF ref='i132' />, <REF ref='i133' />, <REF ref='i134' />, <REF ref='i135' />, <REF ref='i136' />, <REF ref='i137' />, <REF ref='i138' />; thanks a lot, Pierre! <BR /><BR />
-				
+
 				I was wondering about the magazine "Hello Bédé", in which Andreas published. It appears that the French Tintin magazine was named like that from 1989 to 1993. Some googling later I found the covers of all Tintin / Kuifje / Hello Bédé covers on <WWWlink href="http://lejournaldetintin.free.fr/" /> This helped me to adapt the page <REF ref="mag1" />.<BR /><BR />
 
 				And if all this wasn't enough... Andreas participated in a magnificent series of albums (4) <REF ref='a87' /> about dragons for which he created a marvellous illustration of a dragon spitting fire: <REF ref='i128' />.<BR /><BR />
 			</TEXT>
 			<TEXT date="2007-08-08">
 				<TITLE>8 August 2007</TITLE>
-				Turbulent times for Polish Andreas fans! Publisher Twój Komiks went bankrupt, just before their publication of the final Rork album. 
-				This was especially upsetting since the publisher was, so it seems, holding on to the publication rights. Some time later publisher Manzoku took over the Rork series. 
+				Turbulent times for Polish Andreas fans! Publisher Twój Komiks went bankrupt, just before their publication of the final Rork album.
+				This was especially upsetting since the publisher was, so it seems, holding on to the publication rights. Some time later publisher Manzoku took over the Rork series.
 				They intend to publish the final album and start publishing the Capricorne albums.
 				In the meanwhile the Polish publisher Egmont published <REF ref="a85" /><BR /><BR />
 				Pierre Loubere again pleasantly surprised me by sending me many of the images I was still looking for, and others:
@@ -4851,7 +4852,7 @@
 					"Even as a boy I was fascinated by everything that had to do with strange and paranormal phenomena. And later, in my trade, I never felt completely well if I did not work with these subjects in my text and images. I say: text ànd image, because to me the one can never be without the other. In general scenario writers are much too talkative. They tell all kinds of things that can be expressed more clearly and often better in a drawing than that it can be said...That is why I prefer to be my own scenario writer.
 				</TEXT>
 			</Comment>
-			<Comment showAt='s27'>			
+			<Comment showAt='s27'>
 				<TEXT>
 					Opinions about comic strips vary widely. Some say that a good page is best created in black-and-white. I on the contrary think that color adds a lot. Not just esthetically! It was no coincidence or joke that in <REF ref='s27' /> the story began in shades of grey, then turned to bright colors, later to return again to grey. It all has to do with symbolism. The colors speak their own language. Especially when it comes to the expression of feelings. I hasten to say that my fantastic story always start from explainable situations. By characters remain humans, who are suddenly confronted with something unusual."
 				</TEXT>
@@ -6552,30 +6553,30 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 				<TEXT title="March 2011 - Photos and Twitter widget">
 					Andreas send me a direct message on Twitter asking me if I was still interested in photos of his work environment.
 					I was happily surprised, of course. He send me 6 e-mails, each containing 4 photos.<BR /><BR />
-					
+
 					I needed to find a way to present these photos in the same style as the rest of the site. But I also wanted to make them just a
 					bit more special than the existing images. So I thought of the unorderly stack of photos metaphore, which I had seen before somewhere.
 					It matched the 'dossier' style of the site pretty well I think. It's a bit corny, but that's fine.<BR /><BR />
-					
+
 					I needed to get rid of some of the tabs of the site, otherwise visitors might not even notice the Photos. I combined the
 					minor tabs (Languages, Magazines, Persons, Publishers, Stories and Years) under the tab 'Index' and I added the tab Photos. I also removed
 					the tabs 'About' and 'Notes' which are not so important and whose pages can still be reached via another route.<BR /><BR />
-					
+
 					I changed the homepage, because I wanted it to look more dynamic. So I added a twitter widget that I made on Twitter's site and
 					I created a snippet of user added notes. This meant that I had to shorten the existing content, but it had been on the site too long anyway.
 				</TEXT>
 				<TEXT title="December 2008 - User contributions">
-					Version 7 of the website is successful. I have received many compliments over time and this gives me the energy 
+					Version 7 of the website is successful. I have received many compliments over time and this gives me the energy
 					to keep making the effort to keep the site up-to-date once in a while. Thanks!<BR /><BR />
-					
+
 					Since 2001 I have worked for two companies, Green Dino (2001 - 2005) and now, since 2005, Procurios.
 					I am so excited about my current employer that I do a lot of overtime work and this keeps me from doing
 					other stuff like expanding this website.<BR /><BR />
-					
+
 					In September 2003 I saw the birth of my spicy second daughter, Lila Sophia. She's now five years old and doing well at school.
 					Jade Selene, my third baby girl, was born in January last year. She looks like me even more than the other two, but this may
 					change of course. She will turn two next month and will then go to kindergarten. Katja and I love all three very much.<BR /><BR />
-					
+
 					Last year the site has had many problems with spammers flooding the guestbook. After some time I decided to turn vice into virtue
 					by allowing all users to make notes on all pages of the site. By requiring everyone to be registered, I think I can keep spammers
 					out and at the same time make it easier for wellwilling users to add to the content of the site.
@@ -6718,8 +6719,8 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 						Publishing Cromwell Stone and ARQ (not listed on their site, 13-4-2009)<BR/>
 						<WWWlink language="lang-pl" href="http://www.egmont.pl/"  />
 					</WWWsite>-->
-					
-					
+
+
 					<!--<WWWsite title="Twój Komiks">
 						Twój Komiks publishes Rork.<BR/>
 						<WWWlink language="lang-pl" href="http://www.motopol.pl/twojkomiks/" />
@@ -6763,8 +6764,8 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 						Site of the translator the american Rork albums.<BR/>
 						<WWWlink language="lang-en" href="http://www.lofficier.com/rork.htm" />
 					</WWWsite>
-					
-					
+
+
 					<!--<WWWsite title="BDCollection.org">
 						Didier Fournet's comics museum featuring dozens of French comics authors. Has a lot of
 						interesting pictures and data you won't find elsewhere.<BR/>
@@ -7270,7 +7271,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i108" file="misc_wallpaper_lombard_5.jpg" width="350" height="263" />
 		<Image showAt="i108" file="misc_wallpaper_lombard_cap.jpg" width="350" height="263" title="And yet more wallpapers. Thanks, Pierre Loubere." />
 		<Image showAt="i108" file="misc_wallpaper_lombard_fire.jpg" width="350" height="263" title="J'ai payé ma dette, Capricorne! ..." />
-			
+
 		<Image showAt="i109" file="misc_cappostcard1.jpg" width="350" height="300" title="A series of e-cards. They can be sent from the Lombard website. Thanks to M. Bezuijen.">
 			<Thumbnail file="misc_cappostcard1.jpg" width="100" height="85"/>
 		</Image>
@@ -7756,6 +7757,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i267" file="bonne-annee-2023.jpg" width="1013" height="959">
 			<Thumbnail file="bonne-annee-2023.jpg" width="100" height="95"/>
 		</Image>
+		<Image showAt="i268" file="newyear-2024.jpg" width="1440" height="1440">
+			<Thumbnail file="newyear-2024.jpg" width="100" height="100"/>
+		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />
 		<Image showAt="mag1" file="tintin_1978_47.jpg" width="200" height="280" title="Tintin 1978, number 47" />
@@ -7774,7 +7778,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="mag1" file="kuifje_1993_16.jpg" width="200" height="280" title="Kuifje 1993, number 16" />
 		<Image showAt="mag1" file="hello_bd_1993_16.jpg" width="200" height="280" title="Hello Bédé 1993, number 16" />
 		<Image showAt="mag3" file="mag_curiosity_13.jpg" width="350" height="485" title="Curiosity #13. Thanks to Pierre Loubere." />
-		
+
 		<Image showAt="mag10" file="mag_viper_1.jpg" width="400" height="567" title="Cover of Viper #1, 1981. Thanks to Pierre Loubere." />
 		<Image showAt="mag15" file="cover_dynamick_3.jpg" width="433" height="600" title="Cover of Dynamick #3, 1986. Thanks to Pierre Loubere." />
 		<Image showAt="mag16" file="cover_bouquine_1986_24.jpg" width="300" height="400" title="Cover Je Bouquine 1986 number 24." />
@@ -7792,8 +7796,8 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="mag48" file="mag_otrante_cover.jpg" width="500" height="725" title="The cover of Otrante magazine #13. Thanks to Pierre Loubere." />
 		<Image showAt="mag48" file="mag_otrante_back.jpg" width="500" height="725" title="The back of Otrante magazine #13. Thanks to Pierre Loubere." />
 		<Image showAt="mag49" file="mag-swof.jpg" width="294" height="419" title="Swof #26. Thanks to Pierre Loubere." />
-		<Image showAt="mag50" file="mag-slash.jpg" width="227" height="350" title="Slash #19. Thanks to Pierre Loubere." />				
-		<Image showAt="mag51" file="mag-lettre.jpg" width="400" height="566" title="La Lettre #37. Thanks to Pierre Loubere." />								
+		<Image showAt="mag50" file="mag-slash.jpg" width="227" height="350" title="Slash #19. Thanks to Pierre Loubere." />
+		<Image showAt="mag51" file="mag-lettre.jpg" width="400" height="566" title="La Lettre #37. Thanks to Pierre Loubere." />
 		<Image showAt="series1" file="series_Rork.jpg" width="271" height="429" title="Rork" />
 		<Image showAt="series2" file="series_capricornus.jpg" width="226" height="354" title="Capricornus" />
 		<Image showAt="series4" file="photo_udolfo.jpg" width="250" height="365" title="Udolfo"/>
@@ -8108,7 +8112,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="art61" file="arq_dewilde.jpg" width="727" height="495" />
 		<Image showAt="art66" file="art_conan.jpg" width="800" height="411" />
 		<Image showAt="art68" file="ou_ils_en_sont.jpg" width="784" height="500" />
-		
+
 		<Image showAt="mag52" file="maitre-du-jeu-0.jpg" width="826" height="1169" title="Thanks to Pierre Loubere" />
 		<Image showAt="art73" file="maitre-du-jeu-1.jpg" width="826" height="1169" />
 		<Image showAt="art73" file="maitre-du-jeu-2.jpg" width="826" height="1169" />
@@ -8141,7 +8145,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="art78" file="stripgids-37-4.jpg" width="825" height="1166"/>
 		<Image showAt="art78" file="stripgids-37-5.jpg" width="825" height="1166"/>
 		<Image showAt="art78" file="stripgids-37-6.jpg" width="825" height="1166" title="Thanks to Pierre Loubere" />
-		
+
 
 		<Image showAt="man1" file="album_object_manzoku.jpg" width="350" height="488" title="Thanks to Karol Wi&#x015B;niewski" />
 		<Image showAt="man2" file="album_electricite_manzoku.jpg" width="300" height="389" title="Thanks to Karol Wi&#x015B;niewski" />
@@ -8150,7 +8154,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="man5" file="album_cube_manzoku.jpg" width="400" height="542" title="Thanks to Micha&#x0142; Famielec and Karol Wi&#x015B;niewski" />
 		<Image showAt="man6" file="album_secret_manzoku.jpg" width="444" height="600" title="Thanks to Karol Wi&#x015B;niewski" />
 		<Image showAt="magh1" file="album_univers_maghen.jpg" width="353" height="500" />
-		
+
 		<Image showAt="sid1" file="album_attaque_sideca.jpg" width="350" height="472" title="Thanks to Karol Wisniewski" />
 		<Image showAt="sid2" file="album_dragonblue_sideca.jpg" width="350" height="473" title="Thanks to Karol Wisniewski" />
 		<Image showAt="sid3" file="album_tunnel_sideca.jpg" width="350" height="471" title="Thanks to Karol Wisniewski" />
