@@ -1433,6 +1433,7 @@
 		<AlbumEdition id="kurc5" album="a21" year="y2021" language="lang-pl" title="Styks" isbn="978-83-963279-2-5"/>
 		<AlbumEdition id="dgs1" album="a103" year="y2021" language="lang-zh" isbn="978-7-5570-2496-3" title="Ferry" />
 		<AlbumEdition id="hfaph1" album="a85" year="y2021" language="lang-zh" isbn="978-7-5356-9398-3" title="Survivor" />
+		<AlbumEdition id="pp1" album="a128" year="y2025" language="lang-it" title="L'Argentina" />
 
 
 		<Magazine id="mag1" title="Tintin/Hello BD (fr); Kuifje (nl)" language="lang-fr lang-nl">
@@ -1948,7 +1949,8 @@
         	albumEditions='dgs1' />
 		<Publisher id="pub79" name="Hunan Fine Arts Publishing House"
 			albumEditions='hfaph1' />
-
+		<Publisher id="pub80" name="Passenger Press"
+			albumEditions='pp1' />
 
 	</Context>
 
@@ -2183,10 +2185,12 @@
 			<TEXT date="2025-03-16">
 				<TITLE>16 March 2025</TITLE>
 
-				In 2021 Dargaud Groupe (Shanghai) published <REF ref="a103" /> in Chinese.<BR/><BR/>
-				In the same year Human Fine Arts Publishing House published <REF ref="a85" /> in Chinese as well.<BR/><BR/>
+				Passenger Press published <REF ref="a128" /> in Italian<BR/><BR/>
 
-				Did you know Andreas is now on <AH href="https://bsky.app/profile/andreastries.bsky.social" target="_blank">Bluesky</AH><BR/><BR/>
+				In 2021 Dargaud Groupe (Shanghai) published <REF ref="a103" /> in Chinese<BR/><BR/>
+				In the same year Hunan Fine Arts Publishing House published <REF ref="a85" /> in Chinese as well<BR/><BR/>
+
+				Andreas is now on <AH href="https://bsky.app/profile/andreastries.bsky.social" target="_blank">Bluesky</AH><BR/><BR/>
 			</TEXT>
 
 			<TEXT>
@@ -8223,6 +8227,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="kurc5" file="album_styx_kurc.jpg" width="600" height="810" />
 		<Image showAt="dgs1" file="album_integrale1_dgs.jpg" width="800" height="1000" />
 		<Image showAt="hfaph1" file="album_cromwell_hfa.jpg" width="762" height="1000" />
+		<Image showAt="pp1" file="album_argentina_passenger.jpg" width="600" height="807" />
 
 	</Comments>
 
