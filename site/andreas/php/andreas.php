@@ -3,7 +3,7 @@ $initialized = true;
 
 include(dirname(__FILE__) . '/functions.php');
 
-sanitize_input($_REQUEST);
+// sanitize_input($_REQUEST);
 
 $module = isset($_REQUEST['module']) ? $_REQUEST['module'] : null;
 
