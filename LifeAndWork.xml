@@ -4,8 +4,7 @@
 <LifeAndWork>
 	<!-- M. Bezuijen = Martijn Bezuijen -->
 	<!-- polish unicode characters:
-		http://biega.com/special-char.html
-		http://character-code.com/polish-html-codes.php
+	https://learnpolishtoday.com/mini-polish-tips/unicode-codehtml-code-for-polish-letters-and-symbols
 	-->
 
 	<!-- Turn all images in the directory into thumbnails:
@@ -1431,6 +1430,7 @@
 		<AlbumEdition id="kurc3" album="a103" year="y2021" language="lang-pl" title="Rork ksi&#281;ga 1" isbn="978-83-959339-3-6"/>
 		<AlbumEdition id="kurc4" album="a105" year="y2021" language="lang-pl" title="Rork ksi&#281;ga 2" isbn="978-83-963279-1-8"/>
 		<AlbumEdition id="kurc5" album="a21" year="y2021" language="lang-pl" title="Styks" isbn="978-83-963279-2-5"/>
+		<AlbumEdition id="kurc6" album="a13" year="y2025" language="lang-pl" title="Po&#347;miertne objawienia" isbn="978-83-976779-3-7"/>
 		<AlbumEdition id="dgs1" album="a103" year="y2021" language="lang-zh" isbn="978-7-5570-2496-3" title="Ferry" />
 		<AlbumEdition id="hfaph1" album="a85" year="y2021" language="lang-zh" isbn="978-7-5356-9398-3" title="Survivor" />
 		<AlbumEdition id="pp1" album="a128" year="y2025" language="lang-it" title="L'Argentina" />
@@ -1944,7 +1944,7 @@
         <Publisher id="pub76" name="Futuropolis"
         	albumEditions='fut1' />
        	<Publisher id="pub77" name="Kurc"
-        	albumEditions='kurc1 kurc2 kurc3 kurc4 kurc5' />
+        	albumEditions='kurc1 kurc2 kurc3 kurc4 kurc5 kurc6' />
        	<Publisher id="pub78" name="Dargaud Groupe (Shanghai)"
         	albumEditions='dgs1' />
 		<Publisher id="pub79" name="Hunan Fine Arts Publishing House"
@@ -2182,6 +2182,7 @@
 
 
 		<Comment showAt="changes">
+
 			<TEXT date="2025-03-16">
 				<TITLE>16 March 2025</TITLE>
 
@@ -8224,7 +8225,8 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="kurc2" file="album_raffington_event_kurc.jpg" width="600" height="818" />
 		<Image showAt="kurc3" file="album_rork_integrale_1_kurc.jpg" width="600" height="818" />
 		<Image showAt="kurc4" file="album_rork_integrale_2_kurc.jpg" width="600" height="823" />
-		<Image showAt="kurc5" file="album_styx_kurc.jpg" width="600" height="810" />
+		<Image showAt="kurc5" file="album_styx_kurc.jpg" width="600" height="829" />
+		<Image showAt="kurc6" file="album_revelations_kurc.jpg" width="600" height="810" />
 		<Image showAt="dgs1" file="album_integrale1_dgs.jpg" width="800" height="1000" />
 		<Image showAt="hfaph1" file="album_cromwell_hfa.jpg" width="762" height="1000" />
 		<Image showAt="pp1" file="album_argentina_passenger.jpg" width="600" height="807" />
