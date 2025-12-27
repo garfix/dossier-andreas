@@ -2042,6 +2042,28 @@
 			</TEXT>
 		</Comment>
 
+		<Comment showAt="front_notes" authors="p23">
+			<TEXT>
+				<IMG src="resources/photo_argentine.png" align="right" width="160" height="424"/>
+				<EM>AWARDS</EM><BR/><BR/>
+				<ul>
+					<li><B>1980</B> <EM>prix Saint-Michel de l'espoir</EM> for Rork - Fragments</li>
+					<li><B>1985</B> <EM>prix du meilleur dessin décerné</EM> by <EM>CBEBD</EM> for La Caverne du souvenir</li>
+					<li><B>1999</B> <EM>prix Bob Morane</EM> for Capricorne - Deliah</li>
+					<li><B>2001</B> <EM>prix Bonnet d'âne</EM> of Quai des bulles</li>
+					<li><B>2022</B> <EM>Hall of Fame</EM> of the site <EM>BD Gest'</EM></li>
+				</ul>
+				<BR/>
+				<EM>MAJOR EXHIBITIONS</EM><BR/><BR/>
+				<ul>
+					<li><B>2002</B> <EM>Quai des Bulles</EM> Following his win of the "Prix Bonnet d'âne" in 2001, he was honored with a dedicated exhibition the following year.</li>
+					<li><B>2012</B> <EM>Quai des Bulles</EM> A major exhibition at the Saint-Malo festival, celebrating his return to the Rork universe with the release of the new integrals.</li>
+					<li><B>2013</B> <EM>Les Arcanes d'Andreas</EM> A landmark retrospective held during the 40th Angoulême International Comics Festival. It featured over 100 original plates, sketches, and 3D models of his architectural structures.</li>
+					<li><B>2018</B> <EM>Strasbulles</EM> A featured exhibition at the 11th European Comics Festival in Strasbourg.</li>
+				</ul>
+			</TEXT>
+		</Comment>
+
 		<Comment showAt="ab1" authors="p23">
 			<TEXT>Detail of the back cover of this album, showing Rivière and Andreas.<BR/>
 			<IMG src="images/album_revelations_bederama_detail.jpg" align="left" width="600" height="374"/></TEXT>
@@ -2182,6 +2204,13 @@
 
 
 		<Comment showAt="changes">
+			<TEXT date="2025-12-27">
+				<TITLE>27 December 2025</TITLE>
+
+				Kurc published <REF ref="a13" /> in Polish<BR/><BR/>
+
+				I added a list of Awards Andreas won in his career, based on <WWWlink href="https://fr.wikipedia.org/wiki/Andreas"/><BR/>
+			</TEXT>
 
 			<TEXT date="2025-03-16">
 				<TITLE>16 March 2025</TITLE>
