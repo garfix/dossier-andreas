@@ -1603,7 +1603,7 @@
     <xsl:template name="showCommentsBody">
         <xsl:param name="comments"/>
         
-        <TABLE border="0" cellpadding="0" cellspacing="0" width="100%">
+        <TABLE border="0" cellpadding="0" cellspacing="0" width="100%" class="paper">
             <TR>
                 <TD height="11" width="12" background="resources/upperleft.gif"></TD>
                 <TD height="11" background="resources/uppermiddle.gif"></TD>

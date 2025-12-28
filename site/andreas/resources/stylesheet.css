@@ -1,3 +1,8 @@
+* {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
 body {
     background-color: #E9DECC;
     margin: 0px;
@@ -31,7 +36,6 @@ p {
 .sectionCaption {
     padding: 2px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
     font-weight: bold;
     color: #004080;
     text-align: left;
@@ -39,7 +43,6 @@ p {
 .subSectionCaption {
     padding: 4px 2px 0px 2px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
     font-weight: bold;
 	 color: #F0F0F0;
 	border: 1px solid #F0F0F0;
@@ -50,7 +53,6 @@ p {
 
 .subSectionCaption a {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
     font-weight: bold;
 	color: #F0F0F0;
 	text-decoration: none;
@@ -64,20 +66,18 @@ p {
 .paragraphCaption {
     padding: 2px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
     font-weight: bold;
     color: #004080;
     text-align: left;
 }
 .sourceCaption {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
     color: #002040;
     text-align: left;
 }
 .title {
     font-family: Arial, Helvetica, sans-serif; 
-    font-size: 18pt;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #444;
 }
@@ -89,41 +89,43 @@ p {
 }
 .subtitle {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
     font-weight: bold;
     color: #F0F0F0;
     margin-bottom: 5px;
 }
 .simpleTitle {
     font-family: Arial, Helvetica, sans-serif; 
-    font-size: 18pt;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #000000;
 }
 .source {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
     color: #002040;
 }
 .question {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
     font-weight: bold;
+    margin: 12px;
 }
 .answer {
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt; 
+    margin: 12px;
 }
 .commentTitle { 
     font-family: Arial, Helvetica, sans-serif; 
-    font-size: 14pt;
+    font-size: 1.2rem;
     font-weight: bold;
+    margin: 12px;
 }
 .text {
     font-family: Arial, Helvetica, sans-serif; 
-    font-size: 12pt;
     padding: 3px;
+    margin: 12px;
+}
+.paper {
+    max-width: 700px;
 }
 .section {
     margin-bottom: 15px;
@@ -157,20 +159,20 @@ p {
 .name {
     width: 100px;
     font-family: Arial, Helvetica, sans-serif; 
-    font-size: 10pt;
     color: #002040;
     vertical-align: top;
+    padding: 6px;
 }
 .value {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10pt;
     font-weight: bold;
     vertical-align: top;
+    padding: 6px;
 }
 .link {
     width: 20px;
     height: 20px;
-    vertical-align: top;
+    vertical-align: middle;
 }
 .error, .success {
 	border: 1px solid black;
@@ -185,7 +187,6 @@ p {
 }
 .note {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12pt;
 	border-color: #e8e9e4;
 	border-style: outset;
 	border-width: 1px 1px 1px 0px;
