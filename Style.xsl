@@ -242,22 +242,6 @@
                 </HEAD>
                 <xsl:variable name="overviewName" select="//PageType[@tag = local-name(id($item-id))]/@id" />
                 <BODY link="#004080" alink="#400000" vlink="#D9CEBC" onload='addM()'>
-                    <xsl:if test="local-name(id($item-id)) != 'PageType'">
-                        <SCRIPT language="JavaScript">
-                            if (document.cookie) {
-                                if (window.name != "andreas") {
-								
-									var date = new Date();
-									date.setTime(date.getTime()+(3*1000));
-									
-                                    document.cookie = "page=p1_<xsl:value-of select="$item-id"/>.php; expires=" + date.toGMTString() + "; path=/";
-                                    window.location.replace("../index.html", "_self", "", true);
-                                }
-                            }
-                                
-                        </SCRIPT> 
-                    </xsl:if>
-
                     <xsl:variable name="item" select="id($item-id)" />
                     <xsl:choose>
                         <xsl:when test="(local-name($item) = 'PageType')" >
@@ -287,6 +271,19 @@
                             </xsl:choose>
                         </xsl:when>
                         <xsl:otherwise>
+                            <SCRIPT language="JavaScript">
+                                if (document.cookie) {
+                                    if (window.name != "andreas") {
+                                    
+                                        var date = new Date();
+                                        date.setTime(date.getTime()+(3*1000));
+                                        
+                                        document.cookie = "page=p1_<xsl:value-of select="$item-id"/>.php; expires=" + date.toGMTString() + "; path=/";
+                                        window.location.replace("../index.html", "_self", "", true);
+                                    }
+                                }
+                                    
+                            </SCRIPT> 
                             <xsl:call-template name="showItem">
                                 <xsl:with-param name="person" select="id($person-id)" />
                                 <xsl:with-param name="item" select="id($item-id)" />
