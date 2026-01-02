@@ -672,6 +672,7 @@
 		<Illustration id="i267" drawings="p1" year="y2023" description="Bonne année!" tags="wish" />
 		<Illustration id="i268" drawings="p1" year="y2024" description="Bonne année!" tags="wish" />
 		<Illustration id="i269" drawings="p1" year="y2025" description="Bonne Année! Happy New Year! Frohes Neues Jahr!" tags="wish" />
+		<Illustration id="i270" drawings="p1" year="y2025" description="Sponsor of the Delcourt Comics Academy." tags="misc" />
 
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -1275,6 +1276,7 @@
 		<AlbumEdition id="adc38" album="a108" year="y2014" language="lang-fr" />
 		<AlbumEdition id="adc39" album="a112" year="y2015" language="lang-fr" />
 		<AlbumEdition id="adc40" album="a118" year="y2017" language="lang-fr" isbn="9782840558859" />
+		<AlbumEdition id="adc41" album="a85" year="y2025" language="lang-fr" isbn="9782413089834" title="Cromwell Stone" />
 		<AlbumEdition id="ap1" album="a14" year="y1982" language="lang-nl" title="Dream is over" cover="hc" />
 		<AlbumEdition id="adu1" album="a15" year="y1985" language="lang-nl" title="Dreigende jaargetijden" isbn="90-314-1015-2" issn="0771-8977" d="1985.0089.123" cover="sc" />
 		<AlbumEdition id="adu2" album="a15" year="y1985" language="lang-fr" isbn="2-8001-1161-5" issn="0771-8926" d="1985/0089/122" cover="sc" />
@@ -1801,7 +1803,7 @@
 			albumEditions="as1 as2 as3 as4 as5 as6 as7 as8 as9 as10 as11 as12 as13 as14 as15 as16 as17 as18 as20 as21 as22 as23 as24 as25 as26 as27 as28 as29 as30 as31 as32 as33 as34 as35 as36 as37 as38 as39 as40 as41 as42 as43 as44 as45 as46 as47 as48 as49 as50 as51 as52 as53 as54 as55 as56 as57 as58 as59 as60 as61 as62 as63 as64"/>
 		<Publisher id="pub9" name="Delcourt" address="Paris (F)"
 			magazines="mag41"
-			albumEditions="adc1 adc2 adc3 adc4 adc5 adc6 adc7 adc8 adc9 adc10 adc11 adc12 adc13 adc14 adc15 adc16 adc17 adc18 adc19 adc20 adc21 adc22 adc23 adc24 adc25 adc26 adc27 adc28 adc29 adc30 adc31 adc32 adc33 adc34 adc35 adc36 adc37 adc38 adc39 adc40" />
+			albumEditions="adc1 adc2 adc3 adc4 adc5 adc6 adc7 adc8 adc9 adc10 adc11 adc12 adc13 adc14 adc15 adc16 adc17 adc18 adc19 adc20 adc21 adc22 adc23 adc24 adc25 adc26 adc27 adc28 adc29 adc30 adc31 adc32 adc33 adc34 adc35 adc36 adc37 adc38 adc39 adc40 adc41" />
 		<Publisher id="pub10" name="Vonk" address="Zeist (NL)"
 			magazines="mag7"
 			albumEditions="av1" />
@@ -2064,6 +2066,13 @@
 			</TEXT>
 		</Comment>
 
+		<Comment showAt="i270" authors="p23">
+			<TEXT>Andreas was the sponsor of the students of the 2020/2023 class of the Delcourt Comics Academy.<BR/>
+			For 3 years, he shared his experience with them, advised them on their personal productions and in their journey as future comic book authors.<BR/>
+			As is tradition, this class signs the 7th collective work in the collection "ABD Students Present", this year on the theme proposed by Andreas: "From one reality to another".<BR/>
+			<WWWlink href="https://www.academie-bd.fr/" />
+			</TEXT>
+		</Comment>
 		<Comment showAt="ab1" authors="p23">
 			<TEXT>Detail of the back cover of this album, showing Rivière and Andreas.<BR/>
 			<IMG src="images/album_revelations_bederama_detail.jpg" align="left" width="600" height="374"/></TEXT>
@@ -2204,6 +2213,15 @@
 
 
 		<Comment showAt="changes">
+			<TEXT date="2026-01-02">
+				<TITLE>2 January 2026</TITLE>
+
+				In 2025 Delcourt published <REF ref="a85" /><BR/><BR/>
+				
+				Andreas was the <REF ref="i270" /> From 2020 to 2023, he shared his experience with them, advised them on their personal productions and in their journey as future comic book authors.<BR/>
+				Thanks for pointing this out to me, Laurent!
+
+			</TEXT>
 			<TEXT date="2025-12-27">
 				<TITLE>27 December 2025</TITLE>
 
@@ -7818,6 +7836,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="i269" file="newyear-2025.jpg" width="960" height="1200">
 			<Thumbnail file="newyear-2025.jpg" width="80" height="100"/>
 		</Image>
+		<Image showAt="i270" file="abd1.jpg" width="779" height="1024">
+			<Thumbnail file="abd1.jpg" width="76" height="100"/>
+		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />
 		<Image showAt="mag1" file="tintin_1978_47.jpg" width="200" height="280" title="Tintin 1978, number 47" />
@@ -8064,6 +8085,7 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		<Image showAt="adc38" file="album_reves2_delcourt.jpg" width="400" height="648" />
 		<Image showAt="adc39" file="album_ici_delcourt.jpg" width="371" height="600" />
 		<Image showAt="adc40" file="album_derives2_delcourt.jpg" width="359" height="500" />
+		<Image showAt="adc41" file="album_cromwell3_delcourt.jpg" width="359" height="500" />
 		<Image showAt="adg1" file="album_cromwell_deligne.jpg" width="373" height="500" />
 		<Image showAt="adg2" file="album_cromwell_deligne_en.jpg" width="400" height="561" />
 		<Image showAt="adu1" file="album_mortes_dupuis.jpg" width="350" height="476" />
