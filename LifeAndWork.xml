@@ -673,6 +673,7 @@
 		<Illustration id="i268" drawings="p1" year="y2024" description="Bonne année!" tags="wish" />
 		<Illustration id="i269" drawings="p1" year="y2025" description="Bonne Année! Happy New Year! Frohes Neues Jahr!" tags="wish" />
 		<Illustration id="i270" drawings="p1" year="y2025" description="Sponsor of the Delcourt Comics Academy." tags="misc" />
+		<Illustration id="i271" drawings="p1" year="y2026" description="Bonne Année! Happy New Year! Frohes Neues Jahr!" tags="wish" />
 
 		<Album id="a1" title="Fragments"
 			startDate="1978/05/14"
@@ -7838,6 +7839,9 @@ Another, maybe even stronger example, can be found in <B>"Lumière d'Etoile"</B>,
 		</Image>
 		<Image showAt="i270" file="abd1.jpg" width="779" height="1024">
 			<Thumbnail file="abd1.jpg" width="76" height="100"/>
+		</Image>
+		<Image showAt="i271" file="new_year_2026.jpg" width="750" height="1000">
+			<Thumbnail file="new_year_2026.jpg" width="75" height="100"/>
 		</Image>
 
 		<Image showAt="mag1" file="kuifje_1978_47.jpg" width="200" height="280" title="Kuifje 1978, number 47" />
